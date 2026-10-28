@@ -9,4 +9,4 @@
 - 前景树糊脸仍是KNOWN_ISSUES.md中暂缓项。不要在美术工作中自行重开遮挡调参。
 - 缓存assets/bake84与验收截图未跟踪但保留本机；必要源码/运行资源/UID/import设置跟踪。图片及部分二进制资源使用Git LFS，克隆后需git lfs pull。
 - 父工作区art_workbench内的蜘蛛姐姐立绘尚未接游戏，不属于运行依赖。
-- 并行线程不要共享Git暂存区或在同一目录切分支；两边都改代码时先建立不同worktree。尚未配置远程或上传GitHub。
+- 并行线程不要共享Git暂存区或在同一目录切分支；两边都改代码时先建立不同worktree。远程origin已关联https://github.com/YajuSenpaiOOO/littlegoose.git；上传前干净克隆验证见docs/github-readiness-20261028.md，169通过27项、204通过11项。

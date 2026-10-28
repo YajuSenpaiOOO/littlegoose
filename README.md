@@ -1,5 +1,7 @@
 > **2026-10-28：本目录是独立Git仓库。默认场景169，当前开发预览204。接手先读 [CURRENT_HANDOFF.md](CURRENT_HANDOFF.md) 和 [Git协作说明](docs/GIT_WORKFLOW.md)。下方旧版本记录为历史。**
 
+GitHub：[YajuSenpaiOOO/littlegoose](https://github.com/YajuSenpaiOOO/littlegoose)。需Git LFS及Godot 4.7.2 Windows x86_64；安装Git LFS后克隆，并在项目目录执行`git lfs pull`，再用Godot打开`project.godot`。默认入口169；最新森林试玩打开`scenes/world/world204.tscn`。首次导入/生成缓存较慢，上传前已在无旧缓存的独立克隆中验证两个入口，见[验证记录](docs/github-readiness-20261028.md)。仓库内含当前Windows原生扩展DLL，其它平台需自行编译适配。
+
 # 小白鹅：连续世界重建
 
 当前默认：**world122 团团退场 / 闲逛狠话**（2026-10-23，待体验）。倒地保留原姿态，约6秒后短暂渐隐退场，影子同步；战后无弹窗，陆续蹦出3位闲逛团团，靠近后用旧版气泡说原5句可爱狠话。只保留一个气泡，不攻击、不追加掉落、不重新开战；重开/回院/离区清理伙伴与气泡。沿用119存档及120概率拾取。23项检查通过，气泡画面已核对。play.cmd / preview_outing122.cmd，关闭旧窗口确认122。[122记录](docs/outing122.md)。以下历史。

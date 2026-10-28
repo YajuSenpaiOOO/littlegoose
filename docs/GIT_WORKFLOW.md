@@ -1,6 +1,6 @@
 # 独立仓库与协作
 
-建立日期：2026-10-28。godot_world是独立Git仓库，父目录原Git保留且忽略godot_world，不是子模块。不要在父仓库add这个目录。未创建GitHub远程、未上传数据。
+建立日期：2026-10-28。godot_world是独立Git仓库，父目录原Git保留且忽略godot_world，不是子模块。不要在父仓库add这个目录。用户创建的远程origin为https://github.com/YajuSenpaiOOO/littlegoose.git；首次上传前干净克隆运行记录见github-readiness-20261028.md。
 
 ## 检查点范围
 
@@ -24,7 +24,9 @@ git commit -m "Describe the concrete change"
 
 根据本次任务选择具体文件，不要默认提交另一个agent尚未完成的更改。提交前确认场景版本与相应验证。无需每次commit都跑整个游戏回归，但不能把单纯提交称为玩法测试通过。
 
-安装Git LFS后新克隆执行git lfs pull以获得真实二进制资源。普通git diff显示的是LFS指针，工作目录仍是原始PNG等文件。未来上GitHub需先创建对应远程，再推送Git提交和LFS对象；本次未进行网络发布。首次上传前查看git lfs ls-files与仓库大小，了解远程LFS容量。
+安装Git LFS后新克隆执行git lfs pull以获得真实二进制资源。普通git diff显示的是LFS指针，工作目录仍是原始PNG等文件。日常git push会通过pre-push hook上传相应LFS对象。首次上传前查看git lfs ls-files与仓库大小，了解远程LFS容量。
+
+本机Git直连GitHub不可达，独立仓库local config使用系统已有代理127.0.0.1:7897；该配置不在提交中。换机器不必使用此地址。若本机代理端口变化需相应更新，若直连可用可执行git config --local --unset http.proxy。
 
 ## 同时开发
 
