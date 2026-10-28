@@ -1,0 +1,6 @@
+{
+  "root": "res://scenes/world/world169.tscn",
+  "text_dependencies": 765,
+  "references_to_190_or_191": [],
+  "limitation": "Static resource-reference traversal; runtime world191 inherits older maps and its global hero/light overrides affect those maps inside the 191 preview."
+}

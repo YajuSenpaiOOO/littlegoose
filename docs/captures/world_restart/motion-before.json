@@ -1,0 +1,12 @@
+{
+	"cpu_p95_ms": 7.184,
+	"fps_cap": 120,
+	"frame_max_ms": 8.509,
+	"frame_median_ms": 8.327,
+	"frame_p95_ms": 8.417,
+	"frame_p99_ms": 8.45,
+	"frames": 360,
+	"over_25ms": 0,
+	"physics_interpolation": false,
+	"vsync": false
+}

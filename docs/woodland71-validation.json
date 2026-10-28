@@ -1,0 +1,14 @@
+{
+	"checks": 16,
+	"combat_sample": {
+		"cpu_median_ms": 10.897,
+		"frames_above_33ms": 0,
+		"frames_above_50ms": 0,
+		"max_ms": 13.095,
+		"median_ms": 8.356,
+		"p95_ms": 11.052,
+		"p99_ms": 12.822
+	},
+	"failures": [],
+	"raised_trees": 36
+}

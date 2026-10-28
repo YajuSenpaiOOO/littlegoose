@@ -1,0 +1,64 @@
+{
+ "checks": [
+  {
+   "check": "south expansion preserves established world origin",
+   "ok": true
+  },
+  {
+   "check": "only south world edge expands by thirty metres",
+   "ok": true
+  },
+  {
+   "check": "former forest site keeps original terrain at (-48.0, 0.0)",
+   "ok": true
+  },
+  {
+   "check": "former forest site keeps original terrain at (-58.0, -8.0)",
+   "ok": true
+  },
+  {
+   "check": "former forest site keeps original terrain at (-34.0, 7.0)",
+   "ok": true
+  },
+  {
+   "check": "no grass multimesh remains on relocated rock faces",
+   "ok": true
+  },
+  {
+   "check": "no inherited trees remain on relocated rock faces",
+   "ok": true
+  },
+  {
+   "check": "hero card ignores roaming per-lamp 3D face lighting",
+   "ok": true
+  },
+  {
+   "check": "redrawn prop keeps transparent corners: yarn_craft_corner_pixel.png",
+   "ok": true
+  },
+  {
+   "check": "redrawn prop keeps transparent corners: post_top_nightlight_pixel.png",
+   "ok": true
+  },
+  {
+   "check": "redrawn prop keeps transparent corners: lilac_ground_clump_pixel.png",
+   "ok": true
+  },
+  {
+   "check": "branch lamps stay at a fixed visible anchor instead of flickering with tree fade",
+   "ok": true
+  },
+  {
+   "check": "hero walks through relocated inner forest route",
+   "ok": true
+  },
+  {
+   "check": "relocated core reaches full forest grade",
+   "ok": true
+  }
+ ],
+ "cliff_grass": 0,
+ "cliff_trees": 0,
+ "connection_points": 32,
+ "failures": []
+}

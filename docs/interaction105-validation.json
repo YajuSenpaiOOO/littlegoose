@@ -1,0 +1,10 @@
+{
+	"checks": 50,
+	"cone_kicks": 2,
+	"cone_travel": 1.07320773601532,
+	"failures": [],
+	"leaf_kicks": 39,
+	"leaf_peak": 0.160288138389587,
+	"stair_penetration": 0.0,
+	"step_assists": 15
+}

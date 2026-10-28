@@ -1,0 +1,25 @@
+{
+ "checks": [
+  {
+   "check": "hero walks from entrance to cottage across revised visual route",
+   "ok": true
+  },
+  {
+   "check": "every adjacent road section shares both corner edge vertices",
+   "ok": true
+  },
+  {
+   "check": "home resets forest grade after soft foreground fade",
+   "ok": true
+  },
+  {
+   "check": "house and tree have separate terrain-conforming lower layers",
+   "ok": true
+  },
+  {
+   "check": "continuous joined road cross sections constructed",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,14 @@
+{
+	"bounds": [
+		-78.8249969482422,
+		-102.283332824707,
+		144.0,
+		120.666664123535
+	],
+	"distance_range": 8,
+	"size": [
+		512,
+		384
+	],
+	"source": "world_surface78 water/island outlines"
+}

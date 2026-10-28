@@ -1,0 +1,20 @@
+{
+	"checks": 19,
+	"dense_opening": {
+		"at": [
+			12.9939956665039,
+			-27.1181087493896
+		],
+		"density": 0.774625043508129,
+		"preset": "lakeside",
+		"radius": [
+			5.39308738708496,
+			3.77516102790833
+		],
+		"region": "junction_to_shore"
+	},
+	"failures": [],
+	"openings": 14,
+	"regions": 5,
+	"trees": 368.0
+}

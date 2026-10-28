@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="profile"]
+[ext_resource type="Texture2D" path="res://assets/courtyard_v1/Bush_blue_flowers1.png" id="art"]
+[resource]
+script = ExtResource("profile")
+texture = ExtResource("art")
+anchor_px = Vector2(32,50)
+draw_scale = 0.36
+footprint = Vector2(0,0)
+contact_size = Vector2(9,3)
+projection_kind = 2
+height = 18.0

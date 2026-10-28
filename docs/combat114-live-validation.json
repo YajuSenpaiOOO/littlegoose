@@ -1,0 +1,15 @@
+{
+	"checks": 3,
+	"failures": [],
+	"hits": 58,
+	"hurt": 7,
+	"kills": 14,
+	"max_ms": 583.96,
+	"median_ms": 10.347,
+	"p95_ms": 17.184,
+	"packs": 5,
+	"peak_shots": 2,
+	"seconds": 23.5866666666666,
+	"shots": 61,
+	"spawn_max_ms": 13.309
+}

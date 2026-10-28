@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/tiles/exterior.png" id="image"]
+[sub_resource type="AtlasTexture" id="atlas"]
+atlas = ExtResource("image")
+region = Rect2(64,480,64,32)
+filter_clip = true
+[resource]
+script = ExtResource("script")
+texture = SubResource("atlas")
+anchor_px = Vector2(32,28)
+draw_scale = 0.65
+footprint = Vector2(32,12)
+footprint_offset = Vector2(0,-3)
+contact_size = Vector2(20,7)
+projection_kind = 1
+height = 14
+max_shadow_length = 35
+raised_plane = Rect2(-10,-7,20,8)
+contacts = PackedVector2Array(-10,0,10,0)

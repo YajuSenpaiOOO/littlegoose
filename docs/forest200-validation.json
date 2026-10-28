@@ -1,0 +1,106 @@
+{
+ "checks": [
+  {
+   "check": "169 projected proportions restored without geometry tilt",
+   "ok": true
+  },
+  {
+   "check": "standard native material adjusts lighting normal only",
+   "ok": true
+  },
+  {
+   "check": "noon window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "night window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "local native light warms and brightens upright hero",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for up",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for left",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for right",
+   "ok": true
+  },
+  {
+   "check": "dash preserves original geometry angle",
+   "ok": true
+  },
+  {
+   "check": "native stage actually brightens upright hero in exterior night",
+   "ok": true
+  },
+  {
+   "check": "native stage gives rendered hero an amber response",
+   "ok": true
+  },
+  {
+   "check": "amber stage retains real native shadow reception",
+   "ok": true
+  },
+  {
+   "check": "199 static tree removal disabled while depth and root fixes remain",
+   "ok": true
+  },
+  {
+   "check": "forest lamp and hammock depth fixes preserved",
+   "ok": true
+  },
+  {
+   "check": "ordinary tree nodes and physical trunks remain present",
+   "ok": true
+  },
+  {
+   "check": "forest approach exercises actual dynamic tree fading",
+   "ok": true
+  },
+  {
+   "check": "movement and fade scans never change physical collision layers",
+   "ok": true
+  },
+  {
+   "check": "theme perimeter trees join the same occlusion scan",
+   "ok": true
+  },
+  {
+   "check": "rendered billboard plane and alpha hit agree",
+   "ok": true
+  },
+  {
+   "check": "foreground test rejects hits outside requested camera depth",
+   "ok": true
+  },
+  {
+   "check": "full-screen near canopy independently triggers fade instead of waiting for trunk overlap",
+   "ok": true
+  },
+  {
+   "check": "restored physical trees leave the actual entrance route walkable",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "faded_trees": 5,
+  "local_off": "(0.1189, 0.166, 0.4114, 1.0)",
+  "local_on": "(0.4931, 0.4082, 0.435, 1.0)",
+  "night_white": 0.0,
+  "noon_white": 0.0,
+  "projection_ratio": 0.910154442294115,
+  "solid_trunks": 605,
+  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
+  "stage_on": "(0.4647, 0.3893, 0.3989, 1.0)",
+  "theme_tree_entries": 19,
+  "visible_tree_nodes": 602
+ }
+}

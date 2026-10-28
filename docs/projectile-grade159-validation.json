@@ -1,0 +1,8 @@
+{
+	"checks": 12,
+	"dusk": "(0.5444, 0.6089, 0.7967, 1.0)",
+	"failures": [],
+	"night": "(0.4795, 0.5065, 0.5707, 1.0)",
+	"noon": "(1.002, 1.0105, 0.999, 1.0)",
+	"note": "Shared automatic environment grade checks; no repeated map or battle-balance suite."
+}

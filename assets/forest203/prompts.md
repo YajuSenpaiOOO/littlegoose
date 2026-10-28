@@ -1,0 +1,7 @@
+# 幽灵猫203
+
+使用内置 image_gen；参考 forest194/sleepy_cat.png 的大色块与深紫轮廓，以及用户指出的旧 ghost kitten 图的形象。源图保留于 C:/Users/ASUS/.codex/generated_images/01a1730a-30a3-7ac1-af7c-67bf18dbea1f/exec-56c5067d-e8dc-4839-9f93-894c12837df2.png，原生透明PNG直接复制，没有降采样冒充重画。
+
+Prompt: Create a replacement game sprite, genuinely transparent background. Image 1 is the STRICT style reference: chunky readable pixel clusters, dark plum outline, very simple 2-3 tone shading, pale cream and lavender, cute handcrafted plush. Image 2 is the subject to REDRAW completely in image 1's much simpler style, not preserve its painterly fabric. One hanging ghost kitten plush with a small lavender hanging loop centered at top, two triangular cat ears, cream sheet-like short chubby body, tiny raised round paws, two small feet, one lavender patch, cheerful closed curved eyes and tiny w mouth as if trying to say boo but cuddly. Slight top-down game view. Full isolated object, centered, generous transparent margins. Roughly 64x80 logical pixel design rendered as clean chunky pixel art. No gradient, no dithering, no grain, no glow, no photographic cloth, no tiny folds or detailed stitching, no scenery, no lantern, no lettering. Clear compact silhouette that stays readable at 70px onscreen.
+
+接入：203中替换固定架挂猫及194弹出机关同形布偶，保持现有世界高度/摆放/挂点；以有效alpha边界重算pixel_size和offset。固定挂猫锚点(.5,0)，弹出机关锚点(.5,1)。相机朝向卡片，原摆动/明暗和挂架真实碰撞、投影不变；软布偶自身不增实体碰撞或新灯。旧181/202图保持可对照。

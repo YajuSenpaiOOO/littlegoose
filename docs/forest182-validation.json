@@ -1,0 +1,98 @@
+{
+ "checks": [
+  {
+   "check": "north bank remains original ground",
+   "ok": true
+  },
+  {
+   "check": "south valley stays low at z=9",
+   "ok": true
+  },
+  {
+   "check": "south valley stays low at z=12",
+   "ok": true
+  },
+  {
+   "check": "south valley stays low at z=15",
+   "ok": true
+  },
+  {
+   "check": "south valley stays low at z=18",
+   "ok": true
+  },
+  {
+   "check": "all lamp posts and both rack uprights have collision",
+   "ok": true
+  },
+  {
+   "check": "new supported post-top nightlight replaces hanging design",
+   "ok": true
+  },
+  {
+   "check": "lamp opaque height increased to 2.3m",
+   "ok": true
+  },
+  {
+   "check": "rack and plush raised above character head",
+   "ok": true
+  },
+  {
+   "check": "every sprite prop has live silhouette projection mesh",
+   "ok": true
+  },
+  {
+   "check": "all ten solid feet receive contact shadows",
+   "ok": true
+  },
+  {
+   "check": "rack collisions use normal environment layer",
+   "ok": true
+  },
+  {
+   "check": "real hero movement is stopped by lamp post",
+   "ok": true
+  },
+  {
+   "check": "real hero movement is stopped by rack upright",
+   "ok": true
+  },
+  {
+   "check": "hero walks from forest into open southern low ground",
+   "ok": true
+  },
+  {
+   "check": "southern foreground supports hero on lower floor",
+   "ok": true
+  },
+  {
+   "check": "foreground terrain no longer occludes camera-to-hero ray",
+   "ok": true
+  },
+  {
+   "check": "southern opening returns to forest without a rim climb",
+   "ok": true
+  },
+  {
+   "check": "raised solid props leave cottage path usable",
+   "ok": true
+  },
+  {
+   "check": "cottage path returns to entrance",
+   "ok": true
+  },
+  {
+   "check": "original three short stair flights still walk uphill",
+   "ok": true
+  },
+  {
+   "check": "default and no-auto-fight preview behavior unchanged",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "lamp_height": 2.3,
+ "north_y": 0.2,
+ "note": "New open-south terrain; physical post bump tests, live silhouette/contact shadows, and foreground terrain visibility ray checked under actual map physics.",
+ "rack_height": 3.2,
+ "south_y": -2.25078788853716
+}

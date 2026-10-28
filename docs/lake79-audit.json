@@ -1,0 +1,10 @@
+{
+	"checks": 10,
+	"failures": [],
+	"island_area_new": 1102.39321899414,
+	"island_area_old": 620.952606201172,
+	"island_east": 81.4532470703125,
+	"island_points": 67,
+	"water_points": 124,
+	"world_east": 123.175003051758
+}

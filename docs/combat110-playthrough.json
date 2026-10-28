@@ -1,0 +1,17 @@
+{
+	"cards": "被窝里的手电筒 · 纸赛车 ×2 · 眼保健操 · 森林冰火人 · 流动红旗",
+	"fired": 2844,
+	"frames": 4750,
+	"kills": 34,
+	"landed_hits": 2913,
+	"median_ms": 18.449,
+	"p95_ms": 32.86,
+	"rewards": 6,
+	"seconds": 94.095,
+	"seen_ranks": [
+		0,
+		1,
+		2
+	],
+	"state": "cleared"
+}

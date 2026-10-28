@@ -1,0 +1,21 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="1_pwr7p"]
+[ext_resource type="Texture2D" path="res://assets/tiles/exterior.png" id="2_mlwer"]
+
+[sub_resource type="AtlasTexture" id="Atlas"]
+atlas = ExtResource("2_mlwer")
+region = Rect2(168, 544, 80, 80)
+margin = Rect2(2, 2, 4, 4)
+
+[resource]
+script = ExtResource("1_pwr7p")
+texture = SubResource("Atlas")
+anchor_px = Vector2(38, 78)
+draw_scale = 1.3
+footprint = Vector2(27, 16)
+footprint_offset = Vector2(0, -4)
+contact_size = Vector2(36, 10)
+height = 101.4
+contacts = PackedVector2Array()
+wind = 0.0013

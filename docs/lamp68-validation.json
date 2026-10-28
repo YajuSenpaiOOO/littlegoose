@@ -1,0 +1,42 @@
+{
+	"checks": 13,
+	"failures": [],
+	"performance_with_guide_visible": {
+		"off0": {
+			"cpu_median_ms": 13.584,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.178,
+			"median_ms": 9.839,
+			"p95_ms": 13.059,
+			"p99_ms": 15.085
+		},
+		"off3": {
+			"cpu_median_ms": 14.659,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 14.946,
+			"median_ms": 9.887,
+			"p95_ms": 12.792,
+			"p99_ms": 13.368
+		},
+		"on1": {
+			"cpu_median_ms": 12.234,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.003,
+			"median_ms": 9.956,
+			"p95_ms": 13.14,
+			"p99_ms": 13.984
+		},
+		"on2": {
+			"cpu_median_ms": 13.668,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.478,
+			"median_ms": 9.673,
+			"p95_ms": 12.703,
+			"p99_ms": 15.349
+		}
+	}
+}

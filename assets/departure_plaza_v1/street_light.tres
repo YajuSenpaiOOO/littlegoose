@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/art/station_light_profile.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+emission_offset = Vector2(17, -44)
+ground_offset = Vector2(17, 0)
+virtual_height = 72.0
+radius = Vector2(85, 65)
+color = Color(1, 0.784314, 0.470588, 1)
+energy = 0.78
+casts_ground_shadows = true

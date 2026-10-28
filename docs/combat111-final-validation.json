@@ -1,0 +1,53 @@
+{
+  "checks": 63,
+  "failures": [],
+  "broadphase_experiment_default_enabled": false,
+  "native_ray_comparisons": 6000,
+  "false_negatives": [],
+  "performance": {
+    "new_max_split": {
+      "fired": 37208,
+      "frames": 600,
+      "max_ms": 127.591,
+      "median_ms": 51.945,
+      "p95_ms": 85.705,
+      "peak_shots": 970
+    },
+    "new_max_water": {
+      "fired": 7032,
+      "frames": 600,
+      "max_ms": 73.464,
+      "median_ms": 46.315,
+      "p95_ms": 63.021,
+      "peak_shots": 394
+    },
+    "new_six": {
+      "fired": 8050,
+      "frames": 600,
+      "max_ms": 56.527,
+      "median_ms": 32.713,
+      "p95_ms": 47.886,
+      "peak_shots": 259
+    },
+    "old_six": {
+      "fired": 11942,
+      "frames": 600,
+      "max_ms": 85.436,
+      "median_ms": 44.125,
+      "p95_ms": 61.982,
+      "peak_shots": 397
+    }
+  },
+  "logs_without_diagnostics": [
+    "combat111_visual_probe.log",
+    "combat111_probe.log",
+    "combat111-comparison.log",
+    "startup111-final.log"
+  ],
+  "sha256": {
+    "scripts/world/woodland_world111.gd": "7ada408620d86f2fec54f32b7e8457fc49b3206a332e2e62bfb55501d106cddf",
+    "scripts/combat/battle_skills111.gd": "f32d55199b19e9c079c8bf06490ff5e1adb87b00069b8c3d4be4bae03dbdf414",
+    "scripts/combat/projectile_grid111.gd": "5c7be32745106c89e1eacc2df48e17be26823c5d1171afdfb022394a763bf15c",
+    "project.godot": "eb4a05118707374eea1d5726afd0b373821693c5bf0ab8a712327ac62ec0269c"
+  }
+}

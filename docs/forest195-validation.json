@@ -1,0 +1,138 @@
+{
+ "checks": [
+  {
+   "check": "169 projected proportions restored without geometry tilt",
+   "ok": true
+  },
+  {
+   "check": "standard native material adjusts lighting normal only",
+   "ok": true
+  },
+  {
+   "check": "noon window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "night window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "local native light warms and brightens upright hero",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for up",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for left",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for right",
+   "ok": true
+  },
+  {
+   "check": "dash preserves original geometry angle",
+   "ok": true
+  },
+  {
+   "check": "native stage actually brightens upright hero in exterior night",
+   "ok": true
+  },
+  {
+   "check": "native stage gives rendered hero an amber response",
+   "ok": true
+  },
+  {
+   "check": "amber stage retains real native shadow reception",
+   "ok": true
+  },
+  {
+   "check": "both handwork cylinder shadow casters removed",
+   "ok": true
+  },
+  {
+   "check": "handwork retains contact shadows without stacked full silhouettes",
+   "ok": true
+  },
+  {
+   "check": "old overlaid hammock cat and added ropes removed",
+   "ok": true
+  },
+  {
+   "check": "integrated twin-tree nook has separate cat and two physical trunks",
+   "ok": true
+  },
+  {
+   "check": "grouped border vegetation adds substantial layered coverage",
+   "ok": true
+  },
+  {
+   "check": "plant feet avoid cliffs, stair flights and the clear walking lane",
+   "ok": true
+  },
+  {
+   "check": "proximity puppet can arm its delayed harmless reveal",
+   "ok": true
+  },
+  {
+   "check": "puppet waits before appearing",
+   "ok": true
+  },
+  {
+   "check": "late puppet raises with a little text bubble",
+   "ok": true
+  },
+  {
+   "check": "little spider operator is revealed after the attempted scare",
+   "ok": true
+  },
+  {
+   "check": "puppet cannot spam or damage player",
+   "ok": true
+  },
+  {
+   "check": "puppet withdraws after its short performance",
+   "ok": true
+  },
+  {
+   "check": "real player walks entrance stairs and planted sample lane to central tree",
+   "ok": true
+  },
+  {
+   "check": "one shared foreground policy selected for all registered map trees",
+   "ok": true
+  },
+  {
+   "check": "southbound lookahead clears view before body overlap",
+   "ok": true
+  },
+  {
+   "check": "south forest route actually exercises occluding crowns",
+   "ok": true
+  },
+  {
+   "check": "brief stop retains faded group instead of immediately restoring crowns",
+   "ok": true
+  },
+  {
+   "check": "root pieces follow the same tree opacity",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "local_off": "(0.1191, 0.1661, 0.4117, 1.0)",
+  "local_on": "(0.4936, 0.4084, 0.4353, 1.0)",
+  "night_white": 0.048048048048048,
+  "noon_white": 0.0,
+  "occluding_at_south": 3,
+  "plant_count": 41,
+  "pop_count": 2,
+  "projection_ratio": 0.910154442294115,
+  "registered_trees": 604,
+  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
+  "stage_on": "(0.4646, 0.3893, 0.399, 1.0)"
+ }
+}

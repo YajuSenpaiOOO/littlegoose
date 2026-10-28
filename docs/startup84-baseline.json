@@ -1,0 +1,12 @@
+{
+	"stages": {
+		"floor_lookup": 0.014067,
+		"grass": 14.206848,
+		"root_geometry": 68.149561,
+		"root_mask": 2.160948,
+		"surface_init": 0.079297,
+		"terrain": 22.32022,
+		"trees": 0.280807
+	},
+	"total_seconds": 132.402589
+}

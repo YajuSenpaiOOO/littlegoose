@@ -1,0 +1,19 @@
+{
+	"checks": 25,
+	"failures": [],
+	"routes": [
+		{
+			"at": [
+				-40.8224678039551,
+				-40.576961517334
+			],
+			"completed": true,
+			"name": "junction_to_grove",
+			"physics_seconds": 10.1166666666667,
+			"points": 26,
+			"target": 26,
+			"travelled_metres": 40.1094812136143
+		}
+	],
+	"tree_chase_remaining_metres": 0.958066046237946
+}

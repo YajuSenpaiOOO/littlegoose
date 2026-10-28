@@ -1,0 +1,430 @@
+{
+	"ai": {
+		"draw_calls": 832.0,
+		"fired": 0,
+		"max_ms": 36.171,
+		"median_ms": 19.836,
+		"methods": {
+			"_fit_contact": {
+				"calls": 1074.0,
+				"max_ms": 0.005,
+				"ms_per_call": 0.00119739292364991,
+				"total_ms": 1.286
+			},
+			"_physics_process": {
+				"calls": 225.0,
+				"max_ms": 19.031,
+				"ms_per_call": 0.44808,
+				"total_ms": 100.818
+			},
+			"_process": {
+				"calls": 179.0,
+				"max_ms": 9.9,
+				"ms_per_call": 4.78082681564246,
+				"total_ms": 855.768
+			},
+			"_step_shots": {
+				"calls": 225.0,
+				"max_ms": 0.07,
+				"ms_per_call": 0.00683111111111111,
+				"total_ms": 1.537
+			},
+			"_update_forest_occlusion": {
+				"calls": 179.0,
+				"max_ms": 3.097,
+				"ms_per_call": 1.05524022346369,
+				"total_ms": 188.888
+			},
+			"aim_at_screen": {
+				"calls": 404.0,
+				"max_ms": 18.701,
+				"ms_per_call": 0.119012376237624,
+				"total_ms": 48.081
+			},
+			"enemy_physics": {
+				"calls": 900.0,
+				"max_ms": 2.51,
+				"ms_per_call": 0.954302222222222,
+				"total_ms": 858.872
+			},
+			"enemy_pose": {
+				"calls": 900.0,
+				"max_ms": 0.125,
+				"ms_per_call": 0.0150455555555556,
+				"total_ms": 13.541
+			},
+			"enemy_render": {
+				"calls": 900.0,
+				"max_ms": 0.224,
+				"ms_per_call": 0.0473055555555556,
+				"total_ms": 42.575
+			},
+			"floor_height": {
+				"calls": 36028.0,
+				"max_ms": 0.267,
+				"ms_per_call": 0.00512107249916731,
+				"total_ms": 184.502
+			},
+			"grass_upload": {
+				"calls": 179.0,
+				"max_ms": 0.061,
+				"ms_per_call": 0.0170558659217877,
+				"total_ms": 3.053
+			},
+			"hero_physics": {
+				"calls": 225.0,
+				"max_ms": 1.527,
+				"ms_per_call": 0.776462222222222,
+				"total_ms": 174.704
+			},
+			"legacy_trace": {
+				"calls": 179.0,
+				"max_ms": 0.07,
+				"ms_per_call": 0.0209106145251397,
+				"total_ms": 3.743
+			},
+			"limit_prop_shadows": {
+				"calls": 239.0,
+				"max_ms": 0.265,
+				"ms_per_call": 0.0518619246861925,
+				"total_ms": 12.395
+			},
+			"material_fx_process": {
+				"calls": 179.0,
+				"max_ms": 0.127,
+				"ms_per_call": 0.0283966480446927,
+				"total_ms": 5.083
+			},
+			"root_fade_sync": {
+				"calls": 179.0,
+				"max_ms": 0.034,
+				"ms_per_call": 0.00582122905027933,
+				"total_ms": 1.042
+			},
+			"shadow_physics": {
+				"calls": 1350.0,
+				"max_ms": 0.043,
+				"ms_per_call": 0.0011362962962963,
+				"total_ms": 1.534
+			},
+			"shadow_process": {
+				"calls": 1074.0,
+				"max_ms": 0.478,
+				"ms_per_call": 0.181077281191806,
+				"total_ms": 194.477
+			},
+			"sync_tracks": {
+				"calls": 225.0,
+				"max_ms": 0.157,
+				"ms_per_call": 0.0593644444444444,
+				"total_ms": 13.357
+			},
+			"tree_blending": {
+				"calls": 179.0,
+				"max_ms": 0.006,
+				"ms_per_call": 0.00331284916201117,
+				"total_ms": 0.593
+			}
+		},
+		"p95_ms": 27.771,
+		"p99_ms": 31.946,
+		"peak_anchors": 0,
+		"peak_shots": 0
+	},
+	"fire": {
+		"draw_calls": 839.0,
+		"fired": 29,
+		"max_ms": 50.894,
+		"median_ms": 24.495,
+		"methods": {
+			"_fit_contact": {
+				"calls": 1322.0,
+				"max_ms": 0.226,
+				"ms_per_call": 0.00643872919818457,
+				"total_ms": 8.512
+			},
+			"_physics_process": {
+				"calls": 269.0,
+				"max_ms": 14.831,
+				"ms_per_call": 0.632516728624535,
+				"total_ms": 170.147
+			},
+			"_process": {
+				"calls": 180.0,
+				"max_ms": 10.677,
+				"ms_per_call": 4.96765555555556,
+				"total_ms": 894.178
+			},
+			"_step_shots": {
+				"calls": 269.0,
+				"max_ms": 0.704,
+				"ms_per_call": 0.098639405204461,
+				"total_ms": 26.534
+			},
+			"_update_forest_occlusion": {
+				"calls": 180.0,
+				"max_ms": 3.636,
+				"ms_per_call": 1.15251666666667,
+				"total_ms": 207.453
+			},
+			"aim_at_screen": {
+				"calls": 478.0,
+				"max_ms": 0.533,
+				"ms_per_call": 0.081826359832636,
+				"total_ms": 39.113
+			},
+			"enemy_physics": {
+				"calls": 1076.0,
+				"max_ms": 2.657,
+				"ms_per_call": 0.935197026022305,
+				"total_ms": 1006.272
+			},
+			"enemy_pose": {
+				"calls": 1126.0,
+				"max_ms": 0.24,
+				"ms_per_call": 0.0168783303730018,
+				"total_ms": 19.005
+			},
+			"enemy_render": {
+				"calls": 1126.0,
+				"max_ms": 0.306,
+				"ms_per_call": 0.0501367673179396,
+				"total_ms": 56.454
+			},
+			"fire_at": {
+				"calls": 29.0,
+				"max_ms": 1.246,
+				"ms_per_call": 0.919379310344828,
+				"total_ms": 26.662
+			},
+			"floor_height": {
+				"calls": 90240.0,
+				"max_ms": 0.298,
+				"ms_per_call": 0.00414316267730496,
+				"total_ms": 373.879
+			},
+			"grass_upload": {
+				"calls": 180.0,
+				"max_ms": 0.096,
+				"ms_per_call": 0.0179833333333333,
+				"total_ms": 3.237
+			},
+			"hero_physics": {
+				"calls": 269.0,
+				"max_ms": 1.58,
+				"ms_per_call": 0.711817843866171,
+				"total_ms": 191.479
+			},
+			"legacy_trace": {
+				"calls": 566.0,
+				"max_ms": 0.22,
+				"ms_per_call": 0.0170865724381625,
+				"total_ms": 9.671
+			},
+			"limit_prop_shadows": {
+				"calls": 252.0,
+				"max_ms": 0.268,
+				"ms_per_call": 0.0496468253968254,
+				"total_ms": 12.511
+			},
+			"material_fx_process": {
+				"calls": 180.0,
+				"max_ms": 3.548,
+				"ms_per_call": 1.81288333333333,
+				"total_ms": 326.319
+			},
+			"root_fade_sync": {
+				"calls": 180.0,
+				"max_ms": 0.011,
+				"ms_per_call": 0.00597222222222222,
+				"total_ms": 1.075
+			},
+			"shadow_physics": {
+				"calls": 1614.0,
+				"max_ms": 0.082,
+				"ms_per_call": 0.00122057001239157,
+				"total_ms": 1.97
+			},
+			"shadow_process": {
+				"calls": 1080.0,
+				"max_ms": 0.623,
+				"ms_per_call": 0.157892592592593,
+				"total_ms": 170.524
+			},
+			"sync_tracks": {
+				"calls": 269.0,
+				"max_ms": 0.286,
+				"ms_per_call": 0.0623457249070632,
+				"total_ms": 16.771
+			},
+			"tree_blending": {
+				"calls": 180.0,
+				"max_ms": 0.007,
+				"ms_per_call": 0.00343888888888889,
+				"total_ms": 0.619
+			}
+		},
+		"p95_ms": 34.099,
+		"p99_ms": 38.313,
+		"peak_anchors": 10,
+		"peak_shots": 4
+	},
+	"frozen": {
+		"cpu_median_ms": 29.228,
+		"cpu_p99_ms": 29.228,
+		"draw_calls": 847.0,
+		"gpu_median_ms": 3.95300006866455,
+		"max_ms": 4.858,
+		"median_ms": 4.104,
+		"over33": 0,
+		"p95_ms": 4.645,
+		"p99_ms": 4.847,
+		"physics_median_ms": 9.578,
+		"primitives": 1825044.0
+	},
+	"gpu_last": 3.87899994850159,
+	"stress": {
+		"draw_calls": 847.0,
+		"fired": 159,
+		"max_ms": 51.178,
+		"median_ms": 30.813,
+		"methods": {
+			"_fit_contact": {
+				"calls": 3050.0,
+				"max_ms": 0.298,
+				"ms_per_call": 0.01588,
+				"total_ms": 48.434
+			},
+			"_physics_process": {
+				"calls": 333.0,
+				"max_ms": 2.927,
+				"ms_per_call": 1.19188888888889,
+				"total_ms": 396.899
+			},
+			"_process": {
+				"calls": 180.0,
+				"max_ms": 10.481,
+				"ms_per_call": 5.32971666666667,
+				"total_ms": 959.349
+			},
+			"_step_shots": {
+				"calls": 333.0,
+				"max_ms": 1.215,
+				"ms_per_call": 0.367303303303303,
+				"total_ms": 122.312
+			},
+			"_update_forest_occlusion": {
+				"calls": 180.0,
+				"max_ms": 3.452,
+				"ms_per_call": 1.22708333333333,
+				"total_ms": 220.875
+			},
+			"aim_at_screen": {
+				"calls": 672.0,
+				"max_ms": 0.474,
+				"ms_per_call": 0.0888883928571429,
+				"total_ms": 59.733
+			},
+			"enemy_physics": {
+				"calls": 1332.0,
+				"max_ms": 2.138,
+				"ms_per_call": 0.816703453453453,
+				"total_ms": 1087.849
+			},
+			"enemy_pose": {
+				"calls": 1572.0,
+				"max_ms": 0.281,
+				"ms_per_call": 0.0151431297709924,
+				"total_ms": 23.805
+			},
+			"enemy_render": {
+				"calls": 1572.0,
+				"max_ms": 0.324,
+				"ms_per_call": 0.0436908396946565,
+				"total_ms": 68.682
+			},
+			"fire_at": {
+				"calls": 159.0,
+				"max_ms": 1.611,
+				"ms_per_call": 0.882798742138365,
+				"total_ms": 140.365
+			},
+			"floor_height": {
+				"calls": 166811.0,
+				"max_ms": 0.311,
+				"ms_per_call": 0.00395475118547338,
+				"total_ms": 659.696
+			},
+			"grass_upload": {
+				"calls": 180.0,
+				"max_ms": 0.17,
+				"ms_per_call": 0.0185611111111111,
+				"total_ms": 3.341
+			},
+			"hero_physics": {
+				"calls": 333.0,
+				"max_ms": 1.553,
+				"ms_per_call": 0.678696696696697,
+				"total_ms": 226.006
+			},
+			"legacy_contact_art": {
+				"calls": 17.0,
+				"max_ms": 0.172,
+				"ms_per_call": 0.118882352941176,
+				"total_ms": 2.021
+			},
+			"legacy_trace": {
+				"calls": 4077.0,
+				"max_ms": 0.38,
+				"ms_per_call": 0.0084186902133922,
+				"total_ms": 34.323
+			},
+			"limit_prop_shadows": {
+				"calls": 265.0,
+				"max_ms": 0.237,
+				"ms_per_call": 0.0452415094339623,
+				"total_ms": 11.989
+			},
+			"material_fx_process": {
+				"calls": 180.0,
+				"max_ms": 5.292,
+				"ms_per_call": 3.73922222222222,
+				"total_ms": 673.06
+			},
+			"root_fade_sync": {
+				"calls": 180.0,
+				"max_ms": 0.019,
+				"ms_per_call": 0.00615,
+				"total_ms": 1.107
+			},
+			"shadow_physics": {
+				"calls": 1998.0,
+				"max_ms": 0.188,
+				"ms_per_call": 0.00123323323323323,
+				"total_ms": 2.464
+			},
+			"shadow_process": {
+				"calls": 1080.0,
+				"max_ms": 0.492,
+				"ms_per_call": 0.157049074074074,
+				"total_ms": 169.613
+			},
+			"sync_tracks": {
+				"calls": 333.0,
+				"max_ms": 0.307,
+				"ms_per_call": 0.0600510510510511,
+				"total_ms": 19.997
+			},
+			"tree_blending": {
+				"calls": 180.0,
+				"max_ms": 0.012,
+				"ms_per_call": 0.00355555555555556,
+				"total_ms": 0.64
+			}
+		},
+		"p95_ms": 40.351,
+		"p99_ms": 50.963,
+		"peak_anchors": 48,
+		"peak_shots": 21
+	}
+}

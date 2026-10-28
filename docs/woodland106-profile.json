@@ -1,0 +1,52 @@
+{
+	"lamps_false_2": {
+		"active_lights": 0,
+		"draw_calls": 1025.0,
+		"leaf_updates": 0,
+		"max_ms": 19.539,
+		"median_ms": 10.956,
+		"near_pile_frames": 0,
+		"p95_ms": 15.6,
+		"rustle_events": 0
+	},
+	"lamps_false_4": {
+		"active_lights": 0,
+		"draw_calls": 1025.0,
+		"leaf_updates": 0,
+		"max_ms": 20.244,
+		"median_ms": 10.361,
+		"near_pile_frames": 0,
+		"p95_ms": 15.37,
+		"rustle_events": 0
+	},
+	"lamps_true_3": {
+		"active_lights": 2,
+		"draw_calls": 1025.0,
+		"leaf_updates": 0,
+		"max_ms": 18.678,
+		"median_ms": 10.43,
+		"near_pile_frames": 0,
+		"p95_ms": 15.783,
+		"rustle_events": 0
+	},
+	"reactive_muted": {
+		"active_lights": 2,
+		"draw_calls": 905.0,
+		"leaf_updates": 493,
+		"max_ms": 23.652,
+		"median_ms": 11.228,
+		"near_pile_frames": 311,
+		"p95_ms": 17.621,
+		"rustle_events": 0
+	},
+	"static_muted": {
+		"active_lights": 2,
+		"draw_calls": 905.0,
+		"leaf_updates": 0,
+		"max_ms": 19.135,
+		"median_ms": 10.558,
+		"near_pile_frames": 311,
+		"p95_ms": 15.352,
+		"rustle_events": 0
+	}
+}

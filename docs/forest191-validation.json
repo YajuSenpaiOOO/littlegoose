@@ -1,0 +1,48 @@
+{
+ "checks": [
+  {
+   "check": "native post, hanging and house spill lamps registered",
+   "ok": true
+  },
+  {
+   "check": "compact native shadow blockers registered",
+   "ok": true
+  },
+  {
+   "check": "window lamps alone actually brighten rendered hero pixels",
+   "ok": true
+  },
+  {
+   "check": "rendered hero becomes warmer in native light",
+   "ok": true
+  },
+  {
+   "check": "forest stage available during exterior daytime",
+   "ok": true
+  },
+  {
+   "check": "outside daytime stage fades out",
+   "ok": true
+  },
+  {
+   "check": "outside night stage restored",
+   "ok": true
+  },
+  {
+   "check": "only three nearest local lamps cast native shadows",
+   "ok": true
+  },
+  {
+   "check": "body-following fill remains disabled",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "home_day_hour": 12.0,
+  "home_day_region": 0.00012340980408668,
+  "home_day_stage": 0.000315328623970207,
+  "window_off": "(0.1475, 0.1941, 0.4602, 1.0)",
+  "window_on": "(0.6216, 0.594, 0.7332, 1.0)"
+ }
+}

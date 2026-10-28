@@ -1,0 +1,47 @@
+{
+	"moss": {
+		"bounds": [
+			42,
+			79,
+			1229,
+			1069
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/house16/moss.png",
+		"foot": [
+			656.5,
+			1148
+		],
+		"height": 1069
+	},
+	"shingle": {
+		"bounds": [
+			37,
+			93,
+			1544,
+			788
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/house16/shingle.png",
+		"foot": [
+			809.0,
+			881
+		],
+		"height": 788
+	},
+	"slate": {
+		"bounds": [
+			41,
+			49,
+			1231,
+			1113
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/house16/slate.png",
+		"foot": [
+			656.5,
+			1162
+		],
+		"height": 1113
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Edit target: first attached cottage sprite. Second attached forest scene is the approved orientation/style reference. Produce ONE corrected complete cottage sprite on a TRUE TRANSPARENT background.\nThe previous sprite is wrong in TWO ways: facing direction is reversed and camera is too eye-level. Rebuild it with the facade FACING TOWARD IMAGE RIGHT, the narrow LEFT SIDE WALL visible on the LEFT of the facade. The front door wall recedes slightly toward the right, like the cottage in the approved forest concept. Do NOT show the right side wall as in the old sprite. Think of a horizontal mirror of the old orientation, then reproject from a camera looking DOWN from 25 degrees above horizontal (NOT 25 degrees from vertical). We must visibly look down onto porch floorboards, the tops of the stone plinth and window sills, and both shallow roof slopes. Door lintel higher than camera's aim at the ground. No eye-level front elevation; no 45-degree isometric bird's-eye view.\nRetain design identity: cozy timber book-and-thread workshop, muted lavender patchwork shingles, round warm amber attic window, honey-lit windows, a small bookshelf and basket of lilac yarn under a little porch. One single clearly readable door on facade. Make door height proportionally generous for a 1.6m game character; building height about 4.5m and width about 6.7m. A broad compact cottage with a lower roof peak than previous image, not a tall tower. Porch is shallow, low stone plinth and just one small lip; no big built-in stairs. A tiny pale-purple fabric strip but no animals, people, trees, surrounding scenery, UI, text or watermark.\nStyle unchanged: crisp soft pixel clusters, dark plum contour, hand-painted cozy game sprite, not photoreal or 3D render. Neutral soft lighting, warm windows. Whole building entirely inside frame with transparent margin. No glowing colored cloud or opaque backdrop outside silhouette.",
+  "references": [
+    "assets/cottage178/cottage_side.png",
+    "art/scary_forest176_refinement/merged_lowland_forest.png"
+  ],
+  "note": "User correction: face image right, show left wall, downward 25 degree camera. Painted projection is approximate, pending user review."
+}

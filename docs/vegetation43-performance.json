@@ -1,0 +1,36 @@
+{
+	"resolution": [
+		1440,
+		900
+	],
+	"samples": [
+		{
+			"draws": 921.0,
+			"fps": 139.554194126862,
+			"median_ms": 6.832,
+			"mode": "original",
+			"p95_ms": 9.725
+		},
+		{
+			"draws": 965.0,
+			"fps": 141.940276263091,
+			"median_ms": 6.853,
+			"mode": "plants_no_focus",
+			"p95_ms": 9.21
+		},
+		{
+			"draws": 966.0,
+			"fps": 156.191834811515,
+			"median_ms": 6.431,
+			"mode": "focus_strong",
+			"p95_ms": 8.352
+		},
+		{
+			"draws": 966.0,
+			"fps": 179.998830007605,
+			"median_ms": 5.372,
+			"mode": "focus_heavy",
+			"p95_ms": 8.297
+		}
+	]
+}

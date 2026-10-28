@@ -1,0 +1,3312 @@
+{
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 29,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "mesh_owners": [
+  {
+   "meshes": 2,
+   "owner": "@MeshInstance3D@5",
+   "tris": 243928
+  },
+  {
+   "meshes": 2,
+   "owner": "RockFacesAndGrassCaps91",
+   "tris": 71278
+  },
+  {
+   "meshes": 9,
+   "owner": "StationDepthAndSideSteps75",
+   "tris": 17786
+  },
+  {
+   "meshes": 6,
+   "owner": "MemoryWorkshop116",
+   "tris": 13440
+  },
+  {
+   "meshes": 26,
+   "owner": "StorybookLake61",
+   "tris": 11652
+  },
+  {
+   "meshes": 76,
+   "owner": "GroundedBases187",
+   "tris": 6882
+  },
+  {
+   "meshes": 5,
+   "owner": "CottageOnLevelPad",
+   "tris": 6638
+  },
+  {
+   "meshes": 26,
+   "owner": "WoodlandDecor42",
+   "tris": 6210
+  },
+  {
+   "meshes": 3,
+   "owner": "CombatWorldEffects159",
+   "tris": 3456
+  },
+  {
+   "meshes": 67,
+   "owner": "CenteredAndGroundedStation82",
+   "tris": 2908
+  },
+  {
+   "meshes": 17,
+   "owner": "PaintedWoodlandMargins87",
+   "tris": 2722
+  },
+  {
+   "meshes": 30,
+   "owner": "InteractiveWoodlandDetails102",
+   "tris": 2544
+  },
+  {
+   "meshes": 2,
+   "owner": "NaturalRockShoulders78",
+   "tris": 2535
+  },
+  {
+   "meshes": 3,
+   "owner": "@Node3D@4540",
+   "tris": 2016
+  },
+  {
+   "meshes": 56,
+   "owner": "PaintedGarden45",
+   "tris": 1888
+  },
+  {
+   "meshes": 153,
+   "owner": "PaperHill141_NaturalBordersAndMossyLookout",
+   "tris": 1585
+  },
+  {
+   "meshes": 7,
+   "owner": "PicnicAndSeaSeat144",
+   "tris": 1020
+  },
+  {
+   "meshes": 9,
+   "owner": "WillowRootClearing64",
+   "tris": 890
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree481",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree480",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree479",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree478",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree477",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree460",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree476",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree475",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree470",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree461",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree474",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree466",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree469",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree467",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree473",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree471",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree472",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree468",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree506",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree505",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree504",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree503",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree502",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree501",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree500",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree499",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree498",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree497",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree496",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree495",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree494",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree493",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree492",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree491",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree490",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree485",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree484",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree483",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree482",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree439",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree438",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree433",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree432",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree431",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree430",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree429",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree428",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree427",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree426",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree425",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree424",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree423",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree422",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree421",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree420",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree419",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree418",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree417",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree459",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree458",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree457",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree456",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree455",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree454",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree453",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree452",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree451",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree450",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree449",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree448",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree447",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree446",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree445",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree444",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree443",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree442",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree441",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree440",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree581",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree580",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree575",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree574",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree573",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree572",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree571",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree570",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree569",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree568",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree567",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree566",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree565",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree564",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree562",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree561",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree560",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree559",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree554",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree612",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree611",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree610",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree606",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree603",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree602",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree601",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree600",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree595",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree594",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree593",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree592",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree591",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree590",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree589",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree588",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree587",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree586",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree585",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree582",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree529",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree528",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree527",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree526",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree525",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree524",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree523",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree522",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree521",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree520",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree519",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree518",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree517",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree516",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree515",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree514",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree509",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree508",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree507",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree553",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree552",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree551",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree550",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree549",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree548",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree547",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree546",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree545",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree544",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree543",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree542",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree541",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree540",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree539",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree538",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree537",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree532",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree531",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree530",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree229",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree228",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree203",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree202",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree201",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree200",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree199",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree198",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree197",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree196",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree195",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree193",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree168",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree167",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree166",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree165",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree164",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree163",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree162",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree282",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree281",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree280",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree279",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree278",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree277",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree276",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree275",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree270",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree269",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree268",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree267",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree258",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree257",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree256",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree236",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree235",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree234",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree231",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree230",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree083",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree082",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree081",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree080",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree079",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree070",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree069",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree068",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree026",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree025",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree024",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree023",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree022",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree021",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree020",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree019",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree018",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree017",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree000",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree161",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree160",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree159",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree134",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree133",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree132",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree131",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree130",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree129",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree128",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree127",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree126",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree100",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree099",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree096",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree094",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree093",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree092",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree091",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree090",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree391",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree390",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree389",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree388",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree384",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree383",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree382",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree381",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree375",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree374",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree373",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree372",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree371",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree370",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree369",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree368",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree367",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree366",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree365",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree416",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree415",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree414",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree413",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree412",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree411",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree410",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree404",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree403",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree402",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree401",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree400",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree399",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree398",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree397",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree396",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree395",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree394",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree393",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree392",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree321",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree315",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree314",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree313",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree311",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree310",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree309",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree308",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree307",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree299",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree298",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree297",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree296",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree295",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree294",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree293",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree292",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree291",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree284",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree283",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree364",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree363",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree359",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree353",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree352",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree351",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree346",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree345",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree343",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree337",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree336",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree335",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree334",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree333",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree332",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree331",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree325",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree324",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree323",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree322",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_024",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_023",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_022",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_021",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_020",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_019",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_018",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_017",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_016",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_015",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_014",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_013",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_012",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_011",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_010",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_009",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_008",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_042",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_041",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_040",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_039",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_038",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_037",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_036",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_035",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_034",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_033",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_032",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_031",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_030",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_029",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_028",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_027",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_026",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_025",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree974",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree973",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree972",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree971",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree970",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree969",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree968",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree967",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree966",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree965",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree964",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree963",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree962",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree961",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree960",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree933",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree932",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree931",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_007",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_006",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_005",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_004",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_003",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_002",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_001",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_000",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree984",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree983",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree982",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree981",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree980",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree979",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree978",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree977",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree976",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree975",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_096",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_095",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_094",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_093",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_092",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_091",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_090",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_089",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_088",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_087",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_086",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_085",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_084",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_083",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_082",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_081",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_080",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_079",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@5045",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@5041",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4584",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4580",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4576",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4548",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4544",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4536",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4532",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4528",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4520",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4512",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4508",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4504",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4500",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4496",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4492",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4488",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_060",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_059",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_058",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_057",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_056",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_055",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_054",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_053",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_052",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_051",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_050",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_049",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_048",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_047",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_046",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_045",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_044",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_043",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_078",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_077",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_076",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_075",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_074",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_073",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_072",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_071",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_070",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_069",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_068",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_067",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_066",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_065",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_064",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_063",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_062",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "FarLakeForest79_061",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree726",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree725",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree724",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree723",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree722",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree711",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree710",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree709",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree689",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree688",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree687",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree686",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree685",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree684",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree683",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree682",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree681",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree680",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree779",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree778",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree777",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree776",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree775",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree774",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree773",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree762",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree761",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree760",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree759",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree736",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree732",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree731",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree730",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree729",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree728",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree727",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree641",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree640",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree632",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree631",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree630",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree629",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree624",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree623",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree622",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree621",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree620",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree619",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree618",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree617",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree616",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree615",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree614",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree613",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree679",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree678",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree677",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree676",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree662",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree661",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree660",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree655",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree654",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree653",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree652",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree651",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree650",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree649",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree648",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree647",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree646",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree642",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree912",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree911",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree910",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree909",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree883",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree882",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree881",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree880",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree879",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree878",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree877",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree876",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree875",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree874",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree873",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree872",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree871",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree870",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree930",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree929",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree928",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree927",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree926",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree925",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree924",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree923",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree922",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree921",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree920",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree919",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree918",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree917",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree916",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree915",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree914",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree913",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree825",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree824",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree823",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree822",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree821",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree820",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree819",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree818",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree814",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree813",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree812",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree811",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree810",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree786",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree783",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree782",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree781",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree780",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree868",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree869",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree867",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree866",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree865",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree864",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree863",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree862",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree861",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree860",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree859",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree858",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree831",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree830",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree829",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree828",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree827",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldTree826",
+   "tris": 672
+  },
+  {
+   "meshes": 1,
+   "owner": "ClosedNorthernCoast140",
+   "tris": 576
+  },
+  {
+   "meshes": 1,
+   "owner": "GreatTreePlaceholder",
+   "tris": 384
+  },
+  {
+   "meshes": 1,
+   "owner": "PaintedWornStoneWall77",
+   "tris": 272
+  },
+  {
+   "meshes": 1,
+   "owner": "DeparturePlaza",
+   "tris": 192
+  },
+  {
+   "meshes": 1,
+   "owner": "AutomaticPaintedPropShadows145",
+   "tris": 160
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4758",
+   "tris": 108
+  },
+  {
+   "meshes": 1,
+   "owner": "LakeSurface",
+   "tris": 74
+  },
+  {
+   "meshes": 5,
+   "owner": "CoastalBreeze143",
+   "tris": 52
+  },
+  {
+   "meshes": 1,
+   "owner": "GroundCoverAndDistantRidge79",
+   "tris": 48
+  },
+  {
+   "meshes": 2,
+   "owner": "WoodlandBranchLanterns107",
+   "tris": 36
+  },
+  {
+   "meshes": 1,
+   "owner": "WoodlandLife46",
+   "tris": 18
+  },
+  {
+   "meshes": 1,
+   "owner": "@CharacterBody3D@6989",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "@CharacterBody3D@6977",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "@CharacterBody3D@7001",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@7013",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "Hero3D",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@7017",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "@Node3D@4949",
+   "tris": 8
+  },
+  {
+   "meshes": 1,
+   "owner": "ContinuousWoodlandTime55",
+   "tris": 2
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4653",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "WorldAnchoredDistantCoast141",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4652",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4651",
+   "tris": 0
+  },
+  {
+   "meshes": 11,
+   "owner": "@Node@6941",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4650",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4649",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4645",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@Camera3D@27",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4644",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4643",
+   "tris": 0
+  },
+  {
+   "meshes": 1,
+   "owner": "@MeshInstance3D@4642",
+   "tris": 0
+  }
+ ],
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": []
+}

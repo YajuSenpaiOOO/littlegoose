@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\project.godot",
+    "Expected": "0C8B47C63A55539ED6B068205124887ED34D5AEA5ED8FB499801780EAA64CFEC",
+    "Actual": "0C8B47C63A55539ED6B068205124887ED34D5AEA5ED8FB499801780EAA64CFEC",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\scenes\\world\\world169.tscn",
+    "Expected": "777919327D97A8BCF46847C05DC84A9D8491AE5224453E32F3AB160ED9C9883C",
+    "Actual": "777919327D97A8BCF46847C05DC84A9D8491AE5224453E32F3AB160ED9C9883C",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\scripts\\world\\woodland_world173.gd",
+    "Expected": "8AE6D310A38DB4A48EF143B0AEB752CF42F0C92FB2A5A1490371F96BD9C723CA",
+    "Actual": "8AE6D310A38DB4A48EF143B0AEB752CF42F0C92FB2A5A1490371F96BD9C723CA",
+    "Unchanged": true
+  },
+  {
+    "Path": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\scripts\\art\\forest_props87.gd",
+    "Expected": "A70C3B056309825E8B3DB2241AECDE34E65BF2ADC09967F86418A25C38F05B44",
+    "Actual": "A70C3B056309825E8B3DB2241AECDE34E65BF2ADC09967F86418A25C38F05B44",
+    "Unchanged": true
+  }
+]

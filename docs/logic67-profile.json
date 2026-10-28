@@ -1,0 +1,84 @@
+{
+	"max_fps": 0,
+	"native_shadows": true,
+	"size": "(1440, 900)",
+	"stages": {
+		"full": {
+			"cpu_median_ms": 24.212,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 24.401,
+			"median_ms": 8.639,
+			"p95_ms": 18.006,
+			"p99_ms": 20.129,
+			"world_physics_total_ms": 54.218,
+			"world_process_ms": 1.72114583333333
+		},
+		"full_repeat": {
+			"cpu_median_ms": 18.175,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 22.025,
+			"median_ms": 8.313,
+			"p95_ms": 18.495,
+			"p99_ms": 19.827,
+			"world_physics_total_ms": 51.637,
+			"world_process_ms": 1.46552916666667
+		},
+		"no_child_process": {
+			"cpu_median_ms": 13.264,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 10.888,
+			"median_ms": 6.07,
+			"p95_ms": 8.174,
+			"p99_ms": 9.497,
+			"world_physics_total_ms": 32.424,
+			"world_process_ms": 1.3580375
+		},
+		"no_dust": {
+			"cpu_median_ms": 18.571,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.856,
+			"median_ms": 7.686,
+			"p95_ms": 16.38,
+			"p99_ms": 18.689,
+			"world_physics_total_ms": 47.959,
+			"world_process_ms": 1.4664
+		},
+		"no_time": {
+			"cpu_median_ms": 17.496,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.259,
+			"median_ms": 8.147,
+			"p95_ms": 11.062,
+			"p99_ms": 13.317,
+			"world_physics_total_ms": 44.48,
+			"world_process_ms": 1.4700625
+		},
+		"no_wind_leaves": {
+			"cpu_median_ms": 19.416,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 22.274,
+			"median_ms": 7.931,
+			"p95_ms": 17.864,
+			"p99_ms": 19.938,
+			"world_physics_total_ms": 50.966,
+			"world_process_ms": 1.48658333333333
+		},
+		"no_world_process": {
+			"cpu_median_ms": 16.68,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 21.033,
+			"median_ms": 6.627,
+			"p95_ms": 15.613,
+			"p99_ms": 18.124,
+			"world_physics_total_ms": 42.467,
+			"world_process_ms": 0.0
+		}
+	}
+}

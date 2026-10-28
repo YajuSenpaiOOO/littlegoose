@@ -1,0 +1,54 @@
+{
+	"checks": 12,
+	"failures": [],
+	"group_comparisons": [
+		{
+			"damage": 5.49019607843115,
+			"hits": 14,
+			"kills": 0,
+			"label": "normal_random9",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 27
+		},
+		{
+			"damage": 10.5882352941182,
+			"hits": 18,
+			"kills": 0,
+			"label": "normal_assisted6",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 18
+		},
+		{
+			"damage": 11.0,
+			"hits": 11,
+			"kills": 0,
+			"label": "normal_direct",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 11
+		},
+		{
+			"damage": 8.03921568627493,
+			"hits": 27,
+			"kills": 0,
+			"label": "split_random9",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 111
+		},
+		{
+			"damage": 12.0588235294122,
+			"hits": 23,
+			"kills": 0,
+			"label": "split_assisted6",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 126
+		},
+		{
+			"damage": 27.5,
+			"hits": 44,
+			"kills": 0,
+			"label": "split_direct",
+			"note": "Static six-Tuantuan fixture; 3.6s firing window plus travel tail, no notebook replay. Not a live-combat balance verdict.",
+			"projectiles": 77
+		}
+	]
+}

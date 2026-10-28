@@ -1,0 +1,330 @@
+{
+	"idle": {
+		"median_ms": 16.546,
+		"objects": 0.0,
+		"p95_ms": 27.859,
+		"pairs": 0.0,
+		"parts": {
+			"res://scripts/art/bridge_lake78.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0176625
+			},
+			"res://scripts/art/decorations43.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.108525
+			},
+			"res://scripts/art/effect_scope95.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0804541666666667
+			},
+			"res://scripts/art/forest_props103.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.51185
+			},
+			"res://scripts/art/ground_accents79.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0041125
+			},
+			"res://scripts/art/kitchen_garden45.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0631541666666667
+			},
+			"res://scripts/art/light_profiles48.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0448583333333333
+			},
+			"res://scripts/art/local_lamp_shadow69.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0667375
+			},
+			"res://scripts/art/nature_park108.gd:physics": {
+				"calls": 260.0,
+				"ms_per_frame": 0.0103041666666667
+			},
+			"res://scripts/art/nature_park108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0028375
+			},
+			"res://scripts/art/night_accents59.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0190791666666667
+			},
+			"res://scripts/art/root_collision65.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00339583333333333
+			},
+			"res://scripts/art/station_kit84.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0379166666666667
+			},
+			"res://scripts/art/station_shadow84.gd:process": {
+				"calls": 478.0,
+				"ms_per_frame": 0.0319583333333333
+			},
+			"res://scripts/art/sun_dust52.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.6068875
+			},
+			"res://scripts/art/volume_actor_shadow69.gd:physics": {
+				"calls": 520.0,
+				"ms_per_frame": 0.0102666666666667
+			},
+			"res://scripts/art/woodland_atmosphere48.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0378166666666667
+			},
+			"res://scripts/art/woodland_audio106.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00628333333333333
+			},
+			"res://scripts/art/woodland_details106.gd:physics": {
+				"calls": 260.0,
+				"ms_per_frame": 0.0192458333333333
+			},
+			"res://scripts/art/woodland_details106.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0103
+			},
+			"res://scripts/art/woodland_lamps108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00672083333333333
+			},
+			"res://scripts/art/woodland_layers107.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00673333333333333
+			},
+			"res://scripts/art/woodland_life47.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.534845833333333
+			},
+			"res://scripts/art/woodland_palette108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.047625
+			},
+			"res://scripts/combat/actor_shadow105.gd:physics": {
+				"calls": 2340.0,
+				"ms_per_frame": 0.031175
+			},
+			"res://scripts/combat/actor_shadow105.gd:process": {
+				"calls": 2151.0,
+				"ms_per_frame": 1.35920416666667
+			},
+			"res://scripts/combat/attack_glint35.gd:process": {
+				"calls": 1673.0,
+				"ms_per_frame": 0.0340875
+			},
+			"res://scripts/combat/battle_skills111.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0346333333333333
+			},
+			"res://scripts/combat/dash_meter30.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00457083333333333
+			},
+			"res://scripts/combat/draft39.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0427333333333333
+			},
+			"res://scripts/combat/feedback23.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0118541666666667
+			},
+			"res://scripts/combat/hud109.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 1.2412875
+			},
+			"res://scripts/combat/hud37/gems_bar.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00785833333333333
+			},
+			"res://scripts/combat/material_fx105.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0403375
+			},
+			"res://scripts/combat/parry_meter34.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0033
+			},
+			"res://scripts/combat/trail_batch25.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00515833333333333
+			},
+			"res://scripts/combat/tuantuan110.gd:physics": {
+				"calls": 1820.0,
+				"ms_per_frame": 1.38871666666667
+			},
+			"res://scripts/world/frame_overlay105.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0148
+			},
+			"res://scripts/world/woodland_time111.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.418708333333333
+			}
+		}
+	},
+	"six": {
+		"median_ms": 35.211,
+		"objects": 0.0,
+		"p95_ms": 48.839,
+		"pairs": 0.0,
+		"parts": {
+			"res://scripts/art/bridge_lake78.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0174625
+			},
+			"res://scripts/art/decorations43.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.107333333333333
+			},
+			"res://scripts/art/effect_scope95.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.129170833333333
+			},
+			"res://scripts/art/forest_props103.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.504175
+			},
+			"res://scripts/art/ground_accents79.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0041125
+			},
+			"res://scripts/art/kitchen_garden45.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0655333333333333
+			},
+			"res://scripts/art/light_profiles48.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0489583333333333
+			},
+			"res://scripts/art/local_lamp_shadow69.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0669
+			},
+			"res://scripts/art/nature_park108.gd:physics": {
+				"calls": 517.0,
+				"ms_per_frame": 0.0176583333333333
+			},
+			"res://scripts/art/nature_park108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00272916666666667
+			},
+			"res://scripts/art/night_accents59.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0186
+			},
+			"res://scripts/art/root_collision65.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.003025
+			},
+			"res://scripts/art/station_kit84.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.04505
+			},
+			"res://scripts/art/station_shadow84.gd:process": {
+				"calls": 478.0,
+				"ms_per_frame": 0.0301541666666667
+			},
+			"res://scripts/art/sun_dust52.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.602625
+			},
+			"res://scripts/art/volume_actor_shadow69.gd:physics": {
+				"calls": 1034.0,
+				"ms_per_frame": 0.0178833333333333
+			},
+			"res://scripts/art/woodland_atmosphere48.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0411083333333333
+			},
+			"res://scripts/art/woodland_audio106.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00666666666666667
+			},
+			"res://scripts/art/woodland_details106.gd:physics": {
+				"calls": 517.0,
+				"ms_per_frame": 0.0350708333333333
+			},
+			"res://scripts/art/woodland_details106.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.011775
+			},
+			"res://scripts/art/woodland_lamps108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00880833333333333
+			},
+			"res://scripts/art/woodland_layers107.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0085125
+			},
+			"res://scripts/art/woodland_life47.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.487495833333333
+			},
+			"res://scripts/art/woodland_palette108.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.04845
+			},
+			"res://scripts/combat/actor_shadow105.gd:physics": {
+				"calls": 4653.0,
+				"ms_per_frame": 0.0569625
+			},
+			"res://scripts/combat/actor_shadow105.gd:process": {
+				"calls": 2151.0,
+				"ms_per_frame": 1.55842083333333
+			},
+			"res://scripts/combat/attack_glint35.gd:process": {
+				"calls": 1673.0,
+				"ms_per_frame": 0.032925
+			},
+			"res://scripts/combat/battle_skills111.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.234691666666667
+			},
+			"res://scripts/combat/dash_meter30.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00417916666666667
+			},
+			"res://scripts/combat/draft39.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0553
+			},
+			"res://scripts/combat/feedback23.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0138416666666667
+			},
+			"res://scripts/combat/hud109.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 1.35058333333333
+			},
+			"res://scripts/combat/hud37/gems_bar.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00891666666666667
+			},
+			"res://scripts/combat/material_fx105.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 3.48535416666667
+			},
+			"res://scripts/combat/parry_meter34.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.00330416666666667
+			},
+			"res://scripts/combat/trail_batch25.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.176383333333333
+			},
+			"res://scripts/combat/tuantuan110.gd:physics": {
+				"calls": 3619.0,
+				"ms_per_frame": 3.24557083333333
+			},
+			"res://scripts/world/frame_overlay105.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.0480458333333333
+			},
+			"res://scripts/world/woodland_time111.gd:process": {
+				"calls": 239.0,
+				"ms_per_frame": 0.7111875
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"checks": 11,
+	"failures": [],
+	"gust_deviation": 0.58222109079361,
+	"max_velocity_change": 0.0275000650435686,
+	"states": [
+		"warning",
+		"gust",
+		"coast"
+	]
+}

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="script"]
+[ext_resource type="PackedScene" path="res://scenes/world/cabbage_bed_art.tscn" id="art"]
+[resource]
+script = ExtResource("script")
+art_scene = ExtResource("art")
+footprint = Vector2(54, 46)
+footprint_offset = Vector2(0,-21)
+contact_size = Vector2(55,12)
+projection_kind = 1
+height = 8
+max_shadow_length = 30
+raised_plane = Rect2(-25,-38,50,38)
+contacts = PackedVector2Array(-25,-42,25,-42,25,2,-25,2)

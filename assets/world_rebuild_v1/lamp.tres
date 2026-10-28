@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Resource" path="res://assets/departure_plaza_v1/street_light.tres" id="1_a1omg"]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="2_q7a7v"]
+[ext_resource type="Texture2D" path="res://assets/garden_theater_v1/festival_post.png" id="3_xnj3y"]
+
+[resource]
+script = ExtResource("2_q7a7v")
+texture = ExtResource("3_xnj3y")
+anchor_px = Vector2(324, 1530)
+draw_scale = 0.048
+footprint = Vector2(6, 6)
+footprint_offset = Vector2(0, -1)
+contact_size = Vector2(12, 5)
+height = 73.44
+contacts = PackedVector2Array()
+light_profile = ExtResource("1_a1omg")

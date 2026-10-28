@@ -1,0 +1,7 @@
+{
+  "tracked_files": 4157,
+  "literal_resource_closure": 889,
+  "missing_literal_resources": [],
+  "untracked_dependencies": [],
+  "runtime_validation": "Not run: repository setup must not disturb parallel profiling."
+}

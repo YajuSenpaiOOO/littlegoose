@@ -1,0 +1,41 @@
+{
+	"frames_per_style": 180,
+	"results": [
+		{
+			"cpu_median_ms": 15.218,
+			"draw_calls": 669.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.888,
+			"median_ms": 13.004,
+			"p95_ms": 16.759,
+			"p99_ms": 17.8,
+			"primitives": 787595.0,
+			"style": 0
+		},
+		{
+			"cpu_median_ms": 14.984,
+			"draw_calls": 615.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.528,
+			"median_ms": 13.165,
+			"p95_ms": 15.96,
+			"p99_ms": 17.138,
+			"primitives": 794279.0,
+			"style": 1
+		},
+		{
+			"cpu_median_ms": 14.984,
+			"draw_calls": 657.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.253,
+			"median_ms": 13.282,
+			"p95_ms": 16.792,
+			"p99_ms": 18.76,
+			"primitives": 789725.0,
+			"style": 2
+		}
+	]
+}

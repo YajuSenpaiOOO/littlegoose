@@ -1,0 +1,7 @@
+{
+	"base_peak_planes": 3,
+	"checks": 18,
+	"failures": [],
+	"fast_peak_planes": 6,
+	"note": "Target AI frozen for repeatable fixed-ground area-impact checks; this mode intentionally does not chase targets."
+}

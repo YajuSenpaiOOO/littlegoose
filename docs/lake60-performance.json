@@ -1,0 +1,50 @@
+{
+	"frames_per_segment": 240,
+	"order": "ABBA; identical lower lake and bridge; old59 vs animated60 shader",
+	"results": [
+		{
+			"cpu_median_ms": 17.509,
+			"draw_calls": 675.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 25.381,
+			"median_ms": 12.332,
+			"mode": "old59",
+			"p95_ms": 16.459,
+			"p99_ms": 18.551
+		},
+		{
+			"cpu_median_ms": 16.189,
+			"draw_calls": 675.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.377,
+			"median_ms": 12.323,
+			"mode": "moving60",
+			"p95_ms": 16.721,
+			"p99_ms": 18.815
+		},
+		{
+			"cpu_median_ms": 15.507,
+			"draw_calls": 675.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.807,
+			"median_ms": 12.725,
+			"mode": "moving60",
+			"p95_ms": 17.115,
+			"p99_ms": 18.55
+		},
+		{
+			"cpu_median_ms": 14.841,
+			"draw_calls": 675.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.182,
+			"median_ms": 12.504,
+			"mode": "old59",
+			"p95_ms": 17.246,
+			"p99_ms": 18.989
+		}
+	]
+}

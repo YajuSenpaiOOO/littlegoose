@@ -1,0 +1,34 @@
+{
+	"0": {
+		"fired": 14200,
+		"frames": 300,
+		"max_ms": 73.099,
+		"median_ms": 42.25,
+		"p95_ms": 63.217,
+		"peak_shots": 691
+	},
+	"1": {
+		"fired": 8864,
+		"frames": 300,
+		"max_ms": 64.317,
+		"median_ms": 33.291,
+		"p95_ms": 52.736,
+		"peak_shots": 541
+	},
+	"2": {
+		"fired": 11628,
+		"frames": 300,
+		"max_ms": 58.806,
+		"median_ms": 32.288,
+		"p95_ms": 51.603,
+		"peak_shots": 730
+	},
+	"3": {
+		"fired": 16586,
+		"frames": 300,
+		"max_ms": 72.905,
+		"median_ms": 40.946,
+		"p95_ms": 60.952,
+		"peak_shots": 814
+	}
+}

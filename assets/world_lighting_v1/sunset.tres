@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/art/world_light_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+label = "夕照"
+nighttime = false
+sky_color = Color(0.4941176471,0.5176470588,0.5882352941,1)
+direct_color = Color(1,0.8235294117647058,0.6039215686274509,1)
+direct_energy = 0.18
+shadow_azimuth_degrees = 145
+elevation_degrees = 16
+shadow_opacity = 0.27
+local_shadow_visibility = 0.55
+eave_visibility = 0.85

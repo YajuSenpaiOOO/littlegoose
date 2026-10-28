@@ -1,0 +1,38 @@
+{
+ "airborne": {
+  "foot": [
+   281.5,
+   420
+  ],
+  "scale": 0.0778378378378378,
+  "visible_height": 32.4583783783784,
+  "visible_width": 43.2
+ },
+ "anticipation": {
+  "foot": [
+   273.0,
+   399
+  ],
+  "scale": 0.0802973977695167,
+  "visible_height": 31.7977695167286,
+  "visible_width": 43.2
+ },
+ "idle": {
+  "foot": [
+   289.5,
+   437
+  ],
+  "scale": 0.0756567425569177,
+  "visible_height": 32.8350262697023,
+  "visible_width": 43.2
+ },
+ "landing": {
+  "foot": [
+   305.0,
+   378
+  ],
+  "scale": 0.0717607973421927,
+  "visible_height": 26.9102990033223,
+  "visible_width": 43.2
+ }
+}

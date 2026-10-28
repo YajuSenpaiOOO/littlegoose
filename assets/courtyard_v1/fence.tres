@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="script"]
+[ext_resource type="Texture2D" path="res://assets/courtyard_v1/fence.png" id="image"]
+[resource]
+script = ExtResource("script")
+texture = ExtResource("image")
+anchor_px = Vector2(887,648)
+draw_scale = 0.052
+footprint = Vector2(51,5)
+footprint_offset = Vector2(0,-2)
+contact_size = Vector2(56,5)
+projection_kind = 1
+height = 16
+raised_plane = Rect2(-26,-4,52,5)
+contacts = PackedVector2Array(-26,0,26,0)

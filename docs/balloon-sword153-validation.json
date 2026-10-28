@@ -1,0 +1,7 @@
+{
+	"checks": 15,
+	"failures": [],
+	"ground_swords": 6,
+	"note": "Targeted physics/control/payload checks; not a balance verdict.",
+	"tuantuan_velocity_ratio": 0.6
+}

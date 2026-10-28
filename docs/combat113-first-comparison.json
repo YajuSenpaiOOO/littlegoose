@@ -1,0 +1,26 @@
+{
+	"new_max": {
+		"fired": 28872,
+		"frames": 600,
+		"max_ms": 89.976,
+		"median_ms": 45.637,
+		"p95_ms": 70.112,
+		"peak_shots": 844
+	},
+	"new_six": {
+		"fired": 7070,
+		"frames": 600,
+		"max_ms": 59.907,
+		"median_ms": 29.278,
+		"p95_ms": 41.325,
+		"peak_shots": 270
+	},
+	"old_six": {
+		"fired": 8900,
+		"frames": 600,
+		"max_ms": 53.846,
+		"median_ms": 32.8,
+		"p95_ms": 45.142,
+		"peak_shots": 262
+	}
+}

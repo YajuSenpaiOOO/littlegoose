@@ -1,0 +1,57 @@
+{
+	"full": {
+		"contact_ms": 48.56,
+		"frames": 742,
+		"max_ms": 18.842,
+		"median_ms": 10.659,
+		"over20": 0,
+		"p95_ms": 14.689,
+		"refits": 16,
+		"viewport": "(2560, 1494)",
+		"window": "(2560, 1494)"
+	},
+	"full_repeat": {
+		"contact_ms": 0.0,
+		"frames": 701,
+		"max_ms": 19.742,
+		"median_ms": 11.575,
+		"over20": 0,
+		"p95_ms": 14.787,
+		"refits": 0,
+		"viewport": "(2560, 1494)",
+		"window": "(2560, 1494)"
+	},
+	"full_vsync": {
+		"contact_ms": 0.0,
+		"frames": 657,
+		"max_ms": 18.22,
+		"median_ms": 12.414,
+		"over20": 0,
+		"p95_ms": 15.299,
+		"refits": 0,
+		"viewport": "(2560, 1494)",
+		"window": "(2560, 1494)"
+	},
+	"no_contact_cache": {
+		"contact_ms": 0.0,
+		"frames": 689,
+		"max_ms": 18.174,
+		"median_ms": 11.698,
+		"over20": 0,
+		"p95_ms": 14.947,
+		"refits": 0,
+		"viewport": "(2560, 1494)",
+		"window": "(2560, 1494)"
+	},
+	"no_dof": {
+		"contact_ms": 0.0,
+		"frames": 691,
+		"max_ms": 19.29,
+		"median_ms": 11.803,
+		"over20": 0,
+		"p95_ms": 14.615,
+		"refits": 0,
+		"viewport": "(2560, 1494)",
+		"window": "(2560, 1494)"
+	}
+}

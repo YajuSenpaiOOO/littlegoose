@@ -1,0 +1,18 @@
+{
+  "resolution": [384, 256],
+  "crown_radius_scale": 0.43,
+  "density_full_cover": 1.25,
+  "presets": {
+    "forest": {"spacing": 8.7, "radius": [3.7, 2.6], "corridor": 9.0, "shade": [0.46, 0.61, 0.63], "sun": [1.10, 1.035, 0.89]},
+    "deep_forest": {"spacing": 11.5, "radius": [3.1, 2.1], "corridor": 9.0, "shade": [0.38, 0.53, 0.56], "sun": [1.12, 1.035, 0.86]},
+    "lakeside": {"spacing": 11.0, "radius": [5.0, 3.5], "corridor": 11.0, "shade": [0.64, 0.76, 0.77], "sun": [1.04, 1.065, 1.00]}
+  },
+  "accents": [],
+  "regions": [
+    {"route": "home_to_junction", "preset": "forest"},
+    {"route": "junction_to_station", "preset": "forest"},
+    {"route": "junction_to_grove", "preset": "deep_forest"},
+    {"route": "junction_to_shore", "preset": "lakeside"},
+    {"route": "home_to_landing", "preset": "lakeside"}
+  ]
+}

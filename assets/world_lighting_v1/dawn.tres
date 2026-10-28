@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/art/world_light_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+label = "清晨"
+nighttime = false
+sky_color = Color(0.5372549020,0.5725490196,0.6235294118,1)
+direct_color = Color(1,0.8862745098039215,0.6901960784313725,1)
+direct_energy = 0.20
+shadow_azimuth_degrees = 32
+elevation_degrees = 23
+shadow_opacity = 0.27
+local_shadow_visibility = 0.55
+eave_visibility = 0.8

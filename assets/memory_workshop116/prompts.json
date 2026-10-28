@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "docs/memory-workshop-concepts/A-stump-pot-and-tin.png",
+  "transparent_background": true,
+  "variants": [
+    {
+      "id": "pot",
+      "prompt": "Extract/recreate ONLY the LEFT stump-and-enamel-pot workstation from reference A as one isolated game prop on a truly transparent background. Retain its design: squat broad irregular stump with a little moss in crevices, blue-white gingham cloth corner, cream enamel cooking pot with dark sky-blue rim and handles and simple blue/yellow floral motif, pale liquid, plain wooden spoon leaning upper-right. Simplify bark into broad painted planes, no fine realistic grain. Omit the little flower vase, all surrounding flowers, ground grass, cottage, ground patch and background, and omit ALL steam/smoke/sparkles because steam will be animated separately. One complete stump base with roots fully inside image; no cut-off edges. Center it with a modest transparent margin. Exactly same frontal 2.5D storybook game camera as reference, looking slightly down about25 degrees; do not rotate into a side view or isometric45. Neutral soft shading on the object, no baked cast shadow on a background, no overpowering directional light, no realistic PBR glossy render. High quality crisp hand-painted storybook game sprite, matching reference silhouette/colors. No text, no other objects, transparent RGBA."
+    },
+    {
+      "id": "tin",
+      "prompt": "Extract/recreate ONLY the SMALL TEAL OPEN BISCUIT TIN AND ITS SHORT WOODEN BOX SUPPORT from reference A as one isolated game prop on a truly transparent background. Tin is rounded rectangular with gold/cream lip, upright lid decorated with one little cream white goose and tiny simple white/yellow flowers. Inside are a tiny cream paper boat, a blue-green marble and a few paper scraps. Put tin on the same low shallow rustic wooden crate, painted broad planes and softened edges, not realistic dense grain. Entire crate/base and lid inside image with modest transparent margin. Omit the pot, stump, all grass, flowers, ground, house and background. No outside cast shadow baked into alpha. Exactly the same front-biased slightly downward25-degree camera, orientation and illustrated game-art language as reference, no isometric rotation, no photo/PBR/cheap3D. High quality crisp hand-painted storybook sprite, restrained weathering, no text or added items. Transparent RGBA."
+    }
+  ],
+  "runtime": "Runtime steam and bubbles are code-native independent quads. Source PNGs are untouched; AtlasTexture regions anchor the opaque object bounds."
+}

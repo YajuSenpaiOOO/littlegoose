@@ -1,0 +1,20 @@
+[
+  {
+    "file": "hall.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\station_building_v1.png",
+    "identical": true,
+    "sha256": "9a8cd3a0af02aff1bcf41716026741dc00217084ae0a6773f03c6c9d099013d5"
+  },
+  {
+    "file": "canopy.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\platform_shelter_v1.png",
+    "identical": true,
+    "sha256": "e81b46340c1d215cb97e1fe3bafbd13363f84d45ec37e5faa192697aa2d26c22"
+  },
+  {
+    "file": "coach.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\carriage.png",
+    "identical": true,
+    "sha256": "7b425c6e7ae81c3e3d8216a09b7077166284d2dbe3811870407f3c04128b3809"
+  }
+]

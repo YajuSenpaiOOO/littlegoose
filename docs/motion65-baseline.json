@@ -1,0 +1,12 @@
+{
+	"contact_calls": 357,
+	"contact_total_ms": 1304.233,
+	"cpu_median_ms": 22.065,
+	"frames_above_33ms": 2,
+	"frames_above_50ms": 0,
+	"max_ms": 38.205,
+	"median_ms": 18.346,
+	"p95_ms": 22.856,
+	"p99_ms": 25.511,
+	"tree_blending_total_ms": 652.203
+}

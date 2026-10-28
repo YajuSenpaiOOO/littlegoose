@@ -1,0 +1,70 @@
+{
+ "checks": [
+  {
+   "check": "169 projected proportions restored without geometry tilt",
+   "ok": true
+  },
+  {
+   "check": "standard native material adjusts lighting normal only",
+   "ok": true
+  },
+  {
+   "check": "noon window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "night window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "local native light warms and brightens upright hero",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for up",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for left",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for right",
+   "ok": true
+  },
+  {
+   "check": "dash preserves original geometry angle",
+   "ok": true
+  },
+  {
+   "check": "native stage actually brightens upright hero in exterior night",
+   "ok": true
+  },
+  {
+   "check": "native stage gives rendered hero an amber response",
+   "ok": true
+  },
+  {
+   "check": "amber stage retains real native shadow reception",
+   "ok": true
+  },
+  {
+   "check": "working baseline uses the actual upright 192 controller instead of a toggle on 197",
+   "ok": true
+  },
+  {
+   "check": "props retain their original display orientations outside the 196 experiment",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "local_off": "(0.1191, 0.1661, 0.4117, 1.0)",
+  "local_on": "(0.4936, 0.4084, 0.4353, 1.0)",
+  "night_white": 0.048048048048048,
+  "noon_white": 0.0,
+  "projection_ratio": 0.910154442294115,
+  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
+  "stage_on": "(0.4646, 0.3893, 0.399, 1.0)"
+ }
+}

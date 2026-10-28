@@ -1,0 +1,17 @@
+{
+ "checks": [
+  {
+   "check": "regional atmosphere has visible, nonblack exposure change in cottage: 0.75983107628089",
+   "ok": true
+  },
+  {
+   "check": "regional atmosphere has visible, nonblack exposure change in central: 0.83422993634271",
+   "ok": true
+  },
+  {
+   "check": "home resets forest grade after soft foreground fade",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

@@ -1,0 +1,17 @@
+{
+	"checks": 22,
+	"combat_sample": {
+		"cpu_median_ms": 13.849,
+		"frames_above_33ms": 0,
+		"frames_above_50ms": 0,
+		"max_ms": 25.439,
+		"median_ms": 8.929,
+		"p95_ms": 13.37,
+		"p99_ms": 15.662
+	},
+	"failures": [
+		"actual hero crosses 27m of enlarged battle floor"
+	],
+	"station_route_new": 35.1094382107258,
+	"station_route_old": 14.7897499799728
+}

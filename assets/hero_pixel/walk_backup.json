@@ -1,0 +1,63 @@
+{
+  "sheet_file": "walk_source.png",
+  "body_height": 674,
+  "frames": [
+    {
+      "region": [
+        43,
+        0,
+        600,
+        800
+      ],
+      "foot": [
+        300,
+        749
+      ]
+    },
+    {
+      "region": [
+        633,
+        0,
+        600,
+        800
+      ],
+      "foot": [
+        300,
+        749
+      ]
+    },
+    {
+      "region": [
+        1228,
+        0,
+        600,
+        800
+      ],
+      "foot": [
+        300,
+        749
+      ]
+    },
+    {
+      "region": [
+        633,
+        0,
+        600,
+        800
+      ],
+      "foot": [
+        300,
+        749
+      ]
+    }
+  ],
+  "idle": {
+    "frame": 1,
+    "foot": [
+      300,
+      749
+    ],
+    "body_height": 674
+  },
+  "note": "Whole-sprite playback at source resolution. Common origin preserves coherent head, neck, shoulders and hair movement; small drawn face variations accepted."
+}

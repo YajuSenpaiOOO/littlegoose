@@ -1,0 +1,38 @@
+{
+  "down": {
+    "file": "parry_crouch_v1.png",
+    "foot": [
+      664,
+      1055
+    ],
+    "body_height": 887,
+    "world_height": 25.3
+  },
+  "left": {
+    "file": "parry_crouch_left_v1.png",
+    "foot": [
+      567,
+      1138
+    ],
+    "body_height": 998,
+    "world_height": 25.3
+  },
+  "right": {
+    "file": "parry_crouch_right_v1.png",
+    "foot": [
+      732,
+      1137
+    ],
+    "body_height": 997,
+    "world_height": 25.3
+  },
+  "up": {
+    "file": "parry_crouch_back_v1.png",
+    "foot": [
+      628,
+      1131
+    ],
+    "body_height": 990,
+    "world_height": 25.3
+  }
+}

@@ -1,0 +1,41 @@
+{
+ "169_home_day": {
+  "camera_rotation": "(-25.0, 0.0, 0.0)",
+  "hero_script": "res://scripts/combat/hero146.gd",
+  "modulate": "(0.96, 0.95, 0.91, 1.0)",
+  "pixel_size": 0.00237388722598553,
+  "projected_y_over_x": 0.910154442294115,
+  "rotation_degrees": "(0.0, 0.0, 0.0)",
+  "scale": "(1.0, 1.0, 1.0)",
+  "shaded": false,
+  "texture": "",
+  "texture_size": "(600.0, 800.0)"
+ },
+ "191_home_day": {
+  "camera_rotation": "(-25.0, 0.0, 0.0)",
+  "hero_script": "res://scripts/combat/hero190.gd",
+  "modulate": "(0.6912, 0.684, 0.6552, 1.0)",
+  "pixel_size": 0.00237388722598553,
+  "projected_y_over_x": 0.99999964014564,
+  "rotation_degrees": "(-25.0, 0.0, 0.0)",
+  "scale": "(1.0, 1.0, 1.0)",
+  "shaded": true,
+  "texture": "",
+  "texture_size": "(600.0, 800.0)"
+ },
+ "191_lights_off": {
+  "camera_rotation": "(-25.0, 0.0, 0.0)",
+  "hero_script": "res://scripts/combat/hero190.gd",
+  "modulate": "(0.6912, 0.684, 0.6552, 1.0)",
+  "pixel_size": 0.00237388722598553,
+  "projected_y_over_x": 0.99999964014564,
+  "rotation_degrees": "(-25.0, 0.0, 0.0)",
+  "scale": "(1.0, 1.0, 1.0)",
+  "shaded": true,
+  "texture": "",
+  "texture_size": "(600.0, 800.0)"
+ },
+ "191_rotation_restored": {
+  "projected_y_over_x": 0.910154442294115
+ }
+}

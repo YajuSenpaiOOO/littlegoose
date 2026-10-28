@@ -1,0 +1,7 @@
+[configuration]
+entry_symbol = "combat113_library_init"
+compatibility_minimum = "4.7"
+reloadable = false
+
+[libraries]
+windows.x86_64 = "res://native/combat113/combat113.windows.x86_64.dll"

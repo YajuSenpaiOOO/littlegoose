@@ -1,0 +1,10 @@
+{
+	"checks": 13,
+	"failures": [],
+	"states": [
+		"float",
+		"settle",
+		"windup",
+		"swoop"
+	]
+}

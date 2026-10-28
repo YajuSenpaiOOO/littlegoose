@@ -1,0 +1,236 @@
+[gd_scene load_steps=16 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop.gd" id="prop"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/cottage.tres" id="cottage"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/bench.tres" id="bench"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/lamp.tres" id="lamp"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/pine_tree.tres" id="pine_tree"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/broad_tree.tres" id="broad_tree"]
+[ext_resource type="Resource" path="res://assets/world_rebuild_v1/fruit_tree.tres" id="fruit_tree"]
+[ext_resource type="Resource" path="res://assets/home_pixel_v1/stone.tres" id="stone"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/fence.tres" id="fence"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/cabbage_bed.tres" id="cabbage_bed"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/tomato_bed.tres" id="tomato_bed"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/crate.tres" id="crate"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/woodpile.tres" id="woodpile"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/stump.tres" id="stump"]
+[ext_resource type="Resource" path="res://assets/courtyard_v1/harvest.tres" id="harvest"]
+[node name="IndependentStandingProps" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Cottage" type="Node2D" parent="."]
+position = Vector2(-28,-5)
+script = ExtResource("prop")
+profile = ExtResource("cottage")
+size_factor = 1
+
+[node name="GardenBench" type="Node2D" parent="."]
+position = Vector2(-79,91)
+script = ExtResource("prop")
+profile = ExtResource("bench")
+size_factor = 0.9
+
+[node name="WestLamp" type="Node2D" parent="."]
+position = Vector2(-135,137)
+script = ExtResource("prop")
+profile = ExtResource("lamp")
+size_factor = 1
+
+[node name="EastLamp" type="Node2D" parent="."]
+position = Vector2(91,35)
+script = ExtResource("prop")
+profile = ExtResource("lamp")
+size_factor = 1
+
+[node name="Tree00" type="Node2D" parent="."]
+position = Vector2(-234,-115)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 1.05
+
+[node name="Tree01" type="Node2D" parent="."]
+position = Vector2(-170,-95)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 0.86
+
+[node name="Tree02" type="Node2D" parent="."]
+position = Vector2(-222,-36)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 1.03
+
+[node name="Tree03" type="Node2D" parent="."]
+position = Vector2(-185,9)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 0.82
+
+[node name="Tree04" type="Node2D" parent="."]
+position = Vector2(-235,63)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 1.06
+
+[node name="Tree05" type="Node2D" parent="."]
+position = Vector2(-145,93)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 0.9
+
+[node name="Tree06" type="Node2D" parent="."]
+position = Vector2(-225,172)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 1.12
+
+[node name="Tree07" type="Node2D" parent="."]
+position = Vector2(-150,205)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 0.94
+
+[node name="Tree08" type="Node2D" parent="."]
+position = Vector2(173,-104)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 0.94
+
+[node name="Tree09" type="Node2D" parent="."]
+position = Vector2(228,-65)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 1.07
+
+[node name="Tree10" type="Node2D" parent="."]
+position = Vector2(177,-10)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 0.88
+
+[node name="Tree11" type="Node2D" parent="."]
+position = Vector2(232,38)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 1.05
+
+[node name="Tree12" type="Node2D" parent="."]
+position = Vector2(216,126)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 0.83
+
+[node name="Tree13" type="Node2D" parent="."]
+position = Vector2(248,203)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 1.12
+
+[node name="Tree14" type="Node2D" parent="."]
+position = Vector2(166,207)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 1.01
+
+[node name="Tree15" type="Node2D" parent="."]
+position = Vector2(-103,-139)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 0.88
+
+[node name="Tree16" type="Node2D" parent="."]
+position = Vector2(-34,-153)
+script = ExtResource("prop")
+profile = ExtResource("broad_tree")
+size_factor = 1.05
+
+[node name="Tree17" type="Node2D" parent="."]
+position = Vector2(48,-143)
+script = ExtResource("prop")
+profile = ExtResource("fruit_tree")
+size_factor = 0.87
+
+[node name="Tree18" type="Node2D" parent="."]
+position = Vector2(113,-145)
+script = ExtResource("prop")
+profile = ExtResource("pine_tree")
+size_factor = 0.96
+
+[node name="EdgeStoneLeft" type="Node2D" parent="."]
+position = Vector2(-125,187)
+script = ExtResource("prop")
+profile = ExtResource("stone")
+size_factor = 0.75
+
+[node name="EdgeStoneRight" type="Node2D" parent="."]
+position = Vector2(195,183)
+script = ExtResource("prop")
+profile = ExtResource("stone")
+size_factor = 0.72
+
+
+
+[node name="FrontFenceWest" type="Node2D" parent="."]
+position = Vector2(-78,172)
+script = ExtResource("prop")
+profile = ExtResource("fence")
+size_factor = 1
+
+[node name="FrontFenceEast" type="Node2D" parent="."]
+position = Vector2(104,177)
+script = ExtResource("prop")
+profile = ExtResource("fence")
+size_factor = 1
+
+[node name="GardenFenceBack" type="Node2D" parent="."]
+position = Vector2(124,25)
+script = ExtResource("prop")
+profile = ExtResource("fence")
+size_factor = 1
+
+[node name="GardenFenceFront" type="Node2D" parent="."]
+position = Vector2(124,146)
+script = ExtResource("prop")
+profile = ExtResource("fence")
+size_factor = 1
+
+[node name="CabbageBed" type="Node2D" parent="."]
+position = Vector2(125,134)
+script = ExtResource("prop")
+profile = ExtResource("cabbage_bed")
+size_factor = 1
+
+[node name="TomatoBed" type="Node2D" parent="."]
+position = Vector2(125,81)
+script = ExtResource("prop")
+profile = ExtResource("tomato_bed")
+size_factor = 1
+
+[node name="GardenCrate" type="Node2D" parent="."]
+position = Vector2(85,44)
+script = ExtResource("prop")
+profile = ExtResource("crate")
+size_factor = 1
+
+[node name="HouseFirewood" type="Node2D" parent="."]
+position = Vector2(-114,-3)
+script = ExtResource("prop")
+profile = ExtResource("woodpile")
+size_factor = 1
+
+[node name="RestingStump" type="Node2D" parent="."]
+position = Vector2(-111,127)
+script = ExtResource("prop")
+profile = ExtResource("stump")
+size_factor = 1
+
+[node name="HarvestBasket" type="Node2D" parent="."]
+position = Vector2(165,143)
+script = ExtResource("prop")
+profile = ExtResource("harvest")
+size_factor = 1
+
+[node name="PorchBasket" type="Node2D" parent="."]
+position = Vector2(40,8)
+script = ExtResource("prop")
+profile = ExtResource("harvest")
+size_factor = 0.85

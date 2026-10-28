@@ -1,0 +1,29 @@
+{
+ "checks": [
+  {
+   "check": "all eleven lilac tufts use touch bending",
+   "ok": true
+  },
+  {
+   "check": "hero contact drives flower displacement",
+   "ok": true
+  },
+  {
+   "check": "flowers recover after hero leaves",
+   "ok": true
+  },
+  {
+   "check": "new hammock cat is instantiated",
+   "ok": true
+  },
+  {
+   "check": "entire connection route gains atmosphere progressively",
+   "ok": true
+  },
+  {
+   "check": "home remains outside the forest transition",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

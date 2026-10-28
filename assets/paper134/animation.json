@@ -1,0 +1,96 @@
+{
+	"attack": [
+		{
+			"foot": [
+				324.5,
+				611.0
+			],
+			"scale": 0.0663082437275986,
+			"texture": "res://assets/paper134/attack_0.png",
+			"visible_height": 37.0,
+			"visible_width": 32.8225806451613
+		},
+		{
+			"foot": [
+				314.5,
+				618.0
+			],
+			"scale": 0.0663082437275986,
+			"texture": "res://assets/paper134/attack_1.png",
+			"visible_height": 35.8064516129032,
+			"visible_width": 35.7401433691756
+		},
+		{
+			"foot": [
+				356.0,
+				570.0
+			],
+			"scale": 0.0663082437275986,
+			"texture": "res://assets/paper134/attack_2.png",
+			"visible_height": 35.5412186379928,
+			"visible_width": 36.8673835125448
+		},
+		{
+			"foot": [
+				314.0,
+				582.5
+			],
+			"scale": 0.0663082437275986,
+			"texture": "res://assets/paper134/attack_3.png",
+			"visible_height": 37.331541218638,
+			"visible_width": 34.7455197132617
+		}
+	],
+	"base": {
+		"foot": [
+			593.5,
+			1205.0
+		],
+		"scale": 0.0363457760314342,
+		"texture": "res://assets/paper134/base_C.png",
+		"visible_height": 37.0,
+		"visible_width": 30.8575638506876
+	},
+	"drift": [
+		{
+			"foot": [
+				371.0,
+				587.0
+			],
+			"scale": 0.0682656826568266,
+			"texture": "res://assets/paper134/drift_0.png",
+			"visible_height": 37.0,
+			"visible_width": 31.1291512915129
+		},
+		{
+			"foot": [
+				346.0,
+				609.0
+			],
+			"scale": 0.0682656826568266,
+			"texture": "res://assets/paper134/drift_1.png",
+			"visible_height": 34.8154981549816,
+			"visible_width": 34.2693726937269
+		},
+		{
+			"foot": [
+				362.5,
+				561.0
+			],
+			"scale": 0.0682656826568266,
+			"texture": "res://assets/paper134/drift_2.png",
+			"visible_height": 35.0885608856089,
+			"visible_width": 32.4261992619926
+		},
+		{
+			"foot": [
+				334.5,
+				554.0
+			],
+			"scale": 0.0682656826568266,
+			"texture": "res://assets/paper134/drift_3.png",
+			"visible_height": 38.6383763837638,
+			"visible_width": 32.0166051660517
+		}
+	]
+}

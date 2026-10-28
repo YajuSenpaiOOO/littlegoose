@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/art/world_light_profile.gd" id="profile"]
+[resource]
+script = ExtResource("profile")
+label = "暖日"
+sky_color = Color(0.65,0.70,0.78,1)
+direct_color = Color(1,0.95,0.85,1)
+direct_energy = 0.30
+shadow_azimuth_degrees = 58
+elevation_degrees = 57
+shadow_opacity = 0.30
+shadow_tint = Color(0.26,0.30,0.40,1)
+local_shadow_visibility = 0.3
+eave_visibility = 0.65

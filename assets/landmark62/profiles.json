@@ -1,0 +1,62 @@
+{
+  "ancient_oak": {
+    "foot": [
+      627.4954268292682,
+      1249
+    ],
+    "height": 1245,
+    "cutoff": 0.5,
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "silver_willow": {
+    "foot": [
+      646.5463517959349,
+      1242
+    ],
+    "height": 1220,
+    "cutoff": 0.5,
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "flowering_elder": {
+    "foot": [
+      600.3545239682444,
+      1250
+    ],
+    "height": 1244,
+    "cutoff": 0.5,
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "painted_sign": {
+    "foot": [
+      474.6174568359485,
+      1509
+    ],
+    "height": 1481,
+    "size": [
+      1024,
+      1536
+    ],
+    "cutoff": 0.55
+  }
+}

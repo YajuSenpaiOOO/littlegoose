@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-25",
+  "tool": "built-in image_gen",
+  "reference": "art/spider170_candidates/B_cocoa_jumper.png",
+  "source": "poses_source.png",
+  "prompt": "Use case: identity-preserve. Input image is the SELECTED B spider, preserve exactly its cream face, two huge plum eyes, tiny upper eye dots, cocoa oval abdomen with cream stripe, eight cream-and-cocoa rounded legs, muted dark plum pixel outlines, coarse square pixels. Create ONE square transparent 2x2 animation KEY POSE SHEET, four equally sized cells, each showing exactly one complete same spider, consistent camera facing slightly right/front three-quarter, consistent pixel density and same body scale. Generous padding within every cell, no overlap between cells, no letters, no labels, no ground, no shadows, no FX. Top-left: neutral idle standing, sweet curious eyes, eight legs. Top-right: anticipation crouch, body lower, legs gathered near body, eyes concentrating cutely, abdomen squashed and puffed. Bottom-left: in-air jump, eight little legs tucked and slightly splayed, happy determined eyes, same anatomy and proportions. Bottom-right: goofy soft landing splat, body flattened lower, legs splayed harmlessly, squinting closed crescent eyes with embarrassed tiny smile, still same spider, recognizable separate head and abdomen. NOT realistic crawling, no fangs, no extra creatures, not smooth illustration. Actual transparent background. Pixel-art game sprite sheet for cute storybook RPG. All four spiders have exactly eight legs, four each side.",
+  "preparation": "scripts/world/prepare_spider170.gd: connected alpha components, isolated silhouettes, 4px transparent margin, original pixels unchanged."
+}

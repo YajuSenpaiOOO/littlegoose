@@ -1,0 +1,11 @@
+{
+	"bend_max": 0.0389761524546791,
+	"bend_min": -0.155949556327161,
+	"checks": 10,
+	"failures": [],
+	"idle_tip_y": 3.22740530967712,
+	"note": "Only changed adhesion, elasticity and shadow behavior checked; no repeated map suite.",
+	"shadow_pixels": 1041,
+	"squash_min": -0.0587282275452037,
+	"squat_tip_y": 2.86470341682434
+}

@@ -1,0 +1,5 @@
+{
+	"checks": 15,
+	"failures": [],
+	"note": "Targeted delayed damage timing, exact total, cancellation, and real fragment ground projection; goose values unchanged."
+}

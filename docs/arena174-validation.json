@@ -1,0 +1,7 @@
+{
+ "checks": 20,
+ "failures": [],
+ "left_route_length": 21.4705619812012,
+ "note": "New detached test region only: original trees/landmarks/default entry unchanged, both routes physically walked, old combat presets and natural hazards reused.",
+ "right_route_length": 19.6066012382507
+}

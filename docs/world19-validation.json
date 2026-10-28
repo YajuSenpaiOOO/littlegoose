@@ -1,0 +1,85 @@
+{
+	"build_seconds": 11.248,
+	"checks": 25.0,
+	"draw_calls": 896.0,
+	"failures": [],
+	"fps": 125.0,
+	"grass_chunks": 77.0,
+	"max_local_road_segments": 24.0,
+	"render_validation": {
+		"checks": 5,
+		"failures": [],
+		"occluding_crowns": 2,
+		"renderer": "gl_compatibility",
+		"resolution": [
+			1152,
+			720
+		],
+		"trail_draw_calls": 960.0,
+		"trail_fps": 125.0
+	},
+	"routes": [
+		{
+			"at": [
+				0.874994099140167,
+				-30.6746292114258
+			],
+			"completed": true,
+			"name": "home_to_junction",
+			"physics_seconds": 10.2666666666667,
+			"points": 26.0,
+			"target": 26.0,
+			"travelled_metres": 40.8722442500293
+		},
+		{
+			"at": [
+				0.611642897129059,
+				-51.292552947998
+			],
+			"completed": true,
+			"name": "junction_to_station",
+			"physics_seconds": 5.86666666666667,
+			"points": 18.0,
+			"target": 18.0,
+			"travelled_metres": 23.2465595742688
+		},
+		{
+			"at": [
+				-40.8419227600098,
+				-40.6276550292969
+			],
+			"completed": true,
+			"name": "junction_to_grove",
+			"physics_seconds": 11.6333333333333,
+			"points": 26.0,
+			"target": 26.0,
+			"travelled_metres": 46.4564534965903
+		},
+		{
+			"at": [
+				48.7593116760254,
+				-30.8020133972168
+			],
+			"completed": true,
+			"name": "junction_to_shore",
+			"physics_seconds": 12.7333333333333,
+			"points": 26.0,
+			"target": 26.0,
+			"travelled_metres": 51.0137089584023
+		},
+		{
+			"at": [
+				18.4309501647949,
+				-1.1775723695755
+			],
+			"completed": true,
+			"name": "home_to_landing",
+			"physics_seconds": 3.91666666666667,
+			"points": 10.0,
+			"target": 10.0,
+			"travelled_metres": 15.3915282059461
+		}
+	],
+	"terrain_chunks": 63.0,
+	"trees": 365.0
+}

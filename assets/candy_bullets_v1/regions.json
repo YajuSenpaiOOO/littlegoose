@@ -1,0 +1,89 @@
+{
+  "pearl": {
+    "file": "pearl_v1.png",
+    "regions": [
+      [
+        485,
+        260,
+        738,
+        400
+      ]
+    ],
+    "anchor": [
+      545,
+      195
+    ],
+    "core_pixels": 360,
+    "core_world": 6.8
+  },
+  "pearl_core": {
+    "file": "pearl_core_v2.png",
+    "regions": [[680, 245, 414, 414]],
+    "anchor": [207, 207],
+    "core_pixels": 390,
+    "core_world": 6.8
+  },
+  "comet": {
+    "file": "comet_v1.png",
+    "regions": [
+      [
+        430,
+        170,
+        1290,
+        430
+      ]
+    ],
+    "anchor": [
+      1060,
+      210
+    ],
+    "core_pixels": 400,
+    "core_world": 6.8
+  },
+  "impact": {
+    "file": "impact_v1.png",
+    "regions": [
+      [
+        160,
+        160,
+        400,
+        400
+      ],
+      [
+        884,
+        160,
+        400,
+        400
+      ],
+      [
+        1608,
+        160,
+        400,
+        400
+      ]
+    ]
+  },
+  "muzzle": {
+    "file": "muzzle_v1.png",
+    "regions": [
+      [
+        200,
+        195,
+        330,
+        330
+      ],
+      [
+        924,
+        195,
+        330,
+        330
+      ],
+      [
+        1648,
+        195,
+        330,
+        330
+      ]
+    ]
+  }
+}

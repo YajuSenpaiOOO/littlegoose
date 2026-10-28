@@ -1,0 +1,8 @@
+{
+	"checks": 13,
+	"deliveries_per_plane": 6,
+	"failures": [],
+	"moving_paper_damage": 6.47058823528823,
+	"moving_paper_hits": 11,
+	"region_radius": 2.4
+}

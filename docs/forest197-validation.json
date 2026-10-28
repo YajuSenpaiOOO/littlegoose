@@ -1,0 +1,109 @@
+{
+ "checks": [
+  {
+   "check": "camera-facing plane preserves image-axis proportions",
+   "ok": true
+  },
+  {
+   "check": "visual plane aligns with actual camera while physical body stays upright",
+   "ok": true
+  },
+  {
+   "check": "camera-facing geometry does not double the old lighting-normal tilt",
+   "ok": true
+  },
+  {
+   "check": "F1 baseline restores the 169 and 192 display ratio",
+   "ok": true
+  },
+  {
+   "check": "upright comparison restores its dedicated lighting normal",
+   "ok": true
+  },
+  {
+   "check": "switch preserves foot anchor, source texture and pixel scale",
+   "ok": true
+  },
+  {
+   "check": "physical body and collision shapes remain unchanged across display switch",
+   "ok": true
+  },
+  {
+   "check": "atlas sheet remains correctly bound for up",
+   "ok": true
+  },
+  {
+   "check": "walking roll survives plane alignment for up",
+   "ok": true
+  },
+  {
+   "check": "atlas sheet remains correctly bound for left",
+   "ok": true
+  },
+  {
+   "check": "walking roll survives plane alignment for left",
+   "ok": true
+  },
+  {
+   "check": "atlas sheet remains correctly bound for right",
+   "ok": true
+  },
+  {
+   "check": "walking roll survives plane alignment for right",
+   "ok": true
+  },
+  {
+   "check": "atlas sheet remains correctly bound for down",
+   "ok": true
+  },
+  {
+   "check": "walking roll survives plane alignment for down",
+   "ok": true
+  },
+  {
+   "check": "dash keeps the same display plane",
+   "ok": true
+  },
+  {
+   "check": "dash afterimage copies aligned artwork and transform",
+   "ok": true
+  },
+  {
+   "check": "camera-facing white hair retains detail at cottage hour 12.0",
+   "ok": true
+  },
+  {
+   "check": "camera-facing white hair retains detail at cottage hour 22.0",
+   "ok": true
+  },
+  {
+   "check": "native stage still brightens camera-facing hero",
+   "ok": true
+  },
+  {
+   "check": "native stage retains amber rather than white response",
+   "ok": true
+  },
+  {
+   "check": "existing actor projection remains bound to aligned hero artwork",
+   "ok": true
+  },
+  {
+   "check": "hero still owns its projected shadow",
+   "ok": true
+  },
+  {
+   "check": "camera-facing hero physically walks existing entrance steps and forest lane",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "camera_ratio": 1.0,
+  "stage_lit": "(0.7347, 0.494, 0.4793, 1.0)",
+  "stage_unlit": "(0.4946, 0.4091, 0.5844, 1.0)",
+  "upright_ratio": 0.910154442294115,
+  "white_12": 0.0,
+  "white_22": 0.048048048048048
+ }
+}

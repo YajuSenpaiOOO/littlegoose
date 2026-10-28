@@ -1,0 +1,26 @@
+{
+	"checks": 4,
+	"failures": [],
+	"sites": {
+		"field": {
+			"active_projections": 11,
+			"all_projections": 14,
+			"changed_ratio": 0.0
+		},
+		"rear": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"changed_ratio": 0.0
+		},
+		"station": {
+			"active_projections": 1,
+			"all_projections": 14,
+			"changed_ratio": 0.0
+		},
+		"west": {
+			"active_projections": 11,
+			"all_projections": 14,
+			"changed_ratio": 0.0
+		}
+	}
+}

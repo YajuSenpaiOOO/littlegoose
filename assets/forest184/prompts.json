@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "assets/forest14/a_trees.png",
+  "assets": [
+    {
+      "file": "ribbon_oak.png",
+      "prompt": "Create ONE transparent pixel-art GAME TREE sprite. The attached two-tree sheet is the STYLE reference only: broad simple foliage clumps, chunky shaded trunk, readable game silhouette. Draw one very large cozy ancient forest oak with a stout gently curved trunk, a HIGH broad crown of about 12 large rounded blue-green leaf masses. IMPORTANT: simplified chunky pixel clusters, limited color palette, large quiet shadow areas, NOT thousands of individually drawn leaves, NOT realistic bark, NO tiny flowers, NO speckling, NO stippled dots, NO dense holes or repetitive patterns. Pleasant soft silhouette. Crown takes top half, open lower trunk space. Tree height 11 meters, crown width 9m, compact base width 4m. Thick curved roots wrap THREE simple rounded mossy boulders at foot. Two simple pale lavender cloth ribbons tied loosely around trunk below fork, ends curve gently; these ribbons are the only ornaments. No lanterns, no faces or eyes. View 25 degrees down from horizontal, front-facing 2.5D sprite with roots showing a little top surface. Entire tree including crown and roots isolated on genuine transparent background, generous margin. No landscape, ground disk, ground plane, cast shadow, labels. Match the original game's simplified tree more than a detailed illustration."
+    },
+    {
+      "file": "hanging_lantern.png",
+      "prompt": "ONE isolated hanging lantern sprite for a cozy pixel-art forest game, genuine transparent background. Small plump rounded amber nightlight in a simple woven wicker cage, lavender cloth cap, a clearly visible thick hanging loop on TOP and short cord above loop. Entire object including cord visible. Designed to hang from a tree branch; no supporting pole, tree, branch or bracket in image. Warm honey-yellow glowing center, soft cream highlights, dark brown chunky rim, one tiny lavender bow. Match the simplified chunky pixel art tree reference, large readable pixels and color blocks, very limited tiny details, no photorealism, no fine filigree, no glitter. View 25 degrees down from horizontal, front/very slight right-facing, 2.5D game prop. Lamp body about .5 meters high, cord .25 meters. Transparent margins. No painted external halo, background, ground, shadows, text or multiple variants."
+    }
+  ]
+}

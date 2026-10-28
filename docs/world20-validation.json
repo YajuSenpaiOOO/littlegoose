@@ -1,0 +1,103 @@
+{
+	"checks": 22,
+	"failures": [],
+	"max_local_road_segments": 46,
+	"routes": [
+		{
+			"at": [
+				0.870185375213623,
+				-24.539119720459
+			],
+			"completed": true,
+			"name": "home_to_junction",
+			"physics_seconds": 8.76666666666667,
+			"points": 26,
+			"target": 26,
+			"travelled_metres": 34.7828087024391
+		},
+		{
+			"at": [
+				0.621071815490723,
+				-51.2898445129395
+			],
+			"completed": true,
+			"name": "junction_to_station",
+			"physics_seconds": 4.66666666666667,
+			"points": 18,
+			"target": 18,
+			"travelled_metres": 18.2304363232106
+		},
+		{
+			"at": [
+				-40.773567199707,
+				-40.4909934997559
+			],
+			"completed": true,
+			"name": "junction_to_grove",
+			"physics_seconds": 10.35,
+			"points": 26,
+			"target": 26,
+			"travelled_metres": 40.4509631413966
+		},
+		{
+			"at": [
+				48.6550025939941,
+				-30.813777923584
+			],
+			"completed": true,
+			"name": "junction_to_shore",
+			"physics_seconds": 11.1833333333333,
+			"points": 26,
+			"target": 26,
+			"travelled_metres": 44.989346944727
+		},
+		{
+			"at": [
+				18.4308643341064,
+				-1.17755997180939
+			],
+			"completed": true,
+			"name": "home_to_landing",
+			"physics_seconds": 3.91666666666667,
+			"points": 10,
+			"target": 10,
+			"travelled_metres": 15.3914838973433
+		},
+		{
+			"at": [
+				0.518753349781036,
+				-24.8837699890137
+			],
+			"completed": true,
+			"name": "junction_ring",
+			"physics_seconds": 9.91666666666667,
+			"points": 25,
+			"target": 25,
+			"travelled_metres": 39.505305012688
+		},
+		{
+			"at": [
+				-5.68358850479126,
+				-30.8654918670654
+			],
+			"completed": true,
+			"name": "junction_to_grove_reverse",
+			"physics_seconds": 10.1833333333333,
+			"points": 26,
+			"target": 26,
+			"travelled_metres": 40.4143013171852
+		},
+		{
+			"at": [
+				0.895044267177582,
+				-24.8617286682129
+			],
+			"completed": true,
+			"name": "junction_ring_reverse",
+			"physics_seconds": 9.9,
+			"points": 25,
+			"target": 25,
+			"travelled_metres": 39.4571803612635
+		}
+	]
+}

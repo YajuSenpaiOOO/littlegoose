@@ -1,0 +1,74 @@
+{
+ "checks": [
+  {
+   "check": "long purple placeholder strips are gone",
+   "ok": true
+  },
+  {
+   "check": "flags plush and woven lantern are installed in world",
+   "ok": true
+  },
+  {
+   "check": "generated prop retains true transparent background",
+   "ok": true
+  },
+  {
+   "check": "generated prop retains true transparent background",
+   "ok": true
+  },
+  {
+   "check": "generated prop retains true transparent background",
+   "ok": true
+  },
+  {
+   "check": "all three flights reuse existing hand-painted stair material",
+   "ok": true
+  },
+  {
+   "check": "new visual treads do not add hard movement snags",
+   "ok": true
+  },
+  {
+   "check": "worn-soil trail and sparse thin stone accents reach cottage",
+   "ok": true
+  },
+  {
+   "check": "lantern artwork has real warm engine lights",
+   "ok": true
+  },
+  {
+   "check": "sample starts physically grounded on lowland",
+   "ok": true
+  },
+  {
+   "check": "hero walks new cottage trail past decorations and roots",
+   "ok": true
+  },
+  {
+   "check": "new trail also walks back to entry vignette",
+   "ok": true
+  },
+  {
+   "check": "reused stone stair flights walk uphill without snagging",
+   "ok": true
+  },
+  {
+   "check": "whole map connection back to yard remains usable",
+   "ok": true
+  },
+  {
+   "check": "reused stair flights walk downhill with matching support",
+   "ok": true
+  },
+  {
+   "check": "stable cottage projection retained",
+   "ok": true
+  },
+  {
+   "check": "default entry and no-auto-fight preview behavior retained",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "note": "Three transparent props integrated; map stair builder/material reused; old strip removed. Real walks sample-cottage-sample-upstairs-yard and back down. Terrain180 unchanged."
+}

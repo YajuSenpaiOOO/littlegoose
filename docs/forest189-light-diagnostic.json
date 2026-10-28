@@ -1,0 +1,19 @@
+{
+ "actor_stage57": "0.7",
+ "cone_bottom58": "(-55.0, -2.138993, 17.0)",
+ "cone_bounds58": "(0.170182, -0.002316, 0.829818, 0.754369)",
+ "cone_strength58": "1.0",
+ "cone_top58": "(-55.0, 3.801007, 17.3)",
+ "fill_enabled": false,
+ "fill_light_visible": false,
+ "forest_strength186": "1.0",
+ "hero_modulate": "(0.9435, 0.9597, 0.9609, 1.0)",
+ "hero_shaded": false,
+ "night_mix56": "1.0",
+ "old_atlas_edge_screen_y": 625.203735351563,
+ "spot_position": "(-55.0, 3.801007, 17.3)",
+ "spot_visible": true,
+ "stage_center57": "(0.5, 0.5)",
+ "stage_depth57": "14.9999990463257",
+ "stage_radius57": "(0.046132, 0.097745)"
+}

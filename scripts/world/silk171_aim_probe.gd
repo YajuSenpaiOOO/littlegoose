@@ -1,0 +1,47 @@
+extends "res://scripts/world/silk171_probe.gd"
+func run() -> void:
+ root.size=Vector2i(1600,1000)
+ var s := preload("res://scripts/world/woodland_world171.gd").new();s.memory_save116="user://silk171_aim_tmp.cfg";root.add_child(s)
+ while not is_instance_valid(s.arc_shadows167): await physics_frame
+ s.build170=8;s.start_spider170();freeze171(s);s.set_physics_process(false);s.hero.set_physics_process(false);s.hero.controls_enabled=false
+ var g: Vector2=s.meadow.landmarks.grove;var e: CharacterBody3D=s.enemies[0]
+ s._teleport15(g+Vector2(0.,4.))
+ for actor in s.enemies:
+  actor.position=Vector3(g.x-4.-actor.role110,s.floor_height(g)+.06,g.y);actor.impulse=Vector2.ZERO;actor.reset_physics_interpolation()
+ e.begin_hop170(g+Vector2(4.,0.));e._render_legacy(.15)
+ var side: float=Vector3(e.hop170.x,0.,e.hop170.y).dot(s.camera.global_basis.x)
+ verify(absf(side)>.08 and e.visual.flip_h==(side<0.),"small-hop anticipation faces travel direction")
+ e.enter170("hop");e._render_legacy(.25)
+ verify(e.visual.flip_h==(side<0.),"airborne pose preserves selected movement side")
+ e.face_motion171(Vector2(s.camera.global_basis.x.x,s.camera.global_basis.x.z));e._render_legacy(0.)
+ verify(not e.visual.flip_h,"rightward motion faces right")
+ e.face_motion171(-Vector2(s.camera.global_basis.x.x,s.camera.global_basis.x.z));e._render_legacy(0.)
+ verify(e.visual.flip_h,"leftward motion faces left")
+ e.face_motion171(Vector2(s.camera.global_basis.z.x,s.camera.global_basis.z.z));e._render_legacy(0.)
+ verify(e.visual.flip_h,"near-vertical travel does not flicker side")
+ e.enter170("watch");s.release_silk171(e,Vector2.DOWN)
+ var b: CharacterBody3D=s.silk171[0];b.set_physics_process(false);b.position=Vector3(g.x,s.floor_height(g)+.06,g.y);b.reset_physics_interpolation();b._render_legacy(0.)
+ await settle(20)
+ var cursor: Vector2=s.camera.unproject_position(b.hit_area.global_position)
+ s.aim_tick114=-1;s._refresh_aim114(cursor)
+ verify(s.target114==b,"pointing at silk ball selects it through normal aim assist")
+ verify(s.enemies.size()==3 and not s.enemies.has(b),"aim query restores real encounter actor list")
+ var origin := s.camera.unproject_position(s.hero.position+Vector3.UP*.8)
+ var close := origin+(cursor-origin).rotated(.10)
+ s.target114=null;s.aim_tick114=-1;s._refresh_aim114(close)
+ verify(s.target114==b,"nearby cursor receives soft ball assistance")
+ s.target114=null;s.aim_tick114=-1
+ var spider_cursor: Vector2=s.camera.unproject_position(e.hit_area.global_position)
+ s._refresh_aim114(spider_cursor)
+ verify(s.target114==e,"aiming at spider is not stolen by off-direction ball")
+ s.target114=null;s.aim_tick114=-1;var aim: Vector3=s.aim_at_screen(cursor)
+ verify(s.target114==b and aim.distance_to(b.hit_area.global_position)<.01,"normal shooting resolves selected ball height")
+ var count: int=s.defeated_count;s.fire_at(aim)
+ for i in 60: s._step_shots(1./60.)
+ verify(b.retired171 and b.reason171=="shot" and s.defeated_count==count,"assisted native shot clears ball without spider kill")
+ s.aim_tick114=-1;s._refresh_aim114(cursor)
+ verify(s.target114!=b,"destroyed ball is released as aim target")
+ s.clear_silk171();verify(s.enemies.size()==3,"ball cleanup leaves encounter intact")
+ var report := {"checks":checks,"failures":failures,"note":"Only facing and narrow-cone ball aim assistance changed; no debuff, lifetime or enemy attack changes."}
+ FileAccess.open("res://docs/silk171-aim-validation.json",FileAccess.WRITE).store_string(JSON.stringify(report," "))
+ DirAccess.remove_absolute(ProjectSettings.globalize_path("user://silk171_aim_tmp.cfg"));print("SILK171_AIM_DONE ",JSON.stringify(report));quit(0 if failures.is_empty() else 1)

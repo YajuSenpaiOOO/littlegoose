@@ -1,0 +1,9 @@
+{
+  "status": "local_ground_built_neighbor_regions_not_connected",
+  "coordinate_space": "home_pixel_study_world_units",
+  "corridor_width": 40,
+  "centerline": [[28, 70], [28, 290], [300, 290], [300, -220]],
+  "north_staging_point": [300, -220],
+  "north_boundary_connection": [300, -245],
+  "note": "Outer east lane is rendered from this centerline and returns north toward A's future central junction. Current sandbox boundary walls still block region exits. Junction and other regions are not built."
+}

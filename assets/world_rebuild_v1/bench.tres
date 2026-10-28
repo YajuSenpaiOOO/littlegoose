@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="1_pbe0a"]
+[ext_resource type="Texture2D" path="res://assets/garden_theater_v1/bench_v1.png" id="2_t7cd5"]
+
+[resource]
+script = ExtResource("1_pbe0a")
+texture = ExtResource("2_t7cd5")
+anchor_px = Vector2(768, 632)
+draw_scale = 0.075
+footprint = Vector2(55, 10)
+footprint_offset = Vector2(0, -2)
+contact_size = Vector2(60, 12)
+projection_kind = 1
+height = 18.0
+raised_plane = Rect2(-31, -6, 62, 8)
+contacts = PackedVector2Array(-30, -3, -24, 2, 24, 2, 30, -3)

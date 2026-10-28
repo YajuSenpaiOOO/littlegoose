@@ -1,0 +1,171 @@
+{
+	"initial_vsync": 1,
+	"lake": {
+		"full_repeat": {
+			"cpu_median_ms": 13.756,
+			"draw_calls": 678.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.93,
+			"median_ms": 12.701,
+			"p95_ms": 16.591,
+			"p99_ms": 17.878
+		},
+		"native_full": {
+			"cpu_median_ms": 15.169,
+			"draw_calls": 672.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.974,
+			"median_ms": 11.271,
+			"p95_ms": 14.875,
+			"p99_ms": 16.839
+		},
+		"no_blur": {
+			"cpu_median_ms": 14.833,
+			"draw_calls": 672.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.863,
+			"median_ms": 11.206,
+			"p95_ms": 14.753,
+			"p99_ms": 16.336
+		},
+		"no_post": {
+			"cpu_median_ms": 13.121,
+			"draw_calls": 672.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.46,
+			"median_ms": 11.356,
+			"p95_ms": 15.599,
+			"p99_ms": 16.241
+		},
+		"old_fade": {
+			"cpu_median_ms": 14.661,
+			"draw_calls": 672.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.03,
+			"median_ms": 11.604,
+			"p95_ms": 16.232,
+			"p99_ms": 17.857
+		},
+		"small_window": {
+			"cpu_median_ms": 51.429,
+			"draw_calls": 674.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.925,
+			"median_ms": 11.256,
+			"p95_ms": 15.513,
+			"p99_ms": 16.641
+		},
+		"uncapped_full": {
+			"cpu_median_ms": 14.617,
+			"draw_calls": 672.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.729,
+			"median_ms": 11.384,
+			"p95_ms": 15.488,
+			"p99_ms": 17.175
+		},
+		"water_still": {
+			"cpu_median_ms": 13.912,
+			"draw_calls": 674.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.529,
+			"median_ms": 11.927,
+			"p95_ms": 15.3,
+			"p99_ms": 17.49
+		}
+	},
+	"max_fps": 0,
+	"refresh_hz": 300.0,
+	"renderer": "gl_compatibility",
+	"root": {
+		"full_repeat": {
+			"cpu_median_ms": 42.825,
+			"draw_calls": 772.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.123,
+			"median_ms": 9.59,
+			"p95_ms": 13.261,
+			"p99_ms": 14.756
+		},
+		"native_full": {
+			"cpu_median_ms": 19.412,
+			"draw_calls": 778.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.983,
+			"median_ms": 9.822,
+			"p95_ms": 15.519,
+			"p99_ms": 19.01
+		},
+		"no_blur": {
+			"cpu_median_ms": 13.961,
+			"draw_calls": 772.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 15.332,
+			"median_ms": 10.446,
+			"p95_ms": 13.903,
+			"p99_ms": 15.325
+		},
+		"no_post": {
+			"cpu_median_ms": 13.408,
+			"draw_calls": 772.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.484,
+			"median_ms": 10.141,
+			"p95_ms": 13.728,
+			"p99_ms": 14.921
+		},
+		"old_fade": {
+			"cpu_median_ms": 14.471,
+			"draw_calls": 773.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.282,
+			"median_ms": 11.133,
+			"p95_ms": 14.105,
+			"p99_ms": 15.661
+		},
+		"small_window": {
+			"cpu_median_ms": 64.956,
+			"draw_calls": 772.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.094,
+			"median_ms": 9.618,
+			"p95_ms": 13.175,
+			"p99_ms": 14.581
+		},
+		"uncapped_full": {
+			"cpu_median_ms": 14.766,
+			"draw_calls": 773.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 16.682,
+			"median_ms": 10.508,
+			"p95_ms": 14.498,
+			"p99_ms": 16.475
+		},
+		"water_still": {
+			"cpu_median_ms": 14.293,
+			"draw_calls": 772.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.021,
+			"median_ms": 9.879,
+			"p95_ms": 13.672,
+			"p99_ms": 16.105
+		}
+	},
+	"size": "(1440, 900)"
+}

@@ -1,0 +1,12 @@
+{
+	"checks": 11,
+	"failures": [],
+	"poses": [
+		"attack2",
+		"attack0",
+		"attack1",
+		"attack3",
+		"drift1",
+		"drift0"
+	]
+}

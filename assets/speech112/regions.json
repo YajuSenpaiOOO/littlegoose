@@ -1,0 +1,26 @@
+{
+  "bubble_frame": {
+    "file": "bubble_atlas_clean_v2.png",
+    "region": [
+      21,
+      213,
+      1495,
+      448
+    ],
+    "margins": [
+      170,
+      110,
+      170,
+      110
+    ]
+  },
+  "bubble_tail": {
+    "file": "bubble_atlas_clean_v2.png",
+    "region": [
+      659,
+      753,
+      197,
+      203
+    ]
+  }
+}

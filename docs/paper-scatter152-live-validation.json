@@ -1,0 +1,19 @@
+{
+	"checks": 3,
+	"failures": [],
+	"live_encounter": [
+		{
+			"damage": 8.23529411764707,
+			"hits": 21,
+			"kills": 0,
+			"random": true
+		},
+		{
+			"damage": 22.3921568627451,
+			"hits": 39,
+			"kills": 2,
+			"random": false
+		}
+	],
+	"note": "Sequential smoke test in one live encounter, not matched balance samples; player is invulnerable for observation."
+}

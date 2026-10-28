@@ -1,0 +1,54 @@
+{
+	"defeat": {
+		"foot": [
+			783.0,
+			956.0
+		],
+		"scale": 0.029179810725552,
+		"texture": "res://assets/paper135/defeat.png",
+		"visible_height": 22.4392744479495,
+		"visible_width": 37.0
+	},
+	"right": [
+		{
+			"foot": [
+				353.0,
+				610.0
+			],
+			"scale": 0.0670289855072464,
+			"texture": "res://assets/paper135/right_0.png",
+			"visible_height": 37.0,
+			"visible_width": 35.7934782608696
+		},
+		{
+			"foot": [
+				322.5,
+				605.0
+			],
+			"scale": 0.0670289855072464,
+			"texture": "res://assets/paper135/right_1.png",
+			"visible_height": 36.195652173913,
+			"visible_width": 34.5199275362319
+		},
+		{
+			"foot": [
+				347.0,
+				566.0
+			],
+			"scale": 0.0670289855072464,
+			"texture": "res://assets/paper135/right_2.png",
+			"visible_height": 36.731884057971,
+			"visible_width": 38.4746376811594
+		},
+		{
+			"foot": [
+				317.0,
+				576.0
+			],
+			"scale": 0.0670289855072464,
+			"texture": "res://assets/paper135/right_3.png",
+			"visible_height": 37.9384057971015,
+			"visible_width": 36.0615942028986
+		}
+	]
+}

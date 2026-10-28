@@ -1,0 +1,7 @@
+# 低矮野花素材生成记录
+
+内置 image_gen；2026-10-17。透明 PNG 保存为本目录 daisy_sprig.png；不覆盖已有植物素材。游戏运行时按图片有效范围定位根部并缩放到约 0.22–0.42 米，保留原图 alpha。
+
+## 完整提示词
+
+Use case: stylized-concept. Asset type: a single compact LOW WILD DAISY SPRIG sprite for a cozy 2.5D pixel-hand-painted woodland game, transparent background. Subject: one loose airy naturally asymmetric patch of three small ivory-white daisies with warm ochre centers, a few very small buds, slender olive and sage blades/leaves emerging from ONE narrow shared root baseline. More exposed stems and individual blade shapes, NOT a round bush, NOT a bouquet, NOT a mound, no dirt patch or flat ground painted underneath. Style: carefully clustered painterly pixel art, crisp stepped contours, limited colors with subdued olive greens, amber-lit edges and cool green shaded undersides; textured but restrained like detailed 1990s JRPG background plants, not photographic, not smooth vector, not 3D render. Camera: front-facing with slight view down from 25 degrees ABOVE HORIZONTAL, horizontal yaw exactly zero. The stem roots sit at same ground height, all fully visible. Composition: centered isolated object occupies about 70 percent of image width, complete silhouette with generous transparent margin, bottom at about 85 percent of image. Lighting: soft warm upper-left light, no cast shadow baked outside roots. Tiny herb not giant sunflower. No text, no frame. True transparent alpha.

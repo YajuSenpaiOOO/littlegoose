@@ -1,0 +1,98 @@
+{
+ "camera_down_degrees": 25,
+ "checks": [
+  {
+   "check": "actual following camera looks down 25 degrees",
+   "ok": true
+  },
+  {
+   "check": "north remains at original 0.2m altitude",
+   "ok": true
+  },
+  {
+   "check": "forest floor is lowered 2.4m rather than raising north",
+   "ok": true
+  },
+  {
+   "check": "three short stone flights with six treads each",
+   "ok": true
+  },
+  {
+   "check": "flat landing at approach distance 9.5m",
+   "ok": true
+  },
+  {
+   "check": "flat landing at approach distance 17.0m",
+   "ok": true
+  },
+  {
+   "check": "flat landing at approach distance 24.5m",
+   "ok": true
+  },
+  {
+   "check": "entry stays grounded on original altitude",
+   "ok": true
+  },
+  {
+   "check": "existing tree art reused and ribbon meshes remain independent",
+   "ok": true
+  },
+  {
+   "check": "corrected right-facing cottage preserves alpha",
+   "ok": true
+  },
+  {
+   "check": "hero walks down first short stair flight",
+   "ok": true
+  },
+  {
+   "check": "hero descends all flights and both bends into forest",
+   "ok": true
+  },
+  {
+   "check": "approach reaches physical sunken floor",
+   "ok": true
+  },
+  {
+   "check": "east root route remains passable",
+   "ok": true
+  },
+  {
+   "check": "west root route remains passable",
+   "ok": true
+  },
+  {
+   "check": "east return ramp reaches original north ground",
+   "ok": true
+  },
+  {
+   "check": "north support is unchanged original altitude",
+   "ok": true
+  },
+  {
+   "check": "hero returns to lowland and reaches cottage",
+   "ok": true
+  },
+  {
+   "check": "house fades when hero is behind",
+   "ok": true
+  },
+  {
+   "check": "hero walks UP all three stair flights back to entrance",
+   "ok": true
+  },
+  {
+   "check": "return stairs restore entry altitude",
+   "ok": true
+  },
+  {
+   "check": "normal default unchanged; no new enemy encounter or progression",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "forest_floor_y": -2.2,
+ "note": "Standalone first terrain pass. Native terrain collision and visible 13cm treads with smooth collision support per short flight; existing tree art reused, cloth independent; new cottage pixels need user direction/elevation review.",
+ "original_ground_y": 0.2,
+ "short_stair_flights": 3
+}

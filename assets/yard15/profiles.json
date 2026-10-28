@@ -1,0 +1,164 @@
+{
+	"bench": {
+		"bounds": [
+			67,
+			195,
+			617,
+			456
+		],
+		"cell": [
+			687,
+			0,
+			755,
+			724
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/props.png",
+		"foot": [
+			375.5,
+			651
+		],
+		"height": 456,
+		"padding": 4
+	},
+	"cottage_a": {
+		"bounds": [
+			63,
+			93,
+			1205,
+			1037
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/cottage_a.png",
+		"foot": [
+			603.52,
+			1114
+		],
+		"height": 1037
+	},
+	"cottage_b": {
+		"bounds": [
+			42,
+			54,
+			1232,
+			1104
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/cottage_b.png",
+		"foot": [
+			656.0,
+			1149
+		],
+		"height": 1104
+	},
+	"tree_0": {
+		"bounds": [
+			29,
+			90,
+			609,
+			667
+		],
+		"cell": [
+			0,
+			0,
+			676,
+			793
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/trees.png",
+		"foot": [
+			388.059334298119,
+			757
+		],
+		"height": 667,
+		"padding": 4
+	},
+	"tree_1": {
+		"bounds": [
+			48,
+			23,
+			489,
+			740
+		],
+		"cell": [
+			676,
+			0,
+			577,
+			793
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/trees.png",
+		"foot": [
+			326.778761061947,
+			763
+		],
+		"height": 740,
+		"padding": 4
+	},
+	"tree_2": {
+		"bounds": [
+			50,
+			103,
+			658,
+			661
+		],
+		"cell": [
+			1253,
+			0,
+			730,
+			793
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/trees.png",
+		"foot": [
+			470.595744680851,
+			764
+		],
+		"height": 661,
+		"padding": 4
+	},
+	"wall": {
+		"bounds": [
+			81,
+			329,
+			606,
+			322
+		],
+		"cell": [
+			1442,
+			0,
+			730,
+			724
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/props.png",
+		"foot": [
+			384.0,
+			651
+		],
+		"height": 322,
+		"padding": 4
+	},
+	"wood": {
+		"bounds": [
+			62,
+			230,
+			567,
+			410
+		],
+		"cell": [
+			0,
+			0,
+			687,
+			724
+		],
+		"cutoff": 0.5,
+		"file": "res://assets/yard15/props.png",
+		"foot": [
+			345.5,
+			640
+		],
+		"height": 410,
+		"padding": 4
+	}
+}

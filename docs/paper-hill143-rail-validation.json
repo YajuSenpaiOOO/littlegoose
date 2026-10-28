@@ -1,0 +1,7 @@
+{
+  "check": "rail end follows coastline within 3 mm",
+  "minimum_coast_score_m": -0.00174522399902,
+  "tolerance_m": 0.003,
+  "passed": true,
+  "source": "paper-hill143-final2.log"
+}

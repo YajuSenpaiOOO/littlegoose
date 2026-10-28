@@ -1,0 +1,12 @@
+{
+	"normal": {
+		"compared": 2971,
+		"max_error": 1.60500335693359,
+		"missing": 0
+	},
+	"rotated": {
+		"compared": 2971,
+		"max_error": 1.60500335693359,
+		"missing": 0
+	}
+}

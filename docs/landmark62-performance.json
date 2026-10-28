@@ -1,0 +1,50 @@
+{
+	"camera": "temporary full tree review; same light, painted sign, no water animation",
+	"frames_per_variant": 180,
+	"results": [
+		{
+			"cpu_median_ms": 18.495,
+			"draw_calls": 722.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 22.802,
+			"median_ms": 12.717,
+			"p95_ms": 17.74,
+			"p99_ms": 20.265,
+			"variant": -1
+		},
+		{
+			"cpu_median_ms": 17.775,
+			"draw_calls": 722.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.092,
+			"median_ms": 12.797,
+			"p95_ms": 18.305,
+			"p99_ms": 19.465,
+			"variant": 0
+		},
+		{
+			"cpu_median_ms": 21.935,
+			"draw_calls": 722.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 23.603,
+			"median_ms": 12.734,
+			"p95_ms": 18.279,
+			"p99_ms": 20.044,
+			"variant": 1
+		},
+		{
+			"cpu_median_ms": 21.935,
+			"draw_calls": 722.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.392,
+			"median_ms": 12.546,
+			"p95_ms": 17.527,
+			"p99_ms": 20.234,
+			"variant": 2
+		}
+	]
+}

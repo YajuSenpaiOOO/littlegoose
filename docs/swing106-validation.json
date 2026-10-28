@@ -1,0 +1,11 @@
+{
+	"energy_after": 0.0000318862814094696,
+	"energy_before": 0.545042503378862,
+	"hero_contacts": 43,
+	"max_swing_angle": 0.42,
+	"remaining_planes": 0,
+	"root_ground_error": 0.0216661772938096,
+	"root_vertices": 1224,
+	"swing_bumps": 3,
+	"tree_plane_moves": 2
+}

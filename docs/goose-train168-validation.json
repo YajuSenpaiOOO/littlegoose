@@ -1,0 +1,10 @@
+{
+	"checks": 36,
+	"damage_ratios": [
+		1.4,
+		1.8,
+		2.2
+	],
+	"failures": [],
+	"note": "Targeted count/slots, source damage snapshots, train route, cluster, pause/teleport and reuse; status proc strength remains existing behavior."
+}

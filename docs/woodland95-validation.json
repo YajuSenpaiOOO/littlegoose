@@ -1,0 +1,73 @@
+{
+	"checks": 10,
+	"failures": [],
+	"flowers": 454,
+	"performance": {
+		"no_depth_of_field": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 18.305,
+			"draw_calls": 1016.0,
+			"max_ms": 21.541,
+			"median_ms": 10.647,
+			"p95_ms": 15.823,
+			"projection_calls": 360,
+			"projection_rebuilds": 10
+		},
+		"no_native_shadows": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 41.209,
+			"draw_calls": 289.0,
+			"max_ms": 19.522,
+			"median_ms": 8.661,
+			"p95_ms": 13.632,
+			"projection_calls": 360,
+			"projection_rebuilds": 10
+		},
+		"scoped_first": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 15.596,
+			"draw_calls": 1016.0,
+			"max_ms": 17.938,
+			"median_ms": 9.749,
+			"p95_ms": 12.709,
+			"projection_calls": 360,
+			"projection_rebuilds": 0
+		},
+		"scoped_second": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 15.822,
+			"draw_calls": 1016.0,
+			"max_ms": 19.555,
+			"median_ms": 9.856,
+			"p95_ms": 15.394,
+			"projection_calls": 360,
+			"projection_rebuilds": 10
+		},
+		"unscoped_first": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 14.267,
+			"draw_calls": 1016.0,
+			"max_ms": 17.532,
+			"median_ms": 10.617,
+			"p95_ms": 14.307,
+			"projection_calls": 0,
+			"projection_rebuilds": 0
+		},
+		"unscoped_second": {
+			"active_projections": 10,
+			"all_projections": 14,
+			"cpu_median_ms": 20.223,
+			"draw_calls": 1016.0,
+			"max_ms": 46.459,
+			"median_ms": 10.749,
+			"p95_ms": 15.122,
+			"projection_calls": 0,
+			"projection_rebuilds": 14
+		}
+	}
+}

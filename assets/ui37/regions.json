@@ -1,0 +1,56 @@
+{
+  "gem": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      19,
+      184,
+      399,
+      378
+    ]
+  },
+  "crack_one": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      431,
+      184,
+      392,
+      378
+    ]
+  },
+  "crack_two": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      836,
+      184,
+      399,
+      378
+    ]
+  },
+  "socket": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      19,
+      718,
+      400,
+      374
+    ]
+  },
+  "shard_large": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      527,
+      779,
+      243,
+      266
+    ]
+  },
+  "shard_small": {
+    "file": "gems_atlas_v1.png",
+    "region": [
+      949,
+      823,
+      189,
+      206
+    ]
+  }
+}

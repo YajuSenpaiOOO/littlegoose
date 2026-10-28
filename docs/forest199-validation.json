@@ -1,0 +1,92 @@
+{
+ "checks": [
+  {
+   "check": "169 projected proportions restored without geometry tilt",
+   "ok": true
+  },
+  {
+   "check": "standard native material adjusts lighting normal only",
+   "ok": true
+  },
+  {
+   "check": "noon window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "night window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "local native light warms and brightens upright hero",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for up",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for left",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for right",
+   "ok": true
+  },
+  {
+   "check": "dash preserves original geometry angle",
+   "ok": true
+  },
+  {
+   "check": "native stage actually brightens upright hero in exterior night",
+   "ok": true
+  },
+  {
+   "check": "native stage gives rendered hero an amber response",
+   "ok": true
+  },
+  {
+   "check": "amber stage retains real native shadow reception",
+   "ok": true
+  },
+  {
+   "check": "all eight forest lamps plus hammock tree and cat share the upright depth adapter",
+   "ok": true
+  },
+  {
+   "check": "regional path corridor removes a bounded set of foreground trees",
+   "ok": true
+  },
+  {
+   "check": "sight corridor does not leave invisible solid trunks",
+   "ok": true
+  },
+  {
+   "check": "paint-derived trunk feet and expanded physical footprints agree",
+   "ok": true
+  },
+  {
+   "check": "real physics ray meets the calibrated hammock trunk",
+   "ok": true
+  },
+  {
+   "check": "hidden tree also fades its independent native shadow caster",
+   "ok": true
+  },
+  {
+   "check": "player traverses cleared entrance corridor to central forest",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "depth_cards": 10,
+  "local_off": "(0.1189, 0.166, 0.4114, 1.0)",
+  "local_on": "(0.4931, 0.4082, 0.435, 1.0)",
+  "night_white": 0.0,
+  "noon_white": 0.0,
+  "projection_ratio": 0.910154442294115,
+  "sight_tree_count": 16,
+  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
+  "stage_on": "(0.4646, 0.3893, 0.399, 1.0)"
+ }
+}

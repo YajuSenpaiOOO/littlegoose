@@ -1,0 +1,62 @@
+{
+  "idle": {
+    "texture": "res://assets/tuantuan_v2/idle_front_v1.png",
+    "foot": [
+      683.5,
+      978
+    ],
+    "scale": 0.03837435233160622,
+    "visible_height": 29.625000000000004,
+    "visible_width": 31.044851036269435
+  },
+  "anticipation": {
+    "texture": "res://assets/tuantuan_v2/anticipation_v1.png",
+    "foot": [
+      678.0,
+      920
+    ],
+    "scale": 0.03605208507437741,
+    "visible_height": 21.16257393865954,
+    "visible_width": 33.52843911917099
+  },
+  "airborne": {
+    "texture": "res://assets/tuantuan_v2/airborne_v1.png",
+    "foot": [
+      681.5,
+      995
+    ],
+    "scale": 0.038549748975024126,
+    "visible_height": 29.91460520461872,
+    "visible_width": 29.182159974093263
+  },
+  "landing": {
+    "texture": "res://assets/tuantuan_v2/landing_v1.png",
+    "foot": [
+      676.5,
+      955
+    ],
+    "scale": 0.03219863547409103,
+    "visible_height": 21.412092590270532,
+    "visible_width": 37.25382124352332
+  },
+  "hit": {
+    "texture": "res://assets/tuantuan_v2/hit_v1.png",
+    "foot": [
+      679.0,
+      980
+    ],
+    "scale": 0.03695815599555885,
+    "visible_height": 28.64257089655811,
+    "visible_width": 32.597093588082906
+  },
+  "defeated": {
+    "texture": "res://assets/tuantuan_v2/defeated_v1.png",
+    "foot": [
+      680.0,
+      896
+    ],
+    "scale": 0.03691493008211375,
+    "visible_height": 18.715869551631673,
+    "visible_width": 37.874718264248706
+  }
+}

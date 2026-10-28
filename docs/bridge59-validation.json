@@ -1,0 +1,11 @@
+{
+	"checks": 20,
+	"draw_pieces": 48,
+	"failures": [],
+	"hidden_intruding_trees": 0,
+	"walked": [
+		true,
+		true,
+		true
+	]
+}

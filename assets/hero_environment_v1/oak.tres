@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="profile"]
+[ext_resource type="Texture2D" path="res://assets/hero_environment_v1/oak.png" id="texture"]
+[resource]
+script = ExtResource("profile")
+texture = ExtResource("texture")
+anchor_px = Vector2(605,1175)
+draw_scale = 0.14
+footprint = Vector2(62,22)
+footprint_offset = Vector2(0,-4)
+footprint_shape = 1
+contact_size = Vector2(58,12)
+projection_kind = 0
+height = 160.0
+max_shadow_length = 120.0
+wind = 0.0

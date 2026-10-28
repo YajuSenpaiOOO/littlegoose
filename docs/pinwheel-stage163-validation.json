@@ -1,0 +1,7 @@
+{
+	"centre_after": "(0.2863, 0.2941, 0.4078, 1.0)",
+	"centre_before": "(0.1804, 0.2706, 0.4, 1.0)",
+	"checks": 14,
+	"failures": [],
+	"note": "Targeted rendered film, stage lifecycle and combination checks; old map suites not repeated."
+}

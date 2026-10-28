@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://jp7yqnxn87jc"]
+
+[ext_resource type="Script" uid="uid://bvj6t2dmtn3nf" path="res://scripts/art/station_layout83.gd" id="1"]
+
+[node name="StationLayout83" type="Node3D" unique_id=2042349269]
+script = ExtResource("1")
+
+[node name="Hall" type="Marker3D" parent="." unique_id=2077124717]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.035, -8.5)
+metadata/preview_size = Vector3(13.4, 4.8, 5.1)
+
+[node name="Board" type="Marker3D" parent="." unique_id=446952162]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0.04, -6.7)
+metadata/preview_size = Vector3(1.65, 2.3, 0.55)
+
+[node name="Cart" type="Marker3D" parent="." unique_id=1964957297]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1, 0.04, -4.7)
+metadata/preview_size = Vector3(2.4, 1, 1)
+
+[node name="Crates" type="Marker3D" parent="." unique_id=988468148]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6, 0.04, -5)
+metadata/preview_size = Vector3(1.4, 1.4, 1)
+
+[node name="WestBench" type="Marker3D" parent="." unique_id=947141806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0.04, 1)
+metadata/preview_size = Vector3(2.1, 1.15, 0.65)
+
+[node name="EastBench" type="Marker3D" parent="." unique_id=1779552837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0.04, 1)
+metadata/preview_size = Vector3(2.1, 1.15, 0.65)
+
+[node name="WestFlowers" type="Marker3D" parent="." unique_id=481102786]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0.04, 2.7)
+metadata/preview_size = Vector3(2.6, 0.8, 0.65)
+
+[node name="EastFlowers" type="Marker3D" parent="." unique_id=1521580684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0.04, 2.7)
+metadata/preview_size = Vector3(2.6, 0.8, 0.65)
+
+[node name="WestBed" type="Marker3D" parent="." unique_id=99059544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.2, 0.04, -0.7)
+metadata/preview_size = Vector3(1.5, 0.45, 5.4)
+
+[node name="EastBed" type="Marker3D" parent="." unique_id=231431509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.2, 0.04, -0.7)
+metadata/preview_size = Vector3(1.5, 0.45, 5.4)
+
+[node name="WestFence" type="Marker3D" parent="." unique_id=917428965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0.04, 7.2)
+metadata/preview_size = Vector3(5.4, 0.85, 0.3)
+
+[node name="EastFence" type="Marker3D" parent="." unique_id=2144336143]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0.04, 7.2)
+metadata/preview_size = Vector3(5.4, 0.85, 0.3)

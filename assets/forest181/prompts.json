@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "woven_lantern.png",
+      "prompt": "Use case: stylized-concept. Create ONE game-ready transparent cutout sprite of a small woodland night lantern hanging from a short crooked wooden garden stake, complete prop from ground foot to hanging hook. For a cute hand-painted pixel-art 2.5D storybook game, consistent with reference forest and existing branch lamp. Camera looks DOWN 25 degrees above horizontal, shallow top surfaces visible, fixed front three-quarter game view, not eye-level and not steep isometric.\nThe lamp is friendly handmade fabric and wicker, like a tiny warm bedside nightlight made by a shy spider craft family. A low mossy crooked wooden stake about 1.3m tall, a short bent hook and visibly attached little loop suspending a round squat pear-shaped woven cream shade. Pale lavender cloth cap, tiny lilac bow at the suspension, neat crochet border, warm amber light visibly inside a modest central opening. No spider legs, frightening face, eyes, teeth or figurines. Rounded soft silhouette, thick plum pixel contours, muted lavender and cream, dark wood. Detailed enough to read at about 100px prop height. Gentle baked shading; NO bright blown-out white core, no glow cloud or opaque halo outside silhouette, actual light pool will be a game light. Keep pole simple so it reads as support, no giant trunk. Full object centered with transparent margins and foot at bottom center. Truly transparent background, no terrain patch, grass scene, text, UI, frames or watermark. Reference1 supplies style/mood only; reference2 supplies existing prop scale/wood language, replace its angular metal lantern with the soft woven shade.",
+      "references": [
+        "art/scary_forest176_refinement/merged_lowland_forest.png",
+        "assets/woodland107/branch_lantern107.png"
+      ]
+    },
+    {
+      "file": "ghost_kitten.png",
+      "prompt": "Use case: stylized-concept. One game-ready transparent cutout sprite of a tiny soft GHOST KITTEN PLUSH ornament, based EXACTLY on the CENTER ghost-kitten pillow from reference1; reference2 supplies forest palette and pixel-art style only. Full body and its short lavender hanging loop, no background. It is an inanimate hand-sewn plush toy made by cute little spiders to pretend to scare visitors. A very chubby cream/pale-lilac cushion body under a soft sagging ghost blanket, rounded cat ear tips, two SHORT mitten paws raised in a comically weak 'mew, hug me!' attempt to scare. Rosy cheeks, tiny gentle round shiny eyes, small rounded open catlike mouth, utterly affectionate, no actual menace. Small neat cloth patch on side and discreet side seam only. Soft floppy hem and little round paw feet peeking out. Tilt the body about 8 degrees as though hanging slightly crooked from a plainly visible little lilac fabric loop attached to its crown. No long rope, tree, stand or other props; the game will attach the loop to a separate fixture. Do not add a large bow covering the face.\nCamera looks DOWN about25 degrees from horizontal, seeing a little top of the ears/paws, fixed near-front view, no overhead map. Dark plum outline, crisp soft pixel clusters, painterly pixel shading, simplified shape that reads at50-70px displayed height. Cream/lavender/pink palette, cozy nighttime lantern highlights but no glow halo. True transparent background with generous margin. No angry brows, teeth, zigzag mouth, sharp claws, horror face, realistic spider legs, text, panel layout or watermark. Only ONE plush toy, not three variants.",
+      "references": [
+        "art/scary_forest176_refinement/soft_plush_options.png",
+        "art/scary_forest176_refinement/merged_lowland_forest.png"
+      ]
+    },
+    {
+      "file": "lavender_bunting.png",
+      "prompt": "Use case: stylized-concept. Create ONE transparent game prop sprite: a SHORT complete handmade woodland bunting swag with two visible tied loop knots at its endpoints. A thin tan cotton cord droops gently between the knots, carrying exactly FIVE small soft fabric pennants alternating pale lavender, dusty mauve and warm cream. Unequal little triangular and swallowtail flags, visibly soft sewn hems and delicate sparse crochet edging, a tiny lavender ribbon tail hangs beside each knot. Hand-sewn neat and slightly imperfect, cozy shy-spider craft, absolutely no faces or scary symbols. This is a decorative fabric object, NOT a glowing magic arc or thick solid purple band. Cord very thin relative to the fabric flags; flags hang down distinctly with transparent holes/spaces between. Total span about2.5m, flags about20-30cm in a game scene. Gently sagging horizontal near-front view from a shallow 25-degree downward camera, not steep isometric. Dark plum fine contours, crisp soft pixel clusters, hand-painted pixel-art matching reference scene. Muted pastel fabric, no emission, neon or bloom. Entire two knots, cord, flags and tails fit in frame with margins. TRUE transparent background. No poles, trees, wall, lanterns, plush toys, ground, scenery, UI, text, labels, borders or watermark. Keep the two end knots at the same height so the sprite can attach to two separate supports in game.",
+      "references": [
+        "art/scary_forest176_refinement/merged_lowland_forest.png"
+      ]
+    }
+  ],
+  "note": "All generated originals preserved at Codex generated_images; game copies keep original alpha. Runtime alpha threshold is used for sprite display only."
+}

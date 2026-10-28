@@ -1,0 +1,34 @@
+{
+	"new_max_split": {
+		"fired": 37208,
+		"frames": 600,
+		"max_ms": 127.591,
+		"median_ms": 51.945,
+		"p95_ms": 85.705,
+		"peak_shots": 970
+	},
+	"new_max_water": {
+		"fired": 7032,
+		"frames": 600,
+		"max_ms": 73.464,
+		"median_ms": 46.315,
+		"p95_ms": 63.021,
+		"peak_shots": 394
+	},
+	"new_six": {
+		"fired": 8050,
+		"frames": 600,
+		"max_ms": 56.527,
+		"median_ms": 32.713,
+		"p95_ms": 47.886,
+		"peak_shots": 259
+	},
+	"old_six": {
+		"fired": 11942,
+		"frames": 600,
+		"max_ms": 85.436,
+		"median_ms": 44.125,
+		"p95_ms": 61.982,
+		"peak_shots": 397
+	}
+}

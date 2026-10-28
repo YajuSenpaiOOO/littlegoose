@@ -1,0 +1,101 @@
+{
+ "checks": [
+  {
+   "check": "north bank remains at original grade",
+   "ok": true
+  },
+  {
+   "check": "southern bank restored to enclosed bowl",
+   "ok": true
+  },
+  {
+   "check": "cottage alcove has actual lowered floor",
+   "ok": true
+  },
+  {
+   "check": "raised rock shoulder separates cottage nook from main clearing",
+   "ok": true
+  },
+  {
+   "check": "cottage moved outside main clearing into rear alcove",
+   "ok": true
+  },
+  {
+   "check": "cottage retains stable camera-plane projection",
+   "ok": true
+  },
+  {
+   "check": "cottage has live projected silhouette",
+   "ok": true
+  },
+  {
+   "check": "generated central tree replaces old oak",
+   "ok": true
+  },
+  {
+   "check": "round stone pedestal removed",
+   "ok": true
+  },
+  {
+   "check": "two generated craft corners integrated",
+   "ok": true
+  },
+  {
+   "check": "all new props and cottage have projected shadows",
+   "ok": true
+  },
+  {
+   "check": "solid props, tree and cottage receive contact shadows",
+   "ok": true
+  },
+  {
+   "check": "central tree is 11m with two independent hanging lamps",
+   "ok": true
+  },
+  {
+   "check": "raised solid lamps and rack retained",
+   "ok": true
+  },
+  {
+   "check": "real hero walks around root island and through nook to cottage",
+   "ok": true
+  },
+  {
+   "check": "cottage approach supports hero on ground",
+   "ok": true
+  },
+  {
+   "check": "visible shadow pixels in cottage comparison: 63926",
+   "ok": true
+  },
+  {
+   "check": "projected caster bounds are local after CPU fallback",
+   "ok": true
+  },
+  {
+   "check": "cottage nook returns to central clearing",
+   "ok": true
+  },
+  {
+   "check": "visible shadow pixels in central comparison: 39050",
+   "ok": true
+  },
+  {
+   "check": "projected caster bounds are local after CPU fallback",
+   "ok": true
+  },
+  {
+   "check": "main southern walking route remains visible above restored foreground rim",
+   "ok": true
+  },
+  {
+   "check": "three short entrance stair flights still walk uphill",
+   "ok": true
+  },
+  {
+   "check": "normal default and no-auto-fight preview preserved",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

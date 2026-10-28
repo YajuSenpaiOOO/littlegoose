@@ -1,0 +1,15 @@
+{
+	"cpu_p95_ms": 9.643,
+	"duration_seconds": 5.002136,
+	"fps_cap": 0,
+	"frame_max_ms": 9.691,
+	"frame_median_ms": 3.423,
+	"frame_p95_ms": 4.99,
+	"frame_p99_ms": 5.337,
+	"frames": 1439,
+	"grass_active": true,
+	"grass_count": 420,
+	"over_25ms": 0,
+	"physics_interpolation": true,
+	"vsync": false
+}

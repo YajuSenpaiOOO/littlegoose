@@ -1,0 +1,15 @@
+{
+	"checks": 26,
+	"combat_sample": {
+		"cpu_median_ms": 13.325,
+		"frames_above_33ms": 0,
+		"frames_above_50ms": 0,
+		"max_ms": 29.858,
+		"median_ms": 10.02,
+		"p95_ms": 14.004,
+		"p99_ms": 15.455
+	},
+	"failures": [],
+	"station_route_new": 37.0301263332367,
+	"station_route_old": 14.7897499799728
+}

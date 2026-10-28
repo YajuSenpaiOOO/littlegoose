@@ -1,0 +1,50 @@
+{
+	"new_max": {
+		"fired": 20604,
+		"frames": 600,
+		"max_ms": 67.415,
+		"median_ms": 36.329,
+		"p95_ms": 53.823,
+		"peak_shots": 812
+	},
+	"new_six": {
+		"fired": 6950,
+		"frames": 600,
+		"max_ms": 51.618,
+		"median_ms": 27.909,
+		"p95_ms": 42.806,
+		"peak_shots": 275
+	},
+	"old_max": {
+		"fired": 33668,
+		"frames": 600,
+		"max_ms": 105.287,
+		"median_ms": 54.688,
+		"p95_ms": 78.206,
+		"peak_shots": 774
+	},
+	"old_six": {
+		"fired": 9902,
+		"frames": 600,
+		"max_ms": 63.275,
+		"median_ms": 39.906,
+		"p95_ms": 55.831,
+		"peak_shots": 235
+	},
+	"slow_max": {
+		"fired": 8400,
+		"frames": 600,
+		"max_ms": 56.441,
+		"median_ms": 27.755,
+		"p95_ms": 44.259,
+		"peak_shots": 353
+	},
+	"slow_six": {
+		"fired": 1978,
+		"frames": 600,
+		"max_ms": 51.996,
+		"median_ms": 20.988,
+		"p95_ms": 36.989,
+		"peak_shots": 109
+	}
+}

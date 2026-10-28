@@ -1,0 +1,262 @@
+{
+ "checks": [
+  {
+   "check": "169 projected proportions restored without geometry tilt",
+   "ok": true
+  },
+  {
+   "check": "standard native material adjusts lighting normal only",
+   "ok": true
+  },
+  {
+   "check": "noon window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "night window plus stage keeps white hair below clipping limit",
+   "ok": true
+  },
+  {
+   "check": "local native light warms and brightens upright hero",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for up",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for left",
+   "ok": true
+  },
+  {
+   "check": "atlas binding preserved for right",
+   "ok": true
+  },
+  {
+   "check": "dash preserves original geometry angle",
+   "ok": true
+  },
+  {
+   "check": "native stage actually brightens upright hero in exterior night",
+   "ok": true
+  },
+  {
+   "check": "native stage gives rendered hero an amber response",
+   "ok": true
+  },
+  {
+   "check": "amber stage retains real native shadow reception",
+   "ok": true
+  },
+  {
+   "check": "both handwork cylinder shadow casters removed",
+   "ok": true
+  },
+  {
+   "check": "handwork retains contact shadows without stacked full silhouettes",
+   "ok": true
+  },
+  {
+   "check": "old overlaid hammock cat and added ropes removed",
+   "ok": true
+  },
+  {
+   "check": "integrated twin-tree nook has separate cat and two physical trunks",
+   "ok": true
+  },
+  {
+   "check": "grouped border vegetation adds substantial layered coverage",
+   "ok": true
+  },
+  {
+   "check": "plant feet avoid cliffs, stair flights and the clear walking lane",
+   "ok": true
+  },
+  {
+   "check": "proximity puppet can arm its delayed harmless reveal",
+   "ok": true
+  },
+  {
+   "check": "puppet waits before appearing",
+   "ok": true
+  },
+  {
+   "check": "late puppet raises with a little text bubble",
+   "ok": true
+  },
+  {
+   "check": "little spider operator is revealed after the attempted scare",
+   "ok": true
+  },
+  {
+   "check": "puppet cannot spam or damage player",
+   "ok": true
+  },
+  {
+   "check": "puppet withdraws after its short performance",
+   "ok": true
+  },
+  {
+   "check": "real player walks entrance stairs and planted sample lane to central tree",
+   "ok": true
+  },
+  {
+   "check": "station and forest post cards registered for reversible upright comparison",
+   "ok": true
+  },
+  {
+   "check": "comparison cards upright without changing textures or scale",
+   "ok": true
+  },
+  {
+   "check": "comparison restores original billboard and rotations exactly",
+   "ok": true
+  },
+  {
+   "check": "upright comparison does not redraw or stretch source assets",
+   "ok": true
+  },
+  {
+   "check": "camera proximity catches crowns independently of hero alpha overlap",
+   "ok": true
+  },
+  {
+   "check": "settled central camera threats have cleared instead of retaining half opacity",
+   "ok": true
+  },
+  {
+   "check": "real southbound entrance traversal remains walkable with new camera policy",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "angle_card_count": 15,
+  "card_audit": [
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@22",
+    "rotation_degrees": "(0.0, 0.0, -0.351784)",
+    "texture": ""
+   },
+   {
+    "billboard": 2,
+    "name": "@Sprite3D@33",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": ""
+   },
+   {
+    "billboard": 1,
+    "name": "@Sprite3D@6558",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": ""
+   },
+   {
+    "billboard": 1,
+    "name": "StageOak185",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": ""
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6699",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6703",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6707",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6711",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6715",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6719",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6723",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@6727",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5642",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/station81/hall.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5680",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/station81/coach.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5687",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/station82/board.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5690",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/station82/cart.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5692",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/station82/crates.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5694",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/departure_plaza_v1/flower_box_v1.png"
+   },
+   {
+    "billboard": 0,
+    "name": "@Sprite3D@5697",
+    "rotation_degrees": "(0.0, 0.0, 0.0)",
+    "texture": "res://assets/departure_plaza_v1/flower_box_v1.png"
+   }
+  ],
+  "local_off": "(0.1202, 0.1671, 0.4135, 1.0)",
+  "local_on": "(0.4954, 0.4104, 0.4372, 1.0)",
+  "max_camera_preclear": 17,
+  "night_white": 0.0,
+  "noon_white": 0.0,
+  "plant_count": 41,
+  "pop_count": 2,
+  "projection_ratio": 0.910154442294115,
+  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
+  "stage_on": "(0.4646, 0.3893, 0.399, 1.0)"
+ }
+}

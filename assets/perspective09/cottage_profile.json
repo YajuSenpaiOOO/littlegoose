@@ -1,0 +1,16 @@
+{
+	"bounds": [
+		37,
+		55,
+		1238,
+		1079
+	],
+	"foot": [
+		532.2,
+		1136
+	],
+	"texture": "res://assets/perspective09/cottage.png",
+	"view": "25 degree perspective candidate; baked right side, not a UV atlas",
+	"visible_height": 1079,
+	"visible_width": 1238
+}

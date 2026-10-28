@@ -1,0 +1,272 @@
+{
+	"ai": {
+		"draw_calls": 856.0,
+		"fired": 0,
+		"max_ms": 143.386,
+		"median_ms": 67.003,
+		"methods": {
+			"_fit_contact": {
+				"calls": 3594.0,
+				"max_ms": 0.3,
+				"ms_per_call": 0.0290843071786311,
+				"total_ms": 104.529
+			},
+			"_physics_process": {
+				"calls": 2598.0,
+				"max_ms": 14.671,
+				"ms_per_call": 1.98001308698999,
+				"total_ms": 5144.074
+			},
+			"_process": {
+				"calls": 599.0,
+				"max_ms": 13.093,
+				"ms_per_call": 6.66429716193656,
+				"total_ms": 3991.914
+			},
+			"_step_shots": {
+				"calls": 2598.0,
+				"max_ms": 0.184,
+				"ms_per_call": 0.00749345650500385,
+				"total_ms": 19.468
+			},
+			"_update_forest_occlusion": {
+				"calls": 599.0,
+				"max_ms": 4.119,
+				"ms_per_call": 2.08630717863105,
+				"total_ms": 1249.698
+			},
+			"aim_at_screen": {
+				"calls": 3197.0,
+				"max_ms": 12.844,
+				"ms_per_call": 0.10264935877385,
+				"total_ms": 328.17
+			},
+			"floor_height": {
+				"calls": 477065.0,
+				"max_ms": 0.536,
+				"ms_per_call": 0.00471831092199176,
+				"total_ms": 2250.941
+			},
+			"legacy_trace": {
+				"calls": 599.0,
+				"max_ms": 0.26,
+				"ms_per_call": 0.0244707846410684,
+				"total_ms": 14.658
+			}
+		},
+		"p95_ms": 122.888,
+		"p99_ms": 134.07,
+		"peak_anchors": 0,
+		"peak_shots": 0
+	},
+	"fire": {
+		"draw_calls": 867.0,
+		"fired": 256,
+		"max_ms": 175.191,
+		"median_ms": 66.501,
+		"methods": {
+			"_fit_contact": {
+				"calls": 10679.0,
+				"max_ms": 0.318,
+				"ms_per_call": 0.0238072853263414,
+				"total_ms": 254.238
+			},
+			"_physics_process": {
+				"calls": 2377.0,
+				"max_ms": 20.57,
+				"ms_per_call": 2.29654312158183,
+				"total_ms": 5458.883
+			},
+			"_process": {
+				"calls": 600.0,
+				"max_ms": 12.352,
+				"ms_per_call": 5.34628666666667,
+				"total_ms": 3207.772
+			},
+			"_step_shots": {
+				"calls": 2377.0,
+				"max_ms": 4.133,
+				"ms_per_call": 0.431661337820782,
+				"total_ms": 1026.059
+			},
+			"_update_forest_occlusion": {
+				"calls": 600.0,
+				"max_ms": 4.003,
+				"ms_per_call": 1.76896,
+				"total_ms": 1061.376
+			},
+			"aim_at_screen": {
+				"calls": 3233.0,
+				"max_ms": 0.489,
+				"ms_per_call": 0.10022796164553,
+				"total_ms": 324.037
+			},
+			"fire_at": {
+				"calls": 256.0,
+				"max_ms": 1.942,
+				"ms_per_call": 1.048890625,
+				"total_ms": 268.516
+			},
+			"floor_height": {
+				"calls": 749060.0,
+				"max_ms": 0.443,
+				"ms_per_call": 0.00400440151656743,
+				"total_ms": 2999.537
+			},
+			"legacy_trace": {
+				"calls": 7675.0,
+				"max_ms": 0.304,
+				"ms_per_call": 0.0121246905537459,
+				"total_ms": 93.057
+			}
+		},
+		"p95_ms": 140.351,
+		"p99_ms": 150.594,
+		"peak_anchors": 15,
+		"peak_shots": 10
+	},
+	"rate4": {
+		"draw_calls": 873.0,
+		"fired": 671,
+		"max_ms": 161.927,
+		"median_ms": 48.855,
+		"methods": {
+			"_fit_contact": {
+				"calls": 15774.0,
+				"max_ms": 0.344,
+				"ms_per_call": 0.0202544059845315,
+				"total_ms": 319.493
+			},
+			"_physics_process": {
+				"calls": 2087.0,
+				"max_ms": 8.956,
+				"ms_per_call": 2.86657930043124,
+				"total_ms": 5982.551
+			},
+			"_process": {
+				"calls": 600.0,
+				"max_ms": 12.6,
+				"ms_per_call": 4.474365,
+				"total_ms": 2684.619
+			},
+			"_step_shots": {
+				"calls": 2087.0,
+				"max_ms": 5.342,
+				"ms_per_call": 0.92413799712506,
+				"total_ms": 1928.676
+			},
+			"_update_forest_occlusion": {
+				"calls": 600.0,
+				"max_ms": 3.807,
+				"ms_per_call": 1.45479666666667,
+				"total_ms": 872.878
+			},
+			"aim_at_screen": {
+				"calls": 3358.0,
+				"max_ms": 0.457,
+				"ms_per_call": 0.0916929720071471,
+				"total_ms": 307.905
+			},
+			"fire_at": {
+				"calls": 671.0,
+				"max_ms": 1.753,
+				"ms_per_call": 0.891664679582712,
+				"total_ms": 598.307
+			},
+			"floor_height": {
+				"calls": 930399.0,
+				"max_ms": 0.442,
+				"ms_per_call": 0.00356586905187989,
+				"total_ms": 3317.681
+			},
+			"legacy_contact_art": {
+				"calls": 2.0,
+				"max_ms": 0.117,
+				"ms_per_call": 0.112,
+				"total_ms": 0.224
+			},
+			"legacy_trace": {
+				"calls": 12772.0,
+				"max_ms": 0.269,
+				"ms_per_call": 0.00936697463200752,
+				"total_ms": 119.635
+			}
+		},
+		"p95_ms": 140.905,
+		"p99_ms": 152.853,
+		"peak_anchors": 38,
+		"peak_shots": 20
+	},
+	"rate8": {
+		"draw_calls": 866.0,
+		"fired": 1967,
+		"max_ms": 172.999,
+		"median_ms": 125.205,
+		"methods": {
+			"_fit_contact": {
+				"calls": 98551.0,
+				"max_ms": 0.441,
+				"ms_per_call": 0.022324359976053,
+				"total_ms": 2200.088
+			},
+			"_physics_process": {
+				"calls": 3958.0,
+				"max_ms": 10.874,
+				"ms_per_call": 4.53229610914603,
+				"total_ms": 17938.828
+			},
+			"_process": {
+				"calls": 600.0,
+				"max_ms": 11.374,
+				"ms_per_call": 6.64536666666667,
+				"total_ms": 3987.22
+			},
+			"_step_shots": {
+				"calls": 3958.0,
+				"max_ms": 7.653,
+				"ms_per_call": 2.25344542698332,
+				"total_ms": 8919.137
+			},
+			"_update_forest_occlusion": {
+				"calls": 600.0,
+				"max_ms": 3.585,
+				"ms_per_call": 2.503225,
+				"total_ms": 1501.935
+			},
+			"aim_at_screen": {
+				"calls": 6525.0,
+				"max_ms": 0.695,
+				"ms_per_call": 0.105855019157088,
+				"total_ms": 690.704
+			},
+			"fire_at": {
+				"calls": 1967.0,
+				"max_ms": 3.074,
+				"ms_per_call": 0.958533807829181,
+				"total_ms": 1885.436
+			},
+			"floor_height": {
+				"calls": 2103612.0,
+				"max_ms": 0.528,
+				"ms_per_call": 0.00400989345944024,
+				"total_ms": 8435.26
+			},
+			"legacy_contact_art": {
+				"calls": 42.0,
+				"max_ms": 0.245,
+				"ms_per_call": 0.10547619047619,
+				"total_ms": 4.43
+			},
+			"legacy_trace": {
+				"calls": 95518.0,
+				"max_ms": 0.418,
+				"ms_per_call": 0.0086022529784962,
+				"total_ms": 821.67
+			}
+		},
+		"p95_ms": 156.354,
+		"p99_ms": 166.71,
+		"peak_anchors": 67,
+		"peak_shots": 41
+	}
+}

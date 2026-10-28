@@ -1,0 +1,5 @@
+{
+	"checks": 27,
+	"failures": [],
+	"note": "Targeted actual input, damage, snapshot, lifecycle and rendered stage checks; numerical balance awaits playtesting."
+}

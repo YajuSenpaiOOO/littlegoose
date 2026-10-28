@@ -1,0 +1,9 @@
+# 林地微景101素材
+
+2026-10-20，使用内置 image_gen，透明背景；参考 `../yard15/trees.png` 的笔触与色彩。原始输出直接复制到 woodland_details101.png，未做离线图像编辑。运行时将四个象限按透明边界裁成 AtlasTexture，叶片投到贴地网格，蝴蝶双翼由着色器绕中心弯折。
+
+原始输出：`C:/Users/ASUS/.codex/generated_images/01a157e7-f0f9-70b1-b161-ecd478619503/exec-5d458f4a-b3ba-4174-9a15-ea5a73bace24.png`。
+
+## Final prompt
+
+Use case: stylized-concept. Asset type: transparent 2 by 2 sprite atlas for a warm painterly 2.5D woodland game. Image 1 is STYLE AND PALETTE REFERENCE ONLY, not a target. Match its soft muted olive/sage leaves, brown ochre wood, coarse diffuse brush marks, no sharp outlines. Four separate objects centered in four equal square cells on one square 1024 canvas, each stays well inside its cell with 15% transparent margin, no border/grid/labels. TOP LEFT: one small cluster of three woodland mushrooms, two chestnut brown caps and a small muted ochre cap, short pale cream stems, no grass or soil clump, 25 degree downward game view. TOP RIGHT: two small brown pinecones beside a short broken twig, hand-painted broad scale shapes, no ground clump, same game view. BOTTOM LEFT: a sparse patch of 7 separate small fallen oak leaves in muted brown, olive and dull gold, loosely scattered with plenty of transparent gaps, orthographic top-down for a ground-plane decal, no grass or earth. BOTTOM RIGHT: ONE delicate cream and muted lavender butterfly with wings fully spread symmetrically left and right around a thin vertical body, orthographic top-down, head points UP, silhouette clean enough to split into two hinged wing meshes. Everything soft and storybook, matte broad color blocks, not photorealistic, no realistic texture noise, no saturated orange, no glow or stars, no baked ground shadows. Actual transparent alpha across the background and between objects. Not a scene illustration. Do not draw the reference trees.

@@ -1,0 +1,11 @@
+# 小院材质45
+
+2026-10-18，内置 image_gen；参考 house16/slate.png 的材质与画风。原始生成 PNG 保留未改像素。wood.png 为木纹，slate.png 为石面，接入简单3D底座。
+
+## 木纹
+
+Use case: stylized-concept. Production asset: seamless hand-painted wood ALBEDO texture for narrow 3D cottage garden fence rails and posts. Reference image is STYLE AND PALETTE only: the warm brown timber framing of the supplied cottage; do not depict the cottage. Create one square edge-to-edge continuous wood surface, straight horizontal grain running LEFT TO RIGHT. Cozy detailed pixel-painted RPG environmental art, visible deliberate small clustered pixel marks, medium warm honey walnut brown, subdued umber grain, a few soft elongated knots, rubbed grain, very restrained desaturated green weathering. Enough broad calm areas to remain readable on narrow rails. FLAT orthographic material scan, no perspective, no physical plank silhouettes, no borders, no joints or gaps, no nails, no scene, no text, no cast shadows, no highlights baked from a directional light. Not a photograph, not a 3D render. Subtle painterly value variation rather than noisy speckles or black stripes. Tile seamlessly all four edges. Entire image opaque.
+
+## 石面
+
+Use case: stylized-concept. Production asset: one seamless hand-painted slate STONE ALBEDO material texture for small 3D garden stepping stones. Supplied cottage is a STYLE and COLOR reference only, especially its aged blue-gray stone and roof; do not depict cottage or pavers. Square edge-to-edge solid continuous blue-gray warm slate mineral surface with a muted olive-gray undertone, a few very fine irregular hairline cracks, soft layered worn grain and occasional faint moss discoloration. Cozy detailed pixel-painted RPG environment style, intentional clustered small pixel strokes and restrained material depth, not a photo and not smooth vector cartoon. Broad calm areas; avoid high-frequency grit, white speckles, harsh mottling, large black cracks. Flat orthographic material scan, uniformly lit neutral albedo; no directional shadows, no reflections, no perspective, no bevel frame, no repeated separate stones, no mortar, no grid, no vegetation silhouettes, no labels. Seamless all four edges, entire image opaque. Moderately light slate midtones, darker than cream walls, similar to weathered roof stone but less blue.

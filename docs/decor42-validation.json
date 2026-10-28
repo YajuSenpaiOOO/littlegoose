@@ -1,0 +1,7 @@
+{
+	"checks": 16,
+	"choices": 12,
+	"failures": [],
+	"renderer": "gl_compatibility",
+	"stones": 8
+}

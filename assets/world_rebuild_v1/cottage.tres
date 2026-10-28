@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/world/cottage_art.tscn" id="1_hsvtu"]
+[ext_resource type="Script" path="res://scripts/world/world_prop_profile.gd" id="2_ifkgx"]
+
+[resource]
+script = ExtResource("2_ifkgx")
+art_scene = ExtResource("1_hsvtu")
+footprint = Vector2(144, 50)
+footprint_offset = Vector2(0, -29)
+contact_size = Vector2(140, 18)
+projection_kind = 1
+height = 105.0
+max_shadow_length = 145.0
+raised_plane = Rect2(-75, -10, 150, 14)
+contacts = PackedVector2Array(-70, -4, 70, -4, 70, -45, -70, -45)

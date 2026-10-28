@@ -1,0 +1,12 @@
+{
+	"checks": 15,
+	"colonies": [
+		52,
+		46,
+		38,
+		46
+	],
+	"failures": [],
+	"reactive_plants": 100,
+	"stems": 182
+}

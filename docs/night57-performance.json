@@ -1,0 +1,102 @@
+{
+	"frames_per_sample": 240,
+	"renderer": "gl_compatibility",
+	"results": [
+		{
+			"cpu_median_ms": 16.168,
+			"draw_calls": 917.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.351,
+			"median_ms": 12.81,
+			"mode": "fixed",
+			"p95_ms": 15.936,
+			"p99_ms": 17.599,
+			"pose_updates": 0
+		},
+		{
+			"cpu_median_ms": 15.564,
+			"draw_calls": 918.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.984,
+			"median_ms": 12.324,
+			"mode": "moving",
+			"p95_ms": 15.791,
+			"p99_ms": 17.635,
+			"pose_updates": 9
+		},
+		{
+			"cpu_median_ms": 15.836,
+			"draw_calls": 918.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.016,
+			"median_ms": 12.103,
+			"mode": "moving",
+			"p95_ms": 15.71,
+			"p99_ms": 17.359,
+			"pose_updates": 9
+		},
+		{
+			"cpu_median_ms": 16.593,
+			"draw_calls": 917.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.73,
+			"median_ms": 12.157,
+			"mode": "fixed",
+			"p95_ms": 15.086,
+			"p99_ms": 17.738,
+			"pose_updates": 0
+		},
+		{
+			"cpu_median_ms": 15.162,
+			"draw_calls": 951.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 18.758,
+			"median_ms": 12.108,
+			"mode": "night_off",
+			"p95_ms": 15.703,
+			"p99_ms": 17.069,
+			"pose_updates": 0
+		},
+		{
+			"cpu_median_ms": 17.39,
+			"draw_calls": 953.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.296,
+			"median_ms": 12.883,
+			"mode": "night_on",
+			"p95_ms": 17.043,
+			"p99_ms": 18.174,
+			"pose_updates": 0
+		},
+		{
+			"cpu_median_ms": 16.744,
+			"draw_calls": 953.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 21.905,
+			"median_ms": 13.54,
+			"mode": "night_on",
+			"p95_ms": 17.518,
+			"p99_ms": 19.256,
+			"pose_updates": 0
+		},
+		{
+			"cpu_median_ms": 17.89,
+			"draw_calls": 947.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.641,
+			"median_ms": 13.626,
+			"mode": "night_off",
+			"p95_ms": 17.238,
+			"p99_ms": 18.742,
+			"pose_updates": 0
+		}
+	]
+}

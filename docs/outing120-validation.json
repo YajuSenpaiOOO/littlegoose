@@ -1,0 +1,8 @@
+{
+	"checks": 15,
+	"expected_drops": 3.75,
+	"failures": [],
+	"max_active": 3,
+	"natural_drops": 5,
+	"seconds": 40.5308333333323
+}

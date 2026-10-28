@@ -1,0 +1,5 @@
+{
+	"checks": 5,
+	"note": "Overlapping dash IDs must not re-trigger hitstop; history remains bounded.",
+	"passed": true
+}

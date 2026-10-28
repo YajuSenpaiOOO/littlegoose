@@ -1,0 +1,44 @@
+{
+	"baseline": {
+		"cpu": 23.077,
+		"draw_calls": 931.0,
+		"median": 10.284,
+		"p95": 14.924,
+		"physics": 3.01
+	},
+	"no_dof": {
+		"cpu": 12.517,
+		"draw_calls": 931.0,
+		"median": 8.537,
+		"p95": 11.463,
+		"physics": 2.725
+	},
+	"no_grass": {
+		"cpu": 12.161,
+		"draw_calls": 923.0,
+		"median": 8.547,
+		"p95": 11.925,
+		"physics": 4.059
+	},
+	"no_noon": {
+		"cpu": 14.492,
+		"draw_calls": 931.0,
+		"median": 9.492,
+		"p95": 12.496,
+		"physics": 2.928
+	},
+	"no_sun_shadows": {
+		"cpu": 11.27,
+		"draw_calls": 261.0,
+		"median": 10.491,
+		"p95": 14.342,
+		"physics": 3.874
+	},
+	"no_wall_collision": {
+		"cpu": 11.979,
+		"draw_calls": 935.0,
+		"median": 8.875,
+		"p95": 12.456,
+		"physics": 3.078
+	}
+}

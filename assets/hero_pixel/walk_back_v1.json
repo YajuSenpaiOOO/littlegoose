@@ -1,0 +1,71 @@
+{
+  "sheet_file": "walk_back_steps_v1.png",
+  "body_height": 1106,
+  "frames": [
+    {
+      "sheet_file": "walk_back_steps_v1.png",
+      "region": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "foot": [
+        529,
+        839
+      ],
+      "body_height": 792
+    },
+    {
+      "sheet_file": "direction_back_v3.png",
+      "region": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "foot": [
+        627,
+        1185
+      ],
+      "body_height": 1106
+    },
+    {
+      "sheet_file": "walk_back_steps_v1.png",
+      "region": [
+        887,
+        0,
+        887,
+        887
+      ],
+      "foot": [
+        404,
+        843
+      ],
+      "body_height": 795
+    },
+    {
+      "sheet_file": "direction_back_v3.png",
+      "region": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "foot": [
+        627,
+        1185
+      ],
+      "body_height": 1106
+    }
+  ],
+  "idle": {
+    "frame": 1,
+    "foot": [
+      627,
+      1185
+    ],
+    "body_height": 1106
+  },
+  "note": "Two opposite contact poses plus existing neutral in A/neutral/B/neutral order. Full original-resolution source drawings; per-frame display scale and common head-to-ground origin registered using alpha, no image edits or frozen shoulders."
+}

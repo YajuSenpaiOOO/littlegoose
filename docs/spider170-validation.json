@@ -1,0 +1,5 @@
+{
+ "checks": 32,
+ "failures": [],
+ "note": "Targeted spider AI, real native hit/hurt flow, slots, pause, input and trial lifecycle. No terrain changes."
+}

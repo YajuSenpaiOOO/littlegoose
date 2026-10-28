@@ -1,0 +1,5 @@
+{
+  "cottage":{"path":"res://assets/environment/angle35/cottage_v1.png","foot":[660,1004],"visible_height":881,"target_angle":35},
+  "tree":{"path":"res://assets/environment/angle35/tree_v1.png","foot":[543,1405],"visible_height":1295,"target_angle":35},
+  "rock":{"path":"res://assets/environment/angle35/rock_v1.png","foot":[805,821],"visible_height":594,"target_angle":35}
+}

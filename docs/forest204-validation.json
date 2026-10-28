@@ -1,0 +1,53 @@
+{
+ "checks": [
+  {
+   "check": "coverage radius remains the original 2.4 metres",
+   "ok": true
+  },
+  {
+   "check": "every marker vertex follows the terrain with a small surface offset",
+   "ok": true
+  },
+  {
+   "check": "marker uses ordinary GPU depth testing",
+   "ok": true
+  },
+  {
+   "check": "ground indicator has no cast shadow",
+   "ok": true
+  },
+  {
+   "check": "GPU fixture fully occludes the ring instead of receiving an overlaid line",
+   "ok": true
+  },
+  {
+   "check": "same ring segment is visibly drawn on exposed ground",
+   "ok": true
+  },
+  {
+   "check": "marker never spans a large vertical cliff discontinuity",
+   "ok": true
+  },
+  {
+   "check": "reset removes the pending ground mesh immediately",
+   "ok": true
+  },
+  {
+   "check": "live goose squad flights retain centre and six delivery-sector markings",
+   "ok": true
+  },
+  {
+   "check": "ground rendering leaves original delivery and target mark unchanged",
+   "ok": true
+  },
+  {
+   "check": "leaving the encounter clears flight ground markers",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "covered_difference": 0.0,
+  "exposed_difference": 0.238986268639565
+ }
+}

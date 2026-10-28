@@ -1,0 +1,20 @@
+[
+  {
+    "file": "board.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\station_board_v1.png",
+    "identical": true,
+    "sha256": "3587a3184221a9e672ab713caf6c4ecf8e740936d4c420e5726192303b9f2fbd"
+  },
+  {
+    "file": "cart.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\luggage_cart_v1.png",
+    "identical": true,
+    "sha256": "730043bace4f3096d357a42a2776fb20c2e1f9a845707560ba0b549b9b5c7649"
+  },
+  {
+    "file": "crates.png",
+    "source": "godot_yard\\assets\\departure_plaza_v1\\crate_stack_v1.png",
+    "identical": true,
+    "sha256": "65598494152a25681e2be606192caa66c9d5b395940094b45828a3e84e78965c"
+  }
+]

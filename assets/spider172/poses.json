@@ -1,0 +1,38 @@
+{
+ "happy": {
+  "foot": [
+   309.5,
+   429
+  ],
+  "scale": 0.0707037643207856,
+  "visible_height": 30.1198036006547,
+  "visible_width": 43.2
+ },
+ "mat": {
+  "foot": [
+   288.5,
+   510
+  ],
+  "scale": 0.0759226713532513,
+  "visible_height": 38.4927943760984,
+  "visible_width": 43.2
+ },
+ "weave_a": {
+  "foot": [
+   307.5,
+   442
+  ],
+  "scale": 0.071169686985173,
+  "visible_height": 31.2434925864909,
+  "visible_width": 43.2
+ },
+ "weave_b": {
+  "foot": [
+   307.0,
+   438
+  ],
+  "scale": 0.0712871287128713,
+  "visible_height": 31.009900990099,
+  "visible_width": 43.2
+ }
+}

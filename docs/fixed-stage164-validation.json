@@ -1,0 +1,7 @@
+{
+	"checks": 19,
+	"failures": [],
+	"note": "Fixed field membership, real shots/packets, grounded props and lifecycle only; not a final balance verdict.",
+	"radius": 4.6,
+	"rate_multiplier": 2.0
+}

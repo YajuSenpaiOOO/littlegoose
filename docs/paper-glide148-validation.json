@@ -1,0 +1,6 @@
+{
+	"checks": 16,
+	"failures": [],
+	"first_release_gap_m": 2.68951463699341,
+	"note": "Native hit tests isolate enemy movement for repeatability; flight visuals captured separately."
+}

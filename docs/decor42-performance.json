@@ -1,0 +1,30 @@
+{
+	"note": "local courtyard render including gameplay updates; no screenshot comparison CPU work in measurement",
+	"resolution": [
+		1440,
+		900
+	],
+	"samples": [
+		{
+			"draws": 921.0,
+			"fps": 112.071396951284,
+			"median_ms": 8.442,
+			"mode": "original",
+			"p95_ms": 12.034
+		},
+		{
+			"draws": 959.0,
+			"fps": 109.672672768732,
+			"median_ms": 8.972,
+			"mode": "scenery",
+			"p95_ms": 12.397
+		},
+		{
+			"draws": 965.0,
+			"fps": 110.617633556965,
+			"median_ms": 8.87,
+			"mode": "focus",
+			"p95_ms": 11.838
+		}
+	]
+}

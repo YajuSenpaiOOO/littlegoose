@@ -1,0 +1,8 @@
+{
+	"checks": 11,
+	"failures": [],
+	"flower_count": 71,
+	"renderer": "gl_compatibility",
+	"resolution": "(1600.0, 1000.0)",
+	"shaft_changed_pixels": 27991
+}

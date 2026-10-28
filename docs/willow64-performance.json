@@ -1,0 +1,50 @@
+{
+	"frames_per_segment": 180,
+	"order": "ABBA, close-root normal camera, seated roots always on",
+	"results": [
+		{
+			"cpu_median_ms": 15.619,
+			"draw_calls": 748.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 20.013,
+			"median_ms": 11.635,
+			"p95_ms": 15.434,
+			"p99_ms": 17.504,
+			"understory": false
+		},
+		{
+			"cpu_median_ms": 14.696,
+			"draw_calls": 765.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.461,
+			"median_ms": 11.552,
+			"p95_ms": 15.988,
+			"p99_ms": 16.786,
+			"understory": true
+		},
+		{
+			"cpu_median_ms": 14.696,
+			"draw_calls": 765.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 19.49,
+			"median_ms": 12.062,
+			"p95_ms": 15.509,
+			"p99_ms": 18.446,
+			"understory": true
+		},
+		{
+			"cpu_median_ms": 15.485,
+			"draw_calls": 748.0,
+			"frames_above_33ms": 0,
+			"frames_above_50ms": 0,
+			"max_ms": 17.44,
+			"median_ms": 11.814,
+			"p95_ms": 15.646,
+			"p99_ms": 17.094,
+			"understory": false
+		}
+	]
+}

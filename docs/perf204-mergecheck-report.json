@@ -1,0 +1,105 @@
+{
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "merge": {
+  "expected_tris": 122066,
+  "surfaces": 25,
+  "tris": 644878
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "avg_ms": 23.754925,
+   "draw_avg": 651.866666666667,
+   "draw_max": 652,
+   "engine_fps": 43.0,
+   "fps": 42.0965336661766,
+   "frames": 120,
+   "long_frames_over_50ms": 3,
+   "max_gap_ms": 69.705,
+   "objects_max": 983,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2405266,
+   "tag": "yard_day_postmerge",
+   "time_physics_avg": 0.00302998333333334,
+   "time_process_avg": 0.06027265
+  },
+  {
+   "avg_ms": 29.6220083333333,
+   "draw_avg": 689.2,
+   "draw_max": 698,
+   "engine_fps": 35.0,
+   "fps": 33.7586833663371,
+   "frames": 120,
+   "long_frames_over_50ms": 5,
+   "max_gap_ms": 64.777,
+   "objects_max": 865,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2450144,
+   "tag": "forest_day_postmerge",
+   "time_physics_avg": 0.0110891583333334,
+   "time_process_avg": 0.0552501333333332
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "checks": [
+  {
+   "check": "sphere crowns and axis-aligned house shadow volumes removed",
+   "ok": true
+  },
+  {
+   "check": "both mismatched cottage slabs hidden",
+   "ok": true
+  },
+  {
+   "check": "house uses source-alpha camera-plane projection",
+   "ok": true
+  },
+  {
+   "check": "tree shadow follows actual branch and leaf silhouette",
+   "ok": true
+  },
+  {
+   "check": "regional grade extends existing depth-aware scenic shader",
+   "ok": true
+  },
+  {
+   "check": "home and top entrance have no forest atmosphere weight",
+   "ok": true
+  },
+  {
+   "check": "three stair flights progressively enter full forest mood",
+   "ok": true
+  },
+  {
+   "check": "actual hero follows root-island route into cottage nook",
+   "ok": true
+  },
+  {
+   "check": "house contact follows left wall and front porch footprint",
+   "ok": true
+  },
+  {
+   "check": "regional atmosphere has visible, nonblack exposure change in cottage: 0.75522291956272",
+   "ok": true
+  },
+  {
+   "check": "cottage path returns without new visual collisions",
+   "ok": true
+  },
+  {
+   "check": "regional atmosphere has visible, nonblack exposure change in central: 0.79576105346601",
+   "ok": true
+  },
+  {
+   "check": "midway entrance retains intermediate mood",
+   "ok": true
+  },
+  {
+   "check": "forest grade smoothly clears after returning home",
+   "ok": true
+  },
+  {
+   "check": "default scene and no-auto-forest-fight preserved",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

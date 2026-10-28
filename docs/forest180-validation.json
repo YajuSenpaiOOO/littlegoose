@@ -1,0 +1,98 @@
+{
+ "checks": [
+  {
+   "check": "old home/grove/station/hill altitude retained at (-4.7, -4.8)",
+   "ok": true
+  },
+  {
+   "check": "old home/grove/station/hill altitude retained at (-49.99167, -45.65833)",
+   "ok": true
+  },
+  {
+   "check": "old home/grove/station/hill altitude retained at (6.716667, -70.84583)",
+   "ok": true
+  },
+  {
+   "check": "old home/grove/station/hill altitude retained at (-73.99167, -63.65833)",
+   "ok": true
+  },
+  {
+   "check": "whole existing map and props are instantiated",
+   "ok": true
+  },
+  {
+   "check": "forest decor is integrated at southwest world coordinates",
+   "ok": true
+  },
+  {
+   "check": "new basin has matching whole-map floor support",
+   "ok": true
+  },
+  {
+   "check": "north remains original ground",
+   "ok": true
+  },
+  {
+   "check": "three entrance flights present in full map",
+   "ok": true
+  },
+  {
+   "check": "forest cliffs use map rock partition and painted bedrock92 material",
+   "ok": true
+  },
+  {
+   "check": "scalloped coves and inset shoulders break rectangular symmetry",
+   "ok": true
+  },
+  {
+   "check": "hero physically follows stepping-stone path around existing workshop to forest",
+   "ok": true
+  },
+  {
+   "check": "full-map hero descends three short flights and both bends",
+   "ok": true
+  },
+  {
+   "check": "east route fits irregular basin",
+   "ok": true
+  },
+  {
+   "check": "west route passes inset rock shoulder",
+   "ok": true
+  },
+  {
+   "check": "cottage reachable through connected map basin",
+   "ok": true
+  },
+  {
+   "check": "house uses camera-plane billboard instead of upright perspective card",
+   "ok": true
+  },
+  {
+   "check": "left/right camera translation introduces no house shear in billboard projection",
+   "ok": true
+  },
+  {
+   "check": "custom tree shader actually receives occlusion fade",
+   "ok": true
+  },
+  {
+   "check": "hero returns up stairs and walks back to yard without teleport",
+   "ok": true
+  },
+  {
+   "check": "hero remains grounded after world round-trip",
+   "ok": true
+  },
+  {
+   "check": "preview isolates save and adds no automatic forest fight",
+   "ok": true
+  },
+  {
+   "check": "normal default remains preserved for comparison",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "note": "Connected full world preview with local surface override; yard/path/forest/yard walked under real collisions. Native map bedrock reused; house camera-plane billboard validated and captured from three positions."
+}

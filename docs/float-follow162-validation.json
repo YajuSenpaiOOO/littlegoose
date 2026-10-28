@@ -1,0 +1,10 @@
+{
+	"checks": 17,
+	"failures": [],
+	"fps_settle": [
+		0.999500572681427,
+		0.999500572681427,
+		0.999500572681427
+	],
+	"note": "Targeted visual follow only; no combat stat or encounter changes."
+}

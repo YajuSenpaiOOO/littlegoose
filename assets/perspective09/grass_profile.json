@@ -1,0 +1,89 @@
+{
+	"cells": [
+		{
+			"aspect": 1.44827586206897,
+			"region": [
+				48,
+				137,
+				340,
+				236
+			],
+			"short": true
+		},
+		{
+			"aspect": 1.34108527131783,
+			"region": [
+				499,
+				111,
+				350,
+				262
+			],
+			"short": true
+		},
+		{
+			"aspect": 1.2043795620438,
+			"region": [
+				948,
+				95,
+				334,
+				278
+			],
+			"short": true
+		},
+		{
+			"aspect": 1.3402489626556,
+			"region": [
+				1400,
+				128,
+				327,
+				245
+			],
+			"short": true
+		},
+		{
+			"aspect": 1.00537634408602,
+			"region": [
+				30,
+				457,
+				378,
+				376
+			],
+			"short": false
+		},
+		{
+			"aspect": 1.00529100529101,
+			"region": [
+				481,
+				454,
+				384,
+				382
+			],
+			"short": false
+		},
+		{
+			"aspect": 1.01358695652174,
+			"region": [
+				921,
+				462,
+				377,
+				372
+			],
+			"short": false
+		},
+		{
+			"aspect": 0.931578947368421,
+			"region": [
+				1397,
+				450,
+				358,
+				384
+			],
+			"short": false
+		}
+	],
+	"size": [
+		1774,
+		887
+	],
+	"texture": "res://assets/perspective09/grass_sheet.png"
+}

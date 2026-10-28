@@ -1,0 +1,167 @@
+{
+ "census": {
+  "collision_objects3d": 769,
+  "collision_shapes3d": 1058,
+  "directional": 1,
+  "mesh_shadow_casters": 385,
+  "meshes": 1068,
+  "nodes": 5068,
+  "omni": 12,
+  "omni_active": 6,
+  "omni_shadow": 0,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 0,
+  "spot_shadow": 0,
+  "sprite_shader_mats": 1143,
+  "sprite_std_mats": 0,
+  "sprites": 1196,
+  "sprites_visible": 1123,
+  "top_sprite_shaders": [
+   {
+    "count": 454,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 454,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 454,
+  "whole_fade_entries": 454
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "avg_ms": 14.639496350365,
+   "draw_avg": 748.0,
+   "draw_max": 748,
+   "engine_fps": 63.0,
+   "fps": 68.3083608935132,
+   "frames": 137,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 46.138,
+   "objects_max": 852,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2024067,
+   "tag": "yard_day",
+   "time_physics_avg": 0.00217016788321168,
+   "time_process_avg": 0.0418431824817518
+  },
+  {
+   "avg_ms": 14.0028041958042,
+   "draw_avg": 748.0,
+   "draw_max": 748,
+   "engine_fps": 72.0,
+   "fps": 71.4142671722597,
+   "frames": 143,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 48.356,
+   "objects_max": 852,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2024067,
+   "tag": "yard_day_fadeoff",
+   "time_physics_avg": 0.00217060839160839,
+   "time_process_avg": 0.037889020979021
+  },
+  {
+   "avg_ms": 14.9744776119403,
+   "draw_avg": 771.0,
+   "draw_max": 771,
+   "engine_fps": 69.0,
+   "fps": 66.7802928365677,
+   "frames": 134,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 47.212,
+   "objects_max": 875,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2026283,
+   "tag": "yard_night",
+   "time_physics_avg": 0.00238233582089553,
+   "time_process_avg": 0.040501552238806
+  },
+  {
+   "avg_ms": 9.42116431924883,
+   "draw_avg": 516.093896713615,
+   "draw_max": 525,
+   "engine_fps": 101.0,
+   "fps": 106.143993047319,
+   "frames": 213,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 28.162,
+   "objects_max": 868,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 1906509,
+   "tag": "grove_day",
+   "time_physics_avg": 0.00782103286384976,
+   "time_process_avg": 0.0200395070422535
+  },
+  {
+   "avg_ms": 11.6701744186047,
+   "draw_avg": 506.581395348837,
+   "draw_max": 522,
+   "engine_fps": 62.0,
+   "fps": 85.688522221724,
+   "frames": 172,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 29.509,
+   "objects_max": 831,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 1906221,
+   "tag": "grove_day_halfres",
+   "time_physics_avg": 0.00296293023255813,
+   "time_process_avg": 0.0209682906976744
+  },
+  {
+   "avg_ms": 13.5014,
+   "draw_avg": 283.0,
+   "draw_max": 283,
+   "engine_fps": 74.0,
+   "fps": 74.0663931147881,
+   "frames": 150,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 39.492,
+   "objects_max": 531,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 1524857,
+   "tag": "station_day",
+   "time_physics_avg": 0.00268400000000001,
+   "time_process_avg": 0.0501963466666665
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+	"checks": 12,
+	"failures": [],
+	"note": "Wall frame samples include pacing and scene cost; not a hardware performance benchmark.",
+	"peak_live_shots": 200,
+	"sample_frame_ms_p50": 18.919,
+	"sample_frame_ms_p95": 29.657
+}

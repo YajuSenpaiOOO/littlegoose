@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/art/world_light_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+label = "夜晚"
+nighttime = true
+sky_color = Color(0.5137254901960784,0.5372549019607843,0.6235294117647059,1)
+direct_color = Color(1,0.9411764705882353,0.8352941176470589,1)
+direct_energy = 0
+shadow_azimuth_degrees = 35
+elevation_degrees = 45
+shadow_opacity = 0
+local_shadow_visibility = 1
+eave_visibility = 1

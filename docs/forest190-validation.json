@@ -1,0 +1,41 @@
+{
+ "checks": [
+  {
+   "check": "hero receives native scene lights",
+   "ok": true
+  },
+  {
+   "check": "both screen actor exemptions removed",
+   "ok": true
+  },
+  {
+   "check": "screen cone veil disabled while native spotlight remains",
+   "ok": true
+  },
+  {
+   "check": "warm protection uses registered emitters only",
+   "ok": true
+  },
+  {
+   "check": "CPU actor field has no jump at old south atlas boundary",
+   "ok": true
+  },
+  {
+   "check": "old body-following fill stays disabled at night",
+   "ok": true
+  },
+  {
+   "check": "native theatre spotlight remains available at night",
+   "ok": true
+  },
+  {
+   "check": "forest lamp cores and house windows registered",
+   "ok": true
+  },
+  {
+   "check": "reactive flowers and hammock cat retained",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

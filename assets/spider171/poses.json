@@ -1,0 +1,38 @@
+{
+ "ball": {
+  "foot": [
+   165.5,
+   255
+  ],
+  "scale": 0.13374613003096,
+  "visible_height": 33.7040247678019,
+  "visible_width": 43.2
+ },
+ "push": {
+  "foot": [
+   273.0,
+   439
+  ],
+  "scale": 0.0802973977695167,
+  "visible_height": 35.0096654275093,
+  "visible_width": 43.2
+ },
+ "sit": {
+  "foot": [
+   287.0,
+   460
+  ],
+  "scale": 0.0763250883392226,
+  "visible_height": 34.8805653710247,
+  "visible_width": 43.2
+ },
+ "winding": {
+  "foot": [
+   273.5,
+   464
+  ],
+  "scale": 0.0801484230055659,
+  "visible_height": 36.9484230055659,
+  "visible_width": 43.2
+ }
+}

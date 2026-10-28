@@ -1,0 +1,21 @@
+{
+ "checks": [
+  {
+   "check": "visible shadow pixels in cottage comparison: 12701",
+   "ok": true
+  },
+  {
+   "check": "projected caster bounds are local after CPU fallback",
+   "ok": true
+  },
+  {
+   "check": "visible shadow pixels in central comparison: 6893",
+   "ok": true
+  },
+  {
+   "check": "projected caster bounds are local after CPU fallback",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

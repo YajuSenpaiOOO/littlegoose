@@ -1,0 +1,131 @@
+{
+ "checks": [
+  {
+   "check": "three spiders start in the real forest trial",
+   "ok": true
+  },
+  {
+   "check": "forest collision grid replaces combat navigation only in trial",
+   "ok": true
+  },
+  {
+   "check": "central tree cylinder proxy is explicitly rejected",
+   "ok": true
+  },
+  {
+   "check": "no tall cylindrical shadow remains on central roots",
+   "ok": true
+  },
+  {
+   "check": "existing contour and ground contact shadows retained",
+   "ok": true
+  },
+  {
+   "check": "parked tree occlusion implementation unchanged",
+   "ok": true
+  },
+  {
+   "check": "real forest AI visits hop, silk windup, weaving and happy hops",
+   "ok": true
+  },
+  {
+   "check": "spiders actually release silk and finish weaving",
+   "ok": true
+  },
+  {
+   "check": "spider positions remain on lowland floor",
+   "ok": true
+  },
+  {
+   "check": "spiders receive day-night environmental grading",
+   "ok": true
+  },
+  {
+   "check": "restart supports single-spider trial",
+   "ok": true
+  },
+  {
+   "check": "stopping trial removes actors, silk and web pads",
+   "ok": true
+  },
+  {
+   "check": "stopping restores original grove center and navigation",
+   "ok": true
+  },
+  {
+   "check": "trial does not advance formal progression",
+   "ok": true
+  },
+  {
+   "check": "three-spider restart works after returning to exploration",
+   "ok": true
+  },
+  {
+   "check": "victory does not queue ordinary roamers or reward reminders",
+   "ok": true
+  },
+  {
+   "check": "victory can restart without advancing progression",
+   "ok": true
+  },
+  {
+   "check": "fixture enters the real weaving state",
+   "ok": true
+  },
+  {
+   "check": "hit preserves weaving state, timer and the existing pad",
+   "ok": true
+  },
+  {
+   "check": "spider hit emits four fluff clusters via dedicated contact callback",
+   "ok": true
+  },
+  {
+   "check": "balloon sword spider contact also avoids jelly droplets",
+   "ok": true
+  },
+  {
+   "check": "hit visibly squashes the active pose",
+   "ok": true
+  },
+  {
+   "check": "re-rendering does not accumulate deformation or shift the foot anchor",
+   "ok": true
+  },
+  {
+   "check": "weaving completes and celebrates after taking a hit",
+   "ok": true
+  },
+  {
+   "check": "hit deformation settles back to normal",
+   "ok": true
+  },
+  {
+   "check": "body proximity gently nudges without contact damage",
+   "ok": true
+  },
+  {
+   "check": "stop and restart clear transient fluff",
+   "ok": true
+  },
+  {
+   "check": "hanging cat and popup puppet use the redrawn sprite",
+   "ok": true
+  }
+ ],
+ "failures": [],
+ "metrics": {
+  "celebrations": 1,
+  "states": [
+   "watch",
+   "winding",
+   "hop",
+   "crouch",
+   "push",
+   "sit",
+   "weave",
+   "happy"
+  ],
+  "throws": 2
+ }
+}

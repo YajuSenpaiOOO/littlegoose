@@ -1,0 +1,141 @@
+{
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "scan_ms_forest": [
+  3120,
+  3154,
+  3181,
+  3188,
+  3193,
+  4249,
+  4261,
+  4275,
+  4428,
+  4687
+ ],
+ "scan_ms_yard": [
+  2618,
+  2677,
+  2776,
+  3137,
+  3355,
+  3517,
+  3530,
+  3553,
+  3739,
+  3812
+ ],
+ "spots": [
+  {
+   "avg_ms": 23.0444,
+   "draw_avg": 1038.89166666667,
+   "draw_max": 1039,
+   "engine_fps": 44.0,
+   "fps": 43.3944906354689,
+   "frames": 120,
+   "long_frames_over_50ms": 3,
+   "max_gap_ms": 65.904,
+   "objects_max": 1370,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2405266,
+   "tag": "yard_day",
+   "time_physics_avg": 0.00301741666666666,
+   "time_process_avg": 0.0591163333333335
+  },
+  {
+   "avg_ms": 21.1162833333333,
+   "draw_avg": 1038.0,
+   "draw_max": 1038,
+   "engine_fps": 46.0,
+   "fps": 47.3568186320667,
+   "frames": 120,
+   "long_frames_over_50ms": 2,
+   "max_gap_ms": 67.811,
+   "objects_max": 1369,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2405258,
+   "tag": "yard_day_lighting_off",
+   "time_physics_avg": 0.00250581666666667,
+   "time_process_avg": 0.0600057333333332
+  },
+  {
+   "avg_ms": 26.551325,
+   "draw_avg": 1206.38333333333,
+   "draw_max": 1217,
+   "engine_fps": 37.0,
+   "fps": 37.6629038287166,
+   "frames": 120,
+   "long_frames_over_50ms": 3,
+   "max_gap_ms": 80.792,
+   "objects_max": 1255,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2450156,
+   "tag": "forest_day",
+   "time_physics_avg": 0.00406441666666667,
+   "time_process_avg": 0.0610844333333335
+  }
+ ]
+}

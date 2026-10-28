@@ -1,0 +1,49 @@
+{
+ "checks": [
+  {
+   "check": "house texture imported as normal resource",
+   "ok": true
+  },
+  {
+   "check": "transparent image background retained",
+   "ok": true
+  },
+  {
+   "check": "sprite writes depth and uses alpha cutout",
+   "ok": true
+  },
+  {
+   "check": "preview starts grounded in front of cottage",
+   "ok": true
+  },
+  {
+   "check": "house drawn at 6.7m opaque width",
+   "ok": true
+  },
+  {
+   "check": "hero can approach front door",
+   "ok": true
+  },
+  {
+   "check": "house physical footprint still blocks walking through wall",
+   "ok": true
+  },
+  {
+   "check": "house card fades behind wall instead of hiding hero",
+   "ok": true
+  },
+  {
+   "check": "house opacity restores in front",
+   "ok": true
+  },
+  {
+   "check": "normal default remains world169",
+   "ok": true
+  },
+  {
+   "check": "art preview adds no combat or progression",
+   "ok": true
+  }
+ ],
+ "failures": []
+}

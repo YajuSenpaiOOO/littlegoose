@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "art/scary_forest176_refinement/merged_lowland_forest.png",
+  "assets": [
+    {
+      "file": "central_oak.png",
+      "prompt": "Generate one production game environment sprite, transparent alpha background. Reference attached image ONLY for art direction: cozy pixel-art storybook forest in dark teal, lavender and moss. Subject: a SINGLE central ancient friendly oak, entire tree roots to crown, isolated with generous transparent margins. 2.5D orthographic view, camera 25 degrees looking downward from horizontal, matching the reference game. Rounded richly layered deep blue-green crown occupies upper 42% of image, a forked stout warm gray-brown trunk, gentle curved spreading roots on a compact mossy root island with tiny lavender flowers. Keep a substantial clear trunk gap below canopy for player readability. Shape softer than realistic, handmade fantasy, crisp small pixel clusters and restrained dithering like reference. Height about 8 meters, compact roots 3m diameter, crown about 8m wide. No face, no eyes, no monsters, no spiders, no lamps, no ribbons or flags baked onto tree, no scenery, no ground plane, no cast shadow (will project in game), no text. Canopy should not extend down to ground. Single complete tree only."
+    },
+    {
+      "file": "yarn_craft_corner.png",
+      "prompt": "Create ONE isolated environment prop for the attached cozy pixel-art forest game, genuine transparent background. Reference image is style and palette only. A small handmade craft corner, compact coherent single prop: a squat mossy wooden stump supporting an open wicker basket of soft lavender cream yarn balls, two wooden thread spools, and ONE adorable small cream ghost-kitten cloth plush leaning against the basket. Plush raises its rounded little paws attempting a harmless 'boo', tiny smiling cat mouth, dot eyes, pink cheeks, extremely cuddly, no anger, no fangs. A few tiny lilac blossoms by stump base. Width 1.3m height .95m, seen from 25 degrees down from horizontal, clearly visible basket interior and stump top, 2.5D game sprite. Match small crisp pixel clusters, dark teal moss, warm timber and soft lavender of reference. Single complete compact arrangement, centered with transparent margins. No large landscape, no floor tile, no ground plane or painted cast shadow, no captions, no UI, no characters other than cloth toy. Fully transparent alpha."
+    }
+  ]
+}

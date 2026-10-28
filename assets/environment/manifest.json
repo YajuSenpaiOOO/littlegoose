@@ -1,0 +1,6 @@
+{
+  "cottage": {"path":"res://assets/environment/cottage_v1.png","foot":[735,886],"visible_height":816,"source":"built-in imagegen; style-B reference; cottage prompt in art/source/sample-01-prompts.md"},
+  "tree": {"path":"res://assets/environment/tree_v1.png","foot":[650,1186],"visible_height":1166,"source":"built-in imagegen; style-B reference; tree prompt in art/source/sample-01-prompts.md"},
+  "rock": {"path":"res://assets/environment/rock_v1.png","foot":[768,869],"visible_height":704,"source":"built-in imagegen; style-B reference; rock prompt in art/source/sample-01-prompts.md"},
+  "ground": {"path":"res://assets/environment/yard_ground_v1.png","source":"built-in imagegen; style-B reference; ground prompt in art/source/sample-01-prompts.md"}
+}

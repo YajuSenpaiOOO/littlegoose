@@ -1,0 +1,167 @@
+{
+ "big_meshes": [
+  {
+   "cast_shadow": 1,
+   "path": "/root/@Node3D@2/@MeshInstance3D@5/NorthernBufferTrim140",
+   "tris": 122066,
+   "visible": true
+  },
+  {
+   "cast_shadow": 1,
+   "path": "/root/@Node3D@2/@MeshInstance3D@5",
+   "tris": 121862,
+   "visible": true
+  },
+  {
+   "cast_shadow": 1,
+   "path": "/root/@Node3D@2/RockFacesAndGrassCaps91/FacetedBedrock91/NorthernRockTrim140",
+   "tris": 35696,
+   "visible": true
+  },
+  {
+   "cast_shadow": 1,
+   "path": "/root/@Node3D@2/RockFacesAndGrassCaps91/FacetedBedrock91",
+   "tris": 35582,
+   "visible": true
+  }
+ ],
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "avg_ms": 32.5397416666667,
+   "draw_avg": 1198.39166666667,
+   "draw_max": 1214,
+   "engine_fps": 31.0,
+   "fps": 30.7316514754138,
+   "frames": 120,
+   "long_frames_over_50ms": 5,
+   "max_gap_ms": 76.49,
+   "objects_max": 1253,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451222,
+   "tag": "forest_day_baseline",
+   "time_physics_avg": 0.00734890833333333,
+   "time_process_avg": 0.0625602083333334
+  },
+  {
+   "avg_ms": 30.30805,
+   "draw_avg": 885.433333333333,
+   "draw_max": 896,
+   "engine_fps": 32.0,
+   "fps": 32.9945344553675,
+   "frames": 120,
+   "long_frames_over_50ms": 4,
+   "max_gap_ms": 70.735,
+   "objects_max": 940,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 1094628,
+   "tag": "forest_day_bigmesh_nocast",
+   "time_physics_avg": 0.00601520833333334,
+   "time_process_avg": 0.0591873083333332
+  },
+  {
+   "avg_ms": 29.26185,
+   "draw_avg": 601.191666666667,
+   "draw_max": 604,
+   "engine_fps": 37.0,
+   "fps": 34.1741892600775,
+   "frames": 120,
+   "long_frames_over_50ms": 5,
+   "max_gap_ms": 79.351,
+   "objects_max": 843,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 1093604,
+   "tag": "forest_day_sunshadow_off",
+   "time_physics_avg": 0.0114538833333333,
+   "time_process_avg": 0.0614878666666666
+  },
+  {
+   "avg_ms": 31.4876,
+   "draw_avg": 1123.54166666667,
+   "draw_max": 1132,
+   "engine_fps": 36.0,
+   "fps": 31.7585335179563,
+   "frames": 120,
+   "long_frames_over_50ms": 4,
+   "max_gap_ms": 82.148,
+   "objects_max": 1200,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2450158,
+   "tag": "forest_day_shadowdist18",
+   "time_physics_avg": 0.00828147499999998,
+   "time_process_avg": 0.0619261416666666
+  }
+ ],
+ "sun": {
+  "blend_splits": false,
+  "fade_start": -1,
+  "max_distance": 42.0,
+  "mode": 1,
+  "shadow_enabled": true
+ }
+}

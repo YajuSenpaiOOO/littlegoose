@@ -1,0 +1,64 @@
+{
+ "census": {
+  "collision_objects3d": 769,
+  "collision_shapes3d": 1058,
+  "directional": 1,
+  "mesh_shadow_casters": 385,
+  "meshes": 1068,
+  "nodes": 5068,
+  "omni": 12,
+  "omni_active": 6,
+  "omni_shadow": 0,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 0,
+  "spot_shadow": 0,
+  "sprite_shader_mats": 1143,
+  "sprite_std_mats": 0,
+  "sprites": 1196,
+  "sprites_visible": 1123,
+  "top_sprite_shaders": [
+   {
+    "count": 454,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 454,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 454,
+  "whole_fade_entries": 454
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": []
+}

@@ -1,0 +1,6 @@
+{
+  "right": {"file": "dash_a_cool_trial1.png", "foot": [825, 962], "unit": 0.032},
+  "left": {"file": "dash_a_cool_trial1.png", "foot": [825, 962], "unit": 0.032, "flip_h": true},
+  "down": {"file": "dash_front_a_v1.png", "foot": [590, 1303], "unit": 0.026},
+  "up": {"file": "dash_back_a_v1.png", "foot": [590, 1293], "unit": 0.026}
+}

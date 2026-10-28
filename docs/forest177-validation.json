@@ -1,0 +1,93 @@
+{
+ "approach_meters": 27.5902094841003,
+ "checks": [
+  {
+   "check": "normal main scene remains world169",
+   "ok": true
+  },
+  {
+   "check": "sandbox does not instantiate old world or its terrain",
+   "ok": true
+  },
+  {
+   "check": "geometry uses surveyed southwest world coordinates",
+   "ok": true
+  },
+  {
+   "check": "28x24 clearing and 25-35m approach",
+   "ok": true
+  },
+  {
+   "check": "three scale geese and no enemies in terrain preview",
+   "ok": true
+  },
+  {
+   "check": "entry has physical floor support",
+   "ok": true
+  },
+  {
+   "check": "hero physically walks both bends from entry to lowland",
+   "ok": true
+  },
+  {
+   "check": "approach ends on lower forest floor",
+   "ok": true
+  },
+  {
+   "check": "hero walks east route around central roots",
+   "ok": true
+  },
+  {
+   "check": "hero walks west outer route and returns around roots",
+   "ok": true
+  },
+  {
+   "check": "hero walks east ramp up to north terrace without teleporting",
+   "ok": true
+  },
+  {
+   "check": "north terrace has real support 2.4m above clearing",
+   "ok": true
+  },
+  {
+   "check": "upper terrace traverses both directions and ramp returns to lowland",
+   "ok": true
+  },
+  {
+   "check": "ramp descent returns to original low floor height",
+   "ok": true
+  },
+  {
+   "check": "cottage doorway approach is reachable on lower level",
+   "ok": true
+  },
+  {
+   "check": "central tree blocks direct horizontal movement/projectiles",
+   "ok": true
+  },
+  {
+   "check": "north bank is solid instead of a walk-through visual",
+   "ok": true
+  },
+  {
+   "check": "foreground occluder fades around hero",
+   "ok": true
+  },
+  {
+   "check": "tree/root collision remains solid while visual fades",
+   "ok": true
+  },
+  {
+   "check": "dash cannot escape finite clearing boundary",
+   "ok": true
+  },
+  {
+   "check": "return-to-entry resets movement and preserves grounded actor",
+   "ok": true
+  }
+ ],
+ "clearing_size": "28x24m",
+ "failures": [],
+ "north_rise": 2.4,
+ "note": "Standalone geometry in surveyed coordinates; real input-driven walking through approach, both root routes and raised terrace. No old scenes, default config, saves or combat modified."
+}

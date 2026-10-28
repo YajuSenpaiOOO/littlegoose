@@ -1,0 +1,17 @@
+{
+  "stage": 19,
+  "source_layout": "res://docs/world-restart-layout.json",
+  "source_layout_modified": false,
+  "position_metres_per_source_pixel": 0.05416666666666667,
+  "door_anchor_source": [1110, 1172],
+  "door_anchor_world_xz": [-4.7, -4.8],
+  "prop_scale_follows_spacing_scale": false,
+  "camera_pitch_degrees": 25,
+  "camera_yaw_degrees": 0,
+  "accepted_house": "res://assets/house16/slate.png",
+  "accepted_ground": "res://assets/forest14/a_ground.png",
+  "first_authored_run": ["home", "home_to_junction", "junction"],
+  "connected_skeleton_routes": ["junction_to_station", "junction_to_grove", "junction_to_shore", "home_to_landing"],
+  "unfinished": ["station_building_and_railway", "grove_identity_and_play_space", "shore_bank_rocks_and_water_art", "landing_extension_and_dock", "courtyard_life_props_and_flowers", "combat_and_interaction_content"],
+  "note": "保留旧地图区域关系和连接；以新视角重排树林与观察空间。码头仍为原规划支路端点，不是已经完成的实际临水码头。"
+}

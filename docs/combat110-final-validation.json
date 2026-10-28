@@ -1,0 +1,36 @@
+{
+  "checks": 174,
+  "failures": [],
+  "playthrough": {
+    "cards": "被窝里的手电筒 · 纸赛车 ×2 · 眼保健操 · 森林冰火人 · 流动红旗",
+    "fired": 2844,
+    "frames": 4750,
+    "kills": 34,
+    "landed_hits": 2913,
+    "median_ms": 18.449,
+    "p95_ms": 32.86,
+    "rewards": 6,
+    "seconds": 94.095,
+    "seen_ranks": [
+      0,
+      1,
+      2
+    ],
+    "state": "cleared"
+  },
+  "logs_without_errors_or_warnings": [
+    "combat110_probe.log",
+    "combat110_playthrough.log",
+    "guard109_probe.log",
+    "terrain_world109_probe.log",
+    "startup110-final.log"
+  ],
+  "sha256": {
+    "scripts/world/woodland_world110.gd": "f3a2fbe697b049fdd1b2881713608f402bd730d601aaacef6c730153ce22d855",
+    "scripts/combat/hero109.gd": "8ff8bc9c25334bf9ec204f5bfe48d4404f62c1188be75a2fc9ce0a3e3d0dfdb5",
+    "scripts/combat/tuantuan110.gd": "eabdf1261348a5bb28d86d3ac46eedf69eb60b4bd5a6c36309687bfa57f1f9c4",
+    "scripts/combat/projectile_pool110.gd": "ba35da97e1f1138d8248a92ab1cbe9326bc3e9db26cfe47fd5074a45f9a1420f",
+    "scripts/combat/battle_skills110.gd": "b040964dd5b96e6190ae7faaa4eccb4697605f9afbe2a7716c955c442a3cfd0a",
+    "project.godot": "2e9a3b65559ccc1ac232d7fbc2b5938bfea7646c0be50250470f7507503e4a68"
+  }
+}

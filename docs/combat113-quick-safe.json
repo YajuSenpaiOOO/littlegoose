@@ -1,0 +1,26 @@
+{
+	"idle": {
+		"fired": 0,
+		"frames": 600,
+		"max_ms": 31.258,
+		"median_ms": 11.931,
+		"p95_ms": 23.356,
+		"peak_shots": 0
+	},
+	"maximum": {
+		"fired": 23576,
+		"frames": 600,
+		"max_ms": 72.047,
+		"median_ms": 36.062,
+		"p95_ms": 53.671,
+		"peak_shots": 806
+	},
+	"six": {
+		"fired": 5634,
+		"frames": 600,
+		"max_ms": 47.215,
+		"median_ms": 23.927,
+		"p95_ms": 38.052,
+		"peak_shots": 247
+	}
+}

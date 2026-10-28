@@ -1,0 +1,26 @@
+{
+  "elite": {
+    "texture": "res://assets/tuantuan_v2/flower_elite_v1.png",
+    "center": [
+      704.0,
+      603.0
+    ],
+    "scale": 0.01325301204819277
+  },
+  "boss": {
+    "texture": "res://assets/tuantuan_v2/flower_boss_v1.png",
+    "center": [
+      751.0,
+      586.0
+    ],
+    "scale": 0.012681159420289856
+  },
+  "guard": {
+    "texture": "res://assets/tuantuan_v2/flower_guard_v1.png",
+    "center": [
+      740.0,
+      625.0
+    ],
+    "scale": 0.01338199513381995
+  }
+}

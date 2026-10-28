@@ -1,0 +1,27 @@
+.godot/
+*.log
+
+# Regenerated at startup on cache misses (startup_cache84.gd).
+/assets/bake84/
+
+# Generated visual QA output; retain locally, not in source history.
+/docs/**/*.png
+/docs/**/*.png.import
+/docs/**/*.jpg
+/docs/**/*.jpg.import
+/docs/**/*.webp
+/docs/**/*.webp.import
+/shots/
+/exports/
+/build/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Source asset .import settings, Godot .uid files and native runtime DLLs
+# are intentionally versioned. Do not ignore them globally.

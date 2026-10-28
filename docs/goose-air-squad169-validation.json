@@ -1,0 +1,5 @@
+{
+	"checks": 27,
+	"failures": [],
+	"note": "Per-emitter departure, payload conservation, real drops, charge/sword/notes/rate and lifecycle; current copy rate equals main rate."
+}

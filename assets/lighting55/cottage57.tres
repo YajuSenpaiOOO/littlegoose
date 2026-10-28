@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/art/warm_glow_preset57.gd" id="1"]
+[resource]
+script = ExtResource("1")
+spill_night = 2.6
+range_day = 5.8
+range_night = 5.8
+core_night = 0.85
