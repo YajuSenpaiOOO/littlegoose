@@ -76,10 +76,77 @@ func skirt140(st: SurfaceTool,a: Vector2,b: Vector2) -> void:
  # Both windings keep the closed rock face visible from the sea and land.
  for p in [a_top,b_top,b_bottom,a_top,b_bottom,a_bottom,a_top,b_bottom,b_top,a_top,a_bottom,b_bottom]:
   st.set_normal(normal);st.set_color(Color(1,0,0,1));st.set_uv(Vector2(p.x,p.y)/6.);st.add_vertex(p)
+func material_signature140(material: Material,arrays: Array) -> String:
+ # Rendering equivalence: same shader code, same uniforms, same vertex
+ # layout. Per-chunk road segments make neighbours differ; empty-route
+ # chunks collapse together losslessly.
+ var parts := PackedStringArray([str(material.render_priority),str(arrays[Mesh.ARRAY_TEX_UV]!=null),str(arrays[Mesh.ARRAY_COLOR]!=null)])
+ if material is ShaderMaterial:
+  var shader: Shader=material.shader
+  parts.append(str(hash(shader.code) if shader!=null else -1))
+  if shader!=null:
+   for uniform in shader.get_shader_uniform_list():
+    var value=material.get_shader_parameter(uniform.name)
+    parts.append(str(value.get_instance_id() if typeof(value)==TYPE_OBJECT and value!=null else value))
+ else: parts.append(str(material.get_instance_id()))
+ return "/".join(parts)
+
+func sequential_indices140(arrays: Array) -> PackedInt32Array:
+ var indices: PackedInt32Array=arrays[Mesh.ARRAY_INDEX]
+ if not indices.is_empty(): return indices
+ var count: int=arrays[Mesh.ARRAY_VERTEX].size()
+ var sequential := PackedInt32Array();sequential.resize(count)
+ for i in count: sequential[i]=i
+ return sequential
+
+func merge_surfaces140(mesh: ArrayMesh) -> ArrayMesh:
+ # The compatibility renderer pays one draw call per surface per pass, so
+ # the 154 painted chunks cost ~460 draws with shadow splits even where
+ # their materials are identical. Group by rendering signature and keep the
+ # first material instance of each group: it already lives in the world's
+ # ground_materials list, so runtime footprint uploads keep reaching it.
+ var groups := {};var order: Array=[]
+ for surface in mesh.get_surface_count():
+  var material: Material=mesh.surface_get_material(surface)
+  var arrays: Array=mesh.surface_get_arrays(surface)
+  var signature := material_signature140(material,arrays)
+  if not groups.has(signature):
+   groups[signature]={"material":material,"surfaces":[surface]};order.append(signature)
+  else: groups[signature].surfaces.append(surface)
+ var merged := ArrayMesh.new()
+ for signature in order:
+  var group: Dictionary=groups[signature]
+  var arrays: Array=mesh.surface_get_arrays(group.surfaces[0])
+  if group.surfaces.size()==1:
+   merged.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES,arrays)
+   merged.surface_set_material(merged.get_surface_count()-1,group.material)
+   continue
+  var vertices: PackedVector3Array=arrays[Mesh.ARRAY_VERTEX].duplicate()
+  var normals: PackedVector3Array=arrays[Mesh.ARRAY_NORMAL].duplicate()
+  var uvs: PackedVector2Array=arrays[Mesh.ARRAY_TEX_UV].duplicate() if arrays[Mesh.ARRAY_TEX_UV]!=null else PackedVector2Array()
+  var colors: PackedColorArray=arrays[Mesh.ARRAY_COLOR].duplicate() if arrays[Mesh.ARRAY_COLOR]!=null else PackedColorArray()
+  var indices: PackedInt32Array=sequential_indices140(arrays)
+  for which in group.surfaces.slice(1):
+   var more: Array=mesh.surface_get_arrays(which)
+   var base: int=vertices.size()
+   vertices.append_array(more[Mesh.ARRAY_VERTEX]);normals.append_array(more[Mesh.ARRAY_NORMAL])
+   if not uvs.is_empty(): uvs.append_array(more[Mesh.ARRAY_TEX_UV])
+   if not colors.is_empty(): colors.append_array(more[Mesh.ARRAY_COLOR])
+   var offsets: PackedInt32Array=sequential_indices140(more)
+   for index in offsets: indices.append(base+index)
+  var combined := [];combined.resize(Mesh.ARRAY_MAX)
+  combined[Mesh.ARRAY_VERTEX]=vertices;combined[Mesh.ARRAY_NORMAL]=normals;combined[Mesh.ARRAY_INDEX]=indices
+  if not uvs.is_empty(): combined[Mesh.ARRAY_TEX_UV]=uvs
+  if not colors.is_empty(): combined[Mesh.ARRAY_COLOR]=colors
+  merged.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES,combined)
+  merged.surface_set_material(merged.get_surface_count()-1,group.material)
+ print("COAST140_MERGE surfaces=",mesh.get_surface_count(),"->",merged.get_surface_count())
+ return merged
+
 func _ready() -> void:
  name="ClosedNorthernCoast140"
  visual140=MeshInstance3D.new();visual140.name="NorthernBufferTrim140"
- visual140.mesh=clipped140(world.ground.mesh);visual140.layers=world.ground.layers
+ visual140.mesh=merge_surfaces140(clipped140(world.ground.mesh));visual140.layers=world.ground.layers
  world.ground.add_child(visual140);world.ground.layers=0
  # Grass caps and stone faces share the same contour. Trimming just the cap
  # would leave the previous rock ledge and its grass tufts hanging in the sea.

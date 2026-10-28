@@ -94,11 +94,19 @@ func _process(delta: float) -> void:
  accent.stage_beam.material_override.set_shader_parameter("strength57",stage_level*.035)
  var ordered: Array=lamps.duplicate()
  ordered.sort_custom(func(a,b): return a.global_position.distance_squared_to(world.hero.global_position)<b.global_position.distance_squared_to(world.hero.global_position))
+ var rank := {}
+ for i in ordered.size(): rank[ordered[i].get_instance_id()]=i
  var upload := PackedVector4Array()
+ var hero_at: Vector3=world.hero.global_position
  for light in lamps:
-  light.visible=enabled;light.light_energy=float(light.get_meta("energy191")) if enabled else 0.
-  light.shadow_enabled=enabled and ordered.find(light)<3
-  if enabled and upload.size()<20:
+  # Real per-object lights only pay off inside their own reach; distant
+  # fixtures keep their shader-side pools (uploaded below and by 201) instead
+  # of costing light evaluation and shadow cubes on every frame.
+  var near: bool=enabled and light.global_position.distance_squared_to(hero_at)<24.*24.
+  light.visible=near
+  light.light_energy=float(light.get_meta("energy191")) if near else 0.
+  light.shadow_enabled=near and light.global_position.distance_squared_to(hero_at)<12.*12. and int(rank[light.get_instance_id()])<3
+  if near and upload.size()<20:
    var p := light.global_position;upload.append(Vector4(p.x,p.y,p.z,light.omni_range))
  var focus: ShaderMaterial=world.atmosphere41.focus_material
  focus.set_shader_parameter("light_count191",upload.size());upload.resize(20);focus.set_shader_parameter("lights191",upload)
