@@ -92,14 +92,14 @@
  "failures": [],
  "metrics": {
   "faded_trees": 5,
-  "local_off": "(0.1189, 0.166, 0.4114, 1.0)",
+  "local_off": "(0.1196, 0.1666, 0.4113, 1.0)",
   "local_on": "(0.4931, 0.4082, 0.435, 1.0)",
   "night_white": 0.0,
   "noon_white": 0.0,
   "projection_ratio": 0.910154442294115,
   "solid_trunks": 605,
-  "stage_off": "(0.1593, 0.2508, 0.5603, 1.0)",
-  "stage_on": "(0.4647, 0.3893, 0.3989, 1.0)",
+  "stage_off": "(0.1597, 0.2509, 0.5588, 1.0)",
+  "stage_on": "(0.4647, 0.3893, 0.399, 1.0)",
   "theme_tree_entries": 19,
   "visible_tree_nodes": 602
  }

@@ -1,0 +1,270 @@
+{
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "frames": 280,
+   "median": {
+    "draws": 689,
+    "gap_ms": 27.0,
+    "phys": 0.002876,
+    "proc": 0.056385
+   },
+   "tag": "forest_scripts_on",
+   "top": [
+    {
+     "draws": 689,
+     "gap_ms": 68.0,
+     "phys": 0.015599,
+     "proc": 0.054744,
+     "t": 5.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 68.0,
+     "phys": 0.002856,
+     "proc": 0.051773,
+     "t": 7.0
+    },
+    {
+     "draws": 694,
+     "gap_ms": 64.0,
+     "phys": 0.006061,
+     "proc": 0.053912,
+     "t": 2.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 63.0,
+     "phys": 0.003229,
+     "proc": 0.054592,
+     "t": 1.0
+    },
+    {
+     "draws": 688,
+     "gap_ms": 61.0,
+     "phys": 0.016571,
+     "proc": 0.057657,
+     "t": 3.0
+    },
+    {
+     "draws": 689,
+     "gap_ms": 61.0,
+     "phys": 0.002876,
+     "proc": 0.056385,
+     "t": 4.0
+    },
+    {
+     "draws": 689,
+     "gap_ms": 58.0,
+     "phys": 0.00289,
+     "proc": 0.061147,
+     "t": 6.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 49.0,
+     "phys": 0.002856,
+     "proc": 0.051773,
+     "t": 7.0
+    }
+   ]
+  },
+  {
+   "frames": 1817,
+   "median": {
+    "draws": 692,
+    "gap_ms": 4.0,
+    "phys": 0.000649,
+    "proc": 0.007097
+   },
+   "tag": "forest_scripts_off",
+   "top": [
+    {
+     "draws": 692,
+     "gap_ms": 8.0,
+     "phys": 0.000634,
+     "proc": 0.007223,
+     "t": 8.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 8.0,
+     "phys": 0.000649,
+     "proc": 0.007097,
+     "t": 4.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 8.0,
+     "phys": 0.000331,
+     "proc": 0.007201,
+     "t": 3.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 7.0,
+     "phys": 0.000457,
+     "proc": 0.006874,
+     "t": 6.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 7.0,
+     "phys": 0.000756,
+     "proc": 0.007392,
+     "t": 6.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 7.0,
+     "phys": 0.000396,
+     "proc": 0.006855,
+     "t": 2.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 7.0,
+     "phys": 0.000756,
+     "proc": 0.007392,
+     "t": 6.0
+    },
+    {
+     "draws": 692,
+     "gap_ms": 7.0,
+     "phys": 0.000634,
+     "proc": 0.007223,
+     "t": 8.0
+    }
+   ]
+  },
+  {
+   "frames": 1949,
+   "median": {
+    "draws": 691,
+    "gap_ms": 3.0,
+    "phys": 0.000574,
+    "proc": 0.007073
+   },
+   "tag": "forest_scripts_off_halfres",
+   "top": [
+    {
+     "draws": 691,
+     "gap_ms": 8.0,
+     "phys": 0.000886,
+     "proc": 0.007138,
+     "t": 1.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 8.0,
+     "phys": 0.000631,
+     "proc": 0.007775,
+     "t": 0.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.001083,
+     "proc": 0.007731,
+     "t": 1.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.000574,
+     "proc": 0.007073,
+     "t": 4.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.000661,
+     "proc": 0.006788,
+     "t": 6.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.000661,
+     "proc": 0.006788,
+     "t": 6.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.000429,
+     "proc": 0.007127,
+     "t": 7.0
+    },
+    {
+     "draws": 691,
+     "gap_ms": 7.0,
+     "phys": 0.001083,
+     "proc": 0.007731,
+     "t": 2.0
+    }
+   ]
+  }
+ ]
+}

@@ -15,6 +15,9 @@ var lantern_light: OmniLight3D
 var elapsed := 0.
 var refresh_left := 0.
 var rng := RandomNumberGenerator.new()
+var refresh_at46 := Vector2.INF
+var wind_tick46 := -1
+var wind_state46 := -1
 
 func _ready() -> void:
 	name="WoodlandLife46"
@@ -195,8 +198,20 @@ func _process(delta: float) -> void:
 	refresh_left-=delta
 	if refresh_left<=0.:
 		refresh_left=.75
-		_refresh_nearby()
-	for material in wind_materials:
-		material.set_shader_parameter("wind_clock",world.clock)
-		material.set_shader_parameter("wind_strength",1. if wind_enabled else 0.)
+		# The near list only changes when the hero actually travels; skip the
+		# 600-tree rescan while standing still.
+		var at46 := Vector2(world.hero.position.x,world.hero.position.z)
+		if at46.distance_squared_to(refresh_at46)>1.: refresh_at46=at46;_refresh_nearby()
+	# Wind sways slowly: a 20 Hz clock upload is visually identical to
+	# per-frame, and strength only changes through set_wind().
+	var tick46 := int(world.clock*20.)
+	if tick46!=wind_tick46:
+		wind_tick46=tick46
+		for material in wind_materials:
+			material.set_shader_parameter("wind_clock",world.clock)
+	var strength46 := 1 if wind_enabled else 0
+	if strength46!=wind_state46:
+		wind_state46=strength46
+		for material in wind_materials:
+			material.set_shader_parameter("wind_strength",1. if wind_enabled else 0.)
 	if leaves_enabled: _update_leaves(delta)

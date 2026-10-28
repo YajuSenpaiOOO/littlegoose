@@ -62,6 +62,10 @@ func _ready() -> void:
 func blocked() -> bool:
 	return sleeping or not focused or dialogue_open or world.combat_paused or world.draft_open or world.result_open or world.player_hp<=0.
 
+var applied_hour55 := -1.
+var applied_state55 := -1
+var guide_key55 := ""
+
 func _process(delta: float) -> void:
 	clock55.advance(delta,blocked() or preview)
 	# Visual sampling follows simulation time. Debug jumps also ease through the
@@ -70,8 +74,18 @@ func _process(delta: float) -> void:
 	apply_left-=delta
 	if apply_left<=0.:
 		apply_left=.08
-		apply_look()
-		update_guide()
+		# At steady state (visual hour caught up, same pause state) the look and
+		# the guide label are already correct; re-pushing them 12.5x per second
+		# only re-rendered the canvas. Subclass toggles call update_guide()
+		# directly and stay ungated.
+		var state55: int=(1 if blocked() else 0)+(2 if preview else 0)
+		if absf(visual_hour-applied_hour55)>.0005 or state55!=applied_state55:
+			applied_hour55=visual_hour;applied_state55=state55
+			apply_look()
+		var key55 := "%d|%s|%s|%d|%d|%d"%[clock55.day,clock55.caption(),clock55.period(),state55,1 if can_sleep() else 0,1 if sleeping else 0]
+		if key55!=guide_key55:
+			guide_key55=key55
+			update_guide()
 
 func apply_look() -> void:
 	var look: Dictionary=palette.sample(visual_hour)

@@ -1,0 +1,202 @@
+{
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "avg_ms": 5.34030897009967,
+   "draw_avg": 689.0,
+   "draw_max": 689,
+   "engine_fps": 200.0,
+   "fps": 187.255083104552,
+   "frames": 301,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 9.57,
+   "objects_max": 844,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451212,
+   "tag": "all_off",
+   "time_physics_avg": 0.000655375415282392,
+   "time_process_avg": 0.00794893687707638
+  },
+  {
+   "avg_ms": 7.96826865671642,
+   "draw_avg": 689.0,
+   "draw_max": 689,
+   "engine_fps": 126.0,
+   "fps": 125.497776628942,
+   "frames": 201,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 13.75,
+   "objects_max": 844,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451212,
+   "tag": "plus_world_root",
+   "time_physics_avg": 0.00191127860696518,
+   "time_process_avg": 0.0124308905472637
+  },
+  {
+   "avg_ms": 8.08369696969697,
+   "draw_avg": 689.0,
+   "draw_max": 689,
+   "engine_fps": 128.0,
+   "fps": 123.705775185371,
+   "frames": 198,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 14.026,
+   "objects_max": 844,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451212,
+   "tag": "plus_hero",
+   "time_physics_avg": 0.00246021212121212,
+   "time_process_avg": 0.0149646363636363
+  },
+  {
+   "avg_ms": 8.018275,
+   "draw_avg": 689.0,
+   "draw_max": 689,
+   "engine_fps": 122.0,
+   "fps": 124.71510393445,
+   "frames": 200,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 15.581,
+   "objects_max": 844,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451212,
+   "tag": "plus_silhouettes",
+   "time_physics_avg": 0.00225594999999999,
+   "time_process_avg": 0.01479116
+  },
+  {
+   "avg_ms": 10.886231292517,
+   "draw_avg": 680.69387755102,
+   "draw_max": 684,
+   "engine_fps": 92.0,
+   "fps": 91.859154295884,
+   "frames": 147,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 25.359,
+   "objects_max": 843,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2450580,
+   "tag": "plus_enemies",
+   "time_physics_avg": 0.00982390476190475,
+   "time_process_avg": 0.0205371904761905
+  },
+  {
+   "avg_ms": 9.49927810650887,
+   "draw_avg": 615.0,
+   "draw_max": 615,
+   "engine_fps": 103.0,
+   "fps": 105.27115732245,
+   "frames": 169,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 22.937,
+   "objects_max": 837,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2450508,
+   "tag": "plus_time55",
+   "time_physics_avg": 0.00556105917159764,
+   "time_process_avg": 0.020997325443787
+  },
+  {
+   "avg_ms": 19.4002,
+   "draw_avg": 679.022222222222,
+   "draw_max": 684,
+   "engine_fps": 51.0,
+   "fps": 51.5458603519551,
+   "frames": 90,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 30.89,
+   "objects_max": 845,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451728,
+   "tag": "plus_art_systems",
+   "time_physics_avg": 0.00739127777777777,
+   "time_process_avg": 0.0254208444444444
+  },
+  {
+   "avg_ms": 19.1398,
+   "draw_avg": 680.533333333333,
+   "draw_max": 683,
+   "engine_fps": 51.0,
+   "fps": 52.247149917972,
+   "frames": 90,
+   "long_frames_over_50ms": 0,
+   "max_gap_ms": 29.71,
+   "objects_max": 845,
+   "physics3d_active_max": 0,
+   "physics3d_pairs_max": 0,
+   "primitives_max": 2451728,
+   "tag": "plus_overlay",
+   "time_physics_avg": 0.00530527777777778,
+   "time_process_avg": 0.0250398222222222
+  }
+ ]
+}

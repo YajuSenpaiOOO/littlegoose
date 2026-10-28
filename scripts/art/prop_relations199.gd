@@ -64,11 +64,16 @@ func _ready() -> void:
    var shape_node: CollisionShape3D=body.get_child(0)
    if shape_node.shape is CylinderShape3D and shape_node.shape.radius>.3: body.collision_layer=0
  _process(0.)
+var camera_at199 := Vector3.INF
 func _process(_delta: float) -> void:
- var normal := Vector3(world.camera.global_basis.z.x,0.,world.camera.global_basis.z.z).normalized()
- for card in cards:
-  card.ink.set_shader_parameter("camera199",world.camera.global_position)
-  card.ink.set_shader_parameter("plane_normal199",normal)
+ var camera_at: Vector3=world.camera.global_position
+ var camera_moved: bool=camera_at.distance_squared_to(camera_at199)>.0001
+ if camera_moved: camera_at199=camera_at
+ if camera_moved:
+  var normal := Vector3(world.camera.global_basis.z.x,0.,world.camera.global_basis.z.z).normalized()
+  for card in cards:
+   card.ink.set_shader_parameter("camera199",camera_at)
+   card.ink.set_shader_parameter("plane_normal199",normal)
  for pair in shadow_pairs:
   if not is_instance_valid(pair.visual) or not is_instance_valid(pair.shadow): continue
   var ink: ShaderMaterial=pair.visual.material_override

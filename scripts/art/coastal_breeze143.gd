@@ -7,6 +7,7 @@ var birds143: Array[MeshInstance3D]=[]
 var shader_cache143: Dictionary={}
 var clipped_materials143: Dictionary={}
 var scan_wait143 := 0.
+var pending_scans143: Array=[]
 var next_bird143 := 8.
 var bird_age143 := -1.
 var flight_count143 := 0
@@ -25,6 +26,13 @@ func _ready() -> void:
  for i in 3:
   var node := MeshInstance3D.new();node.material_override=bird_mat143;node.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF;node.hide();add_child(node);birds143.append(node)
  scan_shadows143(world)
+ # Runtime binding only ever targets materials on NEW nodes (shader swaps on
+ # existing materials reuse the same instance and stay skipped by the
+ # clipped_materials143 dedupe), so react to node_added instead of walking
+ # the whole 6.5k-node tree every second.
+ world.get_tree().node_added.connect(_node_added143)
+func _node_added143(node: Node) -> void:
+ pending_scans143.append(node)
 # Reject projected fragments bridging steep cliffs in mid-air, as well as
 # fragments outside the coastline. Keep shadows on the actual land.
 func clipped_shader143(source: Shader) -> Shader:
@@ -93,8 +101,10 @@ func bird_mesh143(phase: float) -> ArrayMesh:
    st.set_normal(Vector3(0,0,1));st.add_vertex(at)
  return st.commit()
 func _process(delta: float) -> void:
- scan_wait143-=delta
- if scan_wait143<=0.: scan_wait143=1.;scan_shadows143(world)
+ if not pending_scans143.is_empty():
+  for node in pending_scans143:
+   if is_instance_valid(node): scan_shadows143(node)
+  pending_scans143.clear()
  cloth_clock143-=delta
  if cloth_clock143<=0.:
   cloth_clock143=.05

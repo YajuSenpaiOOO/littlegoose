@@ -45,6 +45,8 @@ func context() -> String:
 		if d<distance: nearest=key; distance=d
 	return "%s (%.1f, %.1f) · %s"%[world.region_names.get(nearest,nearest),at.x,at.y,world.time55.clock55.caption()]
 
+var band_state66 := -1
+
 func add_sample(now: float,elapsed_ms: float) -> void:
 	samples[cursor]=Vector2(now,elapsed_ms)
 	cursor=(cursor+1)%CAPACITY
@@ -65,7 +67,11 @@ func refresh(now: float) -> void:
 	average_ms=total/maxi(recent,1)
 	var fps: int=int(round(1000./maxf(average_ms,.1))) if recent>0 else 0
 	readout.text="%d FPS  ·  %.1f ms/帧%s\n近10秒最慢 %.1fms · >33ms %d帧\n最近慢帧：%s\nCtrl+F9 显隐 · Ctrl+F10 清零"%[fps,average_ms," · 后台暂停采样" if not focused else "",worst_ms,slow_count,last_spike]
-	readout.modulate=Color(1.,.78,.64) if average_ms>33.3 else (Color(1.,.91,.68) if average_ms>20. else Color(.86,.95,.90))
+	# The tint only carries a coarse band; skip identical recolours.
+	var band66 := 2 if average_ms>33.3 else (1 if average_ms>20. else 0)
+	if band66!=band_state66:
+		band_state66=band66
+		readout.modulate=Color(1.,.78,.64) if average_ms>33.3 else (Color(1.,.91,.68) if average_ms>20. else Color(.86,.95,.90))
 
 func clear_samples() -> void:
 	cursor=0; count=0; previous_tick=0
@@ -79,7 +85,7 @@ func _process(delta: float) -> void:
 	previous_tick=tick
 	refresh_left-=delta
 	if refresh_left<=0.:
-		refresh_left=.25
+		refresh_left=.5
 		refresh(tick/1000000.)
 
 func _notification(what: int) -> void:

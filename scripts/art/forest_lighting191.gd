@@ -7,6 +7,8 @@ var casters: Array[MeshInstance3D]=[]
 var stage_level := 0.
 var regional_level := 0.
 var elapsed := 0.
+var lamps_state191 := Vector3.INF
+var lamps_enabled191 := false
 func core(visual: Sprite3D,uv: Vector2) -> Vector3:
  var texture: Texture2D=visual.texture
  var full: Texture2D=texture.atlas if texture is AtlasTexture else texture
@@ -92,22 +94,27 @@ func _process(delta: float) -> void:
  spot.light_cull_mask=3;spot.shadow_caster_mask=2;spot.shadow_enabled=true;spot.shadow_bias=.12;spot.shadow_opacity=.6;spot.visible=stage_level>.005
  accent.stage_beam.visible=stage_level>.01
  accent.stage_beam.material_override.set_shader_parameter("strength57",stage_level*.035)
- var ordered: Array=lamps.duplicate()
- ordered.sort_custom(func(a,b): return a.global_position.distance_squared_to(world.hero.global_position)<b.global_position.distance_squared_to(world.hero.global_position))
- var rank := {}
- for i in ordered.size(): rank[ordered[i].get_instance_id()]=i
- var upload := PackedVector4Array()
  var hero_at: Vector3=world.hero.global_position
- for light in lamps:
-  # Real per-object lights only pay off inside their own reach; distant
-  # fixtures keep their shader-side pools (uploaded below and by 201) instead
-  # of costing light evaluation and shadow cubes on every frame.
-  var near: bool=enabled and light.global_position.distance_squared_to(hero_at)<24.*24.
-  light.visible=near
-  light.light_energy=float(light.get_meta("energy191")) if near else 0.
-  light.shadow_enabled=near and light.global_position.distance_squared_to(hero_at)<12.*12. and int(rank[light.get_instance_id()])<3
-  if near and upload.size()<20:
-   var p := light.global_position;upload.append(Vector4(p.x,p.y,p.z,light.omni_range))
- var focus: ShaderMaterial=world.atmosphere41.focus_material
- focus.set_shader_parameter("light_count191",upload.size());upload.resize(20);focus.set_shader_parameter("lights191",upload)
- focus.set_shader_parameter("stage191",Vector4(at.x,at.y,stage_level,world.hero.global_position.y))
+ if enabled!=lamps_enabled191 or hero_at.distance_squared_to(lamps_state191)>.0625:
+  lamps_enabled191=enabled;lamps_state191=hero_at
+  var ordered: Array=lamps.duplicate()
+  ordered.sort_custom(func(a,b): return a.global_position.distance_squared_to(hero_at)<b.global_position.distance_squared_to(hero_at))
+  var rank := {}
+  for i in ordered.size(): rank[ordered[i].get_instance_id()]=i
+  var upload := PackedVector4Array()
+  for light in lamps:
+   # Real per-object lights only pay off inside their own reach; distant
+   # fixtures keep their shader-side pools (uploaded below and by 201) instead
+   # of costing light evaluation and shadow cubes on every frame.
+   var near: bool=enabled and light.global_position.distance_squared_to(hero_at)<24.*24.
+   light.visible=near
+   light.light_energy=float(light.get_meta("energy191")) if near else 0.
+   light.shadow_enabled=near and light.global_position.distance_squared_to(hero_at)<12.*12. and int(rank[light.get_instance_id()])<3
+   if near and upload.size()<20:
+    var p := light.global_position;upload.append(Vector4(p.x,p.y,p.z,light.omni_range))
+  var focus: ShaderMaterial=world.atmosphere41.focus_material
+  focus.set_shader_parameter("light_count191",upload.size());upload.resize(20);focus.set_shader_parameter("lights191",upload)
+ # The stage footprint only matters while the stage light is alive.
+ if stage_level>.005:
+  var focus_live: ShaderMaterial=world.atmosphere41.focus_material
+  focus_live.set_shader_parameter("stage191",Vector4(at.x,at.y,stage_level,world.hero.global_position.y))

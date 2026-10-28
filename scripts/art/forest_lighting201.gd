@@ -1,11 +1,18 @@
 extends "res://scripts/art/forest_lighting194.gd"
+var upload_state201 := Vector3.INF
+var upload_enabled201 := false
 func _process(delta: float) -> void:
  super._process(delta)
  if not is_instance_valid(world.forest_mood188): return
  # New accent lamps share the existing real-light/grade pipeline. Upload
  # the nearest volumes when fixtures exceed the postprocess array capacity.
+ # The array only changes when the hero moves or lamps toggle; skip the
+ # re-sort and upload while idle.
+ var hero_at: Vector3=world.hero.global_position
+ if enabled==upload_enabled201 and hero_at.distance_squared_to(upload_state201)<=.0625: return
+ upload_enabled201=enabled;upload_state201=hero_at
  var ordered: Array=lamps.duplicate()
- ordered.sort_custom(func(a,b): return a.global_position.distance_squared_to(world.hero.global_position)<b.global_position.distance_squared_to(world.hero.global_position))
+ ordered.sort_custom(func(a,b): return a.global_position.distance_squared_to(hero_at)<b.global_position.distance_squared_to(hero_at))
  var upload := PackedVector4Array()
  if enabled:
   for i in mini(20,ordered.size()):
