@@ -17,6 +17,8 @@ func _input(event: InputEvent) -> void:
    var caps := [0,100,60,50]
    cap_index204=(cap_index204+1)%caps.size()
    Engine.max_fps=caps[cap_index204]
+   if is_instance_valid(encounter_hud):
+    encounter_hud.announce("帧率上限 · "+("不限" if Engine.max_fps==0 else str(Engine.max_fps)+" FPS"),"Ctrl+Alt+F 继续切换（不限→100→60→50）",2.5)
    get_viewport().set_input_as_handled();return
  super._input(event)
 var cap_index204 := 0
