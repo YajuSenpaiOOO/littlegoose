@@ -4,7 +4,7 @@
   "collision_shapes3d": 1299,
   "directional": 1,
   "forest_lamps191": 23,
-  "mesh_shadow_casters": 469,
+  "mesh_shadow_casters": 466,
   "meshes": 1373,
   "nodes": 6533,
   "omni": 45,
@@ -63,18 +63,18 @@
  },
  "spots": [
   {
-   "fps": 43.8013729315509,
-   "frames": 789,
-   "over30ms": 12,
+   "fps": 44.960961396352,
+   "frames": 810,
+   "over30ms": 14,
    "tag": "forest_walk_loop",
-   "worst_ms": 40.753
+   "worst_ms": 42.948
   },
   {
-   "fps": 47.7303423383914,
-   "frames": 478,
-   "over30ms": 7,
+   "fps": 47.2507977443088,
+   "frames": 473,
+   "over30ms": 9,
    "tag": "yard_walk_loop",
-   "worst_ms": 32.108
+   "worst_ms": 34.155
   }
  ]
 }
