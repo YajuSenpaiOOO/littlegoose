@@ -1,0 +1,9 @@
+ 375038 ERROR: Parameter "us" is null
+ 375038 ERROR: Parameter "shader" is null
+     88 ERROR: code:
+     88 ERROR: Failed parse:
+     88 ERROR: Error compiling Fragment shader
+     88 ERROR: Condition "variant_stages
+     88 ERROR: 2 compilation errors
+     12 ERROR: 0:1029: 'assign' :  l-value required "material" (can't modify a uniform)
+--- 750692 error lines, 106MB log trimmed ---
