@@ -1,0 +1,111 @@
+{
+ "baseline": 693,
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [
+  {
+   "draws_hidden": 641,
+   "tag": "ordinary_trees"
+  },
+  {
+   "draws_hidden": 468,
+   "tag": "forest188_subtree"
+  },
+  {
+   "draws_hidden": 694,
+   "tag": "actor_silhouette_shadows"
+  },
+  {
+   "draws_hidden": 667,
+   "tag": "grass_multimeshes"
+  },
+  {
+   "draws_hidden": 693,
+   "tag": "garden"
+  },
+  {
+   "draws_hidden": 662,
+   "tag": "park99"
+  },
+  {
+   "draws_hidden": 692,
+   "tag": "rail72"
+  },
+  {
+   "draws_hidden": 687,
+   "tag": "rocks91"
+  },
+  {
+   "draws_hidden": 689,
+   "tag": "bridge59"
+  },
+  {
+   "draws_hidden": 590,
+   "tag": "ground_trim"
+  },
+  {
+   "draws_hidden": 360,
+   "tag": "ALL_sprites"
+  }
+ ]
+}

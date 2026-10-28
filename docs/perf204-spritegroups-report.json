@@ -1,0 +1,154 @@
+{
+ "batchable_static_shared": 132,
+ "census": {
+  "collision_objects3d": 1013,
+  "collision_shapes3d": 1299,
+  "directional": 1,
+  "forest_lamps191": 23,
+  "mesh_shadow_casters": 469,
+  "meshes": 1373,
+  "nodes": 6533,
+  "omni": 45,
+  "omni_active": 27,
+  "omni_shadow": 3,
+  "particles": 0,
+  "spot": 1,
+  "spot_active": 1,
+  "spot_shadow": 1,
+  "sprite_shader_mats": 1528,
+  "sprite_std_mats": 1,
+  "sprites": 1640,
+  "sprites_visible": 1564,
+  "top_sprite_shaders": [
+   {
+    "count": 604,
+    "shader": "res://scripts/art/forest_wind46.gdshader"
+   },
+   {
+    "count": 600,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 146,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 37,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 18,
+    "shader": "res://scripts/art/forest_cutout186.gdshader"
+   },
+   {
+    "count": 15,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 10,
+    "shader": "(runtime shader)"
+   },
+   {
+    "count": 7,
+    "shader": "(runtime shader)"
+   }
+  ],
+  "trees_registered": 604,
+  "whole_fade_entries": 623
+ },
+ "distinct": 22,
+ "groups": [
+  {
+   "animated": false,
+   "count": 19,
+   "shader": "",
+   "texture": "res://assets/forest188/lilac_ground_clump_pixel.png"
+  },
+  {
+   "animated": false,
+   "count": 18,
+   "shader": "",
+   "texture": "res://assets/forest14/a_trees.png"
+  },
+  {
+   "animated": false,
+   "count": 15,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 10,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 9,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 9,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 8,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 8,
+   "shader": "",
+   "texture": "res://assets/forest188/post_top_nightlight_pixel.png"
+  },
+  {
+   "animated": false,
+   "count": 8,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 6,
+   "shader": "",
+   "texture": "res://assets/forest201/ribbon_fence.png"
+  },
+  {
+   "animated": false,
+   "count": 5,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 5,
+   "shader": "",
+   "texture": "res://assets/forest184/hanging_lantern.png"
+  },
+  {
+   "animated": false,
+   "count": 5,
+   "shader": "",
+   "texture": ""
+  },
+  {
+   "animated": false,
+   "count": 5,
+   "shader": "",
+   "texture": ""
+  }
+ ],
+ "meta": {
+  "adapter": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "godot": "4.7.2-stable (official)",
+  "save": "isolated tmp",
+  "window": "1600x1000 vsync off"
+ },
+ "spots": [],
+ "total": 139
+}
