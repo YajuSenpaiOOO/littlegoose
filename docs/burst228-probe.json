@@ -1,0 +1,23 @@
+{
+	"burst": {
+		"activated": true,
+		"bat_hp": [
+			0.0,
+			80.0
+		],
+		"current_window": {},
+		"phase": "landing",
+		"result": "胜利",
+		"windows": [
+			{
+				"damage": [
+					79.9999999999999,
+					0.0
+				],
+				"first_hit": 0.498941333333342,
+				"partial": false,
+				"seconds": 4.59224498015875
+			}
+		]
+	}
+}

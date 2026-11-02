@@ -1,0 +1,110 @@
+{
+	"checks": [
+		{
+			"name": "no trial context or combat auto-start",
+			"pass": true
+		},
+		{
+			"name": "original grove reference preserved",
+			"pass": true
+		},
+		{
+			"name": "isolated preview save",
+			"pass": true
+		},
+		{
+			"name": "route is swept clear of existing physical props",
+			"pass": true
+		},
+		{
+			"name": "upright192 hero retained",
+			"pass": true
+		},
+		{
+			"name": "independent sprites and contour shadows",
+			"pass": true
+		},
+		{
+			"name": "flap frames share canvas",
+			"pass": true
+		},
+		{
+			"name": "ring anchor stable across flap frames",
+			"pass": true
+		},
+		{
+			"name": "real transparent sprite background",
+			"pass": true
+		},
+		{
+			"name": "transport path stays on low forest floor",
+			"pass": true
+		},
+		{
+			"name": "pause freezes transport clock and flapping",
+			"pass": true
+		},
+		{
+			"name": "F6 resumes animation through real preview input",
+			"pass": true
+		},
+		{
+			"name": "empty pickup approaches standing sister",
+			"pass": true
+		},
+		{
+			"name": "boarding switches to seated key pose",
+			"pass": true
+		},
+		{
+			"name": "flight displaces and lifts visual",
+			"pass": true
+		},
+		{
+			"name": "collision remains at ground footprint",
+			"pass": true
+		},
+		{
+			"name": "bat 0 ring joins hammock mount",
+			"pass": true
+		},
+		{
+			"name": "bat 1 ring joins hammock mount",
+			"pass": true
+		},
+		{
+			"name": "sister stands at destination",
+			"pass": true
+		},
+		{
+			"name": "empty hammock departs without carrying sister",
+			"pass": true
+		},
+		{
+			"name": "all carriers hidden after departure",
+			"pass": true
+		},
+		{
+			"name": "real collision exists independently of artwork visibility",
+			"pass": true
+		},
+		{
+			"name": "full cycle returns and reverses route",
+			"pass": true
+		},
+		{
+			"name": "route and timing independent of frame rate",
+			"pass": true
+		},
+		{
+			"name": "native lit depth material reused",
+			"pass": true
+		},
+		{
+			"name": "restart restores stable idle",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"scope": "205 transport and real-world GPU captures; not full combat or manual art acceptance"
+}

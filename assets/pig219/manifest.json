@@ -1,0 +1,143 @@
+{
+  "source": "built-in imagegen; full prompts in PROVENANCE.md",
+  "files": {
+    "poses.png": "f04e8e839db4d970fed2f5d9c2daafe1584a02c02cad164ea3fd1f7954ebdc50",
+    "cotton.png": "974a2c3d73034c31c9f6c013650e2a391b5b57f3895e8b238e07afdf7c23e83d"
+  },
+  "alpha_threshold": 0.6,
+  "display_plane": "fixed camera basis; no extra pitch; source proportions retained",
+  "pose_layout": {
+    "poses": {
+      "size": [
+        2172,
+        724
+      ],
+      "frames": [
+        {
+          "region": [
+            25,
+            155,
+            656,
+            420
+          ],
+          "anchor": [
+            301.76,
+            411.59999999999997
+          ]
+        },
+        {
+          "region": [
+            745,
+            169,
+            655,
+            398
+          ],
+          "anchor": [
+            301.3,
+            390.04
+          ]
+        },
+        {
+          "region": [
+            1464,
+            240,
+            657,
+            335
+          ],
+          "anchor": [
+            302.22,
+            328.3
+          ]
+        }
+      ]
+    },
+    "cotton": {
+      "size": [
+        2172,
+        724
+      ],
+      "frames": [
+        {
+          "region": [
+            120,
+            129,
+            494,
+            478
+          ],
+          "anchor": [
+            227.24,
+            468.44
+          ]
+        },
+        {
+          "region": [
+            813,
+            201,
+            553,
+            370
+          ],
+          "anchor": [
+            254.38000000000002,
+            362.59999999999997
+          ]
+        },
+        {
+          "region": [
+            1657,
+            236,
+            356,
+            328
+          ],
+          "anchor": [
+            163.76000000000002,
+            321.44
+          ]
+        }
+      ]
+    }
+  },
+  "pig": {
+    "width_m": 1.6,
+    "pixel_size": 0.0024390243902439024,
+    "pose_names": [
+      "idle",
+      "exhale",
+      "deflated"
+    ],
+    "nose_in_exhale_crop": [
+      [
+        138,
+        280
+      ],
+      [
+        189,
+        284
+      ]
+    ],
+    "collision": "independent cylinder radius .4 height .45; no contact damage; layer off after retreat",
+    "shadow": "105 grounded terrain silhouette opacity .45, no native caster",
+    "material": "207 native lighting and 199 upright foot-depth proxy; no light/emission"
+  },
+  "cotton": {
+    "drawing": "3 MultiMesh groups; ordinary world depth; no node/body per piece",
+    "pool_slots": {
+      "danger": 48,
+      "decor": 96
+    },
+    "normal_active_caps": [
+      16,
+      32
+    ],
+    "stress_active_caps": [
+      48,
+      96
+    ],
+    "danger_radius_m": 0.19,
+    "danger_scale_m": 0.34,
+    "decor_scale_m": 0.1,
+    "collision": "danger segment-vs-hero sweep + scenery ray/terrain; decor none",
+    "shadow": "none by design for short-lived tiny cotton",
+    "lighting": "native external lighting with hero192 lighting normal, no emission or added lamps"
+  },
+  "scope": "single fixed southwest pig preview, not completed boss / weapon autoaim integration"
+}

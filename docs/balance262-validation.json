@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "name": "262 actor with unchanged boss health and initial progression",
+      "pass": true
+    },
+    {
+      "name": "native emitted beam damage is 70 percent normal and 140 percent red",
+      "pass": true
+    },
+    {
+      "name": "exact one third is not red",
+      "pass": true
+    },
+    {
+      "name": "red activates at three of twelve without added fire rate",
+      "pass": true
+    },
+    {
+      "name": "further health loss does not stack additional damage",
+      "pass": true
+    },
+    {
+      "name": "zero health does not activate red bonus",
+      "pass": true
+    },
+    {
+      "name": "real boss collider hit receives resolved beam damage once",
+      "pass": true
+    },
+    {
+      "name": "plane beam snapshot inherits nerf once with unchanged pulse cadence",
+      "pass": true
+    },
+    {
+      "name": "stored normal payload does not gain or double scale from later red state",
+      "pass": true
+    },
+    {
+      "name": "new red payload correctly captures double normal damage",
+      "pass": true
+    },
+    {
+      "name": "five real adhesive swords produce existing forty percent locomotion scale",
+      "pass": true
+    },
+    {
+      "name": "boss hop 0 loses twenty percent horizontal reach only",
+      "pass": true
+    },
+    {
+      "name": "boss hop 2 loses twenty percent horizontal reach only",
+      "pass": true
+    },
+    {
+      "name": "boss hop 5 loses twenty percent horizontal reach only",
+      "pass": true
+    },
+    {
+      "name": "one sword gives four percent boss control",
+      "pass": true
+    },
+    {
+      "name": "short pounce obeys same horizontal control and original timing",
+      "pass": true
+    },
+    {
+      "name": "parry return retains full reach and harmless consumed attack",
+      "pass": true
+    },
+    {
+      "name": "expiring adhesive cannot modify current boss trajectory",
+      "pass": true
+    },
+    {
+      "name": "slowed physical sweep cannot hit the former unslowed endpoint",
+      "pass": true
+    },
+    {
+      "name": "independent sword expiry restores locomotion without lingering control",
+      "pass": true
+    },
+    {
+      "name": "261 perimeter entry still creates new minion subclass",
+      "pass": true
+    },
+    {
+      "name": "ordinary attack snapshots forty percent shorter distance at actual takeoff",
+      "pass": true
+    },
+    {
+      "name": "physical ordinary lunge distance follows slow while flight duration stays fixed",
+      "pass": true
+    },
+    {
+      "name": "boss flat phase still does not globally stop minions",
+      "pass": true
+    },
+    {
+      "name": "live card explanations describe new red bonus and boss control",
+      "pass": true
+    },
+    {
+      "name": "recording exports current balance instead of stale thirty five percent bonus",
+      "pass": true
+    },
+    {
+      "name": "red HUD uses current multiplier",
+      "pass": true
+    },
+    {
+      "name": "ending clears minions and adhesive layers",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "beam": {
+      "normal": 0.115294117647059,
+      "old_normal": 0.164705882352941,
+      "old_red": 0.222352941176471,
+      "red": 0.230588235294118
+    },
+    "boss_reach": [
+      {
+        "index": 0,
+        "normal": 5.0,
+        "slowed": 4.0
+      },
+      {
+        "index": 2,
+        "normal": 4.23001098632813,
+        "slowed": 3.38400268554688
+      },
+      {
+        "index": 5,
+        "normal": 2.4794921875,
+        "slowed": 1.98358154296875
+      }
+    ],
+    "minion": {
+      "normal": {
+        "locked_distance": 4.35,
+        "seconds": 0.366666666666667,
+        "started": true,
+        "travel": 4.22909545898438
+      },
+      "slowed": {
+        "locked_distance": 2.61,
+        "seconds": 0.366666666666667,
+        "started": true,
+        "travel": 2.53720092773438
+      }
+    }
+  },
+  "passed": true
+}

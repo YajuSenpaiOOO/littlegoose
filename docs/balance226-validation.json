@@ -1,0 +1,267 @@
+{
+	"checks": [
+		{
+			"name": "starts at cottage with real fourteen health",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 普通机队",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 舞台爆发",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 小屋稳健",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 重弹笔记",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 气球剑机队",
+			"pass": true
+		},
+		{
+			"name": "six-slot preset valid: 本体对照",
+			"pass": true
+		},
+		{
+			"name": "second region and unfinished redesigns blocked",
+			"pass": true
+		},
+		{
+			"name": "active and weapon conflicts validated",
+			"pass": true
+		},
+		{
+			"name": "over six slots rejected",
+			"pass": true
+		},
+		{
+			"name": "ineffective duplicate levels rejected",
+			"pass": true
+		},
+		{
+			"name": "C opens paused console at door",
+			"pass": true
+		},
+		{
+			"name": "actual GUI mouse click edits draft through paused overlay",
+			"pass": true
+		},
+		{
+			"name": "Escape cancels draft and restores controls",
+			"pass": true
+		},
+		{
+			"name": "new fight defaults to manual fire without held mouse",
+			"pass": true
+		},
+		{
+			"name": "battle uses profile health for player cat and bats",
+			"pass": true
+		},
+		{
+			"name": "native startup retains chosen two extra geese",
+			"pass": true
+		},
+		{
+			"name": "HUD shows fourteen separate one-point gems",
+			"pass": true
+		},
+		{
+			"name": "roll applies four actual health and records source",
+			"pass": true
+		},
+		{
+			"name": "hurt feedback uses actual gem loss rather than hundred-point shake scale",
+			"pass": true
+		},
+		{
+			"name": "same invulnerability window prevents followup contact damage",
+			"pass": true
+		},
+		{
+			"name": "ordinary touch applies two health",
+			"pass": true
+		},
+		{
+			"name": "native cotton contact applies one health",
+			"pass": true
+		},
+		{
+			"name": "dodge still prevents scaled attack",
+			"pass": true
+		},
+		{
+			"name": "guard retains forty percent damage reduction",
+			"pass": true
+		},
+		{
+			"name": "full fourteen health is full ratio",
+			"pass": true
+		},
+		{
+			"name": "real half health drives packet low-health rate without hundred-point assumption",
+			"pass": true
+		},
+		{
+			"name": "console preserves existing manual pause",
+			"pass": true
+		},
+		{
+			"name": "console freezes combat clocks and statistics",
+			"pass": true
+		},
+		{
+			"name": "apply changes equipment in place without healing teleport or phase reset",
+			"pass": true
+		},
+		{
+			"name": "in-place change starts labeled statistics segment and drops prior effects",
+			"pass": true
+		},
+		{
+			"name": "applied fragment effects match selected loadout",
+			"pass": true
+		},
+		{
+			"name": "invalid apply leaves console and old configuration intact",
+			"pass": true
+		},
+		{
+			"name": "restart applies draft restores fourteen health and fresh statistics",
+			"pass": true
+		},
+		{
+			"name": "aircraft ground mark follows native autoaim rather than idle cursor",
+			"pass": true
+		},
+		{
+			"name": "native aircraft loadout damages physical cat and accumulates actual capped damage",
+			"pass": true
+		},
+		{
+			"name": "cat defeat opens measured six-second repair window",
+			"pass": true
+		},
+		{
+			"name": "native autoaim damages exposed bats and records first hit delay",
+			"pass": true
+		},
+		{
+			"name": "repair exit archives actual per-bat damage",
+			"pass": true
+		},
+		{
+			"name": "debug F9 sample marked and excluded as clean balance sample",
+			"pass": true
+		},
+		{
+			"name": "statistics export written outside inventory save",
+			"pass": true
+		},
+		{
+			"name": "reset restores doorway and forest context without hundred-health leak",
+			"pass": true
+		},
+		{
+			"name": "F7 archives interrupted sample before returning to door",
+			"pass": true
+		},
+		{
+			"name": "lethal damage records failure and cleans trial context",
+			"pass": true
+		},
+		{
+			"name": "fourteen-health preview still enters through cottage knock",
+			"pass": true
+		},
+		{
+			"name": "console pauses intro and resumes original disabled movement state",
+			"pass": true
+		},
+		{
+			"name": "natural nine-stage introduction hands off to new health profile",
+			"pass": true
+		},
+		{
+			"name": "native repair and collapse victory preserve marked statistics",
+			"pass": true
+		},
+		{
+			"name": "aircraft does not self-launch when battle starts",
+			"pass": true
+		},
+		{
+			"name": "held real mouse launches manual aircraft and attaches swords",
+			"pass": true
+		},
+		{
+			"name": "continuous volleys reuse bounded sword pad and shadow objects",
+			"pass": true
+		},
+		{
+			"name": "pooled swords retain damage and five-layer slow cap",
+			"pass": true
+		},
+		{
+			"name": "releasing mouse stops new aircraft launches",
+			"pass": true
+		},
+		{
+			"name": "reset hides all pooled blades pads and clears live attachment records",
+			"pass": true
+		},
+		{
+			"name": "explicit F4 auto mode survives restart",
+			"pass": true
+		},
+		{
+			"name": "manual mode survives restart",
+			"pass": true
+		},
+		{
+			"name": "testing and loadout changes grant no formal progress or rewards",
+			"pass": true
+		},
+		{
+			"name": "legacy world keeps original hundred-point health defaults",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"aircraft_details": {
+			"deliveries": 156,
+			"hits": 144,
+			"interval": 0.8,
+			"planes": 30,
+			"shots": 156
+		},
+		"direct_comparison": {
+			"damage": 61.1999999996042,
+			"dps": 7.63952673931354,
+			"seconds": 8.01096744444452
+		},
+		"gui": {
+			"at": "(423.0, 423.0)",
+			"disabled": false,
+			"hover": "@Button@7077:<Button#965730124174>",
+			"rect": "[P: (414.0, 405.0), S: (18.0, 36.0)]"
+		},
+		"stationary_bats": {
+			"damage": 8.35294117651938,
+			"first_hit": 2.03286039393939,
+			"seconds": 3.5063703238095
+		},
+		"stationary_cat": {
+			"damage": 50.8235294118058,
+			"dps": 6.34672145355954,
+			"seconds": 8.00783991919191
+		}
+	}
+}

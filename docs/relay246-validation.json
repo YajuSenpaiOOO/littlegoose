@@ -1,0 +1,127 @@
+{
+	"captures": 1,
+	"checks": [
+		{
+			"name": "clear real physics line to cat",
+			"pass": true
+		},
+		{
+			"name": "clear native line for relay fixture",
+			"pass": true
+		},
+		{
+			"name": "dash creates one descending flag",
+			"pass": true
+		},
+		{
+			"name": "visible fall above actual ground",
+			"pass": true
+		},
+		{
+			"name": "next actual music attack captured once",
+			"pass": true
+		},
+		{
+			"name": "relay stores final Perfect damage budget",
+			"pass": true
+		},
+		{
+			"name": "flag animation pauses with combat",
+			"pass": true
+		},
+		{
+			"name": "one native echo emitted after landing and puff",
+			"pass": true
+		},
+		{
+			"name": "roll-away cleanup and no recursive relay",
+			"pass": true
+		},
+		{
+			"name": "native projectiles damage actual cat",
+			"pass": true
+		},
+		{
+			"name": "animation phases connected",
+			"pass": true
+		},
+		{
+			"name": "three geese retain only main source for echo",
+			"pass": true
+		},
+		{
+			"name": "repeated dash preserves flag and captured attack",
+			"pass": true
+		},
+		{
+			"name": "next dash after completion plants a new ready flag",
+			"pass": true
+		},
+		{
+			"name": "ready flag persists indefinitely and repeated dodges do not replace it",
+			"pass": true
+		},
+		{
+			"name": "left shot flips only goose, never pencil or cloth",
+			"pass": true
+		},
+		{
+			"name": "muzzle follows goose direction around fixed body centre",
+			"pass": true
+		},
+		{
+			"name": "old combo +40 percent removed",
+			"pass": true
+		},
+		{
+			"name": "combo payload captured / { \"red_banner\": 1, \"music_class\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "delivery identity preserved",
+			"pass": true
+		},
+		{
+			"name": "sword identity preserved",
+			"pass": true
+		},
+		{
+			"name": "combo echoes exactly once / { \"red_banner\": 1, \"music_class\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "combo payload captured / { \"red_banner\": 1, \"music_class\": 1, \"paper_plane\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "delivery identity preserved",
+			"pass": true
+		},
+		{
+			"name": "combo echoes exactly once / { \"red_banner\": 1, \"music_class\": 1, \"paper_plane\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "flag is nonblocking visual support, no bitmap-shaped collision",
+			"pass": true
+		},
+		{
+			"name": "material particles / soil_grass",
+			"pass": true
+		},
+		{
+			"name": "material particles / stone",
+			"pass": true
+		},
+		{
+			"name": "material particles / wood_indoor",
+			"pass": true
+		},
+		{
+			"name": "clear removes particles and contact shadow",
+			"pass": true
+		}
+	],
+	"echoes": 1,
+	"test_gain": 0.35
+}

@@ -1,0 +1,31 @@
+{
+  "sources": [
+    "assets/balloon_sword155_candidates/A_straight.png",
+    "assets/balloon_sword158/geometry.json",
+    "assets/balloon_sword156_adhesion/A_stuck_surface_v3.png"
+  ],
+  "new_bitmap": false,
+  "world": "world232.tscn",
+  "blade_world_size": [
+    0.522339527027027,
+    1.05
+  ],
+  "pad_world_size": [
+    0.5923986486486487,
+    0.1640625
+  ],
+  "anchor": "geometry.tip and pad_anchor converted with1.05/1184; current hit/contact point",
+  "display": "existing camera-facing orientation with individual direction, four shared MultiMesh groups; full mesh blade deformation; nearest mipmaps",
+  "depth": "normal scene depth; existing custom199 actors map contact onto actor foot plane+.025m, attached blade/pad fragments use that contact vertical plane; ground/flying normal depth; 710 cyan pixels verified without hit accents",
+  "collision": "native original rays/shots unchanged; visual batches have no collision",
+  "shadow": "two shared batches, nine-point meshes,113/227 terrain+bridge/support sampler and143 coastline clip, original daylight opacity; no new shadow map",
+  "lighting": "unshaded original effect palette with159 global tint; no emission/light source",
+  "limits": [
+    768,
+    160,
+    5
+  ],
+  "validation": "rain232-validation.json and day/night GPU screenshots",
+  "unverified": "all-map/slopes/lamps-off/cross-enemy attachments outside existing custom199 actors; all-build balance and full manual battle feel",
+  "distribution": "three inner/three outer; bounded real landing jitter, no damage-size multiplier"
+}

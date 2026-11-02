@@ -1,0 +1,46 @@
+{
+	"checks": [
+		{
+			"name": "breathing keeps registered foot anchor fixed at 0.85",
+			"pass": true
+		},
+		{
+			"name": "seated breathing leaves bat/hammock ring registration intact",
+			"pass": true
+		},
+		{
+			"name": "breathing keeps registered foot anchor fixed at 2.55",
+			"pass": true
+		},
+		{
+			"name": "seated breathing leaves bat/hammock ring registration intact",
+			"pass": true
+		},
+		{
+			"name": "actual seated geometry breathes gently without changing baseline proportion",
+			"pass": true
+		},
+		{
+			"name": "rendering same clock does not accumulate stretch",
+			"pass": true
+		},
+		{
+			"name": "pause freezes breathing with battle clock",
+			"pass": true
+		},
+		{
+			"name": "resume advances breathing again",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"measured_heights": [
+			1.68710987075144,
+			1.66698525978437
+		],
+		"period_seconds": 3.4,
+		"runtime": "223 only, no new collapsed pose selected",
+		"vertical_amplitude": 0.006
+	}
+}

@@ -1,0 +1,4 @@
+# Seated 207
+Built-in imagegen; transparent output preserved. Generated 2026-10-28.
+References: approved art_workbench/spider_sister_proportion207/assets/idle_front.png (identity, colors, large head and short limbs); sister205/seated.png (pose only); sister205/hammock.png (separate supporting cloth, not included).
+Use one front-facing chibi adult spider seamstress, large head about 55% of seated height, compact torso, narrow connected shoulders, short arms, hands supporting cloth beside hips, knees together, apron covering lap, short boots. Preserve dusty rose/plum-brown hair, viewer-left braid, viewer-right gold spider pin, glasses/amber eyes, cream blouse/apron, lavender knitted shawl with web edging/pearls, right chest spider brooch, left plum waist bow, plum skirt/lilac hem, sewing pocket and four small purple appendages. Match approved flat pixel clusters and dark plum outlines, neutral painted lighting. No hammock, bats, background, bloom or ground shadow.

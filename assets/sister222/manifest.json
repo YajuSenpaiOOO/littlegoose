@@ -1,0 +1,26 @@
+{
+  "asset": "spider sister seated repair six frames",
+  "source": "built-in image_gen, see PROMPTS.md",
+  "images": {
+    "runtime": "sewing_sheet.png",
+    "unused_first_pass": "sewing_sheet_v1.png"
+  },
+  "image_size": [
+    1536,
+    1024
+  ],
+  "alpha_threshold": 0.6,
+  "frame_regions_anchors": "layout.json; six 512x512 cells; bottom boot registration per frame",
+  "world_size": "neutral alpha height 2.10 * inherited display_scale206, calibrated to hero192; same pixel density across all repair frames",
+  "display_plane": "fixed camera basis, no extra tilt; same seated Sprite3D reused",
+  "material": "sister_receiver207 native .82 albedo with hero192 receiver normal and card_depth199 foot proxy; shader samples original atlas UVs",
+  "occlusion": "existing whole seated-card foot proxy, shared hammock/bat hooks unchanged; foreground tree/sign issues deferred",
+  "collision": "no new body or hit area; inherited sister ground footprint disabled in battle, bats use existing bat_target220 capsules",
+  "shadows": "existing seated actor_shadow105 contour follows atlas region, existing ground contact; no added caster/light",
+  "emission": false,
+  "lights": "no new lights; existing world light registry unchanged",
+  "states": "lower final .2s ready; repair first .4s bow; .2s equal steps [2,3,4,3] loop; final .4s inspect; rise first .2s inspect then original211 seated",
+  "timing": "six-second repair and bat target window unchanged; selection from battle clock supports pause/interrupt/restart",
+  "limitation": "short inter-hand thread is painted; no true deformable cat seam, no dedicated sister sprawled landing art; slight cross-frame generated shape variation",
+  "repair_position": "Latest user decision: world222 cat ground xz + (1.65,-.75), behind cat with lateral face reveal. Replaces former (.15,.9) near-side experiment. Old221 unchanged."
+}

@@ -157,7 +157,7 @@ func sleep_to_morning() -> bool:
 	clock55.sleep_to_morning()
 	resume_natural()
 	visual_hour=clock55.hour
-	world.player_hp=100.
+	world.player_hp=world.max_player_health()
 	apply_look()
 	var reveal := create_tween()
 	reveal.tween_property(curtain,"color:a",0.,.7)

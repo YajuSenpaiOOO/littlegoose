@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "name": "single boss reward-free trial",
+      "pass": true
+    },
+    {
+      "name": "independent prototype body and HP",
+      "pass": true
+    },
+    {
+      "name": "no legacy boss flower",
+      "pass": true
+    },
+    {
+      "name": "pause freezes timing and movement",
+      "pass": true
+    },
+    {
+      "name": "squat starts first flight",
+      "pass": true
+    },
+    {
+      "name": "moving player cannot steer committed flight",
+      "pass": true
+    },
+    {
+      "name": "native target follows visible flight height",
+      "pass": true
+    },
+    {
+      "name": "exactly three landings",
+      "pass": true
+    },
+    {
+      "name": "third landing exposes long recovery",
+      "pass": true
+    },
+    {
+      "name": "bounce heights decay",
+      "pass": true
+    },
+    {
+      "name": "bounce intervals shorten",
+      "pass": true
+    },
+    {
+      "name": "landing marker clears in recovery",
+      "pass": true
+    },
+    {
+      "name": "flat recovery visibly squashes body",
+      "pass": true
+    },
+    {
+      "name": "clear real map projectile line",
+      "pass": true
+    },
+    {
+      "name": "native ordinary projectiles damage boss",
+      "pass": true
+    },
+    {
+      "name": "landing footprint causes native damage",
+      "pass": true
+    },
+    {
+      "name": "landing respects dodge invulnerability",
+      "pass": true
+    },
+    {
+      "name": "landing parry cancels chain into flat recovery",
+      "pass": true
+    },
+    {
+      "name": "stop clears encounter and marker",
+      "pass": true
+    },
+    {
+      "name": "restart replaces rather than duplicates boss",
+      "pass": true
+    },
+    {
+      "name": "restart leaves formal materials and progress untouched",
+      "pass": true
+    },
+    {
+      "name": "defeat ends without respawn or reward screen",
+      "pass": true
+    },
+    {
+      "name": "victory cannot summon legacy reinforcements",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

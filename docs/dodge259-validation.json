@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "name": "initial progression and current console remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "fourth hop keeps third-hop target after player changes direction",
+      "pass": true
+    },
+    {
+      "name": "fifth hop also keeps the same committed destination",
+      "pass": true
+    },
+    {
+      "name": "final group can only turn about34 degrees",
+      "pass": true
+    },
+    {
+      "name": "seventh hop cannot re-lock onto dodge endpoint",
+      "pass": true
+    },
+    {
+      "name": "airborne trajectory remains fixed",
+      "pass": true
+    },
+    {
+      "name": "successful parry still returns one harmless bounce and adds two",
+      "pass": true
+    },
+    {
+      "name": "normal pursuit resumes directly after the parry return",
+      "pass": true
+    },
+    {
+      "name": "standing still and straight retreat remain threatened",
+      "pass": true
+    },
+    {
+      "name": "one native side dash works without any parry through the full chain",
+      "pass": true
+    },
+    {
+      "name": "side dash then ordinary walking escapes remaining hops after invulnerability expires",
+      "pass": true
+    },
+    {
+      "name": "restart clears committed target and temporary effects",
+      "pass": true
+    },
+    {
+      "name": "ending still clears encounter",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "trials": [
+      {
+        "dashed": false,
+        "distance_at_flat": 0.000011444091796875,
+        "hits": 3,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 8.0,
+        "parries": 0,
+        "pattern": "stand",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 258
+      },
+      {
+        "dashed": false,
+        "distance_at_flat": 0.000011444091796875,
+        "hits": 3,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 8.0,
+        "parries": 0,
+        "pattern": "stand",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 259
+      },
+      {
+        "dashed": false,
+        "distance_at_flat": 0.240550115704536,
+        "hits": 2,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 5.0,
+        "parries": 0,
+        "pattern": "retreat",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 258
+      },
+      {
+        "dashed": false,
+        "distance_at_flat": 2.68533158302307,
+        "hits": 1,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 3.0,
+        "parries": 0,
+        "pattern": "retreat",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 259
+      },
+      {
+        "dashed": true,
+        "distance_at_flat": 0.240509063005447,
+        "hits": 2,
+        "landings": 7,
+        "late_hits": 1,
+        "loss": 6.0,
+        "parries": 0,
+        "pattern": "dash",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 258
+      },
+      {
+        "dashed": true,
+        "distance_at_flat": 7.62610626220703,
+        "hits": 1,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 3.0,
+        "parries": 0,
+        "pattern": "dash",
+        "seconds": 4.59999999999999,
+        "trigger": 0.05,
+        "version": 259
+      },
+      {
+        "dashed": true,
+        "distance_at_flat": 7.15945816040039,
+        "hits": 1,
+        "landings": 7,
+        "late_hits": 0,
+        "loss": 3.0,
+        "parries": 0,
+        "pattern": "dash",
+        "seconds": 4.59999999999999,
+        "trigger": 0.18,
+        "version": 259
+      }
+    ]
+  },
+  "passed": true
+}

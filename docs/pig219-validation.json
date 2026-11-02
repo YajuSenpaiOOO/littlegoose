@@ -1,0 +1,120 @@
+{
+	"checks": [
+		{
+			"name": "hero192 retained",
+			"pass": true
+		},
+		{
+			"name": "formal combat/context untouched",
+			"pass": true
+		},
+		{
+			"name": "three pig states and three shared cotton batches",
+			"pass": true
+		},
+		{
+			"name": "independent calibrated nostril anchors",
+			"pass": true
+		},
+		{
+			"name": "telegraph phase emits no hazards",
+			"pass": true
+		},
+		{
+			"name": "both nostrils emit separate dangerous clumps",
+			"pass": true
+		},
+		{
+			"name": "normal active cap 16 dangerous and 32 decorative",
+			"pass": true
+		},
+		{
+			"name": "emission creates no scene nodes or physics bodies",
+			"pass": true
+		},
+		{
+			"name": "clear recycles all fixed slots",
+			"pass": true
+		},
+		{
+			"name": "pause freezes cotton motion",
+			"pass": true
+		},
+		{
+			"name": "swept impact reduces preview hearts only",
+			"pass": true
+		},
+		{
+			"name": "existing dodge invulnerability respected",
+			"pass": true
+		},
+		{
+			"name": "existing sustained guard respected",
+			"pass": true
+		},
+		{
+			"name": "existing parry window respected",
+			"pass": true
+		},
+		{
+			"name": "world solid fixture stops cotton",
+			"pass": true
+		},
+		{
+			"name": "temporary near E interrupts pig spray",
+			"pass": true
+		},
+		{
+			"name": "deflated pig leaves no invisible blocking footprint",
+			"pass": true
+		},
+		{
+			"name": "preview loops only after empty two-second interval",
+			"pass": true
+		},
+		{
+			"name": "pig automatically deflates after timed spray",
+			"pass": true
+		},
+		{
+			"name": "all emitted cotton expires",
+			"pass": true
+		},
+		{
+			"name": "threefold stress respects hard caps",
+			"pass": true
+		},
+		{
+			"name": "F7 clears and restores complete preview",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"normal": {
+			"mean_frame_ms": 25.8543504273504,
+			"mean_update_us": 123.457142857143,
+			"mean_upload_us": 71.8119658119658,
+			"p95_frame_ms": 31.348,
+			"peak_active": 30,
+			"samples": 117
+		},
+		"off": {
+			"mean_frame_ms": 25.881717948718,
+			"mean_update_us": 0.0,
+			"mean_upload_us": 20.1794871794872,
+			"p95_frame_ms": 31.299,
+			"peak_active": 0,
+			"samples": 117
+		},
+		"stress": {
+			"mean_frame_ms": 26.5719739130435,
+			"mean_update_us": 349.740909090909,
+			"mean_upload_us": 176.747826086957,
+			"p95_frame_ms": 33.725,
+			"peak_active": 80,
+			"samples": 115
+		}
+	},
+	"scope": "isolated pig in real forest; timings are short local samples, not full boss balance/performance approval"
+}

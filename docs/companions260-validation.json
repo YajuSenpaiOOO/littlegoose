@@ -1,0 +1,169 @@
+{
+  "checks": [
+    {
+      "name": "accepted259 pursuit and ninety boss HP retained",
+      "pass": true
+    },
+    {
+      "name": "initial determination and console baseline retained",
+      "pass": true
+    },
+    {
+      "name": "entire first chain and start of recovery remain solo",
+      "pass": true
+    },
+    {
+      "name": "damage during flat recovery is measured separately",
+      "pass": true
+    },
+    {
+      "name": "companions queued only after first recovery ends",
+      "pass": true
+    },
+    {
+      "name": "entry wave spawns its first member",
+      "pass": true
+    },
+    {
+      "name": "second member follows after a visible entry gap",
+      "pass": true
+    },
+    {
+      "name": "arriving minion cannot immediately attack or steal target lock",
+      "pass": true
+    },
+    {
+      "name": "ordinary ground actor joins native enemy and hit registry",
+      "pass": true
+    },
+    {
+      "name": "companion uses shared silhouette without duplicate ellipse",
+      "pass": true
+    },
+    {
+      "name": "live companion population is capped at three",
+      "pass": true
+    },
+    {
+      "name": "real boss landing launches nearby minion and removes airborne attack/target collision",
+      "pass": true
+    },
+    {
+      "name": "launch interaction is recorded once",
+      "pass": true
+    },
+    {
+      "name": "pause freezes flying companion and dedicated encounter clock",
+      "pass": true
+    },
+    {
+      "name": "airborne minion does not absorb player shots",
+      "pass": true
+    },
+    {
+      "name": "launched species body and world shadow separate visibly",
+      "pass": true
+    },
+    {
+      "name": "flying body is harmless and lands in a targetable daze",
+      "pass": true
+    },
+    {
+      "name": "dazed minion recovers its ordinary grounded AI",
+      "pass": true
+    },
+    {
+      "name": "boss punish window cancels companion attack",
+      "pass": true
+    },
+    {
+      "name": "companions share a gentle attack gate",
+      "pass": true
+    },
+    {
+      "name": "grounded ordinary lunge deals one determination with correct source",
+      "pass": true
+    },
+    {
+      "name": "ordinary companion parry is recorded separately from boss parry",
+      "pass": true
+    },
+    {
+      "name": "minion defeat neither wins encounter nor pollutes boss DPS",
+      "pass": true
+    },
+    {
+      "name": "companion defeat recorded separately",
+      "pass": true
+    },
+    {
+      "name": "record button begins a clean companion/boss telemetry session",
+      "pass": true
+    },
+    {
+      "name": "actual boss parry and input attempt counted apart from music Perfect",
+      "pass": true
+    },
+    {
+      "name": "real dash event belongs to this recording",
+      "pass": true
+    },
+    {
+      "name": "actual reflected crash records wall damage and event",
+      "pass": true
+    },
+    {
+      "name": "complete chain includes recovery damage and per-round outcome",
+      "pass": true
+    },
+    {
+      "name": "boss and companion damage totals remain independent",
+      "pass": true
+    },
+    {
+      "name": "native parry fan shots carry an explicit damage source",
+      "pass": true
+    },
+    {
+      "name": "native parry fan hit is distinguished from ordinary weapon damage",
+      "pass": true
+    },
+    {
+      "name": "C report exposes boss phases and parry counts",
+      "pass": true
+    },
+    {
+      "name": "finished JSON persists dedicated encounter telemetry",
+      "pass": true
+    },
+    {
+      "name": "victory clears grounded/airborne companions and pending spawns",
+      "pass": true
+    },
+    {
+      "name": "archived telemetry remains immutable after end",
+      "pass": true
+    },
+    {
+      "name": "restart resets roster, shadows and telemetry",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "ground": {
+      "active": true,
+      "after": 11.0,
+      "at": "(-45.26105, 2.101012, -42.65831)",
+      "before": 12.0,
+      "clock": 0.1,
+      "grace": 0.0,
+      "hero": "(-44.49166, 2.10201, -42.65831)",
+      "phase": "lunge",
+      "play": "",
+      "state": "ground",
+      "tactical": true,
+      "wave": "fighting"
+    }
+  },
+  "passed": true
+}

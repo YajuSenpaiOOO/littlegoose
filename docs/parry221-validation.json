@@ -1,0 +1,120 @@
+{
+	"checks": [
+		{
+			"name": "native right-click parry accepted",
+			"pass": true
+		},
+		{
+			"name": "baseline roll successfully parried",
+			"pass": true
+		},
+		{
+			"name": "reproduced old next-tick touch damage after successful parry",
+			"pass": true
+		},
+		{
+			"name": "ground warning defaults off",
+			"pass": true
+		},
+		{
+			"name": "successful roll parry suppresses this cat's residual contact",
+			"pass": true
+		},
+		{
+			"name": "remaining beside parried cat through recovery does not cost HP",
+			"pass": true
+		},
+		{
+			"name": "separating restores normal contact checks",
+			"pass": true
+		},
+		{
+			"name": "fresh unguarded body contact still deals damage",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 0",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 1",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 2",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 3",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 4",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 5",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 6",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 7",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 8",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 9",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 10",
+			"pass": true
+		},
+		{
+			"name": "long roll actual sprite sample 11",
+			"pass": true
+		},
+		{
+			"name": "long roll plays two complete equal-duration cycles",
+			"pass": true
+		},
+		{
+			"name": "short roll keeps one complete cycle",
+			"pass": true
+		},
+		{
+			"name": "default invisible lane retains body windup",
+			"pass": true
+		},
+		{
+			"name": "F8 comparison can still show lane",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"baseline_hp_after_parry": 92.8,
+		"fixed_hp_after_parry": 100.0,
+		"frames_long": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			0,
+			1,
+			2,
+			3,
+			4,
+			5
+		]
+	},
+	"scope": "native parry + continued physical contact, visual cycle samples; no human motion approval"
+}

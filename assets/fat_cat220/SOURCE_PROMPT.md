@@ -1,0 +1,13 @@
+## 最新播放修订
+
+按用户反馈取消差异时长，六帧默认各0.16秒，共0.96秒；减号/等号等比例调速，图片不变。Godot实机六帧渲染检查完成，原先变时节奏只作历史记录。关键姿势跨度仍大，等时不代表已补齐中间帧。
+
+# 肥猫217 · 近身侧翻关键姿势草稿
+
+使用内置imagegen参考用户选定原始肥猫生成六姿势，独立Godot播放预览，尚未接入地图/伤害/碰撞/骑乘。当前俯视西南向，保留原版身体、花色、短脚；动画第4帧仍偏整只平面侧转，未充分表现真实肚皮与纵轴翻转，不视为动作定稿。全图原样保存，运行Atlas按alpha阈值取有效边界底中锚，不修改图像。不接真光、投影或世界占地。地图入口保持216。
+
+节奏：压低蓄力.6秒、倾倒.15秒、侧压落地.13秒、露肚晃.45秒、撑起.4秒、站稳.8秒。这里只标注拟议危险窗口，无实际伤害判断。猪猪双鼻孔喷棉絮仍为用户设定；可打软/自动撤离为讨论建议，尚未实施。
+
+## 完整提示词
+
+Create a SIX FRAME near-range SIDE FLOP ATTACK animation sprite sheet of the EXACT selected fat plush cat reference. Preserve original cream/apricot/lilac calico patches, tiny solid bean eyes, omega mouth, pretend fierce eyebrows, small pink cheeks, tiny ears and short tail, very fat LOW WIDE body and four extremely short integrated rounded stub feet. SAME character in all six poses; keep volume and identity. This is a slow heavy stuffed toy tipping onto its side and wobbling back onto feet, NOT a jump, pounce, somersault, run, barrel spin or head-over-tail roll. Animal longitudinal head-tail axis remains aimed southwest throughout. It rolls sideways around that longitudinal axis, toward the near foreground side; camera stays fixed at original southwest three-quarter slightly overhead 25-degree view. Show top/front/side naturally as body rotates, belly and four little feet become visible only when turned over. SIX equal cells, EXACT grid THREE COLUMNS TWO ROWS, chronological row-major, no text or borders. Keep same physical animal scale in each cell, full-body generous margins, shared ground baseline. Frame 1: clearly braced low crouch, body slightly compressed vertically and feet planted. Frame 2: tipping onto near side about 40 degrees, far feet lifting, short legs pulling inward. Frame 3: IMPACT resting heavily on its near side, wide flank contacting ground, visible soft squash, face tilted with body. Frame 4: mostly belly-up about 130 degrees, soft broad belly visible, four tiny short rounded feet in air, adorably determined face tilted; rear purple patch stays attached to correct body side. Frame 5: tipping back toward original standing orientation about 60 degrees, planting near little feet and straining to push itself upright. Frame 6: returns to SAME southwest standing pose as reference, slightly tired but still trying to look fierce. No spinning whole picture in 2D; draw convincing new body surfaces and foot occlusion at each pose. No growth, melting or new long legs. Crisp deliberate chunky micro-pixel art and plum outline, broad economical three-tone color blocks, no smooth 3D render or fur. Transparent background, remove reference purple glow; no ground, shadow, dust, impact starburst, motion lines, text, scene, rider, toy accessories or additional figures beyond six cat frames.

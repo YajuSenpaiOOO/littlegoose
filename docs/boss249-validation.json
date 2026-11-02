@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "name": "larger independent body",
+      "pass": true
+    },
+    {
+      "name": "larger ground footprint safe-goal query",
+      "pass": true
+    },
+    {
+      "name": "impatient hops animate before attack",
+      "pass": true
+    },
+    {
+      "name": "annoyed face reuses existing species art",
+      "pass": true
+    },
+    {
+      "name": "three impatient hops lead to charge",
+      "pass": true
+    },
+    {
+      "name": "charge starts seven-hit chain",
+      "pass": true
+    },
+    {
+      "name": "flight stays committed",
+      "pass": true
+    },
+    {
+      "name": "enlarged airborne native target follows body",
+      "pass": true
+    },
+    {
+      "name": "pause freezes attack",
+      "pass": true
+    },
+    {
+      "name": "seven actual landing events before flat recovery",
+      "pass": true
+    },
+    {
+      "name": "full chain ends in punish window",
+      "pass": true
+    },
+    {
+      "name": "speed and energy decay across chain",
+      "pass": true
+    },
+    {
+      "name": "actual landing parry continues chain",
+      "pass": true
+    },
+    {
+      "name": "parry reverses incoming momentum",
+      "pass": true
+    },
+    {
+      "name": "parry adds two hits and boosts next two bounces",
+      "pass": true
+    },
+    {
+      "name": "parry schedules owned slow-motion feedback",
+      "pass": true
+    },
+    {
+      "name": "real-time slow motion follows hitstop",
+      "pass": true
+    },
+    {
+      "name": "parry camera punches closer",
+      "pass": true
+    },
+    {
+      "name": "effect restores normal time",
+      "pass": true
+    },
+    {
+      "name": "reverse rebound resumes remaining chain",
+      "pass": true
+    },
+    {
+      "name": "one reverse flight consumes pending reflection",
+      "pass": true
+    },
+    {
+      "name": "reversed flight stays locked after player moves",
+      "pass": true
+    },
+    {
+      "name": "reflection clears on that flight landing",
+      "pass": true
+    },
+    {
+      "name": "next flight returns to player pursuit",
+      "pass": true
+    },
+    {
+      "name": "landing circle hidden by default",
+      "pass": true
+    },
+    {
+      "name": "debug circle toggle remains available",
+      "pass": true
+    },
+    {
+      "name": "debug circle switches off cleanly",
+      "pass": true
+    },
+    {
+      "name": "actor-local soft shadow remains enabled with expected size and opacity",
+      "pass": true
+    },
+    {
+      "name": "shadow remains under current body, not future target",
+      "pass": true
+    },
+    {
+      "name": "repeated parries cannot create infinite chain",
+      "pass": true
+    },
+    {
+      "name": "pause cancels delayed impact events",
+      "pass": true
+    },
+    {
+      "name": "stop clears marker and time state",
+      "pass": true
+    },
+    {
+      "name": "restart clears actor and camera feedback",
+      "pass": true
+    },
+    {
+      "name": "formal progress unchanged",
+      "pass": true
+    },
+    {
+      "name": "native projectiles damage enlarged boss",
+      "pass": true
+    },
+    {
+      "name": "larger landing footprint still uses native damage",
+      "pass": true
+    },
+    {
+      "name": "new chain respects dodge invulnerability",
+      "pass": true
+    },
+    {
+      "name": "new chain respects guard reduction",
+      "pass": true
+    },
+    {
+      "name": "defeat ends encounter and impact effects",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

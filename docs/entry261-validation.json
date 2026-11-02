@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "name": "accepted boss and initial progression unchanged",
+      "pass": true
+    },
+    {
+      "name": "old260 retains its global rest rule for comparison",
+      "pass": true
+    },
+    {
+      "name": "real static clearance and navigation produce an authored entry route",
+      "pass": true
+    },
+    {
+      "name": "entry begins at perimeter with real travel instead of center pop-in",
+      "pass": true
+    },
+    {
+      "name": "leaf cue precedes hidden noncombat entry body",
+      "pass": true
+    },
+    {
+      "name": "pause freezes rustle cue and arrival",
+      "pass": true
+    },
+    {
+      "name": "minion completes visible hop route without teleporting",
+      "pass": true
+    },
+    {
+      "name": "actual entrance animation covers world-space distance",
+      "pass": true
+    },
+    {
+      "name": "boss recovery no longer freezes or forbids companion attacks",
+      "pass": true
+    },
+    {
+      "name": "ordinary minion moves naturally while boss remains flat",
+      "pass": true
+    },
+    {
+      "name": "ordinary minion can begin a native attack during boss recovery",
+      "pass": true
+    },
+    {
+      "name": "moving entry and grounded actor keep a single world shadow",
+      "pass": true
+    },
+    {
+      "name": "natural encounter uses reusable perimeter entries for both companions",
+      "pass": true
+    },
+    {
+      "name": "live movement preserves three-member cap and natural boss launch interaction",
+      "pass": true
+    },
+    {
+      "name": "ending clears cues, route actors and queued entries",
+      "pass": true
+    },
+    {
+      "name": "restart preserves solo opening and clean recording",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "entry_length": 5.12132024765015,
+    "entry_name": "东侧树后",
+    "entry_travel": 4.7089839404216,
+    "natural": {
+      "entries": [
+        {
+          "kind": "entry_rustle",
+          "lane": "东侧树后",
+          "route_metres": 5.12132024765015,
+          "time": 8.68333333333334
+        },
+        {
+          "kind": "entry_rustle",
+          "lane": "北侧坡脚",
+          "route_metres": 8.30330061912537,
+          "time": 9.28333333333337
+        },
+        {
+          "kind": "entry_complete",
+          "lane": "东侧树后",
+          "time": 11.9833333333335
+        },
+        {
+          "kind": "entry_complete",
+          "lane": "北侧坡脚",
+          "time": 14.2500000000003
+        }
+      ],
+      "minions": {
+        "alive_at_end": 2,
+        "damage": 0.0,
+        "damage_by_source": {},
+        "defeated": 0,
+        "hit_events": 0,
+        "spawned": 2,
+        "thrown": 1
+      },
+      "seconds": 16.1500000000004
+    },
+    "recovery_attacks": 1,
+    "recovery_travel": 1.79701280593872
+  },
+  "passed": true
+}

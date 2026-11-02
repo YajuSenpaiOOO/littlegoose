@@ -41,6 +41,7 @@ func orient153(node: Sprite3D,tip: Vector3,direction: Vector3,length_gain := 1.)
  node.scale=Vector3.ONE*length_gain
  node.position=tip-node.basis*Vector3(tip154.x,tip154.y,0.)
 func frame154(enemy: Node3D) -> Dictionary:
+ if enemy.has_method("attachment_frame154"):return enemy.attachment_frame154()
  var art: Sprite3D=enemy.visual
  var selected: Dictionary=enemy.poses.idle
  for key in enemy.textures:
@@ -104,7 +105,7 @@ func _process(delta: float) -> void:
   orient153(node,shot.node.get_global_transform_interpolated().origin,shot.velocity,float(shot.get("sword_gain153",1.)))
   var ink := ink154(node);ink.set_shader_parameter("bend154",sin(flight.age*11.+id)*.025)
  for id in flying153.keys():
-  if not seen.has(id): flying153[id].queue_free();flying153.erase(id);flights154.erase(id)
+  if not seen.has(id): release_sprite153(flying153[id]);flying153.erase(id);flights154.erase(id)
  for entry in resting153:
   var direction: Vector3=entry.direction
   var surface: Variant=entry.surface154.get_ref() if entry.surface154!=null else null

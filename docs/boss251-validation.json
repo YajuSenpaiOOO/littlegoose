@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "name": "actual world parent is latest246 combat",
+      "pass": true
+    },
+    {
+      "name": "only tuantuan encounter active, no sister actors",
+      "pass": true
+    },
+    {
+      "name": "native 14-determination baseline restored",
+      "pass": true
+    },
+    {
+      "name": "latest determination HUD restored",
+      "pass": true
+    },
+    {
+      "name": "native C console installed",
+      "pass": true
+    },
+    {
+      "name": "latest catalog and slot profile restored",
+      "pass": true
+    },
+    {
+      "name": "latest relay implementation available",
+      "pass": true
+    },
+    {
+      "name": "current approved hero retained",
+      "pass": true
+    },
+    {
+      "name": "C opens native console and pauses fight",
+      "pass": true
+    },
+    {
+      "name": "current fragment choices match246",
+      "pass": true
+    },
+    {
+      "name": "console exposes boss HP without obsolete bat input",
+      "pass": true
+    },
+    {
+      "name": "console applies current fragments in place",
+      "pass": true
+    },
+    {
+      "name": "real dash hook plants latest relay flag",
+      "pass": true
+    },
+    {
+      "name": "latest music system runs for tuantuan encounter",
+      "pass": true
+    },
+    {
+      "name": "takeoff uses bounded movement prediction",
+      "pass": true
+    },
+    {
+      "name": "late-chain horizontal speed has pursuit floor",
+      "pass": true
+    },
+    {
+      "name": "late-chain average pursuit exceeds ordinary walking speed",
+      "pass": true
+    },
+    {
+      "name": "prediction does not become midair homing",
+      "pass": true
+    },
+    {
+      "name": "single reflected bounce preserved on latest combat",
+      "pass": true
+    },
+    {
+      "name": "latest native projectiles damage boss",
+      "pass": true
+    },
+    {
+      "name": "C statistics record tuantuan damage",
+      "pass": true
+    },
+    {
+      "name": "damage scaled for determination baseline instead of old 100HP",
+      "pass": true
+    },
+    {
+      "name": "restart preserves latest health and clean shadow registration",
+      "pass": true
+    },
+    {
+      "name": "world silhouette and default circle-off retained",
+      "pass": true
+    },
+    {
+      "name": "defeat ends latest encounter without auto restart",
+      "pass": true
+    },
+    {
+      "name": "246 retains default sister encounter path",
+      "pass": true
+    },
+    {
+      "name": "246 original sister encounter still spawns normally",
+      "pass": true
+    },
+    {
+      "name": "246 original state machine and stats still run",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

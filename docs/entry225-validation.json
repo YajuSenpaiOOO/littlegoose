@@ -1,0 +1,148 @@
+{
+	"checks": [
+		{
+			"name": "preview starts waiting at cottage without automatic battle",
+			"pass": true
+		},
+		{
+			"name": "sister and delivered cat stay hidden before knock",
+			"pass": true
+		},
+		{
+			"name": "combat clearing is near this cottage on actual forest ground",
+			"pass": true
+		},
+		{
+			"name": "knock requires actual proximity to door",
+			"pass": true
+		},
+		{
+			"name": "E near cottage begins guarded intro",
+			"pass": true
+		},
+		{
+			"name": "cat delivery begins fully outside left screen margin",
+			"pass": true
+		},
+		{
+			"name": "repeated knock cannot restart running intro",
+			"pass": true
+		},
+		{
+			"name": "intro blocks damage and premature player fire",
+			"pass": true
+		},
+		{
+			"name": "intro pause freezes stage clock",
+			"pass": true
+		},
+		{
+			"name": "sister emerges using standing art",
+			"pass": true
+		},
+		{
+			"name": "seated sister rises on original two-bat hammock",
+			"pass": true
+		},
+		{
+			"name": "four bats carry cat on four visible anchored straps",
+			"pass": true
+		},
+		{
+			"name": "airlift cat has no contact collision or target body",
+			"pass": true
+		},
+		{
+			"name": "intro reaches actual battle after carrier departure",
+			"pass": true
+		},
+		{
+			"name": "all intro stages run once in order",
+			"pass": true
+		},
+		{
+			"name": "normal intro does not teleport player at battle handoff",
+			"pass": true
+		},
+		{
+			"name": "presentation cat hands off to native boss actor without duplicate visible cats",
+			"pass": true
+		},
+		{
+			"name": "all four carrier bats leave right screen before battle starts",
+			"pass": true
+		},
+		{
+			"name": "only boss cat and two gated hammock bats enter enemy list",
+			"pass": true
+		},
+		{
+			"name": "first pig leaves initial cat-only learning interval",
+			"pass": true
+		},
+		{
+			"name": "placement search finds a valid real-map pig firing position",
+			"pass": true
+		},
+		{
+			"name": "chosen pig position has physical space, line and lateral escape",
+			"pass": true
+		},
+		{
+			"name": "actual release creates untargetable nonblocking pig",
+			"pass": true
+		},
+		{
+			"name": "valid drop lands and emits from both independent nostrils",
+			"pass": true
+		},
+		{
+			"name": "cleared pig/cotton leaves an actual quiet interval",
+			"pass": true
+		},
+		{
+			"name": "blocked cottage area defers pig instead of forcing unsafe placement",
+			"pass": true
+		},
+		{
+			"name": "right-facing pig mirrors art and real spray direction together",
+			"pass": true
+		},
+		{
+			"name": "mirrored nostril anchor moves to visible right side",
+			"pass": true
+		},
+		{
+			"name": "F7 returns to doorway and restores exploration context",
+			"pass": true
+		},
+		{
+			"name": "F2 cancels midway through entry without leftover carriers",
+			"pass": true
+		},
+		{
+			"name": "F8 skips entry directly into playable boss battle",
+			"pass": true
+		},
+		{
+			"name": "repeated skip restart does not leave stage stuck waiting",
+			"pass": true
+		},
+		{
+			"name": "new entry controller still permits inherited B landing after victory",
+			"pass": true
+		},
+		{
+			"name": "doorway reset clears victory aftermath and restores healthy support bats",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"coordinates": {
+			"arena": "(-54.5, 20.65)",
+			"door": "(-59.0, 15.15)"
+		}
+	},
+	"scope": "native entry/physics/pig emission lifecycle; staged pig placement checks are not difficulty or long-run balance verdict"
+}

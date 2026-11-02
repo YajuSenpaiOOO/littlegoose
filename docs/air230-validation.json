@@ -1,0 +1,173 @@
+{
+	"checks": [
+		{
+			"name": "new cat controller selected",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 1",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 2",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 3",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 4",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 5",
+			"pass": true
+		},
+		{
+			"name": "only fourth roll/down frame replaced: 6",
+			"pass": true
+		},
+		{
+			"name": "down frame retains foot anchor",
+			"pass": true
+		},
+		{
+			"name": "229 balance retained",
+			"pass": true
+		},
+		{
+			"name": "both low repair bats targetable",
+			"pass": true
+		},
+		{
+			"name": "clear repair shooting fixture",
+			"pass": true
+		},
+		{
+			"name": "one original spec emits one payload native=true",
+			"pass": true
+		},
+		{
+			"name": "parallel downward velocity native=true",
+			"pass": true
+		},
+		{
+			"name": "packet damage budget preserved native=true",
+			"pass": true
+		},
+		{
+			"name": "sword/goose payload tags preserved native=true",
+			"pass": true
+		},
+		{
+			"name": "no midair bending and global eye restored native=true",
+			"pass": true
+		},
+		{
+			"name": "one original spec emits one payload native=false",
+			"pass": true
+		},
+		{
+			"name": "parallel downward velocity native=false",
+			"pass": true
+		},
+		{
+			"name": "packet damage budget preserved native=false",
+			"pass": true
+		},
+		{
+			"name": "sword/goose payload tags preserved native=false",
+			"pass": true
+		},
+		{
+			"name": "no midair bending and global eye restored native=false",
+			"pass": true
+		},
+		{
+			"name": "no eye cannot pull a distant sample",
+			"pass": true
+		},
+		{
+			"name": "eye improves only nearby pre-release correction",
+			"pass": true
+		},
+		{
+			"name": "far sector remains a real miss",
+			"pass": true
+		},
+		{
+			"name": "cannot rain upward at a higher target",
+			"pass": true
+		},
+		{
+			"name": "three geese still carry six sector drops each",
+			"pass": true
+		},
+		{
+			"name": "original area radius retained",
+			"pass": true
+		},
+		{
+			"name": "no extra delivery count",
+			"pass": true
+		},
+		{
+			"name": "release points vertically above resolved landings",
+			"pass": true
+		},
+		{
+			"name": "aircraft arrives sooner without changing attack cooldown",
+			"pass": true
+		},
+		{
+			"name": "beam burst has fixed release rather than a moving plane/target",
+			"pass": true
+		},
+		{
+			"name": "all beam pulses stay in parallel rain lanes",
+			"pass": true
+		},
+		{
+			"name": "ordinary direct shots retain tracking native=true",
+			"pass": true
+		},
+		{
+			"name": "ordinary direct shots retain tracking native=false",
+			"pass": true
+		},
+		{
+			"name": "actual native drops damage repair bats",
+			"pass": true
+		},
+		{
+			"name": "pause stops new drops",
+			"pass": true
+		},
+		{
+			"name": "restart clears aircraft and fixed beam releases",
+			"pass": true
+		},
+		{
+			"name": "restart preserves sister and full determination",
+			"pass": true
+		},
+		{
+			"name": "user configuration untouched: user://boss_balance226.cfg",
+			"pass": true
+		},
+		{
+			"name": "user configuration untouched: user://boss_balance228.cfg",
+			"pass": true
+		},
+		{
+			"name": "user configuration untouched: user://boss_balance229.cfg",
+			"pass": true
+		},
+		{
+			"name": "user configuration untouched: user://boss_balance230.cfg",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

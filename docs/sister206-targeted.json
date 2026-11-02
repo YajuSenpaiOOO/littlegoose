@@ -1,0 +1,17 @@
+{
+	"checks": [
+		{
+			"name": "windup direction lane follows terrain instead of HUD overlay",
+			"pass": true
+		},
+		{
+			"name": "parry interrupts pounce and makes plush flop in place",
+			"pass": true
+		},
+		{
+			"name": "paused transport freezes live toy attacks",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

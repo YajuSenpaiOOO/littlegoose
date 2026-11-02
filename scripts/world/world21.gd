@@ -18,6 +18,15 @@ var battle_label: Label
 var health_track: ColorRect
 var health_value: ColorRect
 
+func max_player_health() -> float:
+	return 100.
+
+func health_fraction() -> float:
+	return clampf(player_hp/maxf(.01,max_player_health()),0.,1.)
+
+func hurt_player_from(damage: float,from: Vector2,_source: String) -> void:
+	hurt_player(damage,from)
+
 func _build_lab_floor() -> void:
 	super._build_lab_floor()
 	meadow = preload("res://scripts/world/world_surface21.gd").new()
@@ -74,7 +83,7 @@ func start_combat(reposition := true) -> void:
 			enemy.queue_free()
 	enemies.clear()
 	_clear_combat_shots()
-	player_hp = 100.
+	player_hp = max_player_health()
 	invulnerability = .8
 	defeated_count = 0
 	fired_count = 0
@@ -213,7 +222,7 @@ func _status() -> void:
 	if not world_ready: return
 	label.text = "连续世界21 · 平地战斗试验 · WASD / Shift 移动 · 滚轮缩放\n鼠标左键按住射击 · F5 开始 / 重开 · F7 暂停怪物与弹丸\n1 小院 / 2 世界树 / 3 原林地 · 4 湖岸 / 5 车站 / 6 码头 · Tab 地图\n本轮：普通团团怪追逐、命中击退、接触伤害；高差方案暂存"
 	if not combat_ready or not is_instance_valid(battle_label): return
-	health_value.size.x = health_track.size.x*player_hp/100.
+	health_value.size.x = health_track.size.x*health_fraction()
 	var state_text: String = {"waiting":"走进林地触发试战，或按 F5","fighting":"林地试战","cleared":"本轮清完了 · F5 再来一轮","defeated":"本轮倒下了 · F5 重开"}[wave_state]
 	if combat_paused: state_text = "战斗已暂停 · F7 继续"
 	battle_label.text = "生命 %d / 100 · %s\n团团怪 %d / %d · 命中 %d"%[player_hp,state_text,defeated_count,total_enemies,landed_hits]

@@ -43,6 +43,8 @@ func attach153(enemy: Variant,tip: Vector3,direction: Vector3,gain := 1.,_surfac
   list.append(entry);enemy.set_meta("locomotion_scale153",1.-SLOW*list.size())
  resting153.append(entry)
  while resting153.size()>RESIDUE_LIMIT: remove153(0)
+func release_sprite153(node: Sprite3D) -> void:
+ node.queue_free()
 func remove153(index: int) -> void:
  var entry: Dictionary=resting153[index];var enemy: Variant=entry.enemy.get_ref() if entry.enemy!=null else null
  if entry.enemy_id!=0:
@@ -50,12 +52,12 @@ func remove153(index: int) -> void:
   list.erase(entry)
   if is_instance_valid(enemy): enemy.set_meta("locomotion_scale153",1.-SLOW*list.size())
   if list.is_empty(): layers153.erase(id)
- if is_instance_valid(entry.node): entry.node.queue_free()
+ if is_instance_valid(entry.node): release_sprite153(entry.node)
  resting153.remove_at(index)
 func reset153() -> void:
  for i in range(resting153.size()-1,-1,-1): remove153(i)
  layers153.clear()
- for node in flying153.values(): if is_instance_valid(node): node.queue_free()
+ for node in flying153.values(): if is_instance_valid(node): release_sprite153(node)
  flying153.clear()
 func step153(delta: float) -> void:
  if not battle.active114 or battle.player_hp<=0.: reset153();return
@@ -74,7 +76,7 @@ func _process(_delta: float) -> void:
   if not flying153.has(id): flying153[id]=sprite153()
   orient153(flying153[id],shot.node.get_global_transform_interpolated().origin,shot.velocity,float(shot.get("sword_gain153",1.)))
  for id in flying153.keys():
-  if not seen.has(id): flying153[id].queue_free();flying153.erase(id)
+  if not seen.has(id): release_sprite153(flying153[id]);flying153.erase(id)
  for entry in resting153:
   var enemy: Variant=entry.enemy.get_ref() if entry.enemy!=null else null
   var tip: Vector3=enemy.hit_area.global_position+entry.offset if is_instance_valid(enemy) else entry.offset

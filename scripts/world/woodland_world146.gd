@@ -57,7 +57,7 @@ func snapshot_packet146(target: Vector3,charged: bool,ratio: float,retire_all :=
  elif charged: super._release_charged(target,ratio)
  else: super.fire_at(target)
  if shots.size()==before: return {}
- var packet := {"plane":buffs.level("paper_plane")>0,"stream":stream,"burst_time":.22+(.18*ratio if charged else 0.),"pulse_interval":.04/(buffs.rate()*(1.+.6*(1.-player_hp/100.))*(.5 if buffs.level("three_player")>0 else 1.)),"specs":[],"label":"水柱" if stream else (("蓄力%d%%"%roundi(ratio*100.)) if charged else ("分裂" if buffs.level("snack")>0 else "普通"))}
+ var packet := {"plane":buffs.level("paper_plane")>0,"stream":stream,"burst_time":.22+(.18*ratio if charged else 0.),"pulse_interval":.04/(buffs.rate()*flashlight_rate_gain110()*(.5 if buffs.level("three_player")>0 else 1.)),"specs":[],"label":"水柱" if stream else (("蓄力%d%%"%roundi(ratio*100.)) if charged else ("分裂" if buffs.level("snack")>0 else "普通"))}
  if packet.plane: packet.label="飞机·"+str(packet.label)
  var carrier_gain := 1.
  if carrier and packet.plane and not charged:

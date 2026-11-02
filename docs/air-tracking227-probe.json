@@ -1,0 +1,66 @@
+{
+	"cases": [
+		{
+			"after": "(0.0, -6.0, 0.0)",
+			"before": "(0.0, -6.0, 0.0)",
+			"case": "vertical_drop",
+			"global_eye": 1,
+			"packet_eye": 1,
+			"speed_error": 0.0,
+			"target_hit_center": "(0.5, 0.0, 0.0)",
+			"turned": false
+		},
+		{
+			"after": "(0.1, -6.0, 0.0)",
+			"before": "(0.1, -6.0, 0.0)",
+			"case": "downward_target_behind_xz_heading",
+			"global_eye": 1,
+			"packet_eye": 1,
+			"speed_error": 0.0,
+			"target_hit_center": "(-0.5, 0.0, 0.0)",
+			"turned": false
+		},
+		{
+			"after": "(5.977561, 0.139567, 0.499286)",
+			"before": "(6.0, 0.0, 0.0)",
+			"case": "ordinary_horizontal_control",
+			"global_eye": 1,
+			"packet_eye": 1,
+			"speed_error": 0.000000476837158203125,
+			"target_hit_center": "(2.0, 1.0, 1.0)",
+			"turned": true
+		},
+		{
+			"after": "(6.0, 0.0, 0.0)",
+			"before": "(6.0, 0.0, 0.0)",
+			"case": "packet_eye_not_runtime_eye",
+			"global_eye": 0,
+			"packet_eye": 1,
+			"speed_error": 0.0,
+			"target_hit_center": "(2.0, 1.0, 1.0)",
+			"turned": false
+		},
+		{
+			"after": "(5.977561, 0.139567, 0.499286)",
+			"before": "(6.0, 0.0, 0.0)",
+			"case": "runtime_eye_not_packet_eye",
+			"global_eye": 1,
+			"packet_eye": 0,
+			"speed_error": 0.000000476837158203125,
+			"target_hit_center": "(2.0, 1.0, 1.0)",
+			"turned": true
+		},
+		{
+			"after": "(5.993809, 0.272494, 0.0)",
+			"before": "(6.0, 0.0, 0.0)",
+			"case": "bat_center_adds_legacy_height",
+			"global_eye": 1,
+			"packet_eye": 1,
+			"speed_error": 0.000000476837158203125,
+			"target_hit_center": "(0.0, 1.0, 0.0)",
+			"turned": true
+		}
+	],
+	"observed": true,
+	"production_changes": false
+}

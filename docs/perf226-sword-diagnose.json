@@ -1,0 +1,50 @@
+[
+	{
+		"draws": 963.0,
+		"flying_swords": 0,
+		"fps": 24.497770702866,
+		"frames": 196,
+		"median_ms": 40.658,
+		"p95_ms": 46.413,
+		"planes": 3,
+		"process_ms": 44.909,
+		"resting_swords": 5,
+		"shadows": 99,
+		"shots": 0,
+		"tag": "user_sword_build",
+		"world_physics_ms": 0.94483367983368,
+		"world_process_ms": 3.96743076923077
+	},
+	{
+		"draws": 944.0,
+		"flying_swords": 0,
+		"fps": 31.7411194299295,
+		"frames": 64,
+		"median_ms": 31.533,
+		"p95_ms": 38.527,
+		"planes": 1,
+		"process_ms": 37.437,
+		"resting_swords": 5,
+		"shadows": 84,
+		"shots": 0,
+		"tag": "sword_shadows_off",
+		"world_physics_ms": 0.863450819672131,
+		"world_process_ms": 3.40009523809524
+	},
+	{
+		"draws": 911.0,
+		"flying_swords": 0,
+		"fps": 37.2890372716357,
+		"frames": 75,
+		"median_ms": 26.63,
+		"p95_ms": 32.636,
+		"planes": 0,
+		"process_ms": 31.948,
+		"resting_swords": 0,
+		"shadows": 74,
+		"shots": 0,
+		"tag": "sword_visuals_off",
+		"world_physics_ms": 0.733081967213115,
+		"world_process_ms": 2.81410810810811
+	}
+]

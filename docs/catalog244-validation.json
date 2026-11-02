@@ -1,0 +1,30 @@
+[
+	{
+		"name": "removed card rejected by profile",
+		"pass": true
+	},
+	{
+		"name": "old preview profile preserved",
+		"pass": true
+	},
+	{
+		"name": "removed card absent from random choices",
+		"pass": true
+	},
+	{
+		"name": "eye balance retained",
+		"pass": true
+	},
+	{
+		"name": "console row removed",
+		"pass": true
+	},
+	{
+		"name": "other card rows retained",
+		"pass": true
+	},
+	{
+		"name": "saved loadout sanitized",
+		"pass": true
+	}
+]

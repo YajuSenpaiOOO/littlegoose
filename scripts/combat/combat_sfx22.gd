@@ -54,7 +54,10 @@ static func attach(tree: SceneTree) -> void:
 	tree.root.add_child.call_deferred(_box)  # 普通节点，任何时机入树都正常
 
 
+static var contact_override242 := Callable()
 static func play(name: String, pitch_mult := 1.0) -> void:
+	if contact_override242.is_valid() and name in ["hit","jelly_hit","crack","crack_soft"]:
+		contact_override242.call(name);return
 	if soft_combat_audio:
 		if name == "shoot":
 			name = "shoot_soft"

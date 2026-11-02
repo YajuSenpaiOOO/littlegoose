@@ -1,0 +1,279 @@
+{
+	"beam_damage": 0.164705882352941,
+	"checks": [
+		{
+			"name": "clear native target line",
+			"pass": true
+		},
+		{
+			"name": "real Q request accepted",
+			"pass": true
+		},
+		{
+			"name": "notes save complete charge/source budget",
+			"pass": true
+		},
+		{
+			"name": "real Q emitted budget equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "single source real Q hit equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "real Q request accepted",
+			"pass": true
+		},
+		{
+			"name": "notes save complete charge/source budget",
+			"pass": true
+		},
+		{
+			"name": "real Q emitted budget equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "single source real Q hit equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "real Q request accepted",
+			"pass": true
+		},
+		{
+			"name": "notes save complete charge/source budget",
+			"pass": true
+		},
+		{
+			"name": "real Q emitted budget equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "real Q request accepted",
+			"pass": true
+		},
+		{
+			"name": "notes save complete charge/source budget",
+			"pass": true
+		},
+		{
+			"name": "real Q emitted budget equals saved damage x45 percent",
+			"pass": true
+		},
+		{
+			"name": "six fragments / flashlight / native=true",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / flashlight / true",
+			"pass": true
+		},
+		{
+			"name": "independent short beams preserve main ribbon generation",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / flashlight / true",
+			"pass": true
+		},
+		{
+			"name": "six fragments / slingshot / native=true",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / slingshot / true",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / slingshot / true",
+			"pass": true
+		},
+		{
+			"name": "six fragments / balloon_sword / native=true",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / balloon_sword / true",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / balloon_sword / true",
+			"pass": true
+		},
+		{
+			"name": "six fragments / flashlight / native=false",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / flashlight / false",
+			"pass": true
+		},
+		{
+			"name": "independent short beams preserve main ribbon generation",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / flashlight / false",
+			"pass": true
+		},
+		{
+			"name": "six fragments / slingshot / native=false",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / slingshot / false",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / slingshot / false",
+			"pass": true
+		},
+		{
+			"name": "six fragments / balloon_sword / native=false",
+			"pass": true
+		},
+		{
+			"name": "payload, half damage, arc and source exclusion / balloon_sword / false",
+			"pass": true
+		},
+		{
+			"name": "second split retains type and quarter damage / balloon_sword / false",
+			"pass": true
+		}
+	],
+	"children": [
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		},
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		},
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		},
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		},
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		},
+		{
+			"arc": true,
+			"damage": 0.0823529411764706,
+			"piercing": true,
+			"stream": true
+		}
+	],
+	"notes": [
+		{
+			"charge": 0.25,
+			"expected_ratio": 0.45,
+			"geese": false,
+			"live_budget": 1.54411764705882,
+			"live_hit": 1.5441176470631,
+			"replay_budget": 0.694852941176471,
+			"replay_hit": 0.694852941174759,
+			"stored_budget": 1.54411764705882
+		},
+		{
+			"charge": 1.0,
+			"expected_ratio": 0.45,
+			"geese": false,
+			"live_budget": 4.94117647058824,
+			"live_hit": 4.94117647058738,
+			"replay_budget": 2.22352941176471,
+			"replay_hit": 2.22352941177087,
+			"stored_budget": 4.94117647058824
+		},
+		{
+			"charge": 0.25,
+			"expected_ratio": 0.45,
+			"geese": true,
+			"live_budget": 2.77941176470588,
+			"live_hit": 2.77941176471359,
+			"replay_budget": 1.25073529411765,
+			"replay_hit": 0.972794117638841,
+			"stored_budget": 2.77941176470588
+		},
+		{
+			"charge": 1.0,
+			"expected_ratio": 0.45,
+			"geese": true,
+			"live_budget": 8.89411764705882,
+			"live_hit": 8.89411764706892,
+			"replay_budget": 4.00235294117647,
+			"replay_hit": 3.11294117647049,
+			"stored_budget": 8.89411764705882
+		}
+	],
+	"split_descriptors": [
+		{
+			"at": "(-54.5, -1.5, 20.65)",
+			"damage": 0.0823529411764706,
+			"depth": 1,
+			"goose_source168": 0,
+			"life111": 0.7,
+			"payload234": {
+				"charged": false,
+				"heavy": false,
+				"lane": 0,
+				"note": false,
+				"snack": 1,
+				"stream": true,
+				"tracking": 0
+			},
+			"piercing111": true,
+			"rid": "RID(101606041321476)",
+			"sword153": false,
+			"velocity111": "(14.5794, -1.427264, 5.671923)"
+		}
+	],
+	"splits": [
+		{
+			"first": 6,
+			"kind": "flashlight",
+			"native": true
+		},
+		{
+			"first": 6,
+			"kind": "slingshot",
+			"native": true
+		},
+		{
+			"first": 6,
+			"kind": "balloon_sword",
+			"native": true
+		},
+		{
+			"first": 6,
+			"kind": "flashlight",
+			"native": false
+		},
+		{
+			"first": 6,
+			"kind": "slingshot",
+			"native": false
+		},
+		{
+			"first": 6,
+			"kind": "balloon_sword",
+			"native": false
+		}
+	]
+}

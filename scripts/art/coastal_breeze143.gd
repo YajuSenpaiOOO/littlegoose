@@ -42,7 +42,9 @@ func clipped_shader143(source: Shader) -> Shader:
  var declarations := "\nuniform bool clip_west_water143=false;\nuniform vec4 coast_bounds143;\nuniform vec2 coast_origin143;\nuniform vec2 coast_points143[13];\nvarying vec2 shadow_xz143;\nvarying float shadow_y143;\n"
  code=code.replace("shader_type spatial;","shader_type spatial;"+declarations)
  var expression := "(INV_VIEW_MATRIX*vec4(VERTEX,1.)).xz" if code.contains("skip_vertex_transform") else "(MODEL_MATRIX*vec4(VERTEX,1.)).xz"
- if not code.contains("float terrain113("):
+ # Include-backed projection shaders already declare the terrain uniforms and
+ # sampler. Shader.code retains the include, rather than its expanded text.
+ if not code.contains("float terrain113(") and not code.contains("marker_terrain227.gdshaderinc"):
   var terrain_code: String=preload("res://scripts/art/actor_shadow113.gdshader").code
   code=code.replace("void fragment()",terrain_code.substr(terrain_code.find("uniform sampler2D terrain_heights113"),terrain_code.find("void vertex()")-terrain_code.find("uniform sampler2D terrain_heights113"))+"\nvoid fragment()")
  var y_expression := "(INV_VIEW_MATRIX*vec4(VERTEX,1.)).y" if code.contains("skip_vertex_transform") else "(MODEL_MATRIX*vec4(VERTEX,1.)).y"

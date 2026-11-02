@@ -1,0 +1,57 @@
+{
+	"checks": [
+		{
+			"name": "upright hero192 retained",
+			"pass": true
+		},
+		{
+			"name": "no trial/progression or forest context replacement",
+			"pass": true
+		},
+		{
+			"name": "six approved walk frames loaded",
+			"pass": true
+		},
+		{
+			"name": "existing lighting and foot depth material reused",
+			"pass": true
+		},
+		{
+			"name": "fixed camera-plane presentation preserves proportions",
+			"pass": true
+		},
+		{
+			"name": "independent stable physical footprint",
+			"pass": true
+		},
+		{
+			"name": "animation advances at 14fps",
+			"pass": true
+		},
+		{
+			"name": "pause freezes animation",
+			"pass": true
+		},
+		{
+			"name": "short walk moves in map",
+			"pass": true
+		},
+		{
+			"name": "walking stays grounded",
+			"pass": true
+		},
+		{
+			"name": "hero physically blocked by cat ground footprint",
+			"pass": true
+		},
+		{
+			"name": "terrain contour shadow active",
+			"pass": true
+		},
+		{
+			"name": "F7 restores position and stationary preview",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

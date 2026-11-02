@@ -1,0 +1,290 @@
+{
+	"failures": [],
+	"samples": [
+		{
+			"attack_cooldown_at_end": 0.272,
+			"attack_input_seconds": 12.0247917272727,
+			"build": "direct_sword_three_eye",
+			"cat_warm_dps": 4.71040262287398,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				56.7000000002445,
+				0.0,
+				0.0
+			],
+			"dps": 4.71525838336529,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"three_player": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				0.216666666666668,
+				-1.0,
+				-1.0
+			],
+			"frames": 422,
+			"frames_over_50ms": 3,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				126,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 126,
+			"initial_target": "FatCat220",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"three_player": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 0,
+			"planes_launched": 0,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.0247917272727,
+			"shot_counter_not_accuracy": 129,
+			"single_bat": false,
+			"slots": 5,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.140129
+		},
+		{
+			"attack_cooldown_at_end": 0.272,
+			"attack_input_seconds": 6.02707556483887,
+			"build": "direct_sword_three_eye",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				28.3500000001222,
+				0.0
+			],
+			"dps": 4.70377377803461,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"three_player": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				0.288292333333333,
+				-1.0
+			],
+			"frames": 221,
+			"frames_over_50ms": 1,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.721, -2.12, 19.0581)",
+			"hit_events": [
+				0,
+				63,
+				0
+			],
+			"hits_counter_not_accuracy": 63,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"three_player": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 0,
+			"planes_launched": 0,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.02707556483887,
+			"shot_counter_not_accuracy": 66,
+			"single_bat": false,
+			"slots": 5,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 6.211096
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 12.0048488968254,
+			"build": "air_sword_three_eye",
+			"cat_warm_dps": 4.76181968583391,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				52.4117647061648,
+				0.0,
+				0.0
+			],
+			"dps": 4.36588291586284,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				1.430404,
+				-1.0,
+				-1.0
+			],
+			"frames": 385,
+			"frames_over_50ms": 2,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				198,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 198,
+			"initial_target": "FatCat220",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 216,
+			"planes_launched": 39,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.0048488968254,
+			"shot_counter_not_accuracy": 216,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.031804
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 6.01483940634921,
+			"build": "air_sword_three_eye",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				16.3235294118494,
+				7.50000000004366
+			],
+			"dps": 3.96079226766141,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				1.33896209523809,
+				1.40145766666667
+			],
+			"frames": 204,
+			"frames_over_50ms": 1,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.72292, -2.12, 19.05699)",
+			"hit_events": [
+				0,
+				61,
+				29
+			],
+			"hits_counter_not_accuracy": 90,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 107,
+			"planes_launched": 21,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.01483940634921,
+			"shot_counter_not_accuracy": 107,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 6.126212
+		},
+		{
+			"blades_pool": 41,
+			"draws": 1084.0,
+			"enrolled": 434,
+			"flight_entries": 15,
+			"flying": 15,
+			"fps": 28.0292520749121,
+			"landed": 18,
+			"median_ms": 34.788,
+			"nodes": 7134.0,
+			"p95_ms": 46.567,
+			"pads_pool": 42,
+			"physics_ms": 5.941,
+			"process_ms": 38.125,
+			"shadows": 211,
+			"shots": 17,
+			"sword_nodes": 134,
+			"tag": "live_early"
+		},
+		{
+			"blades_pool": 47,
+			"draws": 1090.0,
+			"enrolled": 425,
+			"flight_entries": 0,
+			"flying": 0,
+			"fps": 27.4645844183925,
+			"landed": 24,
+			"median_ms": 36.172,
+			"nodes": 7118.0,
+			"p95_ms": 43.881,
+			"pads_pool": 38,
+			"physics_ms": 5.28,
+			"process_ms": 36.233,
+			"shadows": 210,
+			"shots": 0,
+			"sword_nodes": 133,
+			"tag": "live_mid"
+		},
+		{
+			"blades_pool": 34,
+			"draws": 1120.0,
+			"enrolled": 440,
+			"flight_entries": 18,
+			"flying": 18,
+			"fps": 27.4419089090781,
+			"landed": 23,
+			"median_ms": 36.409,
+			"nodes": 7139.0,
+			"p95_ms": 44.235,
+			"pads_pool": 39,
+			"physics_ms": 4.793,
+			"process_ms": 37.744,
+			"shadows": 214,
+			"shots": 18,
+			"sword_nodes": 137,
+			"tag": "live_late"
+		}
+	]
+}

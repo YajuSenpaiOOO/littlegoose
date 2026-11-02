@@ -1,0 +1,277 @@
+{
+	"checks": [
+		{
+			"name": "228 config is isolated from 226/227 experiments",
+			"pass": true
+		},
+		{
+			"name": "fresh preview starts with cat100 bat80 rhythm trial",
+			"pass": true
+		},
+		{
+			"name": "legacy cat keeps follow-up and original recovery",
+			"pass": true
+		},
+		{
+			"name": "first round uses new single-roll cat",
+			"pass": true
+		},
+		{
+			"name": "first round preparation is readable and rejects pig overlap",
+			"pass": true
+		},
+		{
+			"name": "first recovery grants a longer output opening",
+			"pass": true
+		},
+		{
+			"name": "first repair remains quiet with no support spawning",
+			"pass": true
+		},
+		{
+			"name": "quiet repair remains an attackable measured six-second window",
+			"pass": true
+		},
+		{
+			"name": "second round starts with a grace period",
+			"pass": true
+		},
+		{
+			"name": "second round permits follow-up while pig delivery waits",
+			"pass": true
+		},
+		{
+			"name": "spider joins the second cat round instead of the second repair",
+			"pass": true
+		},
+		{
+			"name": "spider waits instead of weaving during a committed roll",
+			"pass": true
+		},
+		{
+			"name": "spider waits during pig delivery",
+			"pass": true
+		},
+		{
+			"name": "weaving reserves its own beat and suppresses a new roll",
+			"pass": true
+		},
+		{
+			"name": "pig cannot start while spider is weaving",
+			"pass": true
+		},
+		{
+			"name": "support completes a real native web",
+			"pass": true
+		},
+		{
+			"name": "cat defeat clears webs and pauses/removes spider from aim targets",
+			"pass": true
+		},
+		{
+			"name": "bat damage persists and quiet second repair opens",
+			"pass": true
+		},
+		{
+			"name": "pause freezes repair and rhythm state",
+			"pass": true
+		},
+		{
+			"name": "existing recorder exports phase and support events",
+			"pass": true
+		},
+		{
+			"name": "restart cleans helpers and restores rig and independent bat HP",
+			"pass": true
+		},
+		{
+			"name": "native stage burst can win first repair without a forced phase lock",
+			"pass": true
+		},
+		{
+			"name": "native sustained build experiences a second round: { \"three_player\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "native sustained build experiences a second round: { \"three_player\": 1, \"eye_exercise\": 1, \"flashlight\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old user loadout/HP file remains byte-identical",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"{ \"three_player\": 1, \"eye_exercise\": 1 }": {
+			"events": [
+				{
+					"event": "first_round",
+					"round": 1,
+					"time": 0.0
+				},
+				{
+					"event": "cat_down",
+					"round": 1,
+					"time": 12.9412804473545
+				},
+				{
+					"event": "repair_open",
+					"round": 1,
+					"time": 14.2469481722222
+				},
+				{
+					"event": "next_round",
+					"round": 2,
+					"time": 21.4642172559163
+				},
+				{
+					"event": "spider_called",
+					"round": 2,
+					"time": 23.4675776392497
+				},
+				{
+					"event": "web_start",
+					"round": 2,
+					"time": 24.0931444604618
+				},
+				{
+					"event": "web_start",
+					"round": 2,
+					"time": 29.8858553392497
+				},
+				{
+					"event": "cat_down",
+					"round": 2,
+					"time": 34.3858553392499
+				},
+				{
+					"event": "repair_open",
+					"round": 2,
+					"time": 35.6994982483407
+				}
+			],
+			"result": "胜利",
+			"rounds": [
+				{
+					"damage": 100.0,
+					"debug": false,
+					"partial": false,
+					"seconds": 12.9412804473545
+				},
+				{
+					"damage": 100.0,
+					"debug": false,
+					"partial": false,
+					"seconds": 12.9216380833334
+				}
+			],
+			"seconds": 40.4241565202024,
+			"windows": [
+				{
+					"damage": [
+						45.0000000000001,
+						0.0
+					],
+					"first_hit": 0.274914888888889,
+					"partial": false,
+					"seconds": 6.00896075036075
+				},
+				{
+					"damage": [
+						34.9999999999999,
+						0.0
+					],
+					"first_hit": 0.275757575757576,
+					"partial": false,
+					"seconds": 4.72465827186147
+				}
+			]
+		},
+		"{ \"three_player\": 1, \"eye_exercise\": 1, \"flashlight\": 1 }": {
+			"events": [
+				{
+					"event": "first_round",
+					"round": 1,
+					"time": 0.0
+				},
+				{
+					"event": "cat_down",
+					"round": 1,
+					"time": 9.07005478754209
+				},
+				{
+					"event": "repair_open",
+					"round": 1,
+					"time": 10.3749842319866
+				},
+				{
+					"event": "next_round",
+					"round": 2,
+					"time": 17.5838773622896
+				},
+				{
+					"event": "spider_called",
+					"round": 2,
+					"time": 19.6077241804714
+				},
+				{
+					"event": "web_start",
+					"round": 2,
+					"time": 20.2353318804714
+				},
+				{
+					"event": "web_start",
+					"round": 2,
+					"time": 26.0171119405725
+				},
+				{
+					"event": "cat_down",
+					"round": 2,
+					"time": 26.6064152739058
+				},
+				{
+					"event": "repair_open",
+					"round": 2,
+					"time": 27.9219096072392
+				}
+			],
+			"result": "胜利",
+			"rounds": [
+				{
+					"damage": 99.9999999999988,
+					"debug": false,
+					"partial": false,
+					"seconds": 9.07005478754209
+				},
+				{
+					"damage": 99.9999999999988,
+					"debug": false,
+					"partial": false,
+					"seconds": 9.02253791161618
+				}
+			],
+			"seconds": 29.4945749375422,
+			"windows": [
+				{
+					"damage": [
+						64.4988235294109,
+						0.0
+					],
+					"first_hit": 0.184543555555556,
+					"partial": false,
+					"seconds": 6.00247646363636
+				},
+				{
+					"damage": [
+						15.5011764705889,
+						0.0
+					],
+					"first_hit": 0.228787878787879,
+					"partial": false,
+					"seconds": 1.57266533030303
+				}
+			]
+		}
+	}
+}

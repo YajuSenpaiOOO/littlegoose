@@ -265,11 +265,13 @@ func _trace_shot(shot: Dictionary,start: Vector3,end: Vector3) -> Dictionary:
   query110.exclude=excluded
  return {}
 func _shot_sound_enabled110() -> bool: return not stream_emitting110 and not fragment_emitting110
+func flashlight_damage_gain110() -> float:return 1.+.6*(1.-health_fraction())
+func flashlight_rate_gain110() -> float:return 1.+.6*(1.-health_fraction())
 func emit_stream110(target: Vector3) -> void:
  if combat_clock33-stream_last110>.10: stream_generation110+=1
  stream_last110=combat_clock33;stream_sequence110+=1
  var origins: Array[Vector3]=skills110.origins110();var lanes: int=1+buffs.level("distract")
- var empower := 1.+.6*(1.-player_hp/100.)
+ var empower := flashlight_damage_gain110()
  for emitter in origins.size():
   for lane in lanes:
    var origin := origins[emitter];var direction := (target-origin).normalized().rotated(Vector3.UP,float(lane-(lanes-1)*.5)*.16)

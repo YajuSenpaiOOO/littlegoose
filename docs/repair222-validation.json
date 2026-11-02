@@ -1,0 +1,161 @@
+{
+	"checks": [
+		{
+			"name": "six repair frames loaded in actual battle rig",
+			"pass": true
+		},
+		{
+			"name": "normal flying keeps approved original seated art",
+			"pass": true
+		},
+		{
+			"name": "latest cat pressure and hidden cue retained",
+			"pass": true
+		},
+		{
+			"name": "hero192 unchanged",
+			"pass": true
+		},
+		{
+			"name": "F9 uses ordinary cat-down transition for animation preview",
+			"pass": true
+		},
+		{
+			"name": "repair animation shares existing vulnerable bat window",
+			"pass": true
+		},
+		{
+			"name": "sister repairs behind cat with visible side offset",
+			"pass": true
+		},
+		{
+			"name": "repair clears pig and cotton hazards",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 0",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 0",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 0",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 1",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 1",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 1",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 2",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 2",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 2",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 3",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 3",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 3",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 4",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 4",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 4",
+			"pass": true
+		},
+		{
+			"name": "battle phase selects repair frame 5",
+			"pass": true
+		},
+		{
+			"name": "sprite and lit shader share atlas frame 5",
+			"pass": true
+		},
+		{
+			"name": "registered foot remains stable frame 5",
+			"pass": true
+		},
+		{
+			"name": "repair art retains original seated scale with only head bow",
+			"pass": true
+		},
+		{
+			"name": "animation reuses existing cards and adds no physical body",
+			"pass": true
+		},
+		{
+			"name": "contour shadow follows current repair atlas",
+			"pass": true
+		},
+		{
+			"name": "repair frames retain hero192 lighting normal",
+			"pass": true
+		},
+		{
+			"name": "pause freezes repair progress and selected pose",
+			"pass": true
+		},
+		{
+			"name": "real player projectiles damage bat on animated repair rig",
+			"pass": true
+		},
+		{
+			"name": "six-second repair closes bat targeting",
+			"pass": true
+		},
+		{
+			"name": "repair restores cat and original seated flying pose",
+			"pass": true
+		},
+		{
+			"name": "bat damage persists across animated repair",
+			"pass": true
+		},
+		{
+			"name": "defeating a bat interrupts sewing immediately",
+			"pass": true
+		},
+		{
+			"name": "animated trial exit restores navigation context",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"bat_hp_after_weapon": 29.0,
+		"frames": 6,
+		"height_max": 1.61143533652648,
+		"height_min": 1.52406836044975,
+		"window_seconds": 6.0
+	},
+	"scope": "phase/atlas/anchors/native bat weapon lifecycle; appearance assessed in captured map frames"
+}

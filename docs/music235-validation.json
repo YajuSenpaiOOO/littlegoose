@@ -1,0 +1,210 @@
+{
+	"budgets": [
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"music_class": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		},
+		{
+			"baseline_dps": 3.67647058823529,
+			"levels": {
+				"eye_exercise": 1,
+				"music_class": 1
+			},
+			"normal": 1.83823529411765,
+			"perfect": 2.57352941176471
+		},
+		{
+			"baseline_dps": 5.29411764705882,
+			"levels": {
+				"music_class": 1,
+				"three_player": 1
+			},
+			"normal": 2.64705882352941,
+			"perfect": 3.70588235294118
+		},
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"music_class": 1,
+				"snack": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		},
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"homework": 1,
+				"music_class": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		}
+	],
+	"checks": [
+		{
+			"name": "fresh perfect press fires once per beat",
+			"pass": true
+		},
+		{
+			"name": "early spam locks normal, cannot reroll",
+			"pass": true
+		},
+		{
+			"name": "hold creates normal only",
+			"pass": true
+		},
+		{
+			"name": "guard or dodge skips beats",
+			"pass": true
+		},
+		{
+			"name": "hitch never creates catch-up volley",
+			"pass": true
+		},
+		{
+			"name": "music eye geese valid six-slot build",
+			"pass": true
+		},
+		{
+			"name": "unadapted weapons and music stacking rejected",
+			"pass": true
+		},
+		{
+			"name": "old preview still blocks music",
+			"pass": true
+		},
+		{
+			"name": "clear real physics line to cat",
+			"pass": true
+		},
+		{
+			"name": "real clock frozen on pause",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"snack\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"snack\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "notebook saves normalized music budget",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"homework\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"homework\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "notebook saves Perfect bonus exactly once",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "console exposes new music card",
+			"pass": true
+		},
+		{
+			"name": "console pause freezes beat",
+			"pass": true
+		},
+		{
+			"name": "bounded audio voices and both note timbres loaded",
+			"pass": true
+		}
+	]
+}

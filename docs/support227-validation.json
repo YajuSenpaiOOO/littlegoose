@@ -1,0 +1,77 @@
+{
+	"checks": [
+		{
+			"name": "no support on first cat round",
+			"pass": true
+		},
+		{
+			"name": "active F8 restart restores sister and hammock 0",
+			"pass": true
+		},
+		{
+			"name": "active F8 restart restores sister and hammock 1",
+			"pass": true
+		},
+		{
+			"name": "active F8 restart restores sister and hammock 2",
+			"pass": true
+		},
+		{
+			"name": "active F8 restart restores sister and hammock 3",
+			"pass": true
+		},
+		{
+			"name": "active F8 restart restores sister and hammock 4",
+			"pass": true
+		},
+		{
+			"name": "pig predicts escape lane without homing spray",
+			"pass": true
+		},
+		{
+			"name": "cat-sized navigation has usable routes in cottage clearing",
+			"pass": true
+		},
+		{
+			"name": "blocked direct roll rejected so cat can continue pathing",
+			"pass": true
+		},
+		{
+			"name": "physical cat makes progress around a real blocked navigation segment",
+			"pass": true
+		},
+		{
+			"name": "real obstructed navigation fixture found",
+			"pass": true
+		},
+		{
+			"name": "first repair does not call spider",
+			"pass": true
+		},
+		{
+			"name": "second repair calls exactly one support spider",
+			"pass": true
+		},
+		{
+			"name": "support is not repeatedly spawned",
+			"pass": true
+		},
+		{
+			"name": "support completes native web weaving",
+			"pass": true
+		},
+		{
+			"name": "support has no old high-damage silk projectile attack",
+			"pass": true
+		},
+		{
+			"name": "support is damageable through native enemy interface",
+			"pass": true
+		},
+		{
+			"name": "reset clears support webs and forest trial context",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

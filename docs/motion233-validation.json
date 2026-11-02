@@ -1,0 +1,130 @@
+{
+	"checks": [
+		{
+			"name": "233 uses roll-control cat",
+			"pass": true
+		},
+		{
+			"name": "batched sword renderer retained",
+			"pass": true
+		},
+		{
+			"name": "comparison captures a real unpaused attack packet",
+			"pass": true
+		},
+		{
+			"name": "same three aircraft payload groups",
+			"pass": true
+		},
+		{
+			"name": "payload and delivery schedule unchanged source 0",
+			"pass": true
+		},
+		{
+			"name": "constant level speed through approach/drop/exit source 0",
+			"pass": true
+		},
+		{
+			"name": "every drop retains old fall height source 0",
+			"pass": true
+		},
+		{
+			"name": "payload and delivery schedule unchanged source 1",
+			"pass": true
+		},
+		{
+			"name": "constant level speed through approach/drop/exit source 1",
+			"pass": true
+		},
+		{
+			"name": "every drop retains old fall height source 1",
+			"pass": true
+		},
+		{
+			"name": "payload and delivery schedule unchanged source 2",
+			"pass": true
+		},
+		{
+			"name": "constant level speed through approach/drop/exit source 2",
+			"pass": true
+		},
+		{
+			"name": "every drop retains old fall height source 2",
+			"pass": true
+		},
+		{
+			"name": "same eighteen deliveries",
+			"pass": true
+		},
+		{
+			"name": "paired delivery test acquires actual low bat targets",
+			"pass": true
+		},
+		{
+			"name": "all actual delivery origins aims and targets identical",
+			"pass": true
+		},
+		{
+			"name": "five stacks reduce real rolling velocity by forty percent",
+			"pass": true
+		},
+		{
+			"name": "same roll distance takes longer under slow",
+			"pass": true
+		},
+		{
+			"name": "first-round preparation unchanged",
+			"pass": true
+		},
+		{
+			"name": "real adhesive layers feed rolling control",
+			"pass": true
+		},
+		{
+			"name": "roll animation advances with slowed movement",
+			"pass": true
+		},
+		{
+			"name": "expired adhesive restores full rolling speed",
+			"pass": true
+		},
+		{
+			"name": "old previews retain original roll behavior",
+			"pass": true
+		},
+		{
+			"name": "parry request accepted during slow-roll fixture",
+			"pass": true
+		},
+		{
+			"name": "slowed roll retains parry and residual-contact protection",
+			"pass": true
+		},
+		{
+			"name": "actual battle aircraft and sword damage remain active",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance232.cfg",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance233.cfg",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"air_speed": 8.0,
+		"roll_five_layers": {
+			"distance": 7.5501708984375,
+			"seconds": 1.33333333333333,
+			"speed": 5.70000028610229
+		},
+		"roll_normal": {
+			"distance": 7.599609375,
+			"seconds": 0.808333333333333,
+			"speed": 9.5
+		}
+	}
+}

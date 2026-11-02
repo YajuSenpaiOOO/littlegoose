@@ -1,0 +1,482 @@
+{
+	"budgets": [
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"music_class": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		},
+		{
+			"baseline_dps": 3.67647058823529,
+			"levels": {
+				"eye_exercise": 1,
+				"music_class": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		},
+		{
+			"baseline_dps": 5.29411764705882,
+			"levels": {
+				"music_class": 1,
+				"three_player": 1
+			},
+			"normal": 2.64705882352941,
+			"perfect": 3.70588235294118
+		},
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"music_class": 1,
+				"snack": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		},
+		{
+			"baseline_dps": 2.94117647058824,
+			"levels": {
+				"homework": 1,
+				"music_class": 1
+			},
+			"normal": 1.47058823529412,
+			"perfect": 2.05882352941176
+		}
+	],
+	"checks": [
+		{
+			"name": "one immediate Perfect per note",
+			"pass": true
+		},
+		{
+			"name": "early press immediately emits Miss feedback",
+			"pass": true
+		},
+		{
+			"name": "early press does not reserve or spoil later accurate tap",
+			"pass": true
+		},
+		{
+			"name": "early Good fires immediately",
+			"pass": true
+		},
+		{
+			"name": "late Good fires immediately",
+			"pass": true
+		},
+		{
+			"name": "unplayed note crosses line and becomes Miss",
+			"pass": true
+		},
+		{
+			"name": "hold distinct auto result",
+			"pass": true
+		},
+		{
+			"name": "guard skips without shots or Miss penalty",
+			"pass": true
+		},
+		{
+			"name": "no catch-up volley",
+			"pass": true
+		},
+		{
+			"name": "Great is 1.2x",
+			"pass": true
+		},
+		{
+			"name": "every early tap is empty shot; no reservation",
+			"pass": true
+		},
+		{
+			"name": "Perfect immediately available after missed rapid clicks",
+			"pass": true
+		},
+		{
+			"name": "manual consumption prevents auto double damage",
+			"pass": true
+		},
+		{
+			"name": "ratio denominator excludes omitted and skipped beats",
+			"pass": true
+		},
+		{
+			"name": "signed offsets exclude already-resolved spam",
+			"pass": true
+		},
+		{
+			"name": "phase counts and histogram are complete",
+			"pass": true
+		},
+		{
+			"name": "output ratios sum to one",
+			"pass": true
+		},
+		{
+			"name": "raw sample cap preserves aggregate counts",
+			"pass": true
+		},
+		{
+			"name": "150 BPM preserves musical phase",
+			"pass": true
+		},
+		{
+			"name": "second eye level gives 180 BPM",
+			"pass": true
+		},
+		{
+			"name": "music eye geese valid six-slot build",
+			"pass": true
+		},
+		{
+			"name": "six-slot music sword plane eye accepted",
+			"pass": true
+		},
+		{
+			"name": "slingshot explicitly mutually exclusive",
+			"pass": true
+		},
+		{
+			"name": "unadapted weapons and music stacking rejected",
+			"pass": true
+		},
+		{
+			"name": "old preview still blocks music",
+			"pass": true
+		},
+		{
+			"name": "clear real physics line to cat",
+			"pass": true
+		},
+		{
+			"name": "real clock frozen on pause",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "resolved beat feedback does not masquerade as a timing miss",
+			"pass": true
+		},
+		{
+			"name": "Great actual volley is 1.2x normal",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "resolved beat feedback does not masquerade as a timing miss",
+			"pass": true
+		},
+		{
+			"name": "Great actual volley is 1.2x normal",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "resolved beat feedback does not masquerade as a timing miss",
+			"pass": true
+		},
+		{
+			"name": "Great actual volley is 1.2x normal",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"snack\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"snack\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "resolved beat feedback does not masquerade as a timing miss",
+			"pass": true
+		},
+		{
+			"name": "Great actual volley is 1.2x normal",
+			"pass": true
+		},
+		{
+			"name": "notebook saves normalized music budget",
+			"pass": true
+		},
+		{
+			"name": "hold preserves original DPS budget / { \"music_class\": 1, \"homework\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "old random music bonus removed",
+			"pass": true
+		},
+		{
+			"name": "normal music really hits cat",
+			"pass": true
+		},
+		{
+			"name": "real mouse Perfect is exactly 1.4x / { \"music_class\": 1, \"homework\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "notebook saves Perfect bonus exactly once",
+			"pass": true
+		},
+		{
+			"name": "duplicate same-beat input cannot add shot",
+			"pass": true
+		},
+		{
+			"name": "resolved beat feedback does not masquerade as a timing miss",
+			"pass": true
+		},
+		{
+			"name": "Great actual volley is 1.2x normal",
+			"pass": true
+		},
+		{
+			"name": "first emitted attack plays first melody note regardless of beat",
+			"pass": true
+		},
+		{
+			"name": "next attack advances one note across idle beat gaps",
+			"pass": true
+		},
+		{
+			"name": "phrase rests do not swallow an emitted note",
+			"pass": true
+		},
+		{
+			"name": "idle does not advance melody",
+			"pass": true
+		},
+		{
+			"name": "rapid bad clicks each give feedback without physical damage shots",
+			"pass": true
+		},
+		{
+			"name": "Miss clicks leave next beat unconsumed",
+			"pass": true
+		},
+		{
+			"name": "next valid tap fires immediately after Miss spam",
+			"pass": true
+		},
+		{
+			"name": "empty visuals have bounded live storage",
+			"pass": true
+		},
+		{
+			"name": "one melody note immediately per rhythmic volley / { \"music_class\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "direct rhythm sword flags inherited",
+			"pass": true
+		},
+		{
+			"name": "adapted combo deals real native damage / { \"music_class\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "real native impacts use soft contact sound / { \"music_class\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "native sword attachment/control still active",
+			"pass": true
+		},
+		{
+			"name": "one melody note immediately per rhythmic volley / { \"music_class\": 1, \"paper_plane\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "rhythm press launches real planes with damage budget",
+			"pass": true
+		},
+		{
+			"name": "all plane packets preserve sword identity and resolved budget",
+			"pass": true
+		},
+		{
+			"name": "adapted combo deals real native damage / { \"music_class\": 1, \"paper_plane\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "real native impacts use soft contact sound / { \"music_class\": 1, \"paper_plane\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "one melody note immediately per rhythmic volley / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "rhythm press launches real planes with damage budget",
+			"pass": true
+		},
+		{
+			"name": "all plane packets preserve sword identity and resolved budget",
+			"pass": true
+		},
+		{
+			"name": "adapted combo deals real native damage / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "real native impacts use soft contact sound / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "native sword attachment/control still active",
+			"pass": true
+		},
+		{
+			"name": "one melody note immediately per rhythmic volley / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "rhythm press launches real planes with damage budget",
+			"pass": true
+		},
+		{
+			"name": "all plane packets preserve sword identity and resolved budget",
+			"pass": true
+		},
+		{
+			"name": "adapted combo deals real native damage / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "real native impacts use soft contact sound / { \"music_class\": 1, \"paper_plane\": 1, \"balloon_sword\": 1, \"three_player\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "native sword attachment/control still active",
+			"pass": true
+		},
+		{
+			"name": "contact callback restored after native collisions",
+			"pass": true
+		},
+		{
+			"name": "dense impact sounds merge without delayed playback",
+			"pass": true
+		},
+		{
+			"name": "short unpitched contact and fixed audio voice count",
+			"pass": true
+		},
+		{
+			"name": "without music the original contact sound path remains",
+			"pass": true
+		},
+		{
+			"name": "hurt and parry are never intercepted by contact scope",
+			"pass": true
+		},
+		{
+			"name": "active recording collects exact events",
+			"pass": true
+		},
+		{
+			"name": "real checkpoint JSON includes rhythm telemetry",
+			"pass": true
+		},
+		{
+			"name": "finished recording keeps rhythm snapshot frozen",
+			"pass": true
+		},
+		{
+			"name": "new run clears session telemetry",
+			"pass": true
+		},
+		{
+			"name": "console exposes new music card",
+			"pass": true
+		},
+		{
+			"name": "console pause freezes beat",
+			"pass": true
+		},
+		{
+			"name": "rounded corner renderer active in real map",
+			"pass": true
+		},
+		{
+			"name": "multiple future notes visible together",
+			"pass": true
+		},
+		{
+			"name": "bounded audio voices and both note timbres loaded",
+			"pass": true
+		}
+	]
+}

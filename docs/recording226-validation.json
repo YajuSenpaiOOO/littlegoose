@@ -1,0 +1,49 @@
+{
+	"checks": [
+		{
+			"name": "console exposes enabled recording button",
+			"pass": true
+		},
+		{
+			"name": "record button applies draft and restarts full fight",
+			"pass": true
+		},
+		{
+			"name": "native cat damage and phase DPS recorded",
+			"pass": true
+		},
+		{
+			"name": "records named loadout and explicitly unsupported accuracy",
+			"pass": true
+		},
+		{
+			"name": "console pause excluded from sampling clock",
+			"pass": true
+		},
+		{
+			"name": "periodic checkpoint creates sample file",
+			"pass": true
+		},
+		{
+			"name": "native cat defeat opens normal repair phase",
+			"pass": true
+		},
+		{
+			"name": "bat window uses separate clock and hit events",
+			"pass": true
+		},
+		{
+			"name": "F8 archives old run before resetting metrics",
+			"pass": true
+		},
+		{
+			"name": "new recording has unique id and cannot overwrite previous sample",
+			"pass": true
+		},
+		{
+			"name": "return to door archives sample and preserves prior run",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

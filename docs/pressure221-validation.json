@@ -1,0 +1,119 @@
+{
+	"checks": [
+		{
+			"name": "220 baseline misses ordinary straight retreat in open physical fixture",
+			"pass": true
+		},
+		{
+			"name": "221 roll reaches ordinary straight retreat without removing cues",
+			"pass": true
+		},
+		{
+			"name": "bounded follow-up closes far retreat",
+			"pass": true
+		},
+		{
+			"name": "at most two rolls in one burst",
+			"pass": true
+		},
+		{
+			"name": "moving sideways after commitment can avoid first roll",
+			"pass": true
+		},
+		{
+			"name": "actual roll never homes after commitment",
+			"pass": true
+		},
+		{
+			"name": "native parry still interrupts faster roll",
+			"pass": true
+		},
+		{
+			"name": "aim updates during preparation then commits late",
+			"pass": true
+		},
+		{
+			"name": "last .18 seconds preserve committed target",
+			"pass": true
+		},
+		{
+			"name": "floor cue can hide while body windup remains",
+			"pass": true
+		},
+		{
+			"name": "floor cue toggles independently of attack timing",
+			"pass": true
+		},
+		{
+			"name": "real map runs revised rolls with native automatic player fire",
+			"pass": true
+		},
+		{
+			"name": "pause still freezes revised attack",
+			"pass": true
+		},
+		{
+			"name": "exit restores original forest navigation",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"far_retreat": {
+			"committed_direction_unchanged": true,
+			"contacts": 1,
+			"hp": 78.0,
+			"parries": 0,
+			"roll_hits": 1,
+			"rolls": 2,
+			"walls": 0
+		},
+		"map": {
+			"cat_hp": 69.9999999999997,
+			"frame_mean_ms": 29.397712195122,
+			"hp": 32.0,
+			"peak_cotton": 25,
+			"peak_player_shots": 4,
+			"rolls": 2,
+			"terrain_stops": 0,
+			"walls": 0
+		},
+		"new_retreat": {
+			"committed_direction_unchanged": true,
+			"contacts": 1,
+			"hp": 78.0,
+			"parries": 0,
+			"roll_hits": 1,
+			"rolls": 1,
+			"walls": 0
+		},
+		"old_retreat": {
+			"committed_direction_unchanged": true,
+			"contacts": 0,
+			"hp": 100.0,
+			"parries": 0,
+			"roll_hits": 0,
+			"rolls": 1,
+			"walls": null
+		},
+		"parry": {
+			"committed_direction_unchanged": true,
+			"contacts": 0,
+			"hp": 100.0,
+			"parries": 1,
+			"roll_hits": 0,
+			"rolls": 1,
+			"walls": 0
+		},
+		"sidestep": {
+			"committed_direction_unchanged": true,
+			"contacts": 0,
+			"hp": 100.0,
+			"parries": 0,
+			"roll_hits": 0,
+			"rolls": 2,
+			"walls": 0
+		}
+	},
+	"scope": "controlled physical fixture comparisons + short real-map combined run; not a human difficulty verdict"
+}

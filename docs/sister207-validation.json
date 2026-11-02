@@ -1,0 +1,114 @@
+{
+	"checks": [
+		{
+			"name": "idle uses revised art",
+			"pass": true
+		},
+		{
+			"name": "idle transparent margin preserved",
+			"pass": true
+		},
+		{
+			"name": "seated uses revised art",
+			"pass": true
+		},
+		{
+			"name": "seated transparent margin preserved",
+			"pass": true
+		},
+		{
+			"name": "lighting normal matches upright hero192",
+			"pass": true
+		},
+		{
+			"name": "no combat/context mutation",
+			"pass": true
+		},
+		{
+			"name": "upright hero192 unchanged",
+			"pass": true
+		},
+		{
+			"name": "route avoids existing props and cliffs",
+			"pass": true
+		},
+		{
+			"name": "sister only slightly taller in actual screen projection",
+			"pass": true
+		},
+		{
+			"name": "whole empty rig starts beyond left screen edge",
+			"pass": true
+		},
+		{
+			"name": "whole empty rig exits right screen edge before hiding",
+			"pass": true
+		},
+		{
+			"name": "exit adapts to a moved camera",
+			"pass": true
+		},
+		{
+			"name": "bounded momentum-driven swing",
+			"pass": true
+		},
+		{
+			"name": "swing preserves bat 0 attachment",
+			"pass": true
+		},
+		{
+			"name": "swing preserves bat 1 attachment",
+			"pass": true
+		},
+		{
+			"name": "pause freezes swing and animation",
+			"pass": true
+		},
+		{
+			"name": "damped swing decays while stationary",
+			"pass": true
+		},
+		{
+			"name": "attack mode drops at most two toys per trip",
+			"pass": true
+		},
+		{
+			"name": "ordinary transport never spawns attacks",
+			"pass": true
+		},
+		{
+			"name": "falling toy gives a full warning before threat",
+			"pass": true
+		},
+		{
+			"name": "pounce target locks before attack",
+			"pass": true
+		},
+		{
+			"name": "hit only reduces preview hearts, never saved HP",
+			"pass": true
+		},
+		{
+			"name": "existing dodge invulnerability avoids toy",
+			"pass": true
+		},
+		{
+			"name": "existing parry window counters toy",
+			"pass": true
+		},
+		{
+			"name": "spent toys leave no permanent clutter/collision",
+			"pass": true
+		},
+		{
+			"name": "F7 resets preview and clears all toys",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"display_scale": 0.766670050451668,
+		"screen_height_ratio": 1.07932439303957
+	},
+	"scope": "206 world behavior/physics and GPU captures; animation art still subject to user review"
+}

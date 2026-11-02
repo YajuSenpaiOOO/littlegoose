@@ -1,0 +1,113 @@
+{
+  "checks": [
+    {
+      "name": "starts with sister standing beside hero, no combat",
+      "pass": true
+    },
+    {
+      "name": "uses current selected sister art",
+      "pass": true
+    },
+    {
+      "name": "sister uses actual native receiver with .82 multiplier",
+      "pass": true
+    },
+    {
+      "name": "standing diagnostic has no transport clutter or blocking footprint",
+      "pass": true
+    },
+    {
+      "name": "Alt time shortcut retained",
+      "pass": true
+    },
+    {
+      "name": "original sister receiver preserved place1",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place1 mode1",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place1 mode1",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place1 mode2",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place1 mode2",
+      "pass": true
+    },
+    {
+      "name": "original sister receiver preserved place0",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place0 mode1",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place0 mode1",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place0 mode2",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place0 mode2",
+      "pass": true
+    },
+    {
+      "name": "original sister receiver preserved place2",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place2 mode1",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place2 mode1",
+      "pass": true
+    },
+    {
+      "name": "sister comparison uses isolated neutral material place2 mode2",
+      "pass": true
+    },
+    {
+      "name": "comparison light response matches selected mode place2 mode2",
+      "pass": true
+    },
+    {
+      "name": "both original shared materials unchanged",
+      "pass": true
+    },
+    {
+      "name": "stage lamp independently toggles",
+      "pass": true
+    },
+    {
+      "name": "forest lamp group can be isolated",
+      "pass": true
+    },
+    {
+      "name": "regional grade independently toggles",
+      "pass": true
+    },
+    {
+      "name": "actors can exchange sampling positions",
+      "pass": true
+    },
+    {
+      "name": "lighting diagnostics do not tilt hero geometry",
+      "pass": true
+    },
+    {
+      "name": "latest HUD and console still available",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

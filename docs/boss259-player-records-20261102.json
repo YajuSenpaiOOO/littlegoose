@@ -1,0 +1,86 @@
+{
+  "source_directory": "C:\\Users\\ASUS\\AppData\\Roaming\\Godot\\app_userdata\\小白鹅 · 连续世界重建\\boss_records",
+  "records": [
+    {
+      "file": "2026-11-02_12-13-20_242984665.json",
+      "scene": "res://scenes/world/world259.tscn",
+      "build": "橡皮筋弹弓＋公园买的气球剑",
+      "used_slots": 3,
+      "capacity": 4,
+      "determination_level": 1,
+      "max_hp": 12.0,
+      "boss_hp": 90.0,
+      "seconds": 43.3975838205388,
+      "dps": 2.07384817487018,
+      "injuries": 4,
+      "loss": 9.0,
+      "remaining_hp": 3.0,
+      "dashes": 3,
+      "attack_input_ratio": 0.752281852916516,
+      "auto_seconds": 0.0,
+      "result": "胜利",
+      "damage_sources": {
+        "tuantuan_slam": 3.0,
+        "tuantuan_sweep": 6.0
+      },
+      "parry_recorded": false,
+      "debug": false,
+      "partial": false
+    },
+    {
+      "file": "2026-11-02_12-14-17_300103711.json",
+      "scene": "res://scenes/world/world259.tscn",
+      "build": "公园买的气球剑＋眼保健操",
+      "used_slots": 3,
+      "capacity": 4,
+      "determination_level": 1,
+      "max_hp": 12.0,
+      "boss_hp": 90.0,
+      "seconds": 41.7291663223422,
+      "dps": 2.15676487051727,
+      "injuries": 3,
+      "loss": 6.0,
+      "remaining_hp": 6.0,
+      "dashes": 11,
+      "attack_input_ratio": 0.952884252742644,
+      "auto_seconds": 0.0,
+      "result": "胜利",
+      "damage_sources": {
+        "tuantuan_sweep": 6.0
+      },
+      "parry_recorded": false,
+      "debug": false,
+      "partial": false
+    },
+    {
+      "file": "2026-11-02_12-15-08_350727799.json",
+      "scene": "res://scenes/world/world259.tscn",
+      "build": "眼保健操＋被窝里的手电筒",
+      "used_slots": 4,
+      "capacity": 4,
+      "determination_level": 1,
+      "max_hp": 12.0,
+      "boss_hp": 90.0,
+      "seconds": 22.2422384903799,
+      "dps": 4.04635531801018,
+      "injuries": 1,
+      "loss": 2.0,
+      "remaining_hp": 10.0,
+      "dashes": 7,
+      "attack_input_ratio": 0.985789156828811,
+      "auto_seconds": 0.0,
+      "result": "胜利",
+      "damage_sources": {
+        "tuantuan_sweep": 2.0
+      },
+      "parry_recorded": false,
+      "debug": false,
+      "partial": false
+    }
+  ],
+  "notes": [
+    "Latest three player records only; older automated test record excluded.",
+    "Different loadouts and unused slots; one sample per build, not a weapon balance conclusion.",
+    "No dedicated boss parry/recovery/collision telemetry in these files."
+  ]
+}

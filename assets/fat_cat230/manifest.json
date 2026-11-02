@@ -1,0 +1,42 @@
+{
+  "source": "Built-in imagegen precise-object-edit; final iteration from exec-a406ff16-925b-4acf-a568-d057bf988141.png. Originals216/220 remain unchanged. System.Drawing only crops/resizes the selected output into one atlas cell; no creative edits in code. Final atlas packed with Godot Image.blit_rect to avoid System.Drawing premultiplication on untouched cells.",
+  "runtime_asset": "roll_sheet.png",
+  "sha256": "e1a84283474bc8d15cce2e811075dacb67ca9f32c8568f777c810b3277bad814",
+  "atlas_size": [
+    1536,
+    1024
+  ],
+  "replaced_cell_zero_based": 3,
+  "unchanged_cells": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "region": [
+    0,
+    512,
+    512,
+    512
+  ],
+  "effective_bounds_alpha_250": [
+    34,
+    74,
+    478,
+    344
+  ],
+  "anchor_in_cell": [
+    273,
+    418
+  ],
+  "pixel_size": "3/502 world units per pixel; inherited220",
+  "world_effective_width": 2.856573705179283,
+  "display": "fixed camera-facing Sprite3D, inherited fat_cat220.gdshader; nearest mipmaps; alpha cut .98",
+  "occlusion": "existing199 foot-depth proxy unchanged",
+  "collision": "existing cat228/221 physical capsule and hit capsule unchanged; no bitmap outline collision",
+  "shadow": "existing actor_shadow105 plus scene light registration unchanged; no new shadow mesh",
+  "lighting": "existing207 receiver normal and world lights unchanged; no emission",
+  "instance": "fat_cat_boss230, world230 only",
+  "limits": "only fourth pose corrected; other five original poses retain their existing provisional anatomy"
+}

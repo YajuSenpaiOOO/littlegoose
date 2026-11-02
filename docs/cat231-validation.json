@@ -1,0 +1,121 @@
+{
+	"checks": [
+		{
+			"name": "231 cat factory selected",
+			"pass": true
+		},
+		{
+			"name": "approved hero geometry retained",
+			"pass": true
+		},
+		{
+			"name": "230 aircraft changes retained",
+			"pass": true
+		},
+		{
+			"name": "existing boss health retained",
+			"pass": true
+		},
+		{
+			"name": "physical footprint and hurt capsule unchanged",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 0",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 0",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 1",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 1",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 2",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 2",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 3",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 3",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 4",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 4",
+			"pass": true
+		},
+		{
+			"name": "roll selects correct atlas cell 5",
+			"pass": true
+		},
+		{
+			"name": "roll sole remains on ground 5",
+			"pass": true
+		},
+		{
+			"name": "down uses separate approved prone art",
+			"pass": true
+		},
+		{
+			"name": "down shader uses matching image and discards glow",
+			"pass": true
+		},
+		{
+			"name": "down mirror keeps ground registration false",
+			"pass": true
+		},
+		{
+			"name": "down mirror keeps ground registration true",
+			"pass": true
+		},
+		{
+			"name": "contour shadow follows independent down image",
+			"pass": true
+		},
+		{
+			"name": "down keeps existing world-light receiver",
+			"pass": true
+		},
+		{
+			"name": "real cat defeat opens existing bat repair window",
+			"pass": true
+		},
+		{
+			"name": "approved prone pose held with sister behind cat",
+			"pass": true
+		},
+		{
+			"name": "repair restores walking art and next round",
+			"pass": true
+		},
+		{
+			"name": "restart retains new cat and visible sister",
+			"pass": true
+		},
+		{
+			"name": "test config unchanged: user://boss_balance230.cfg",
+			"pass": true
+		},
+		{
+			"name": "test config unchanged: user://boss_balance231.cfg",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

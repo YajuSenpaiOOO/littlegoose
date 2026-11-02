@@ -1,0 +1,142 @@
+{
+	"checks": [
+		{
+			"name": "native reward-free forest battle active",
+			"pass": true
+		},
+		{
+			"name": "cat and two bat targets use native weapon actor list",
+			"pass": true
+		},
+		{
+			"name": "hero192 geometry retained",
+			"pass": true
+		},
+		{
+			"name": "high bats excluded from autoaim and hits",
+			"pass": true
+		},
+		{
+			"name": "trial start preserves formal event index",
+			"pass": true
+		},
+		{
+			"name": "pause freezes cat state and locomotion",
+			"pass": true
+		},
+		{
+			"name": "roll target locks at telegraph instead of tracking",
+			"pass": true
+		},
+		{
+			"name": "active roll translates or stops against scenery",
+			"pass": true
+		},
+		{
+			"name": "actual native player projectiles damage fat cat",
+			"pass": true
+		},
+		{
+			"name": "cat body contact causes battle damage",
+			"pass": true
+		},
+		{
+			"name": "contact respects dodge invulnerability",
+			"pass": true
+		},
+		{
+			"name": "contact respects existing guard reduction",
+			"pass": true
+		},
+		{
+			"name": "rolling attack can be parried into recovery",
+			"pass": true
+		},
+		{
+			"name": "sister flight releases a pig",
+			"pass": true
+		},
+		{
+			"name": "pig visibly descends from hammock",
+			"pass": true
+		},
+		{
+			"name": "pig is untargetable and does not block shots/player",
+			"pass": true
+		},
+		{
+			"name": "landed pig sprays real independent cotton",
+			"pass": true
+		},
+		{
+			"name": "E no longer attacks or flattens pig",
+			"pass": true
+		},
+		{
+			"name": "cat defeat begins sister repair descent",
+			"pass": true
+		},
+		{
+			"name": "repair clears pig and cotton hazards",
+			"pass": true
+		},
+		{
+			"name": "low bats enter native targeting during repair",
+			"pass": true
+		},
+		{
+			"name": "autoaim selects a low bat rather than disabled cat/pig",
+			"pass": true
+		},
+		{
+			"name": "real projectiles damage low bat",
+			"pass": true
+		},
+		{
+			"name": "repair completes and cat rejoins battle",
+			"pass": true
+		},
+		{
+			"name": "bat damage persists while high bats become untargetable",
+			"pass": true
+		},
+		{
+			"name": "defeating one bat ends battle",
+			"pass": true
+		},
+		{
+			"name": "battle exit restores original forest context",
+			"pass": true
+		},
+		{
+			"name": "no formal event/material/reward progression",
+			"pass": true
+		},
+		{
+			"name": "trial restores pre-battle roaming HP",
+			"pass": true
+		},
+		{
+			"name": "F7 restarts complete battle",
+			"pass": true
+		},
+		{
+			"name": "default automatic firing loop damages cat without simulated attack input",
+			"pass": true
+		},
+		{
+			"name": "F2 exits cleanly",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"cat_damage": 12.0,
+		"risen_bat": {
+			"dead": true,
+			"hp": 20.0,
+			"layer": 0,
+			"saved": 20.0
+		}
+	}
+}

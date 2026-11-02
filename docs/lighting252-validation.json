@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "name": "native192 receiver has .82 base and actual lighting",
+      "pass": true
+    },
+    {
+      "name": "default visual remains unchanged",
+      "pass": true
+    },
+    {
+      "name": "Alt time shortcut reaches clock while combat active 0",
+      "pass": true
+    },
+    {
+      "name": "material comparison preserves hero geometry 0",
+      "pass": true
+    },
+    {
+      "name": "Alt time shortcut reaches clock while combat active 1",
+      "pass": true
+    },
+    {
+      "name": "material comparison preserves hero geometry 1",
+      "pass": true
+    },
+    {
+      "name": "Alt time shortcut reaches clock while combat active 2",
+      "pass": true
+    },
+    {
+      "name": "material comparison preserves hero geometry 2",
+      "pass": true
+    },
+    {
+      "name": "Alt time shortcut reaches clock while combat active 3",
+      "pass": true
+    },
+    {
+      "name": "material comparison preserves hero geometry 3",
+      "pass": true
+    },
+    {
+      "name": "Alt numbers do not alter loadout",
+      "pass": true
+    },
+    {
+      "name": "white native receiver is isolated copy",
+      "pass": true
+    },
+    {
+      "name": "unlit comparison isolates native-light contribution",
+      "pass": true
+    },
+    {
+      "name": "comparison restores original receiver",
+      "pass": true
+    },
+    {
+      "name": "time shortcut works with C console open",
+      "pass": true
+    },
+    {
+      "name": "Alt0 restores natural clock",
+      "pass": true
+    },
+    {
+      "name": "forest comparison restores shared receiver without editing it",
+      "pass": true
+    },
+    {
+      "name": "246 sister preview also regains Alt time shortcut",
+      "pass": true
+    },
+    {
+      "name": "246 forest material unchanged",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

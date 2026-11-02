@@ -61,7 +61,7 @@ func step110(delta: float) -> void:
  battle.beam_left110=maxf(0.,battle.beam_left110-delta)
  beam_tick110-=delta;stream_sound110-=delta
  if battle.beam_left110>0.:
-  var empower: float=1.+.6*(1.-battle.player_hp/100.)
+  var empower: float=battle.flashlight_rate_gain110()
   var interval: float=.04/maxf(.01,battle.buffs.rate()*empower*(.5 if battle.buffs.level("three_player")>0 else 1.))
   var emitted := 0
   while beam_tick110<=0. and emitted<8:
@@ -117,18 +117,8 @@ func _draw() -> void:
    draw_set_transform(screen,battle.screen_direction(at,shot.velocity.normalized()).angle(),Vector2.ONE*pixel)
    draw_texture_rect(tex,Rect2(-Vector2(anchor[0],anchor[1])*gain,tex.get_size()*gain),false,shot.art.modulate)
  draw_set_transform(Vector2.ZERO,0.,Vector2.ONE)
- for chain in chains110:
-  var points: PackedVector2Array=chain.points
-  if points.size()<2: continue
-  var tangent := (points[-1]-points[-2]).normalized();var size: Vector2=Vector2(14,8)*chain.pixel*(1.2 if chain.heavy else 1.)
-  draw_set_transform(points[-1],tangent.angle());draw_texture_rect(Stream.art.head[0],Rect2(-size*.5,size),false)
- draw_set_transform(Vector2.ZERO,0.,Vector2.ONE)
- if battle.beam_left110>0.:
-  for origin in origins110():
-   var facing: Vector2=battle.screen_direction(origin,battle.aim_at_screen(get_viewport().get_mouse_position())-origin)
-   var size: float=12.*pixels110(origin)*(1.2 if battle.buffs.level("slingshot")>0 else 1.)
-   draw_set_transform(screen110(origin),facing.angle());draw_texture_rect(Stream.art.muzzle[int(battle.clock/.045)%3],Rect2(-Vector2.ONE*size*.5,Vector2.ONE*size),false)
- draw_set_transform(Vector2.ZERO,0.,Vector2.ONE)
+ draw_stream_heads110()
+ draw_stream_muzzles110()
  for wave in waves110:
   var points := PackedVector2Array();var r: float=8.9*clampf(wave.age/.55,0.,1.)
   for i in 65:
@@ -175,3 +165,19 @@ func draw_ribbons110() -> void:
     for index in tri: positions.append(vertices[index]);uv.append(uvs[index])
     ribbon110.draw_primitive(positions,PackedColorArray([Color.WHITE,Color.WHITE,Color.WHITE]),uv,Stream.art.flow)
    distance+=length
+
+func draw_stream_heads110() -> void:
+ for chain in chains110:
+  var points: PackedVector2Array=chain.points
+  if points.size()<2: continue
+  var tangent := (points[-1]-points[-2]).normalized();var size: Vector2=Vector2(14,8)*chain.pixel*(1.2 if chain.heavy else 1.)
+  draw_set_transform(points[-1],tangent.angle());draw_texture_rect(Stream.art.head[0],Rect2(-size*.5,size),false)
+ draw_set_transform(Vector2.ZERO,0.,Vector2.ONE)
+
+func draw_stream_muzzles110() -> void:
+ if battle.beam_left110>0.:
+  for origin in origins110():
+   var facing: Vector2=battle.screen_direction(origin,battle.aim_at_screen(get_viewport().get_mouse_position())-origin)
+   var size: float=12.*pixels110(origin)*(1.2 if battle.buffs.level("slingshot")>0 else 1.)
+   draw_set_transform(screen110(origin),facing.angle());draw_texture_rect(Stream.art.muzzle[int(battle.clock/.045)%3],Rect2(-Vector2.ONE*size*.5,Vector2.ONE*size),false)
+ draw_set_transform(Vector2.ZERO,0.,Vector2.ONE)

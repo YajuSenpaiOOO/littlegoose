@@ -1,0 +1,15 @@
+{
+  "source": "code-native shared annular mesh; no image generation",
+  "shader": "scripts/combat/paper_markers227.gdshader",
+  "terrain_source": "actor_shadow113 terrain sampling copied in marker_terrain227.gdshaderinc",
+  "orientation": "horizontal world-space terrain-conforming vertices",
+  "size": "2.4m coverage radius; .15m center and .16m pending drops; .025m line width",
+  "anchor": "world XZ mark, shader terrain height + .035m",
+  "depth": "default scene depth test; depth_draw_never; no no_depth_test override",
+  "material": "unshaded indicator color, alpha blend; not a light source",
+  "shadow": "off",
+  "collision": "none, UI indicator only",
+  "capacity": 256,
+  "updates": "30Hz and immediate reset clear",
+  "validation": "aircraft227-validation.json"
+}

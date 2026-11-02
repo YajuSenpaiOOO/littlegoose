@@ -83,6 +83,8 @@ func play_contact(at: Vector3,finishing: bool) -> void:
 	if finishing: battle.Audio.play_tuantuan("down")
 
 func _play(clip: AudioStreamWAV,at: Vector3,volume: float,pitch := 1.) -> void:
+	if (clip==hit_clip or clip==landing_clip) and battle.has_method("music_contact242") and battle.music_contact242("material"):
+		return
 	var voice := voices[voice_index%voices.size()]
 	voice_index+=1
 	# Listener is the playable hero, not the distant perspective camera. Keep the

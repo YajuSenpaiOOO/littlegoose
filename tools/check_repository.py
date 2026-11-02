@@ -21,9 +21,15 @@ def main():
                 "scenes/world/world169.tscn", "scenes/world/world204.tscn",
                 "native/combat113/combat113.windows.x86_64.dll"]
     assert all(p in tracked for p in required), "Required source/runtime file not tracked"
-    # Follow only literal engine-resource references from both actual entries.
+    # Follow the shipped main, historical baseline, and the repository launcher latest.
+    launcher = ROOT / "tools/launch-game.ps1"
+    latest = re.search(r"Mode='latest'.*?Scene='res://([^']+)'", launcher.read_text(encoding="utf-8-sig"))
+    assert latest, "Repository launcher has no latest scene"
+    latest_scene = latest.group(1)
+    assert latest_scene in tracked, "Latest preview scene not tracked"
+    # Follow only literal engine-resource references from the actual entries.
     # Dynamic string-built filenames still need normal game validation.
-    pending = ["scenes/world/world169.tscn", "scenes/world/world204.tscn"]
+    pending = ["scenes/world/world169.tscn", "scenes/world/world204.tscn", latest_scene]
     visited, missing, excluded = set(), set(), set()
     literal_load = re.compile(r'(?:preload|load)\s*\(\s*[\"\'](res://[^\"\']+)[\"\']\s*\)')
     literal_link = re.compile(r'(?:extends|path\s*=|#include)\s*[\"\'](res://[^\"\']+)[\"\']')
@@ -46,7 +52,8 @@ def main():
                 pending.append(target.removeprefix("res://"))
     result = {"tracked_files": len(tracked), "literal_resource_closure": len(visited),
               "missing_literal_resources": sorted(missing), "untracked_dependencies": sorted(excluded),
-              "runtime_validation": "Not run: repository setup must not disturb parallel profiling."}
+              "latest_preview": latest_scene,
+              "runtime_validation": "Not run by this audit; see per-preview validation documents."}
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 1 if missing or excluded else 0
 

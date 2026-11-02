@@ -1,0 +1,53 @@
+{
+	"checks": [
+		{
+			"name": "moving cat faces screen right",
+			"pass": true
+		},
+		{
+			"name": "stationary windup faces player on right",
+			"pass": true
+		},
+		{
+			"name": "roll first frame retains intended direction before velocity update",
+			"pass": true
+		},
+		{
+			"name": "stopped recovery retains last roll direction",
+			"pass": true
+		},
+		{
+			"name": "defeated cat retains facing with zero velocity",
+			"pass": true
+		},
+		{
+			"name": "moving cat faces screen left",
+			"pass": true
+		},
+		{
+			"name": "stationary windup faces player on left",
+			"pass": true
+		},
+		{
+			"name": "roll first frame retains intended direction before velocity update",
+			"pass": true
+		},
+		{
+			"name": "stopped recovery retains last roll direction",
+			"pass": true
+		},
+		{
+			"name": "defeated cat retains facing with zero velocity",
+			"pass": true
+		},
+		{
+			"name": "preparation can follow player crossing to the right",
+			"pass": true
+		},
+		{
+			"name": "mirrored anchor does not accumulate across renders",
+			"pass": true
+		}
+	],
+	"failed": 0
+}

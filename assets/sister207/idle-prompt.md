@@ -1,0 +1,12 @@
+# 207 服饰与发色回归已选立绘
+
+2026-10-28 内置imagegen，编辑目标为anatomy_v3（短臂/窄肩骨架），身份/服饰/颜色参考gentle11已选立绘以及旧idle12。源输出exec-7fe511a8-8890-4c56-a77d-361246f92fae.png，原样保存idle_front.png，保留透明通道，未程序修图。尚未用户接受，不替换world205/206，不扩坐姿/动画。打光问题仍在排查，不宣称已修。
+
+Use case: precise-object-edit.
+IMAGE1 is the EDIT TARGET: keep its big-head/short-body chibi skeleton, NARROW shoulders, VERY SHORT arms with hands at waist, exact total height, face/eyes/glasses and pixel-art style. DO NOT change these proportions or lengthen arms.
+IMAGE2 is the APPROVED CHARACTER PORTRAIT: strictly match its actual hair colors, braid side, outfit construction and accessories in simplified pixel form. Image3 is earlier pixel costume reference, ONLY useful for placement and colors, never its longer arms or smaller head.
+Changes ONLY identity details, HAIR and CLOTHES:
+Hair needs the approved portrait's medium dusty ROSE-PLUM BROWN, richer pink/burgundy undertone and deeper purple shadows than image1's washed gray-brown. No gray hair, no pale taupe. Hairpin on viewer RIGHT; thick loose braid on viewer LEFT, ending at the waist. Preserve large round head and fluffy crown shape of image1.
+Outfit MUST read as same person as image2, not a newly invented maid uniform. Remove central neck bow and formal scalloped capelet. Cream gathered button-front blouse with tiny ruffled collar, soft pale-LAVENDER KNIT SHAWL wrapping across upper arms with a few simple ivory spiderweb loops and 2-3 dangling pearl dots. Small gold SPIDER BROOCH with dark plum ribbon on viewer RIGHT chest, not neck center. Broad deep-PLUM waist tie with bow on viewer LEFT. Short deep-plum gathered skirt and pale lilac lower ruffle, CREAM APRON with one large lilac web motif at viewer RIGHT lower corner. Pocket on viewer RIGHT holds small thread spool and gold sewing scissors. Tiny brown lace-up ankle boots with cream sock frill. Keep shoulders coherent under blouse/shawl, narrow and at one level; no detached sleeve bands, no wide human shoulders.
+Human hands must STILL end at upper apron/waist level, elbows close to torso, no fingers reaching apron bottom. Overall about 2 heads tall, NOT tall dress silhouette. Four small smooth segmented plum spider limbs behind waist, two each side, clearly separate from human shoulders.
+No seal plush in hands for idle. Neutral front idle, true transparent background, same clean chunky pixel art, no painted gradients, no glow, no ground or shadow, no labels, full silhouette and margins. Preserve body anatomy of image1 even while matching costume of image2.

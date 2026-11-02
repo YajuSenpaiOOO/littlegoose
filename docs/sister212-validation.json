@@ -1,0 +1,62 @@
+[
+	{
+		"name": "isolated preview preserves forest/combat context",
+		"pass": true
+	},
+	{
+		"name": "two toys per pass",
+		"pass": true
+	},
+	{
+		"name": "pounce locks target",
+		"pass": true
+	},
+	{
+		"name": "automatic pounce to recall",
+		"pass": true
+	},
+	{
+		"name": "recall waits one full second before movement",
+		"pass": true
+	},
+	{
+		"name": "toy returns after warning",
+		"pass": true
+	},
+	{
+		"name": "lower clears toys and opens counter window",
+		"pass": true
+	},
+	{
+		"name": "nearby counter damages preview boss",
+		"pass": true
+	},
+	{
+		"name": "counter cooldown prevents key spam",
+		"pass": true
+	},
+	{
+		"name": "parry lowers in place without teleport",
+		"pass": true
+	},
+	{
+		"name": "parry clears active attacks",
+		"pass": true
+	},
+	{
+		"name": "pause freezes phase",
+		"pass": true
+	},
+	{
+		"name": "counter loop reaches victory",
+		"pass": true
+	},
+	{
+		"name": "formal HP unchanged",
+		"pass": true
+	},
+	{
+		"name": "restart resets encounter",
+		"pass": true
+	}
+]

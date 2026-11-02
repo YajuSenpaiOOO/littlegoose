@@ -1,0 +1,141 @@
+{
+  "status": "runtime procedural prototype245",
+  "alpha_scissor": 0.5,
+  "canvas": "assembly source pixels; +y down",
+  "pencil": {
+    "file": "pencil.png",
+    "opaque_bbox": [
+      319,
+      77,
+      405,
+      819
+    ],
+    "scale": 1.0,
+    "position": [
+      0,
+      0
+    ],
+    "tip": [
+      332,
+      895
+    ],
+    "hang": [
+      596,
+      177
+    ]
+  },
+  "banner": {
+    "file": "banner.png",
+    "opaque_bbox": [
+      352,
+      96,
+      524,
+      761
+    ],
+    "scale": 0.84,
+    "position": [
+      110.48,
+      84.6
+    ],
+    "hang_source": [
+      578,
+      110
+    ]
+  },
+  "goose": {
+    "file": "goose-idle.png",
+    "opaque_bbox": [
+      447,
+      289,
+      525,
+      521
+    ],
+    "scale": 0.43,
+    "position": [
+      330.915,
+      313.715
+    ],
+    "centre_source": [
+      709.5,
+      549.5
+    ],
+    "parent": "banner",
+    "local_scale": 0.5119047619047619,
+    "local_position": [
+      262.42261904761904,
+      272.75595238095235
+    ]
+  },
+  "shared_foot_anchor": [
+    332,
+    895
+  ],
+  "initial_game_height_m": 1.25,
+  "display": "fixed game-camera-facing plane, source drawing same slightly overhead view; no added tilt",
+  "collision": "planned temporary support effect, no blocking body; visual footprint independent",
+  "shadow": "planned separate runtime small contact shadow; no baked soil/shadow in layers",
+  "lighting": "source highlights only; runtime shared environment tint pending actual map validation",
+  "ground_feedback": {
+    "status": "runtime policy, not implemented map effect",
+    "use_baked_ground": false,
+    "soil_grass": {
+      "chips": [
+        "#807054",
+        "#665A43",
+        "#A5A466"
+      ],
+      "insertion_m": 0.035,
+      "contact_shadow": "small soft ellipse; terrain support and scene light pending"
+    },
+    "stone": {
+      "chips": [
+        "#92949C",
+        "#626575"
+      ],
+      "insertion_m": 0.008,
+      "crack_decal": false
+    },
+    "wood_indoor": {
+      "chips": [
+        "#D3B692",
+        "#AF8F72"
+      ],
+      "insertion_m": 0.0,
+      "crack_decal": false,
+      "effect": "tiny pale paper flecks, shallow bounce"
+    },
+    "sampling": "terrain/material tag; never sample framebuffer colors",
+    "tip_transition": "brief faint memory glow, no painted soil patch"
+  },
+  "runtime": {
+    "actor": "res://scripts/combat/relay_flag245.gd",
+    "shader": "res://scripts/art/relay_flag245.gdshader",
+    "height_m": 1.25,
+    "planes": "camera-facing; common foot-depth199 per-layer .003 offset",
+    "block_collision": false,
+    "shadow": "independent flat soft contact shadow .4x.22m; no native cast shadow",
+    "poses": [
+      "goose-idle.png",
+      "goose-fire.png"
+    ],
+    "sequence_seconds": {
+      "drop": 0.28,
+      "settle": 0.18,
+      "ready_until_total": 5.0,
+      "puff": 0.12,
+      "fire": 0.18,
+      "roll": 0.36
+    },
+    "mouth_local_camera_xy": [
+      0.686,
+      0.625
+    ],
+    "landing_insertion_m": {
+      "soil_grass": 0.035,
+      "stone": 0.008,
+      "wood_indoor": 0.0
+    },
+    "tag": "ground_material; current forest fallback soil_grass",
+    "limitations": "manual/material metadata routing, not a whole-map surface migration; no support bridge audit; procedural flag squash/unfold, not authored cloth roll animation"
+  }
+}

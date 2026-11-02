@@ -1,0 +1,121 @@
+{
+  "checks": [
+    {
+      "name": "old251 factory default remains original actor",
+      "pass": true
+    },
+    {
+      "name": "new actor uses latest combat factory",
+      "pass": true
+    },
+    {
+      "name": "determination HUD and relay baseline retained",
+      "pass": true
+    },
+    {
+      "name": "approved255 hero appearance retained",
+      "pass": true
+    },
+    {
+      "name": "254 warm-light repair retained",
+      "pass": true
+    },
+    {
+      "name": "angry expression and impatient little hops retained",
+      "pass": true
+    },
+    {
+      "name": "seven real landings end in recovery",
+      "pass": true
+    },
+    {
+      "name": "bounce height and flight interval diminish together",
+      "pass": true
+    },
+    {
+      "name": "first chain teaches solo pattern without echo balls",
+      "pass": true
+    },
+    {
+      "name": "punish window remains open for 2.65 seconds",
+      "pass": true
+    },
+    {
+      "name": "recovery cleanly returns to rest",
+      "pass": true
+    },
+    {
+      "name": "late bounces limit turning so sidesteps can escape",
+      "pass": true
+    },
+    {
+      "name": "late low hops retain walking pursuit pressure",
+      "pass": true
+    },
+    {
+      "name": "each airborne jump stays committed instead of homing",
+      "pass": true
+    },
+    {
+      "name": "second chain emits two side echo balls on selected heavy landing",
+      "pass": true
+    },
+    {
+      "name": "pause freezes echo projectile",
+      "pass": true
+    },
+    {
+      "name": "echo pressure is capped at four live balls",
+      "pass": true
+    },
+    {
+      "name": "recovery removes lingering balls for a clean counterattack",
+      "pass": true
+    },
+    {
+      "name": "echo ball physically reflects off obstacle",
+      "pass": true
+    },
+    {
+      "name": "echo projectile lifetime is bounded",
+      "pass": true
+    },
+    {
+      "name": "landing parry arms one reverse bounce and adds two",
+      "pass": true
+    },
+    {
+      "name": "reverse direction is consumed by only one flight",
+      "pass": true
+    },
+    {
+      "name": "reflected physical wall crash damages boss and consumes one extra bounce",
+      "pass": true
+    },
+    {
+      "name": "boss resumes pursuing player after wall stagger",
+      "pass": true
+    },
+    {
+      "name": "echo hit uses native determination damage",
+      "pass": true
+    },
+    {
+      "name": "C console still opens and pauses latest fight",
+      "pass": true
+    },
+    {
+      "name": "restart clears projectiles and resets chain teaching",
+      "pass": true
+    },
+    {
+      "name": "shared silhouette shadow and default circle-off preserved",
+      "pass": true
+    },
+    {
+      "name": "victory cleans remaining projectiles",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

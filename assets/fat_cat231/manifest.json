@@ -1,0 +1,133 @@
+{
+  "status": "installed in world231; source art selected by user; see docs/cat231-validation.json for runtime checks",
+  "generator": "built-in imagegen",
+  "identity_reference": "assets/fat_cat216/original.png",
+  "continuity_references": "old220 frames1,2,6; excludes rejected230 redraw",
+  "sequence_layout": {
+    "columns": 3,
+    "rows": 1,
+    "cell_size": [
+      724,
+      724
+    ],
+    "poses": [
+      "side",
+      "belly_up",
+      "push_toward_upright"
+    ]
+  },
+  "rest": "independent side-lying hold; not a rolling frame",
+  "animation_review": {
+    "frame_order": [
+      "old220 frame1",
+      "old220 frame2",
+      "new231 side",
+      "new231 belly_up",
+      "new231 rise",
+      "old220 frame6"
+    ],
+    "duration_ms_each": 160,
+    "frames": 6,
+    "loop": "infinite",
+    "canvas": [
+      512,
+      512
+    ],
+    "registration": "review only; each subject fit within450x370, baseline440; not final physical registration"
+  },
+  "runtime_contract": {
+    "world": "world231.tscn",
+    "controller": "fat_cat_boss231.gd extends228",
+    "roll_source": "old220 frame1/2/6 plus approved231 three poses",
+    "down_source": "rest-spread-v1.png",
+    "runtime_sheets": [
+      "roll-runtime.png",
+      "down-runtime.png"
+    ],
+    "layout": "runtime-frames.json",
+    "pixel_size": 0.00597609561752988,
+    "roll_effective_width_world": 3.0,
+    "down_effective_width_world": 3.1673306772908365,
+    "down_effective_height_world": 1.4103585657370519,
+    "anchors": "roll per-frame bottom-center from layout; down (320,470) in640x512",
+    "display_plane": "existing fixed camera-facing Sprite3D; camera global_basis",
+    "occlusion": "existing199 foot-depth proxy retained",
+    "material_lighting": "existing fat_cat220 shader and207 receiver normal; alpha cut.98; no new emission/light",
+    "collision": "existing physical capsule radius.95/height1.9; hurt capsule radius1/height2, both unchanged",
+    "shadow": "existing actor_shadow105; tracks independent down texture, no new shadow geometry",
+    "packing": "nearest-neighbor crop/resize only; no new anatomical edits; alpha threshold matches old runtime"
+  },
+  "known_limits": [
+    "back-to-rise key-pose angle span remains; no extra in-between frames added",
+    "only related rendering/repair/restart checks; no broad difficulty/performance retest",
+    "old art drafts remain for traceability and are not selected by runtime"
+  ],
+  "files": {
+    "roll-keyposes.png": {
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "ed2c71ce159b6b906d45862ed00d1f5b6f197934494a3c9d2e72a63ff10a8636"
+    },
+    "rest-pose.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "a88aa1d029c515e169cd4082a25ce3918cca44abe64f50cbfdab3a30253050e0"
+    },
+    "continuity-review.png": {
+      "size": [
+        3072,
+        512
+      ],
+      "sha256": "20768f9e493b0f2beff5cee58c8e9a2bef74b83a87b95a25c43119c581d4d967"
+    },
+    "rest-review.png": {
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "ac6db69c338301aa4ce7a395eed42629534ed90ec0867c4b6d8de0de6e3deead"
+    },
+    "review-loop.gif": {
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "a7c9cdcb7893bd16034d50a31e38857c8c2ba2cd71413769a00c8be1cbd97278"
+    },
+    "rest-spread-v1.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "2a2209b3656b6fa9e9ee1bf3caf88571f6542a632fc03d9dcebcff314c2a0032"
+    },
+    "rest-spread-v2.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "50e5e16e6fe6382589847e637daf98419a4e55397a6b0932e9ed8832c6d6a229"
+    },
+    "roll-runtime.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "6b748aedf26ce0a6bf15d38bf2907b7a72b86d025585974ed21ddd0d2f9ef535"
+    },
+    "down-runtime.png": {
+      "size": [
+        640,
+        512
+      ],
+      "sha256": "22d267c070d27325afa94a902c8ae8ccfdbc7b6469f2c1f6f8f8314073309350"
+    }
+  },
+  "user_feedback": "User accepts general rolling process despite back-to-rise span, and explicitly selects first prone spread draft via original attachment.",
+  "rest_candidate": "rest-spread-v1.png selected; side-lying and v2 retained as unselected history",
+  "approved_rest_source": "rest-spread-v1.png (user attached exec-a19c4b7d-0c0b-4ad6-8f2e-835dd7a700d9.png); NOT v2"
+}

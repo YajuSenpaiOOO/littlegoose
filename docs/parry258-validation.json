@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "name": "reproduce real body-contact parry",
+      "pass": true
+    },
+    {
+      "name": "257 outbound reflected jump reproduces immediate damage after successful parry",
+      "pass": true
+    },
+    {
+      "name": "successful parry consumes current attack even after state transition",
+      "pass": true
+    },
+    {
+      "name": "brief parry grace does not alter normal invulnerability or block future parry inputs",
+      "pass": true
+    },
+    {
+      "name": "stale landing callback cannot resolve a parried flight",
+      "pass": true
+    },
+    {
+      "name": "returned bounce remains harmless while preserving add-two continuation",
+      "pass": true
+    },
+    {
+      "name": "outbound overlap is harmless even with grace forced off",
+      "pass": true
+    },
+    {
+      "name": "reflected landing cannot hit player either",
+      "pass": true
+    },
+    {
+      "name": "next normal pursuit restores live attack checks",
+      "pass": true
+    },
+    {
+      "name": "later normal landing still deals expected damage",
+      "pass": true
+    },
+    {
+      "name": "echo ball cannot punish successful parry in the same moment",
+      "pass": true
+    },
+    {
+      "name": "pause freezes parry grace",
+      "pass": true
+    },
+    {
+      "name": "damage returns after finite grace",
+      "pass": true
+    },
+    {
+      "name": "pounce parry still goes directly to clean recovery",
+      "pass": true
+    },
+    {
+      "name": "restart clears protection and preserves initial progression",
+      "pass": true
+    },
+    {
+      "name": "rejected paused parry does not grant protection",
+      "pass": true
+    },
+    {
+      "name": "end cleans protection and projectiles",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "echo": {
+      "at": "(-49.99167, 2.382413, -42.65833)",
+      "before": 12.0,
+      "grace": 0.35,
+      "hero": "(-49.99167, 2.184718, -42.65833)",
+      "hp": 12.0,
+      "queued": true
+    },
+    "legacy_loss": 2.0
+  },
+  "passed": true
+}

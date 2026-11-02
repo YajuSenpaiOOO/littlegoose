@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "name": "boss uses ordinary actor silhouette factory",
+      "pass": true
+    },
+    {
+      "name": "projection registered with world and owned by boss",
+      "pass": true
+    },
+    {
+      "name": "one silhouette shadow, no ellipse overlap",
+      "pass": true
+    },
+    {
+      "name": "landing circle remains off",
+      "pass": true
+    },
+    {
+      "name": "noon projection follows world sun",
+      "pass": true
+    },
+    {
+      "name": "flight does not re-enable ellipse",
+      "pass": true
+    },
+    {
+      "name": "body rises for airborne projection",
+      "pass": true
+    },
+    {
+      "name": "GPU projection receives actual airborne sprite transform",
+      "pass": true
+    },
+    {
+      "name": "projection samples current body pose",
+      "pass": true
+    },
+    {
+      "name": "angry expression and silhouette share same source",
+      "pass": true
+    },
+    {
+      "name": "night direction and opacity use existing world palette",
+      "pass": true
+    },
+    {
+      "name": "world projector enabled switch honored",
+      "pass": true
+    },
+    {
+      "name": "world projector resumes",
+      "pass": true
+    },
+    {
+      "name": "parry still arms single reverse bounce with no ellipse",
+      "pass": true
+    },
+    {
+      "name": "restart replaces projection without stale registrations",
+      "pass": true
+    },
+    {
+      "name": "defeat keeps legacy ellipse disabled",
+      "pass": true
+    },
+    {
+      "name": "projection follows actor fade opacity",
+      "pass": true
+    },
+    {
+      "name": "actor cleanup removes owned projector",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

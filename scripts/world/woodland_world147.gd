@@ -19,7 +19,7 @@ func capture146(target: Vector3,charged: bool,ratio: float) -> void:
  packet.charged147=charged;packet.ratio147=ratio
  paper_memories146.record146(packet);paper_memories146.launch146(packet,projectile_origin(),target)
 func patrol_interval147(charged: bool) -> float:
- var interval: float=.04/(buffs.rate()*(1.+.6*(1.-player_hp/100.))) if buffs.level("flashlight")>0 else START_INTERVAL113/buffs.rate()
+ var interval: float=.04/(buffs.rate()*flashlight_rate_gain110()) if buffs.level("flashlight")>0 else START_INTERVAL113/buffs.rate()
  if charged: interval=maxf(interval,1.1)
  if buffs.level("three_player")>0: interval*=2.
  return maxf(.05,interval)

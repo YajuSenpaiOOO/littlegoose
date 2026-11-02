@@ -1,0 +1,140 @@
+{
+	"checks": [
+		{
+			"name": "four bounded batch submissions replace per-sword nodes",
+			"pass": true
+		},
+		{
+			"name": "approved cat art retained",
+			"pass": true
+		},
+		{
+			"name": "229 eye and player health retained",
+			"pass": true
+		},
+		{
+			"name": "console explains trial aircraft payload benefit",
+			"pass": true
+		},
+		{
+			"name": "source starts early and spreads six drops across .45 seconds",
+			"pass": true
+		},
+		{
+			"name": "source starts early and spreads six drops across .45 seconds",
+			"pass": true
+		},
+		{
+			"name": "source starts early and spreads six drops across .45 seconds",
+			"pass": true
+		},
+		{
+			"name": "total payload bonus exactly twenty-five percent, no goose duplication",
+			"pass": true
+		},
+		{
+			"name": "three aircraft preserve six drops each and original area",
+			"pass": true
+		},
+		{
+			"name": "rain retains complete payload: { \"paper_plane\": 1, \"slingshot\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "charged rain retains native charged tracing flag",
+			"pass": true
+		},
+		{
+			"name": "rain retains complete payload: { \"paper_plane\": 1, \"flashlight\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "beam rain retains burst cadence",
+			"pass": true
+		},
+		{
+			"name": "rain retains complete payload: { \"paper_plane\": 1, \"snack\": 1, \"eye_exercise\": 1 }",
+			"pass": true
+		},
+		{
+			"name": "splitting rain retains split level",
+			"pass": true
+		},
+		{
+			"name": "native five-layer forty-percent slow cap preserved",
+			"pass": true
+		},
+		{
+			"name": "excess layers expire without allocating nodes",
+			"pass": true
+		},
+		{
+			"name": "GPU renders cyan attached blade without impact accents",
+			"pass": true
+		},
+		{
+			"name": "attached swords retain individual bodies and gel pads",
+			"pass": true
+		},
+		{
+			"name": "blade and gel silhouette shadows retained",
+			"pass": true
+		},
+		{
+			"name": "attachment follows moving actor",
+			"pass": true
+		},
+		{
+			"name": "lifetime expiry restores full movement and clears layers",
+			"pass": true
+		},
+		{
+			"name": "ground residue capped without node growth",
+			"pass": true
+		},
+		{
+			"name": "reset removes bodies pads shadows and slow layers",
+			"pass": true
+		},
+		{
+			"name": "actual native sword rain damages fat cat",
+			"pass": true
+		},
+		{
+			"name": "native flying and landed swords reach bounded visible batches",
+			"pass": true
+		},
+		{
+			"name": "continuous rain creates no hidden per-sword pool",
+			"pass": true
+		},
+		{
+			"name": "visible blades use instanced deformation data",
+			"pass": true
+		},
+		{
+			"name": "pause freezes aircraft schedule",
+			"pass": true
+		},
+		{
+			"name": "weapon clear leaves no batched ghost swords",
+			"pass": true
+		},
+		{
+			"name": "restart restores clean visible encounter",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance231.cfg",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance232.cfg",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"attached_blade_cyan_pixels": 731
+	}
+}

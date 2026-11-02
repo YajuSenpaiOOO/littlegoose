@@ -1,0 +1,32 @@
+{
+  "scope": "225 reused-art doorway entry + cat delivery rig + mirrored pig, no new bitmap",
+  "sources": [
+    "assets/sister211/idle.png",
+    "assets/sister211/seated_character_v2.png",
+    "assets/sister205/hammock.png",
+    "assets/sister205/bat_up.png",
+    "assets/sister205/bat_down.png",
+    "assets/fat_cat216/original.png",
+    "assets/pig219/poses.png"
+  ],
+  "door": "forest188.cottage_sprite ground xz + (0,.85), existing house art/collision unchanged",
+  "sister": "original211 size and fixed camera plane, foot-depth199/receiver207/shadow105 retained, standing to seated key poses and small programmatic steps",
+  "carriage": {
+    "cat_width_m": 3.0,
+    "cat_collision": "presentation CharacterBody layer0/mask0; not in enemies; native boss appears after handoff",
+    "bats": "four Sprite3D, .80*display_scale206 /739px, ring anchor texture*(.5,.805), no target area/physical body",
+    "straps": "four camera-facing mesh strips .036m wide, endpoints generated from same live bat ring and cat attachment coordinates; no source-pixel edits and no claim of true plush volume",
+    "shadows": "existing105 contours, flying cat .25 opacity scale -> grounded .6; four bat shadows .2; no new light/emission",
+    "display": "fixed camera plane, per-object foot199 proxy from actual root xz, hero192 light normal207",
+    "life": "rig built once/reused, cat/bats/straps hidden after departure or cancel"
+  },
+  "pig": {
+    "source": "existing219 three poses and cotton, no new image",
+    "facing": "original(-1,.4) or exact visual/nose/shadow mirror to (1,.4), never rotates or homes during spray",
+    "placement": "target current pos plus capped .6m movement lead; reverse fixed direction 2.4/2.8/3.1m with ±.35m lateral alternatives; physics mask1|2, flat terrain, side escape, line, cat clearance2m and roll corridor1.7m",
+    "interval": "first4s after combat, same one-pig maximum; at least2s after previous pig and cotton clear; retry1s if no valid candidate",
+    "collision": "same0 nonblocking/untargetable pig, danger cotton unchanged"
+  },
+  "unchanged": "hero192, terrain/cottage bodies, tree occlusion policy, formal rewards/progression/respawn; no new lights",
+  "limitations": "closed door art retained, emergence and walk are programmatic standing pose rather than new door/walk frames; foreground prop overlap may persist elsewhere; balance needs playtesting"
+}

@@ -1,0 +1,38 @@
+{
+	"conditions": "latest distribution+jitter, actual live cat/pig/spider, fixed invulnerable hero, 100000 cat HP, warmed by functional checks",
+	"samples": [
+		{
+			"draws": 968.0,
+			"flying": 3,
+			"fps": 32.1414983369889,
+			"landed": 17,
+			"median_ms": 30.084,
+			"p95_ms": 38.227,
+			"shadows": 77,
+			"sword_nodes": 4,
+			"tag": "live_early"
+		},
+		{
+			"draws": 960.0,
+			"flying": 6,
+			"fps": 33.2261809815089,
+			"landed": 5,
+			"median_ms": 29.981,
+			"p95_ms": 35.548,
+			"shadows": 77,
+			"sword_nodes": 4,
+			"tag": "live_mid"
+		},
+		{
+			"draws": 939.0,
+			"flying": 5,
+			"fps": 34.1748111436326,
+			"landed": 23,
+			"median_ms": 29.009,
+			"p95_ms": 34.973,
+			"shadows": 77,
+			"sword_nodes": 4,
+			"tag": "live_late"
+		}
+	]
+}

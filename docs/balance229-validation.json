@@ -1,0 +1,142 @@
+{
+	"checks": [
+		{
+			"name": "one eye gives twenty-five percent rate",
+			"pass": true
+		},
+		{
+			"name": "two eyes give fifty percent total rate",
+			"pass": true
+		},
+		{
+			"name": "stage multiplier still composes with reduced eye",
+			"pass": true
+		},
+		{
+			"name": "old preview keeps fifty percent eye for comparison",
+			"pass": true
+		},
+		{
+			"name": "229 isolates settings and retains rhythm HP",
+			"pass": true
+		},
+		{
+			"name": "equipment descriptions match new effects",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=14.0",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=7.0",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=5.0",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=4.66666666666667",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=4.0",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=1.0",
+			"pass": true
+		},
+		{
+			"name": "threshold damage only at HP=0.0",
+			"pass": true
+		},
+		{
+			"name": "aircraft/notes beam packet gains no low-health firing frequency",
+			"pass": true
+		},
+		{
+			"name": "beam packet snapshots fixed red damage once",
+			"pass": true
+		},
+		{
+			"name": "lower HP does not further increase packet damage",
+			"pass": true
+		},
+		{
+			"name": "native direct beam DPS scales by fixed thirty-five percent",
+			"pass": true
+		},
+		{
+			"name": "native one-HP beam equals four-HP beam",
+			"pass": true
+		},
+		{
+			"name": "red lamp appears below one third",
+			"pass": true
+		},
+		{
+			"name": "red lamp pulse freezes while paused",
+			"pass": true
+		},
+		{
+			"name": "red lamp clears above threshold",
+			"pass": true
+		},
+		{
+			"name": "unequipping flashlight removes red lamp and benefit",
+			"pass": true
+		},
+		{
+			"name": "restart restores normal-health lamp state",
+			"pass": true
+		},
+		{
+			"name": "recording carries balance version and exact parameters",
+			"pass": true
+		},
+		{
+			"name": "repair records HP and stage coverage fields",
+			"pass": true
+		},
+		{
+			"name": "repair records actual red-lamp coverage",
+			"pass": true
+		},
+		{
+			"name": "legacy flashlight hooks retain original continuous gain",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance226.cfg",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance228.cfg",
+			"pass": true
+		},
+		{
+			"name": "user config unchanged: user://boss_balance229.cfg",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"1": {
+			"damage": 74.1769411736605,
+			"dps": 12.3615658415916,
+			"seconds": 6.00061045050504
+		},
+		"14": {
+			"damage": 54.3529411760974,
+			"dps": 9.02008704116506,
+			"seconds": 6.02576681666666
+		},
+		"4": {
+			"damage": 74.3548235265916,
+			"dps": 12.3272310968527,
+			"seconds": 6.03175384175083
+		}
+	}
+}

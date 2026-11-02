@@ -29,9 +29,10 @@ func paper_aim146() -> Vector3: return ground_aim149(get_viewport().get_mouse_po
 func attack_cooldown() -> float:
  if buffs.level("paper_plane")>0: return maxf(.05,(preload("res://scripts/combat/paper_bomb149.gd").AIRTIME149/3.)/buffs.rate()*(2. if buffs.level("three_player")>0 else 1.))
  return super.attack_cooldown()
+func air_camera_enabled149() -> bool:return true
 func _update_camera(delta: float,snap := false) -> void:
  if is_instance_valid(camera): camera.position.y-=air_lift149
- var wanted := 1. if active114 and buffs.level("paper_plane")>0 else 0.
+ var wanted := 1. if active114 and buffs.level("paper_plane")>0 and air_camera_enabled149() else 0.
  air_frame149=wanted if snap else move_toward(air_frame149,wanted,delta*1.8)
  var saved := camera_distance;camera_distance*=1.+.14*air_frame149
  super._update_camera(delta,snap);camera_distance=saved

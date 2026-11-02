@@ -1,0 +1,30 @@
+{
+  "asset": "selected B soft seated collapse",
+  "source": "built-in imagegen original exec-9df45fd3-4f41-434f-a927-f5f24c8b598d.png; see SOURCE_PROMPTS.md B section",
+  "image": "collapsed_B.png",
+  "dimensions": [
+    1230,
+    1278
+  ],
+  "alpha_bounds": [
+    71,
+    71,
+    1099,
+    1174
+  ],
+  "alpha_threshold": 0.6,
+  "anchor": [
+    610,
+    1245
+  ],
+  "world_size": "same pixel_size as original211 seated; approximately 1.54m alpha height * current inherited calibration ratio",
+  "display_plane": "fixed camera plane, same seated Sprite3D; animation-only tilt before landing, B keeps authored proportions plus tiny breath/settle",
+  "material": "original sister_receiver207 .82 albedo, hero192 normal, card_depth199 foot proxy re-anchored at actual B ground contact",
+  "collision": "no new physical body; sister inherited ground layer0 in battle and aftermath; pose is nonblocking staging, not geometry volume",
+  "shadow": "reuse existing actor_shadow105 contour with B texture, existing soft ground contact enlarged on landing and restored on restart; no new caster",
+  "lights": "none added; no emission",
+  "timing": "tilt .0-.28, slide/fold .28-.78, B from .65, settle until .95, lost bat down by .85, survivor detaches .75-1.3 and hovers nearby",
+  "terrain": "foot heights sampled at new ground locations; shadows use same floor_height; known tree occlusion deferred",
+  "bats": "same body-normalized 223 faces; lost bat full scale and side-lying near ground, other HP unchanged; both targets disabled after victory",
+  "limits": "one B key pose with procedural bridging, not a drawn multi-frame fall or real cloth simulation; no dialogue/gift/mount reward or departure scene yet"
+}

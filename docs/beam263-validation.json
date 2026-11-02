@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "name": "visual rebuild leaves native projectile positions, lifetime and damage unchanged",
+      "pass": true
+    },
+    {
+      "name": "one bounded triangle submission per beam chain",
+      "pass": true
+    },
+    {
+      "name": "old far-particle expiration reproduces width variation",
+      "pass": true
+    },
+    {
+      "name": "new beam width is stable as oldest particles expire",
+      "pass": true
+    },
+    {
+      "name": "262 normal red damage and fire cadence retained",
+      "pass": true
+    },
+    {
+      "name": "red state enables health warning and world-space beacon",
+      "pass": true
+    },
+    {
+      "name": "HUD and hero share one pulse clock",
+      "pass": true
+    },
+    {
+      "name": "pause freezes both danger rhythm and beam flow",
+      "pass": true
+    },
+    {
+      "name": "healing to exact third clears warning and beacon",
+      "pass": true
+    },
+    {
+      "name": "sequence gaps retain separate beam segments",
+      "pass": true
+    },
+    {
+      "name": "release and clear leave no phantom ribbon",
+      "pass": true
+    },
+    {
+      "name": "same-shot comparison reduces median ribbon script work in single and four-emitter stress cases",
+      "pass": true
+    },
+    {
+      "name": "ending removes warning and shots",
+      "pass": true
+    },
+    {
+      "name": "restart resets danger clock and full determination",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "performance": [
+      {
+        "current": {
+          "script_us_median": 352,
+          "script_us_p95": 514,
+          "wall_frame_ms_median": 20.983,
+          "wall_frame_ms_p95": 25.455,
+          "whole_scene_draw_calls_median": 570.0
+        },
+        "old": {
+          "script_us_median": 386,
+          "script_us_p95": 707,
+          "wall_frame_ms_median": 20.286,
+          "wall_frame_ms_p95": 24.656,
+          "whole_scene_draw_calls_median": 571.0
+        },
+        "ribbon_submissions": 1,
+        "ribbon_vertices": 48,
+        "shots": 44,
+        "stress_only_over_four_slots": false
+      },
+      {
+        "current": {
+          "script_us_median": 837,
+          "script_us_p95": 1044,
+          "wall_frame_ms_median": 22.604,
+          "wall_frame_ms_p95": 26.22,
+          "whole_scene_draw_calls_median": 588.0
+        },
+        "old": {
+          "script_us_median": 1173,
+          "script_us_p95": 1605,
+          "wall_frame_ms_median": 22.379,
+          "wall_frame_ms_p95": 25.966,
+          "whole_scene_draw_calls_median": 586.0
+        },
+        "ribbon_submissions": 4,
+        "ribbon_vertices": 192,
+        "shots": 176,
+        "stress_only_over_four_slots": true
+      }
+    ],
+    "width": {
+      "new_max": 5.89456305375958,
+      "new_min": 5.89456305375958,
+      "old_max": 4.88615906619173,
+      "old_min": 4.47820518756735
+    }
+  },
+  "passed": true
+}

@@ -46,8 +46,7 @@ func pop158(at: Vector3,direction: Vector3,key: int,gain := 1.) -> bool:
   dots.append({"at":at,"velocity":right*side*rng158.randf_range(.65,1.2)+Vector3.UP*rng158.randf_range(.15,.8)-direction*.22,"radius":rng158.randf_range(1.5,2.5),"variant":i%3})
  events158.append({"at":at,"age":0.,"gain":minf(gain,1.3),"dots":dots,"direction":direction})
  if events158.size()>MAX_EVENTS: events158.pop_front()
- var voice: AudioStreamPlayer3D=voices158[voice158%voices158.size()];voice158+=1
- voice.position=at;voice.pitch_scale=rng158.randf_range(.93,1.08);voice.play()
+ play_voice158(at,rng158.randf_range(.93,1.08))
  queue_redraw();return true
 func reset158() -> void:
  events158.clear();gates158.clear();frame158=-1;starts158=0
@@ -92,3 +91,8 @@ func _draw() -> void:
    var texture: Texture2D=gel_art158[drop.variant]
    var size := Vector2(r*2.5,r*2.5*texture.get_height()/texture.get_width()).round()
    draw_texture_rect(texture,Rect2(p-size*.5,size),false)
+
+func play_voice158(at: Vector3,pitch := 1.) -> void:
+ if battle.has_method("music_contact242") and battle.music_contact242("sword"):return
+ var voice: AudioStreamPlayer3D=voices158[voice158%voices158.size()];voice158+=1
+ voice.position=at;voice.pitch_scale=pitch;voice.play()

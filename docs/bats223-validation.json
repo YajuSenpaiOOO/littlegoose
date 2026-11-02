@@ -1,0 +1,205 @@
+{
+	"checks": [
+		{
+			"name": "five new expression frames loaded",
+			"pass": true
+		},
+		{
+			"name": "full-HP high bats retain healthy faces despite disabled targets",
+			"pass": true
+		},
+		{
+			"name": "high bats have no native targeting or shot areas",
+			"pass": true
+		},
+		{
+			"name": "no high-altitude bat assistance frames",
+			"pass": true
+		},
+		{
+			"name": "high-altitude bat rejects damage",
+			"pass": true
+		},
+		{
+			"name": "normal battle native autoaim targets cat instead of high bats",
+			"pass": true
+		},
+		{
+			"name": "descent alone does not expose target frame before repair",
+			"pass": true
+		},
+		{
+			"name": "both bats become targetable in repair window",
+			"pass": true
+		},
+		{
+			"name": "native autoaim acquires low bat and enables assistance frame",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 32.0",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 22.0",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 21.0",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 11.0",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 10.0",
+			"pass": true
+		},
+		{
+			"name": "independent HP threshold 1.0",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 0/0",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 0/1",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 1/0",
+			"pass": true
+		},
+		{
+			"name": "correct damaged expression atlas frame",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 1/1",
+			"pass": true
+		},
+		{
+			"name": "correct damaged expression atlas frame",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 2/0",
+			"pass": true
+		},
+		{
+			"name": "correct damaged expression atlas frame",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "ring remains on hammock hook stage/wing 2/1",
+			"pass": true
+		},
+		{
+			"name": "correct damaged expression atlas frame",
+			"pass": true
+		},
+		{
+			"name": "assistance frame covers actual rig ring instead of doubled target position",
+			"pass": true
+		},
+		{
+			"name": "projected round body diameter stays constant through all living stages and wing poses",
+			"pass": true
+		},
+		{
+			"name": "two bats display different remaining-health expressions",
+			"pass": true
+		},
+		{
+			"name": "actual repair render draws acquired bat bracket",
+			"pass": true
+		},
+		{
+			"name": "GPU screenshot contains gold bracket pixels at actual bat",
+			"pass": true
+		},
+		{
+			"name": "both living low bats eligible for assistance",
+			"pass": true
+		},
+		{
+			"name": "pause retains face and wing clock",
+			"pass": true
+		},
+		{
+			"name": "rising removes assistance immediately",
+			"pass": true
+		},
+		{
+			"name": "damaged faces persist after repair and high flight",
+			"pass": true
+		},
+		{
+			"name": "autoaim returns to cat after bat window closes",
+			"pass": true
+		},
+		{
+			"name": "real projectiles cross low-health expression threshold",
+			"pass": true
+		},
+		{
+			"name": "real last hit selects dizzy face and folded wings",
+			"pass": true
+		},
+		{
+			"name": "knocked-out bat no longer has legacy .75 shrink",
+			"pass": true
+		},
+		{
+			"name": "knocked-out and living round bodies retain equal world diameter",
+			"pass": true
+		},
+		{
+			"name": "knocked-out bat ends fight and clears assistance eligibility",
+			"pass": true
+		},
+		{
+			"name": "exit restores forest context",
+			"pass": true
+		},
+		{
+			"name": "restart restores healthy faces with high targeting disabled",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"high_frames": false,
+		"new_frames": 5,
+		"only_selected_eligible_bat_gets_native_frame": true,
+		"repair_window": 6.0,
+		"stages": 4,
+		"thresholds": [
+			0.666666666666667,
+			0.333333333333333,
+			0.0
+		]
+	}
+}

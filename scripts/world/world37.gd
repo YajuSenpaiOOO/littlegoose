@@ -200,7 +200,7 @@ func _leave_encounter() -> void:
 	enemies.clear(); _clear_combat_shots(); _reset_impact_state()
 	_prune_actor_shadows()
 	wave_state="waiting"; between_left=0.; result_at=-1.; result_open=false; result_dismissed=false
-	player_hp=100.; invulnerability=0.; hero.controls_enabled=true
+	player_hp=max_player_health(); invulnerability=0.; hero.controls_enabled=true
 	hero.combat_impulse=Vector2.ZERO; hero.locomotion=Vector2.ZERO
 	if is_instance_valid(encounter_hud): encounter_hud.dismiss_result(); encounter_hud.hide()
 

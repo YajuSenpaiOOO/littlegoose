@@ -1,0 +1,125 @@
+{
+	"checks": [
+		{
+			"name": "selected B loaded as independent runtime resource",
+			"pass": true
+		},
+		{
+			"name": "normal battle preserves original seated and repair system",
+			"pass": true
+		},
+		{
+			"name": "normal low repair target window retained",
+			"pass": true
+		},
+		{
+			"name": "real final projectile starts soft landing and ends damage phase",
+			"pass": true
+		},
+		{
+			"name": "landing clears battle projectiles and hazards",
+			"pass": true
+		},
+		{
+			"name": "landing disables all bat targets",
+			"pass": true
+		},
+		{
+			"name": "pose selection at landing time 0.0",
+			"pass": true
+		},
+		{
+			"name": "pose selection at landing time 0.25",
+			"pass": true
+		},
+		{
+			"name": "pose selection at landing time 0.55",
+			"pass": true
+		},
+		{
+			"name": "pose selection at landing time 0.85",
+			"pass": true
+		},
+		{
+			"name": "pose selection at landing time 1.4",
+			"pass": true
+		},
+		{
+			"name": "unsupported sling folds low instead of staying suspended",
+			"pass": true
+		},
+		{
+			"name": "dizzy bat keeps full body size while settling",
+			"pass": true
+		},
+		{
+			"name": "dizzy bat rests low while surviving bat hovers",
+			"pass": true
+		},
+		{
+			"name": "surviving bat is not falsely knocked out",
+			"pass": true
+		},
+		{
+			"name": "B registered ground contact lands on terrain",
+			"pass": true
+		},
+		{
+			"name": "soft landing adds no blocking body or duplicate cards",
+			"pass": true
+		},
+		{
+			"name": "existing contour shadow switches to B artwork",
+			"pass": true
+		},
+		{
+			"name": "B retains existing native receiver normal",
+			"pass": true
+		},
+		{
+			"name": "F6 pauses ending even after active battle has ended",
+			"pass": true
+		},
+		{
+			"name": "ending resumes without re-entering battle",
+			"pass": true
+		},
+		{
+			"name": "victory restores exploration navigation and original HP",
+			"pass": true
+		},
+		{
+			"name": "visual ending grants no formal progression or materials",
+			"pass": true
+		},
+		{
+			"name": "restart restores original seated art and clears ending",
+			"pass": true
+		},
+		{
+			"name": "restart restores healthy high bats with targets disabled",
+			"pass": true
+		},
+		{
+			"name": "right support loss also starts ending",
+			"pass": true
+		},
+		{
+			"name": "right support loss uses B and preserves other bat health",
+			"pass": true
+		},
+		{
+			"name": "manual exit clears collapsed override safely",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"bat_drops": "lost support only; surviving bat hovers",
+		"cut_to_B_seconds": 0.65,
+		"new_character_frames": 1,
+		"pose": "B",
+		"reward_free": true,
+		"settled_seconds": 1.3
+	}
+}

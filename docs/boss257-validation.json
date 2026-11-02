@@ -1,0 +1,177 @@
+{
+  "checks": [
+    {
+      "name": "fresh first-boss baseline is level1 / 12 determination / 4 slots",
+      "pass": true
+    },
+    {
+      "name": "HUD uses twelve full determination gems",
+      "pass": true
+    },
+    {
+      "name": "each determination level adds one HP and slot 1",
+      "pass": true
+    },
+    {
+      "name": "each determination level adds one HP and slot 2",
+      "pass": true
+    },
+    {
+      "name": "each determination level adds one HP and slot 3",
+      "pass": true
+    },
+    {
+      "name": "each determination level adds one HP and slot 4",
+      "pass": true
+    },
+    {
+      "name": "level edits are draft-only with live capacity preview",
+      "pass": true
+    },
+    {
+      "name": "cancel preserves actual progression",
+      "pass": true
+    },
+    {
+      "name": "validation enforces dynamic slot capacity",
+      "pass": true
+    },
+    {
+      "name": "all beginner presets fit four slots",
+      "pass": true
+    },
+    {
+      "name": "in-place level application preserves current HP without free healing",
+      "pass": true
+    },
+    {
+      "name": "in-place application preserves boss position and phase",
+      "pass": true
+    },
+    {
+      "name": "over-capacity downgrade is rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "legacy six-slot profile unchanged while level4 permits seven",
+      "pass": true
+    },
+    {
+      "name": "restart applies level and fills the new health maximum",
+      "pass": true
+    },
+    {
+      "name": "independent test config persists level and legal loadout together",
+      "pass": true
+    },
+    {
+      "name": "lower draft level disables over-capacity apply",
+      "pass": true
+    },
+    {
+      "name": "over-capacity drafts can be unloaded step by step",
+      "pass": true
+    },
+    {
+      "name": "lowering maximum clamps current HP",
+      "pass": true
+    },
+    {
+      "name": "low bounce crossing deals swept body damage",
+      "pass": true
+    },
+    {
+      "name": "one jump cannot deal body and landing damage twice",
+      "pass": true
+    },
+    {
+      "name": "high airborne body remains harmless before landing",
+      "pass": true
+    },
+    {
+      "name": "heavy landing costs three determination",
+      "pass": true
+    },
+    {
+      "name": "native invulnerability prevents rapid repeated damage",
+      "pass": true
+    },
+    {
+      "name": "C stats distinguish body sweep and heavy landing",
+      "pass": true
+    },
+    {
+      "name": "new body contact supports actual parry and single reverse/add-two rule",
+      "pass": true
+    },
+    {
+      "name": "scripted walking and circling receive more real hits than256",
+      "pass": true
+    },
+    {
+      "name": "record button applies drafted determination level before restarting",
+      "pass": true
+    },
+    {
+      "name": "recording report retains determination progression snapshot",
+      "pass": true
+    },
+    {
+      "name": "restart restores first-boss baseline and clears projectiles",
+      "pass": true
+    },
+    {
+      "name": "recorded stats snapshot level, health maximum and capacity",
+      "pass": true
+    },
+    {
+      "name": "recording console and silhouette/circle defaults retained",
+      "pass": true
+    },
+    {
+      "name": "victory still clears encounter",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "benchmarks": [
+      {
+        "damage": 3.0,
+        "hits": 1,
+        "pattern": "stand",
+        "version": 256
+      },
+      {
+        "damage": 10.0,
+        "hits": 4,
+        "pattern": "stand",
+        "version": 257
+      },
+      {
+        "damage": 6.0,
+        "hits": 2,
+        "pattern": "walk",
+        "version": 256
+      },
+      {
+        "damage": 7.0,
+        "hits": 3,
+        "pattern": "walk",
+        "version": 257
+      },
+      {
+        "damage": 3.0,
+        "hits": 1,
+        "pattern": "orbit",
+        "version": 256
+      },
+      {
+        "damage": 9.0,
+        "hits": 4,
+        "pattern": "orbit",
+        "version": 257
+      }
+    ]
+  },
+  "passed": true
+}

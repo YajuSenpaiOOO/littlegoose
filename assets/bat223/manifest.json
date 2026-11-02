@@ -1,0 +1,26 @@
+{
+  "asset": "three living health faces plus dizzy plush state",
+  "generation": "built-in image_gen, PROMPT.md contains full prompt/source",
+  "runtime_new_image": "expressions.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "layout": "layout.json, five independent atlas rectangles; raw generated alpha retained",
+  "healthy": "reuse sister205/bat_up.png and bat_down.png",
+  "thresholds": {
+    "healthy": "hp/max_hp > 2/3",
+    "strained": ">1/3",
+    "exhausted": ">0",
+    "dizzy": "hp <= 0"
+  },
+  "registration": "Latest fix: healthy pixel_size .80 * display_scale206 / 739; damaged .80 * display_scale206 / 739 * reference round-body width 500 / per-frame annotated body_width. Gold-ring center anchor remains fixed. Overall wing/ear silhouette is not used as scale reference.",
+  "display_plane": "same inherited fixed-camera Sprite3D; knocked-out bat retains tilt about ring at full scale, old .75 shrink removed in 223",
+  "material": "same transport_card206 .82 albedo/native world light and card_depth199 ground proxy; no emission, no added light",
+  "shadows": "same actor_shadow105 reading atlas regions; no extra caster/contact shadow",
+  "collision": "no changes to bat_target220, radius .32m/height .64m target capsule; no physical blocking body",
+  "target_window": "repair only. high/descending/rising/ended: disabled native targets and no bat brackets; damaged faces persist by HP independent of dead target flag",
+  "auxiliary_frame": "223 bat-specific global sprite alpha bounds; preserves native selected-target convention, one selected bracket at a time; legacy other-enemy UI unchanged",
+  "scope": "no new sister/cat/pig art or physics, reuse latest222 rear repair location",
+  "limitations": "new generated wings/body have small silhouette differences from original; tiny expressions require actual-scale user review; original tree occlusion remains deferred"
+}

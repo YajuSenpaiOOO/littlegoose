@@ -1,0 +1,143 @@
+{
+  "source": "User-selected original low calico cat, plus approved 215 walk sheet; byte-for-byte copies",
+  "source_artwork": "Built-in imagegen; full animation prompt in SOURCE_PROMPT.md",
+  "files": {
+    "original.png": "303efd1b70db89392be24ebb0545f8d1642351275893f261f04d677c9cd0a579",
+    "walk_sheet.png": "1a7ed477514b55cc690eed3c04ae47b342271896b31adb535192a5d97a95179c"
+  },
+  "layout": {
+    "frames": [
+      {
+        "region": [
+          0,
+          0,
+          591,
+          443
+        ],
+        "anchor": [
+          302.0,
+          111
+        ],
+        "bounds": [
+          23,
+          111,
+          558,
+          289
+        ]
+      },
+      {
+        "region": [
+          591,
+          0,
+          591,
+          443
+        ],
+        "anchor": [
+          296.5,
+          110
+        ],
+        "bounds": [
+          21,
+          110,
+          551,
+          296
+        ]
+      },
+      {
+        "region": [
+          1182,
+          0,
+          592,
+          443
+        ],
+        "anchor": [
+          293.0,
+          110
+        ],
+        "bounds": [
+          15,
+          110,
+          556,
+          295
+        ]
+      },
+      {
+        "region": [
+          0,
+          443,
+          591,
+          444
+        ],
+        "anchor": [
+          300.5,
+          75
+        ],
+        "bounds": [
+          20,
+          75,
+          561,
+          302
+        ]
+      },
+      {
+        "region": [
+          591,
+          443,
+          591,
+          444
+        ],
+        "anchor": [
+          300.5,
+          75
+        ],
+        "bounds": [
+          20,
+          75,
+          561,
+          289
+        ]
+      },
+      {
+        "region": [
+          1182,
+          443,
+          592,
+          444
+        ],
+        "anchor": [
+          295.5,
+          75
+        ],
+        "bounds": [
+          16,
+          75,
+          559,
+          287
+        ]
+      }
+    ],
+    "original_bounds": [
+      148,
+      233,
+      1319,
+      678
+    ]
+  },
+  "display": {
+    "plane": "fixed camera basis, no extra pitch, uniform pixel size",
+    "width_m_default": 3.0,
+    "width_options_m": [
+      2.6,
+      3.0,
+      3.4
+    ],
+    "frame_pixel_size_default": 0.005376344086021506,
+    "animation": "six southwest frames at 14fps; body-top registration, virtual foot=anchor+(-25,295)",
+    "original_anchor": "alpha bbox x+.46 width; y+.98 height"
+  },
+  "depth": "199 upright foot proxy reused through sister_receiver207",
+  "light": "207 native light sampling and normal copied from upright hero192; .82 albedo; no emission or new lamps",
+  "collision": "Cylinder radius .70m, height .60m, center y=.30, physical movement, fixed preview footprint for all visual size options, not card silhouette",
+  "shadow": "105 terrain contour opacity_scale .60; no native cast shadow, no hidden cylinder caster; sole contact included in grounded silhouette",
+  "scope": "placement and short collision-aware walking preview only; no Boss/ride/free four-way controller"
+}

@@ -1,0 +1,1 @@
+Original deterministic filtered-noise soft contact. Seed242, 22050Hz mono PCM16, 55ms, 2ms attack, 8ms fade, exponential decay75, one-pole lowpass .70/.30; no pitched oscillator. Two voices at -18dB, 70ms immediate leading-edge merge; melody/hurt/parry unaffected.

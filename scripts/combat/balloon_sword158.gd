@@ -24,21 +24,24 @@ func sprite153() -> Sprite3D:
  ink.set_shader_parameter("clip_tip158",0.);ink.set_shader_parameter("fade154",1.)
  for param in ["bend154","squash154","collapse154"]: ink.set_shader_parameter(param,0.)
  return node
-func attach153(enemy: Variant,tip: Vector3,direction: Vector3,gain := 1.,surface: Dictionary={}) -> void:
- super.attach153(enemy,tip,direction,gain,surface)
- var entry: Dictionary=resting153[-1];var pad := Sprite3D.new()
+func pad_sprite158() -> Sprite3D:
+ var pad := Sprite3D.new()
  pad.texture=pad_texture158;pad.pixel_size=1.05/texture153.get_height()
  pad.texture_filter=BaseMaterial3D.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS
  pad.alpha_cut=SpriteBase3D.ALPHA_CUT_DISABLED
- pad.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF;add_child(pad);entry.pad158=pad
- ink154(entry.node).set_shader_parameter("clip_tip158",cut158)
+ pad.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF;add_child(pad)
  battle._add_actor_shadow(pad,pad)
+ return pad
+func attach153(enemy: Variant,tip: Vector3,direction: Vector3,gain := 1.,surface: Dictionary={}) -> void:
+ super.attach153(enemy,tip,direction,gain,surface)
+ var entry: Dictionary=resting153[-1];entry.pad158=pad_sprite158()
+ ink154(entry.node).set_shader_parameter("clip_tip158",cut158)
  var collider: Variant=surface.get("collider")
  var key: int=enemy.get_instance_id() if is_instance_valid(enemy) else (collider.get_instance_id() if is_instance_valid(collider) else 0)
  contact158.pop158(anchor154(entry),direction,key,gain)
 func remove153(index: int) -> void:
  var entry: Dictionary=resting153[index]
- if entry.has("pad158") and is_instance_valid(entry.pad158): entry.pad158.queue_free()
+ if entry.has("pad158") and is_instance_valid(entry.pad158): release_sprite153(entry.pad158)
  super.remove153(index)
 func reset153() -> void:
  super.reset153()

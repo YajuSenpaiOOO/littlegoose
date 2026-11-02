@@ -1,0 +1,83 @@
+{
+	"checks": [
+		{
+			"name": "real ordinary projectile damages cat and breaks into sugar",
+			"pass": true
+		},
+		{
+			"name": "plush contact does not emit blue jelly body droplets",
+			"pass": true
+		},
+		{
+			"name": "contact point consumed after hit",
+			"pass": true
+		},
+		{
+			"name": "real balloon projectile damages cat and attaches a layer",
+			"pass": true
+		},
+		{
+			"name": "balloon sword retains adhesive feedback instead of candy shatter",
+			"pass": true
+		},
+		{
+			"name": "cat attachment uses current atlas size rather than old jelly poses",
+			"pass": true
+		},
+		{
+			"name": "attached sword follows actual cat movement",
+			"pass": true
+		},
+		{
+			"name": "rolling art supplies its own attachment surface",
+			"pass": true
+		},
+		{
+			"name": "clear removes swords and slow layers",
+			"pass": true
+		},
+		{
+			"name": "ordinary enemy uses unchanged legacy attachment fallback",
+			"pass": true
+		},
+		{
+			"name": "adhesive slow affects actual chase displacement",
+			"pass": true
+		},
+		{
+			"name": "committed roll retains its attack speed under adhesive slow",
+			"pass": true
+		},
+		{
+			"name": "repair-window bat also receives ordinary projectile break feedback",
+			"pass": true
+		},
+		{
+			"name": "bat attachment derives size from its actual displayed sprite",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"bat": {
+			"damage": 1.0,
+			"layers": 0,
+			"sugar_peak": 4
+		},
+		"chase": {
+			"full_distance": 0.110000610351563,
+			"ratio": 0.599979192675822,
+			"slowed_distance": 0.0659980773925781
+		},
+		"normal": {
+			"damage": 1.0,
+			"layers": 0,
+			"sugar_peak": 4
+		},
+		"sword": {
+			"damage": 0.75,
+			"layers": 1,
+			"sugar_peak": 0
+		}
+	}
+}

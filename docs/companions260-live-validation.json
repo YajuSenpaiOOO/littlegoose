@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "natural companions retain one world silhouette shadow",
+      "pass": true
+    },
+    {
+      "name": "real running fight spawns companions without manual phase changes",
+      "pass": true
+    },
+    {
+      "name": "ordinary live AI naturally reaches boss landing launch interaction",
+      "pass": true
+    },
+    {
+      "name": "day/night live snapshots captured with at most three companions",
+      "pass": true
+    },
+    {
+      "name": "natural encounter shutdown clears all participants",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "boss_chains": 2,
+    "minions": {
+      "damage": 0.0,
+      "damage_by_source": {},
+      "defeated": 0,
+      "hit_events": 0,
+      "spawned": 2,
+      "thrown": 2
+    },
+    "parries": {
+      "boss": 0,
+      "minion": 0,
+      "other": 0,
+      "total": 0
+    },
+    "seconds": 16.1500000000004
+  },
+  "passed": true
+}

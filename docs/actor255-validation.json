@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "name": "default keeps neutral receiver and aligns sister environment tint",
+      "pass": true
+    },
+    {
+      "name": "shared hero receiver unchanged",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 8-1",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 8-1",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 8-3",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 8-3",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 12-1",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 12-1",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 12-3",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 12-3",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 18-1",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 18-1",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 18-3",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 18-3",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 22-1",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 22-1",
+      "pass": true
+    },
+    {
+      "name": "environment helper matches existing hero chain 22-3",
+      "pass": true
+    },
+    {
+      "name": "sister samples own position 22-3",
+      "pass": true
+    },
+    {
+      "name": "254 comparison restores untinted sister",
+      "pass": true
+    },
+    {
+      "name": "hero damage flash does not leak to sister",
+      "pass": true
+    },
+    {
+      "name": "sister depth proxy and native receiver retained",
+      "pass": true
+    },
+    {
+      "name": "254 warm lighting defaults retained",
+      "pass": true
+    },
+    {
+      "name": "identical gray and environment tint produce matched map brightness",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "gray_hero": "(0.6588, 0.6588, 0.6118, 1.0)",
+    "gray_sister": "(0.6588, 0.6627, 0.6118, 1.0)",
+    "sample_hero": "(720.0, 451.0548)",
+    "sample_sister": "(855.0275, 452.852)"
+  },
+  "passed": true
+}

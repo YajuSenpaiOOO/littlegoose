@@ -1,0 +1,144 @@
+{
+  "source": "byte-for-byte 217 six-pose sheet copied as provisional rolling/down art; original generation prompt in SOURCE_PROMPT.md; walk art reused from fat_cat216",
+  "sha256": "a34c6a23d026d2514b62f1950a3783d238cf07f41743f1016ea478d487178a56",
+  "layout": {
+    "frames": [
+      {
+        "region": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "anchor": [
+          261.0,
+          470
+        ],
+        "bounds": [
+          10,
+          178,
+          502,
+          292
+        ]
+      },
+      {
+        "region": [
+          512,
+          0,
+          512,
+          512
+        ],
+        "anchor": [
+          256.0,
+          477
+        ],
+        "bounds": [
+          0,
+          123,
+          512,
+          354
+        ]
+      },
+      {
+        "region": [
+          1024,
+          0,
+          512,
+          512
+        ],
+        "anchor": [
+          248.0,
+          462
+        ],
+        "bounds": [
+          0,
+          180,
+          496,
+          282
+        ]
+      },
+      {
+        "region": [
+          0,
+          512,
+          512,
+          512
+        ],
+        "anchor": [
+          273.0,
+          418
+        ],
+        "bounds": [
+          34,
+          67,
+          478,
+          351
+        ]
+      },
+      {
+        "region": [
+          512,
+          512,
+          512,
+          512
+        ],
+        "anchor": [
+          249.5,
+          418
+        ],
+        "bounds": [
+          0,
+          78,
+          499,
+          340
+        ]
+      },
+      {
+        "region": [
+          1024,
+          512,
+          512,
+          512
+        ],
+        "anchor": [
+          248.0,
+          441
+        ],
+        "bounds": [
+          0,
+          149,
+          496,
+          292
+        ]
+      }
+    ],
+    "original_bounds": [
+      148,
+      233,
+      1319,
+      678
+    ]
+  },
+  "display": {
+    "width_m": 3.0,
+    "plane": "fixed camera basis, no extra pitch; hero192 unchanged",
+    "walk_pixel_size": 0.005376344086021506,
+    "roll_pixel_size": 0.00597609561752988,
+    "walk_foot": "same anchor+(-25,295) as216",
+    "roll_foot": "per-cell bottom midpoint from217; rough changing volume retained",
+    "alpha_cutoffs": {
+      "walk": 0.6,
+      "roll": 0.98
+    },
+    "direction": "southwest art, horizontal mirror for rightward motion; no four-way art yet"
+  },
+  "collision": {
+    "body": "Capsule radius .95m height1.9m, centerY .95, layer16 mask1|2; stable through roll/down",
+    "target": "native Capsule radius1m height2m, centerY .7, layer8 only while active",
+    "damage": "ground-plane swept distance1.30m with height guard; native player invulnerability/dodge/guard/parry"
+  },
+  "lighting": "copy of207 material+199 foot depth with variable alpha cutoff; same hero192 lighting normal, .82 albedo, no new light",
+  "shadow": "one105 grounded contour opacity .6; original legacy contact hidden; no native cast/cylinder caster",
+  "animation": "six provisional roll poses at .16s each; not true longitudinal rolling art final",
+  "scope": "120HP trial actor; slow chase .78m/s, locked .8s windup then4.6m/s roll up to .96s,1.35s recovery; contact12/roll22 initial tuning, not balance approval"
+}

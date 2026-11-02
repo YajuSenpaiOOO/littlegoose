@@ -1,0 +1,124 @@
+{
+	"checks": [
+		{
+			"name": "228 config is isolated from 226/227 experiments",
+			"pass": true
+		},
+		{
+			"name": "fresh preview starts with cat100 bat80 rhythm trial",
+			"pass": true
+		},
+		{
+			"name": "legacy cat keeps follow-up and original recovery",
+			"pass": true
+		},
+		{
+			"name": "first round uses new single-roll cat",
+			"pass": true
+		},
+		{
+			"name": "first round preparation is readable and rejects pig overlap",
+			"pass": true
+		},
+		{
+			"name": "first recovery grants a longer output opening",
+			"pass": true
+		},
+		{
+			"name": "first repair remains quiet with no support spawning",
+			"pass": true
+		},
+		{
+			"name": "quiet repair remains an attackable measured six-second window",
+			"pass": true
+		},
+		{
+			"name": "second round starts with a grace period",
+			"pass": true
+		},
+		{
+			"name": "second round permits follow-up while pig delivery waits",
+			"pass": true
+		},
+		{
+			"name": "spider joins the second cat round instead of the second repair",
+			"pass": true
+		},
+		{
+			"name": "spider waits instead of weaving during a committed roll",
+			"pass": true
+		},
+		{
+			"name": "spider waits during pig delivery",
+			"pass": true
+		},
+		{
+			"name": "weaving reserves its own beat and suppresses a new roll",
+			"pass": true
+		},
+		{
+			"name": "pig cannot start while spider is weaving",
+			"pass": true
+		},
+		{
+			"name": "support completes a real native web",
+			"pass": true
+		},
+		{
+			"name": "cat defeat clears webs and pauses/removes spider from aim targets",
+			"pass": true
+		},
+		{
+			"name": "quiet support changes from weaving/happy art to grounded idle",
+			"pass": true
+		},
+		{
+			"name": "bat damage persists and quiet second repair opens",
+			"pass": true
+		},
+		{
+			"name": "pause freezes repair and rhythm state",
+			"pass": true
+		},
+		{
+			"name": "existing recorder exports phase and support events",
+			"pass": true
+		},
+		{
+			"name": "restart cleans helpers and restores rig and independent bat HP",
+			"pass": true
+		},
+		{
+			"name": "native stage burst can win first repair without a forced phase lock",
+			"pass": true
+		},
+		{
+			"name": "old user loadout/HP file remains byte-identical",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"metrics": {
+		"burst": {
+			"activated": true,
+			"phase": "landing",
+			"remaining_bat_hp": [
+				0.0,
+				80.0
+			],
+			"repairs": 1,
+			"result": "胜利",
+			"windows": [
+				{
+					"damage": [
+						79.9999999999999,
+						0.0
+					],
+					"first_hit": 0.553933,
+					"partial": false,
+					"seconds": 4.46721511111111
+				}
+			]
+		}
+	}
+}

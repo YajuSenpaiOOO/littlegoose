@@ -1,0 +1,6 @@
+{
+  "mode": "built-in image_gen",
+  "edit_reference": "goose-idle.png",
+  "fire_prompt": "Edit the attached transparent micro-pixel goose sprite into ONE firing key pose, retaining exact identity/colors/pixel-cluster style and facing RIGHT. Preserve the overall rounded lower body and its bottom anchor, wing count and single head/eye. Make the neck extend a LITTLE toward right, cheeks slightly puffed, and open the pale gray beak as if spitting a candy projectile. Do not draw the projectile. The lower body remains a flat embroidered emblem that can sit on red cloth, no legs, no flag, no pencil, no surrounding effects or shadow. Keep alpha transparency, original 1586x992 canvas and body placement near x447..972 y289..810, bottom anchor near (710,809); head/beak may extend at most 100 pixels further right. Do not center, crop, or change the viewpoint. This is a matching animation keyframe, not a new character or a full illustration.",
+  "other_layers": "../../../art_workbench/red_banner245/parts-v1/prompts.json (source provenance, not a runtime dependency)"
+}

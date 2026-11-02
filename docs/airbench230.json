@@ -1,0 +1,454 @@
+{
+	"failures": [],
+	"samples": [
+		{
+			"attack_cooldown_at_end": 1.2,
+			"attack_input_seconds": 12.0243260063011,
+			"build": "plane",
+			"cat_warm_dps": 2.63903417824634,
+			"charge_time_at_end": 1.1,
+			"charged_releases": 0,
+			"damage": [
+				31.7647058820294,
+				0.0,
+				0.0
+			],
+			"dps": 2.64170364853579,
+			"effective_levels": {
+				"paper_plane": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				1.46443022222222,
+				-1.0,
+				-1.0
+			],
+			"frames": 410,
+			"frames_over_50ms": 2,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				54,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 54,
+			"initial_target": "FatCat220",
+			"levels": {
+				"paper_plane": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 60,
+			"planes_launched": 10,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.0243260063011,
+			"shot_counter_not_accuracy": 60,
+			"single_bat": false,
+			"slots": 1,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.119764
+		},
+		{
+			"attack_cooldown_at_end": 1.2,
+			"attack_input_seconds": 6.01341877222222,
+			"build": "plane",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 1.1,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				9.99999999989814,
+				4.11764705878159
+			],
+			"dps": 2.34769065542106,
+			"effective_levels": {
+				"paper_plane": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				1.34861466666667,
+				1.38102566666667
+			],
+			"frames": 210,
+			"frames_over_50ms": 1,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.72175, -2.12, 19.05825)",
+			"hit_events": [
+				0,
+				17,
+				7
+			],
+			"hits_counter_not_accuracy": 24,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"paper_plane": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 30,
+			"planes_launched": 5,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.01341877222222,
+			"shot_counter_not_accuracy": 30,
+			"single_bat": false,
+			"slots": 1,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 6.09583
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 12.0326111833333,
+			"build": "plane_three_eye",
+			"cat_warm_dps": 6.3857339134671,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				70.3529411765339,
+				0.0,
+				0.0
+			],
+			"dps": 5.84685569113889,
+			"effective_levels": {
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				1.31617033333333,
+				-1.0,
+				-1.0
+			],
+			"frames": 389,
+			"frames_over_50ms": 0,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				200,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 200,
+			"initial_target": "FatCat220",
+			"levels": {
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 216,
+			"planes_launched": 39,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.0326111833333,
+			"shot_counter_not_accuracy": 216,
+			"single_bat": false,
+			"slots": 5,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.151164
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 6.00789775959596,
+			"build": "plane_three_eye",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				21.7647058823641,
+				10.0000000000146
+			],
+			"dps": 5.28715819633303,
+			"effective_levels": {
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				1.28091566666667,
+				1.340819
+			],
+			"frames": 203,
+			"frames_over_50ms": 0,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.71162, -2.12, 19.05318)",
+			"hit_events": [
+				0,
+				61,
+				29
+			],
+			"hits_counter_not_accuracy": 90,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 108,
+			"planes_launched": 21,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.00789775959596,
+			"shot_counter_not_accuracy": 108,
+			"single_bat": false,
+			"slots": 5,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 6.1555
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 12.0014227301347,
+			"build": "plane_sword_three_eye",
+			"cat_warm_dps": 4.80796847423373,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				52.7647058826406,
+				0.0,
+				0.0
+			],
+			"dps": 4.39653756634639,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				1.310297,
+				-1.0,
+				-1.0
+			],
+			"frames": 397,
+			"frames_over_50ms": 3,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				200,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 200,
+			"initial_target": "FatCat220",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 216,
+			"planes_launched": 39,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.0014227301347,
+			"shot_counter_not_accuracy": 216,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.111142
+		},
+		{
+			"attack_cooldown_at_end": 0.96,
+			"attack_input_seconds": 6.00974686640212,
+			"build": "plane_sword_three_eye",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 0.88,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				16.3235294118494,
+				7.50000000004366
+			],
+			"dps": 3.96414856423988,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				1.30802233333333,
+				1.33765196296296
+			],
+			"frames": 200,
+			"frames_over_50ms": 0,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.70034, -2.12, 19.05441)",
+			"hit_events": [
+				0,
+				61,
+				29
+			],
+			"hits_counter_not_accuracy": 90,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"balloon_sword": 1,
+				"eye_exercise": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 108,
+			"planes_launched": 21,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.00974686640212,
+			"shot_counter_not_accuracy": 108,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 6.168643
+		},
+		{
+			"attack_cooldown_at_end": 1.2,
+			"attack_input_seconds": 12.026639762963,
+			"build": "plane_sword_three_stage",
+			"cat_warm_dps": 7.23766350091995,
+			"charge_time_at_end": 1.1,
+			"charged_releases": 0,
+			"damage": [
+				89.0647058829345,
+				0.0,
+				0.0
+			],
+			"dps": 7.4056184967988,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"hero_moment": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "FatCat220",
+			"first_hit": [
+				1.36084266666666,
+				-1.0,
+				-1.0
+			],
+			"frames": 398,
+			"frames_over_50ms": 0,
+			"hero_drift": 0.0,
+			"hero_position": "(-57.5, -2.12, 20.65)",
+			"hit_events": [
+				271,
+				0,
+				0
+			],
+			"hits_counter_not_accuracy": 271,
+			"initial_target": "FatCat220",
+			"levels": {
+				"balloon_sword": 1,
+				"hero_moment": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "cat",
+			"plane_deliveries": 288,
+			"planes_launched": 51,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 12.026639762963,
+			"shot_counter_not_accuracy": 288,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				-1.0,
+				-1.0
+			],
+			"wall_seconds": 12.16825
+		},
+		{
+			"attack_cooldown_at_end": 0.6,
+			"attack_input_seconds": 6.03166247222222,
+			"build": "plane_sword_three_stage",
+			"cat_warm_dps": null,
+			"charge_time_at_end": 0.55,
+			"charged_releases": 0,
+			"damage": [
+				0.0,
+				33.6088235296338,
+				15.9441176471737
+			],
+			"dps": 8.21546984848954,
+			"effective_levels": {
+				"balloon_sword": 1,
+				"hero_moment": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"final_target": "BatTarget220_0",
+			"first_hit": [
+				-1.0,
+				1.33238666666667,
+				1.39711466666667
+			],
+			"frames": 189,
+			"frames_over_50ms": 0,
+			"hero_drift": 0.0,
+			"hero_position": "(-56.69123, -2.12, 19.05845)",
+			"hit_events": [
+				0,
+				97,
+				47
+			],
+			"hits_counter_not_accuracy": 144,
+			"initial_target": "BatTarget220_0",
+			"levels": {
+				"balloon_sword": 1,
+				"hero_moment": 1,
+				"paper_plane": 1,
+				"three_player": 1
+			},
+			"phase": "bat",
+			"plane_deliveries": 162,
+			"planes_launched": 33,
+			"player_health": 14.0,
+			"repeat": 0,
+			"seconds": 6.03166247222222,
+			"shot_counter_not_accuracy": 162,
+			"single_bat": false,
+			"slots": 6,
+			"time_to_100_cat_or_32_each_bat": [
+				-1.0,
+				5.55910869444444,
+				-1.0
+			],
+			"wall_seconds": 6.200752
+		}
+	],
+	"version": 230
+}

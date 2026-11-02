@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "follow-stage fill defaults off",
+      "pass": true
+    },
+    {
+      "name": "neutral actor comparison does not edit shared materials",
+      "pass": true
+    },
+    {
+      "name": "visible fixture bulbs have selective emission",
+      "pass": true
+    },
+    {
+      "name": "emission is attached to final visible depth materials",
+      "pass": true
+    },
+    {
+      "name": "registered depth cards retain actual bulb emission",
+      "pass": true
+    },
+    {
+      "name": "emission masks contain bulb-only light, not entire fixture",
+      "pass": true
+    },
+    {
+      "name": "decorative local lights do not use hard proxy shadows",
+      "pass": true
+    },
+    {
+      "name": "small warm bounded light pools",
+      "pass": true
+    },
+    {
+      "name": "native sources align with visible bulb anchors",
+      "pass": true
+    },
+    {
+      "name": "old triangular beam sheet disabled",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 12-3",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 12-0",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 12-2",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 22-3",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 22-0",
+      "pass": true
+    },
+    {
+      "name": "sister and hero inspection retained 22-2",
+      "pass": true
+    },
+    {
+      "name": "lamp switch disables local sources and stage",
+      "pass": true
+    },
+    {
+      "name": "fixture emission toggles with its light group",
+      "pass": true
+    },
+    {
+      "name": "native emissive bulb materials restore",
+      "pass": true
+    },
+    {
+      "name": "lighting repair leaves actor receiver unchanged",
+      "pass": true
+    },
+    {
+      "name": "existing regional mood still enabled",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

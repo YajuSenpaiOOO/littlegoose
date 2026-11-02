@@ -1,0 +1,162 @@
+{
+  "image_size": [
+    1536,
+    1024
+  ],
+  "frames": [
+    {
+      "region": [
+        0,
+        0,
+        565,
+        512
+      ],
+      "bounds": [
+        13,
+        84,
+        552,
+        393
+      ],
+      "anchor": [
+        291.5,
+        419.0
+      ],
+      "ring_bounds": [
+        239,
+        369,
+        344,
+        469
+      ],
+      "body_width": 252,
+      "body_center": [
+        291,
+        258
+      ]
+    },
+    {
+      "region": [
+        565,
+        0,
+        437,
+        512
+      ],
+      "bounds": [
+        1,
+        86,
+        423,
+        391
+      ],
+      "anchor": [
+        213.5,
+        419.0
+      ],
+      "ring_bounds": [
+        161,
+        369,
+        266,
+        469
+      ],
+      "body_width": 252,
+      "body_center": [
+        214,
+        258
+      ]
+    },
+    {
+      "region": [
+        1002,
+        0,
+        534,
+        512
+      ],
+      "bounds": [
+        6,
+        83,
+        528,
+        394
+      ],
+      "anchor": [
+        275.5,
+        419.0
+      ],
+      "ring_bounds": [
+        223,
+        369,
+        328,
+        469
+      ],
+      "body_width": 254,
+      "body_center": [
+        278,
+        258
+      ]
+    },
+    {
+      "region": [
+        0,
+        512,
+        528,
+        512
+      ],
+      "bounds": [
+        56,
+        52,
+        439,
+        398
+      ],
+      "anchor": [
+        275.0,
+        391.5
+      ],
+      "ring_bounds": [
+        221,
+        340,
+        329,
+        443
+      ],
+      "body_width": 260,
+      "body_center": [
+        275,
+        228
+      ]
+    },
+    {
+      "region": [
+        528,
+        512,
+        496,
+        512
+      ],
+      "bounds": [
+        63,
+        75,
+        360,
+        375
+      ],
+      "anchor": [
+        247.5,
+        391.5
+      ],
+      "ring_bounds": [
+        194,
+        340,
+        301,
+        443
+      ],
+      "body_width": 252,
+      "body_center": [
+        248,
+        228
+      ]
+    }
+  ],
+  "reference_alpha_height": 739,
+  "new_reference_height": 393,
+  "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1858a-6264-7e72-aa56-27f64ac09e80\\exec-9996dd98-40c7-4394-82cc-0967aafad669.png",
+  "reference_body_width": 500,
+  "reference_body_center": [
+    768,
+    516
+  ],
+  "body_registration_note": "Authored round torso outer-diameter measurements, excluding ears/wings/ring. Align torso size to original 500px circle; ring center remains anchor. Values are visual annotations, not collision volumes."
+}

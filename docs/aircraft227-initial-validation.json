@@ -1,0 +1,182 @@
+{
+	"checks": [
+		{
+			"name": "native aircraft submit depth-tested ring instances",
+			"pass": true
+		},
+		{
+			"name": "ground markers use fixed MultiMesh capacity",
+			"pass": true
+		},
+		{
+			"name": "marker terrain sampling agrees with gameplay floor at ring perimeter",
+			"pass": true
+		},
+		{
+			"name": "reset clears ground rings immediately",
+			"pass": true
+		},
+		{
+			"name": "opaque foreground blocks the ring in rendered GPU pixels",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"performance": [
+		{
+			"draws": 1406.0,
+			"flying_swords": 17,
+			"fps": 21.8204919738068,
+			"frames": 262,
+			"median_ms": 45.992,
+			"p95_ms": 56.251,
+			"planes": 15,
+			"priority_times_ms": {
+				"1": 9.77793486590038,
+				"101": 2.87994252873563,
+				"109": 0.00430651340996169,
+				"111": 0.668383141762452,
+				"200": 1.84725670498084,
+				"79": 0.00556704980842912,
+				"81": 0.100371647509579,
+				"89": 0.00287739463601533,
+				"91": 1.98730651340996,
+				"99": 0.0356781609195402
+			},
+			"process_ms": 48.709,
+			"render_cpu_ms": 10.8459997177124,
+			"render_gpu_ms": 8.13500022888184,
+			"render_setup_ms": 2.802,
+			"resting_swords": 47,
+			"shadows": 210,
+			"shots": 18,
+			"tag": "live_old_canvas_warm",
+			"world_physics_ms": 1.60265187239945,
+			"world_process_ms": 4.64506513409962
+		},
+		{
+			"draws": 1406.0,
+			"flying_swords": 6,
+			"fps": 21.1335771669642,
+			"frames": 212,
+			"median_ms": 47.119,
+			"p95_ms": 55.671,
+			"planes": 15,
+			"priority_times_ms": {
+				"1": 10.1739668246446,
+				"101": 3.08263033175355,
+				"109": 0.00429857819905213,
+				"111": 0.847293838862559,
+				"200": 1.84018483412322,
+				"79": 0.00549763033175355,
+				"81": 0.114,
+				"89": 0.00356872037914692,
+				"91": 2.08104739336493,
+				"99": 0.0354691943127962
+			},
+			"process_ms": 47.087,
+			"render_cpu_ms": 10.0579996109009,
+			"render_gpu_ms": 6.2649998664856,
+			"render_setup_ms": 2.227,
+			"resting_swords": 51,
+			"shadows": 210,
+			"shots": 7,
+			"tag": "live_old_canvas",
+			"world_physics_ms": 1.61024252491694,
+			"world_process_ms": 4.77749763033175
+		},
+		{
+			"draws": 1444.0,
+			"flying_swords": 3,
+			"fps": 24.820197243942,
+			"frames": 298,
+			"median_ms": 40.149,
+			"p95_ms": 47.863,
+			"planes": 12,
+			"priority_times_ms": {
+				"1": 9.51006060606061,
+				"101": 2.79150168350168,
+				"109": 0.00420875420875421,
+				"111": 0.848579124579125,
+				"200": 1.81742760942761,
+				"79": 0.00541414141414141,
+				"81": 0.296848484848485,
+				"89": 0.0039023569023569,
+				"91": 1.94341414141414,
+				"99": 0.0351380471380471
+			},
+			"process_ms": 41.149,
+			"render_cpu_ms": 9.33300018310547,
+			"render_gpu_ms": 6.12099981307983,
+			"render_setup_ms": 2.648,
+			"resting_swords": 50,
+			"shadows": 210,
+			"shots": 5,
+			"tag": "live_ground_markers",
+			"world_physics_ms": 1.61447091412742,
+			"world_process_ms": 4.50488888888889
+		},
+		{
+			"draws": 1384.0,
+			"flying_swords": 17,
+			"fps": 26.2855731942964,
+			"frames": 211,
+			"median_ms": 37.862,
+			"p95_ms": 45.33,
+			"planes": 15,
+			"priority_times_ms": {
+				"1": 9.6809,
+				"101": 1.49346666666667,
+				"109": 0.00479523809523809,
+				"111": 0.875966666666667,
+				"200": 1.86022857142857,
+				"79": 0.00537142857142857,
+				"81": 0.285690476190476,
+				"89": 0.00320476190476191,
+				"91": 1.95621428571429,
+				"99": 0.0362380952380952
+			},
+			"process_ms": 38.884,
+			"render_cpu_ms": 7.77199983596802,
+			"render_gpu_ms": 3.76200008392334,
+			"render_setup_ms": 1.913,
+			"resting_swords": 22,
+			"shadows": 210,
+			"shots": 18,
+			"tag": "live_ground_no_sword_shadows_diagnostic",
+			"world_physics_ms": 1.65496894409938,
+			"world_process_ms": 4.48864761904762
+		},
+		{
+			"draws": 1446.0,
+			"flying_swords": 0,
+			"fps": 26.0290707821187,
+			"frames": 261,
+			"median_ms": 39.396,
+			"p95_ms": 46.575,
+			"planes": 12,
+			"priority_times_ms": {
+				"1": 9.38877307692308,
+				"101": 2.53909230769231,
+				"109": 0.00396538461538462,
+				"111": 0.8042,
+				"200": 1.80119615384615,
+				"79": 0.00523846153846154,
+				"81": 0.253146153846154,
+				"89": 0.00383846153846154,
+				"91": 1.71752307692308,
+				"99": 0.0346538461538462
+			},
+			"process_ms": 39.929,
+			"render_cpu_ms": 9.77600002288818,
+			"render_gpu_ms": 6.18599987030029,
+			"render_setup_ms": 1.95,
+			"resting_swords": 32,
+			"shadows": 205,
+			"shots": 0,
+			"tag": "live_ground_restart",
+			"world_physics_ms": 1.5892292358804,
+			"world_process_ms": 4.37861538461538
+		}
+	]
+}

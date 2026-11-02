@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "name": "native held-fire loop hits actual boss with the new renderer",
+      "pass": true
+    },
+    {
+      "name": "native red firing displays beacon HUD and keeps damaging",
+      "pass": true
+    },
+    {
+      "name": "world-space chest light follows actor movement",
+      "pass": true
+    },
+    {
+      "name": "unequipping flashlight clears low-health effects",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

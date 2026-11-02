@@ -1,0 +1,24 @@
+{
+	"idle": {
+		"alpha_bounds": "[P: (271, 41), S: (805, 1101)]",
+		"alpha_threshold": 0.6,
+		"anchor": "(673.5, 1142.0)",
+		"collision": "stable inherited ground footprint radius .29m, height .65m; no contact damage",
+		"display_plane": "fixed camera plane; upright foot-depth and light-sampling proxy",
+		"image_size": "(1347.0, 1167.0)",
+		"light": "native .82 albedo; world normal matches hero192; no emission or added lights",
+		"shadow": "105 terrain contour + soft contact; no native cylinder caster",
+		"world_alpha_height": 1.61000712274108
+	},
+	"seated": {
+		"alpha_bounds": "[P: (187, 34), S: (856, 1197)]",
+		"alpha_threshold": 0.6,
+		"anchor": "(615.0, 1231.0)",
+		"collision": "stable inherited ground footprint radius .29m, height .65m; no contact damage",
+		"display_plane": "fixed camera plane; upright foot-depth and light-sampling proxy",
+		"image_size": "(1230.0, 1278.0)",
+		"light": "native .82 albedo; world normal matches hero192; no emission or added lights",
+		"shadow": "105 terrain contour + soft contact; no native cylinder caster",
+		"world_alpha_height": 1.61000707978383
+	}
+}

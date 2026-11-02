@@ -1,0 +1,375 @@
+{
+  "records": [
+    {
+      "file": "2026-10-30_10-16-16_86519251.json",
+      "sha256": "26b815fa5ab4267cdcd912e58e414224d4f9b245928aad724ce6c07e2e1ac60d",
+      "loadout": {
+        "eye_exercise": 1,
+        "three_player": 1
+      },
+      "slots": 4,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 21.8908985328043,
+      "cat_dps": 6.77551960354248,
+      "cat_seconds": 14.7590156698413,
+      "bat_seconds": 5.80530619629629,
+      "rounds": [
+        {
+          "damage": 100.0,
+          "debug": false,
+          "dps": 6.77551960354248,
+          "partial": false,
+          "seconds": 14.7590156698413
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            32.0,
+            0.0
+          ],
+          "dps": 5.51219848152291,
+          "first_hit": 0.565561666666671,
+          "partial": false,
+          "seconds": 5.80530619629629
+        }
+      ],
+      "mean_fps": 28.9161269032163,
+      "slow_frames": 23,
+      "frames": 633,
+      "loss": 10.0,
+      "final_hp": 4.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-16-43_113408215.json",
+      "sha256": "96403c0d6a4c8c6b274987cb1841c82e82b9b9f88c236bc7eb57155f529b6493",
+      "loadout": {
+        "eye_exercise": 1,
+        "three_player": 1
+      },
+      "slots": 4,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 20.1622648191919,
+      "cat_dps": 7.1322888907749,
+      "cat_seconds": 14.0207444666667,
+      "bat_seconds": 4.83284635252525,
+      "rounds": [
+        {
+          "damage": 100.0,
+          "debug": false,
+          "dps": 7.1322888907749,
+          "partial": false,
+          "seconds": 14.0207444666667
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            32.0,
+            0.0
+          ],
+          "dps": 6.62135678765773,
+          "first_hit": 0.348518518518519,
+          "partial": false,
+          "seconds": 4.83284635252525
+        }
+      ],
+      "mean_fps": 30.2545376459572,
+      "slow_frames": 1,
+      "frames": 610,
+      "loss": 8.0,
+      "final_hp": 6.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-17-23_153258193.json",
+      "sha256": "b7908c2c161192dd6a21c35ea67a30e74dbd23685d431e6866c4484ee378f7c1",
+      "loadout": {
+        "eye_exercise": 1,
+        "flashlight": 1,
+        "three_player": 1
+      },
+      "slots": 6,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 12.8284034414863,
+      "cat_dps": 11.4896156256489,
+      "cat_seconds": 8.7035113495671,
+      "bat_seconds": 2.78998053636364,
+      "rounds": [
+        {
+          "damage": 99.9999999999984,
+          "debug": false,
+          "dps": 11.4896156256489,
+          "partial": false,
+          "seconds": 8.7035113495671
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            32.0,
+            0.0
+          ],
+          "dps": 11.4696140646586,
+          "first_hit": 0.397758333333333,
+          "partial": false,
+          "seconds": 2.78998053636364
+        }
+      ],
+      "mean_fps": 27.3611600696067,
+      "slow_frames": 4,
+      "frames": 351,
+      "loss": 4.0,
+      "final_hp": 10.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-17-39_169186476.json",
+      "sha256": "f5904f833ca8618670fdaf57674c1b229a8498333f1143ee4cbeee30374ae340",
+      "loadout": {
+        "eye_exercise": 1,
+        "flashlight": 1,
+        "three_player": 1
+      },
+      "slots": 6,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 10.7696845096922,
+      "cat_dps": 13.2494533184704,
+      "cat_seconds": 7.54748121272247,
+      "bat_seconds": 1.90201996363636,
+      "rounds": [
+        {
+          "damage": 99.9999999999987,
+          "debug": false,
+          "dps": 13.2494533184704,
+          "partial": false,
+          "seconds": 7.54748121272247
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            4.02541176470588,
+            32.0000000000001
+          ],
+          "dps": 18.9406065411801,
+          "first_hit": 0.114313,
+          "partial": false,
+          "seconds": 1.90201996363636
+        }
+      ],
+      "mean_fps": 28.0416756617351,
+      "slow_frames": 1,
+      "frames": 302,
+      "loss": 8.0,
+      "final_hp": 6.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-18-08_197992688.json",
+      "sha256": "533b55476f4db637012e668e8237a1b4874f724054730702ac5fc4e8ca839825",
+      "loadout": {
+        "eye_exercise": 1,
+        "slingshot": 1,
+        "three_player": 1
+      },
+      "slots": 6,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 20.2788232130111,
+      "cat_dps": 6.64199148853657,
+      "cat_seconds": 15.0557254059404,
+      "bat_seconds": 3.91644747373738,
+      "rounds": [
+        {
+          "damage": 99.9999999999999,
+          "debug": false,
+          "dps": 6.64199148853657,
+          "partial": false,
+          "seconds": 15.0557254059404
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            32.0,
+            0.0
+          ],
+          "dps": 8.17067003057828,
+          "first_hit": 0.460177518181818,
+          "partial": false,
+          "seconds": 3.91644747373738
+        }
+      ],
+      "mean_fps": 35.4063937763077,
+      "slow_frames": 2,
+      "frames": 718,
+      "loss": 10.0,
+      "final_hp": 4.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-18-31_221553192.json",
+      "sha256": "1c0abb68e4a021171e74e853b17997abefe4770a97765e21f35fcc74386a2754",
+      "loadout": {
+        "eye_exercise": 1,
+        "slingshot": 1,
+        "three_player": 1
+      },
+      "slots": 6,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 20.2339399872054,
+      "cat_dps": 6.64967723933694,
+      "cat_seconds": 15.0383238765994,
+      "bat_seconds": 3.87637439090909,
+      "rounds": [
+        {
+          "damage": 99.9999999999999,
+          "debug": false,
+          "dps": 6.64967723933694,
+          "partial": false,
+          "seconds": 15.0383238765994
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            32.0,
+            0.0
+          ],
+          "dps": 8.25513657170132,
+          "first_hit": 0.284248433333329,
+          "partial": false,
+          "seconds": 3.87637439090909
+        }
+      ],
+      "mean_fps": 36.077995707292,
+      "slow_frames": 1,
+      "frames": 730,
+      "loss": 2.0,
+      "final_hp": 12.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    },
+    {
+      "file": "2026-10-30_10-19-38_288283254.json",
+      "sha256": "350a4878a094ee5f2403426f79a487d3c7b8edd30d95c248692c23ad15ba7d6d",
+      "loadout": {
+        "balloon_sword": 1,
+        "eye_exercise": 1,
+        "paper_plane": 1,
+        "three_player": 1
+      },
+      "slots": 6,
+      "cat_hp": 100.0,
+      "bat_hp": 32.0,
+      "debug": false,
+      "partial": false,
+      "result": "胜利",
+      "seconds": 91.2407268427609,
+      "cat_dps": 4.22929017077084,
+      "cat_seconds": 70.9338891129631,
+      "bat_seconds": 13.8177258520202,
+      "rounds": [
+        {
+          "damage": 99.9999999999997,
+          "debug": false,
+          "dps": 4.88632719292823,
+          "partial": false,
+          "seconds": 20.465268912963
+        },
+        {
+          "damage": 99.9999999999996,
+          "debug": false,
+          "dps": 3.67600683399486,
+          "partial": false,
+          "seconds": 27.2034314722222
+        },
+        {
+          "damage": 99.9999999999997,
+          "debug": false,
+          "dps": 4.29826730271065,
+          "partial": false,
+          "seconds": 23.2651887277778
+        }
+      ],
+      "windows": [
+        {
+          "damage": [
+            17.2941176470588,
+            10.5882352941176
+          ],
+          "dps": 4.63039926630463,
+          "first_hit": 0.271615666666667,
+          "partial": false,
+          "seconds": 6.02158719747475
+        },
+        {
+          "damage": [
+            7.23529411764705,
+            11.2941176470588
+          ],
+          "dps": 3.06692896145213,
+          "first_hit": 0.821234666666662,
+          "partial": false,
+          "seconds": 6.04168273787878
+        },
+        {
+          "damage": [
+            7.47058823529415,
+            0.0
+          ],
+          "dps": 4.25806551440046,
+          "first_hit": 0.351201333333329,
+          "partial": false,
+          "seconds": 1.75445591666666
+        }
+      ],
+      "mean_fps": 17.3497083460114,
+      "slow_frames": 775,
+      "frames": 1583,
+      "loss": 8.0,
+      "final_hp": 6.0,
+      "auto_fire_seconds": 0.0,
+      "pig_changed": false,
+      "pig_enabled": true
+    }
+  ],
+  "count": 7,
+  "note": "read-only summaries of original user records; not automated samples"
+}

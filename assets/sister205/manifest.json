@@ -1,0 +1,67 @@
+{
+	"bat_down": {
+		"alpha_bounds": [
+			241,
+			189,
+			1054,
+			739
+		],
+		"alpha_threshold": 0.6,
+		"dimensions": [
+			1536.0,
+			1024.0
+		]
+	},
+	"bat_up": {
+		"alpha_bounds": [
+			175,
+			189,
+			1186,
+			739
+		],
+		"alpha_threshold": 0.6,
+		"dimensions": [
+			1536.0,
+			1024.0
+		]
+	},
+	"hammock": {
+		"alpha_bounds": [
+			16,
+			44,
+			1280,
+			1112
+		],
+		"alpha_threshold": 0.6,
+		"dimensions": [
+			1312.0,
+			1199.0
+		]
+	},
+	"idle": {
+		"alpha_bounds": [
+			182,
+			95,
+			866,
+			1152
+		],
+		"alpha_threshold": 0.6,
+		"dimensions": [
+			1230.0,
+			1278.0
+		]
+	},
+	"seated": {
+		"alpha_bounds": [
+			153,
+			14,
+			921,
+			1219
+		],
+		"alpha_threshold": 0.6,
+		"dimensions": [
+			1230.0,
+			1278.0
+		]
+	}
+}

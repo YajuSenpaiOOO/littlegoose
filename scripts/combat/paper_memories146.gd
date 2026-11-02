@@ -156,6 +156,8 @@ func draw146() -> void:
    var screen: Vector2=battle.camera.unproject_position(point)
    if j%2==0: art146.draw_line(last,screen,Color(.9,.92,.85,.23),1.)
    last=screen
+ draw_notes146()
+func draw_notes146() -> void:
  if book146.visible:
   var base: Vector2=battle.camera.unproject_position(book146.position)
   for i in pages146.size():
