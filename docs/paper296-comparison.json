@@ -1,0 +1,35 @@
+{
+  "comparison": "native Sprite2D unchanged textures, uniform scale and common baseline",
+  "items": [
+    {
+      "display_height": 520.0,
+      "name": "294 · 旧稿",
+      "screen_foot": [
+        260.0,
+        680
+      ],
+      "source_height": 1204.0,
+      "uniform_scale": 0.431893687707641
+    },
+    {
+      "display_height": 520.0,
+      "name": "主角 · 正面待机",
+      "screen_foot": [
+        720.0,
+        680
+      ],
+      "source_height": 674.0,
+      "uniform_scale": 0.771513353115727
+    },
+    {
+      "display_height": 520.0,
+      "name": "295 · 比例修订",
+      "screen_foot": [
+        1180.0,
+        680
+      ],
+      "source_height": 1268.0,
+      "uniform_scale": 0.410094637223975
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dinosaur": {
+    "texture": "res://assets/paper_stage298/dinosaur.png",
+    "size": [
+      1123,
+      1400
+    ],
+    "bounds": [
+      62,
+      75,
+      1040,
+      1353
+    ],
+    "foot": [
+      551.0,
+      1353
+    ],
+    "span": [
+      978,
+      1278
+    ],
+    "sha256": "b0dbaa1e99210154bb4541b657774f8b3744599060d4e559358e3e64cdc159e7"
+  },
+  "gate": {
+    "texture": "res://assets/paper_stage298/gate.png",
+    "size": [
+      1430,
+      1100
+    ],
+    "bounds": [
+      71,
+      73,
+      1360,
+      1054
+    ],
+    "foot": [
+      715.5,
+      1054
+    ],
+    "span": [
+      1289,
+      981
+    ],
+    "sha256": "58e60688430312f27290c1f6de233024f9a2009b2aca033b04ba4ebe96e54c25"
+  },
+  "scenery": {
+    "texture": "res://assets/paper_stage298/scenery.png",
+    "size": [
+      1635,
+      962
+    ],
+    "bounds": [
+      10,
+      12,
+      1626,
+      950
+    ],
+    "foot": [
+      818.0,
+      950
+    ],
+    "span": [
+      1616,
+      938
+    ],
+    "sha256": "40f175f3c522ff0d51b022e75dea192b30f0f121cc53d1c422e09617db95bc5c"
+  }
+}

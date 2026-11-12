@@ -3,6 +3,7 @@ var entry_notes261 := 0
 var entry_navigation261: RefCounted
 func minion_script260() -> Script:return preload("res://scripts/combat/tuantuan_minion261.gd")
 func minion_attack_allowed260() -> bool:return true
+func entry_lanes261() -> Array:return preload("res://scripts/combat/encounter_entry261.gd").LANES
 func _title35() -> void:DisplayServer.window_set_title("小白鹅 · 261 · 团团Boss / 林边入场")
 func _ready() -> void:
  await super._ready()
@@ -11,10 +12,10 @@ func _ready() -> void:
 func begin251() -> void:
  entry_notes261=0;super.begin251()
 func spawn_minion260() -> CharacterBody3D:
- if live_minions260().size()>=3 or entry_navigation261==null:return null
+ if live_minions260().size()>=minion_cap261() or entry_navigation261==null:return null
  var occupied: Array[Vector2]=[]
  for m in live_minions260():occupied.append(Vector2(m.position.x,m.position.z))
- var plan=preload("res://scripts/combat/encounter_entry261.gd").plan(self,entry_navigation261,serial260,occupied)
+ var plan=preload("res://scripts/combat/encounter_entry261.gd").plan(self,entry_navigation261,serial260,occupied,entry_lanes261())
  if plan.is_empty():
   telemetry260.event("entry_unavailable");return null
  var m=minion_script260().new()
@@ -36,3 +37,5 @@ func cancel_entry261(m: CharacterBody3D) -> void:
 func _process(delta: float) -> void:
  super._process(delta)
  if ready251:guide206.text=guide206.text.replace("260 团团Boss · 同伴弹飞","261 团团Boss · 林边入场")
+
+func minion_cap261() -> int:return 3

@@ -1,0 +1,168 @@
+{
+  "checks": [
+    {
+      "name": "battle uses active boss, not sleeping NPC",
+      "pass": true
+    },
+    {
+      "name": "rest selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "rest shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "rest visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "rest finite deformation",
+      "pass": true
+    },
+    {
+      "name": "rest matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "rest foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "angry selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "angry shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "angry visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "angry finite deformation",
+      "pass": true
+    },
+    {
+      "name": "angry matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "angry foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "squat selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "squat shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "squat visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "squat finite deformation",
+      "pass": true
+    },
+    {
+      "name": "squat matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "squat foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "flight selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "flight shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "flight visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "flight finite deformation",
+      "pass": true
+    },
+    {
+      "name": "flight matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "flight foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "flat selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "flat shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "flat visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "flat finite deformation",
+      "pass": true
+    },
+    {
+      "name": "flat matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "flat foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "bumper selected skin reaches native renderer",
+      "pass": true
+    },
+    {
+      "name": "bumper shader uses new foot coordinate",
+      "pass": true
+    },
+    {
+      "name": "bumper visual identity/collider/HP preserved",
+      "pass": true
+    },
+    {
+      "name": "bumper finite deformation",
+      "pass": true
+    },
+    {
+      "name": "bumper matches legacy world silhouette size",
+      "pass": true
+    },
+    {
+      "name": "bumper foot is scale pivot",
+      "pass": true
+    },
+    {
+      "name": "old skin comparison restores old art",
+      "pass": true
+    },
+    {
+      "name": "damage reaction keeps selected skin",
+      "pass": true
+    },
+    {
+      "name": "native ground shadow remains attached",
+      "pass": true
+    },
+    {
+      "name": "native ten second AI cycle traverses charge, jumps and recovery",
+      "pass": true
+    }
+  ]
+}

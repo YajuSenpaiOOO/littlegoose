@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/portrait_references/spider_sister/spider_sister_gentle11_transparent.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\art_workbench\\spider_sister_portraits\\gentle11\\spider_sister_gentle11_transparent.png",
+    "sha256": "a6c1a1fe0414553eaca8d0f8cb875fef9527df396087fee4498ec5f9ebb3d1a3",
+    "role": "User-specified full character portrait reference; not chibi gameplay sprite",
+    "copy_verified": true
+  },
+  {
+    "file": "assets/portrait_references/hero/pose_a_material_v2.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_yard\\assets\\hero_v2\\portrait_choices\\pose_a_material_v2.png",
+    "sha256": "82da8bab6de75935c1e1cc9a043be55bff647f1660acac8cca92aa612b40638d",
+    "role": "User-specified full character portrait reference; not chibi gameplay sprite",
+    "copy_verified": true
+  },
+  {
+    "file": "assets/portrait_references/hero/pose_c_lighting_v2.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_yard\\assets\\hero_v2\\portrait_choices\\pose_c_lighting_v2.png",
+    "sha256": "74d5d8d3ec7b1fbf77a3ff9f8826699819de381498d232ebad05933eff8de1d5",
+    "role": "User-specified full character portrait reference; not chibi gameplay sprite",
+    "copy_verified": true
+  },
+  {
+    "file": "assets/portrait_references/hero/pose_d_material_v2.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_yard\\assets\\hero_v2\\portrait_choices\\pose_d_material_v2.png",
+    "sha256": "e1d47ddaa896e430fadf89c8f47e6de21827795762be1784a412001024d73a9a",
+    "role": "User-specified full character portrait reference; not chibi gameplay sprite",
+    "copy_verified": true
+  }
+]

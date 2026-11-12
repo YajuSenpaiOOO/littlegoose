@@ -1,0 +1,134 @@
+{
+  "stand_A": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-d2c78baf-b32b-4deb-b71a-fa3f365e4790.png",
+    "file": "stand_A.png",
+    "size": [
+      1147,
+      1371
+    ],
+    "alpha_bbox": [
+      0,
+      29,
+      1131,
+      1371
+    ],
+    "visible_bbox": [
+      82,
+      89,
+      1083,
+      1302
+    ],
+    "sha256": "6fe525a59a1da56e0350d3c584775ebbac264dd89d050a051ffda2ebf5956941",
+    "status": "candidate, not selected or integrated"
+  },
+  "stand_B": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-c55b5e77-232b-4d4f-ad78-96cb5a184882.png",
+    "file": "stand_B.png",
+    "size": [
+      1158,
+      1358
+    ],
+    "alpha_bbox": [
+      0,
+      28,
+      1146,
+      1358
+    ],
+    "visible_bbox": [
+      62,
+      89,
+      1102,
+      1284
+    ],
+    "sha256": "843017de69b0f1a3e5af3c2abd669222a0eb42d334439e10646c6ee519d36ec7",
+    "status": "candidate, not selected or integrated"
+  },
+  "stand_C": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-3bf93bee-c517-40d4-97ec-75d66d33173f.png",
+    "file": "stand_C.png",
+    "size": [
+      1148,
+      1371
+    ],
+    "alpha_bbox": [
+      17,
+      49,
+      1081,
+      1311
+    ],
+    "visible_bbox": [
+      72,
+      77,
+      1078,
+      1296
+    ],
+    "sha256": "7b967a7c2564bf85b9e1cf3f47f847eae0060d8182a6eac31596ac6e9f8884de",
+    "status": "candidate, not selected or integrated"
+  },
+  "raise_A": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-47a48448-ef50-4928-a24a-cf7552c1ca0f.png",
+    "file": "raise_A.png",
+    "size": [
+      1148,
+      1371
+    ],
+    "alpha_bbox": [
+      60,
+      39,
+      1134,
+      1371
+    ],
+    "visible_bbox": [
+      106,
+      133,
+      1051,
+      1288
+    ],
+    "sha256": "5ddddc07939223395520b2e6246c3fe439255c4ecf2ebb12654896e018eb7c2b",
+    "status": "candidate, not selected or integrated"
+  },
+  "raise_B": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-4124d417-02fe-47a9-9b71-e25d9ee9b3e5.png",
+    "file": "raise_B.png",
+    "size": [
+      1148,
+      1371
+    ],
+    "alpha_bbox": [
+      79,
+      29,
+      1104,
+      1371
+    ],
+    "visible_bbox": [
+      84,
+      89,
+      1065,
+      1293
+    ],
+    "sha256": "c550df9bb43b0edd7240de9c95ab4f1538b7c7335e80557724f6aa703a168537",
+    "status": "candidate, not selected or integrated"
+  },
+  "raise_C": {
+    "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1902b-b815-7a03-a34e-5bf93c912ce8\\exec-6f92650b-cdda-4d0a-9f0c-d4f03a9a619b.png",
+    "file": "raise_C.png",
+    "size": [
+      1148,
+      1371
+    ],
+    "alpha_bbox": [
+      0,
+      17,
+      1118,
+      1355
+    ],
+    "visible_bbox": [
+      91,
+      96,
+      1059,
+      1299
+    ],
+    "sha256": "0bba74d7427569fc809d6b5e3689beca5d13cb6bc38ef2b11c39495484f8bda9",
+    "status": "candidate, not selected or integrated"
+  }
+}

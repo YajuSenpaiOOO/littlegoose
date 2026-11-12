@@ -32,6 +32,9 @@ func try_parry_lunge(enemy: CharacterBody3D,before: Vector3) -> bool:
 	enemy.deflect(contact)
 	return true
 
+func heavy_parry_feedback() -> bool:
+	return false
+
 func parry_success(contact: Vector3,outward: Vector3) -> void:
 	if combat_paused or player_hp<=0.: return
 	hero.consume_parry(); parry_count+=1
@@ -57,7 +60,8 @@ func parry_success(contact: Vector3,outward: Vector3) -> void:
 		ParryImpact.spawn(node,node.global_position+delta_screen/gain,node.global_position,screen_direction(contact,outward),tier)
 	combo+=1; max_combo=maxi(combo,max_combo); miss_streak=0; combo_last=now
 	hp_shake_left=.25; hp_shake_amp=7.*(1.+.4*(tier-1) if tier_up else .6)
-	Audio.play("parry_big" if tier==3 and tier_up else "parry",1. if tier==3 and tier_up else 1.+.12*(tier-1))
+	var heavy_sound := heavy_parry_feedback() or (tier==3 and tier_up)
+	Audio.play("parry_big" if heavy_sound else "parry",1. if heavy_sound else 1.+.12*(tier-1))
 	if tier==3 and tier_up: _parry_fan34(contact)
 
 func _parry_fan34(contact: Vector3) -> void:

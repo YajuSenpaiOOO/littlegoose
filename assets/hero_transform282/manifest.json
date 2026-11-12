@@ -1,0 +1,30 @@
+{
+  "raise_face_v1.png": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      177,
+      97,
+      999,
+      1230
+    ],
+    "sha256": "7c4d0001afc4b6825860c9dbdc23b5afb9ec9834180f5d2c5efba22de7b41705",
+    "approved": false
+  },
+  "raise_thumb_v2.png": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      178,
+      98,
+      999,
+      1228
+    ],
+    "sha256": "859da39836402ac75e53df2fa2ba936e6aabe9e94bd8fa9fc988decf4ada0206",
+    "approved": false
+  }
+}

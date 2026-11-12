@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "name": "opening preview has no live Tuantuan battle",
+      "pass": true
+    },
+    {
+      "name": "opening locks input before toss",
+      "pass": true
+    },
+    {
+      "name": "paper girl visible height matches native hero1.6",
+      "pass": true
+    },
+    {
+      "name": "finite staging at idle",
+      "pass": true
+    },
+    {
+      "name": "single held/separate book switch at idle",
+      "pass": true
+    },
+    {
+      "name": "finite staging at toss",
+      "pass": true
+    },
+    {
+      "name": "single held/separate book switch at toss",
+      "pass": true
+    },
+    {
+      "name": "finite staging at fold",
+      "pass": true
+    },
+    {
+      "name": "single held/separate book switch at fold",
+      "pass": true
+    },
+    {
+      "name": "finite staging at castle",
+      "pass": true
+    },
+    {
+      "name": "single held/separate book switch at castle",
+      "pass": true
+    },
+    {
+      "name": "completed castle solid wings, no duplicate floating book",
+      "pass": true
+    },
+    {
+      "name": "native receiver follows current actor texture",
+      "pass": true
+    },
+    {
+      "name": "opening returns control",
+      "pass": true
+    },
+    {
+      "name": "replay resets stage and collision",
+      "pass": true
+    },
+    {
+      "name": "cancel restores input/pause",
+      "pass": true
+    }
+  ],
+  "scope": "opening prototype, no boss AI or damage"
+}

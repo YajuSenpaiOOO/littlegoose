@@ -1,0 +1,50 @@
+{
+  "sleep.png": {
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha_bbox": [
+      137,
+      405,
+      1235,
+      966
+    ],
+    "foot": [
+      686.0,
+      965
+    ],
+    "source_sha256": "2a5a0d5ee9f07a2bb8a64bd7b10886e840e75a784753d84cd44fc2436df534f8",
+    "raw_alpha_bbox": [
+      0,
+      47,
+      1331,
+      1141
+    ],
+    "alpha_scissor": 0.5
+  },
+  "cushion.png": {
+    "size": [
+      2057,
+      764
+    ],
+    "alpha_bbox": [
+      38,
+      69,
+      2019,
+      714
+    ],
+    "foot": [
+      1028.5,
+      713
+    ],
+    "source_sha256": "015868cd95092fc3c3af3102b200bceb512877150c87c3ac829570170c486da7",
+    "raw_alpha_bbox": [
+      34,
+      29,
+      2025,
+      745
+    ],
+    "alpha_scissor": 0.5
+  }
+}

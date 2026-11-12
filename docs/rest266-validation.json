@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "rest bay uses authored ridge-front position beyond shrubs",
+      "pass": true
+    },
+    {
+      "name": "rest footprint intersects real hero mask without changing hero collision policy",
+      "pass": true
+    },
+    {
+      "name": "mattress has support collision while sleeping boss is not an attack target",
+      "pass": true
+    },
+    {
+      "name": "body contact anchor and mattress top share the same centre and height",
+      "pass": true
+    },
+    {
+      "name": "native hero ground approaches and dash stop at the physical rest footprint",
+      "pass": true
+    },
+    {
+      "name": "native hero already on mattress cannot walk or dash through boss body",
+      "pass": true
+    },
+    {
+      "name": "both identical kill-cadence comparisons finish the fixed fifteen-member encounter",
+      "pass": true
+    },
+    {
+      "name": "early visible arrivals are real damage targets while total population remains bounded",
+      "pass": true
+    },
+    {
+      "name": "new pipeline removes multi-second untargetable gaps at the same kill cadence",
+      "pass": true
+    },
+    {
+      "name": "total no-target waiting time decreases rather than moving to another wave",
+      "pass": true
+    },
+    {
+      "name": "clear still wakes boss at the new rest bay",
+      "pass": true
+    },
+    {
+      "name": "awake boss dialogue remains a separate challenge trigger",
+      "pass": true
+    },
+    {
+      "name": "combat boss restores original collision and three-minion limit",
+      "pass": true
+    },
+    {
+      "name": "replays retain exactly one rest or combat boss",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "body": [
+      {
+        "blocked_by_boss": true,
+        "blocked_by_support": true,
+        "dash": false,
+        "mask": 3,
+        "remaining_distance": 1.39301300048828,
+        "travel": 0.406988561153412
+      },
+      {
+        "blocked_by_boss": true,
+        "blocked_by_support": true,
+        "dash": false,
+        "mask": 3,
+        "remaining_distance": 1.39301300048828,
+        "travel": 0.406987994909287
+      },
+      {
+        "blocked_by_boss": true,
+        "blocked_by_support": true,
+        "dash": true,
+        "mask": 3,
+        "remaining_distance": 1.39088439941406,
+        "travel": 0.0447609089314938
+      }
+    ],
+    "hero": [
+      {
+        "blocked_by_boss": false,
+        "blocked_by_support": true,
+        "dash": false,
+        "mask": 3,
+        "remaining_distance": 2.23753356933594,
+        "travel": 0.356891393661499
+      },
+      {
+        "blocked_by_boss": false,
+        "blocked_by_support": true,
+        "dash": false,
+        "mask": 3,
+        "remaining_distance": 2.2402229309082,
+        "travel": 0.259777069091797
+      },
+      {
+        "blocked_by_boss": false,
+        "blocked_by_support": true,
+        "dash": true,
+        "mask": 3,
+        "remaining_distance": 1.53883743286133,
+        "travel": 1.2611620426178
+      }
+    ],
+    "trials": [
+      {
+        "finished": true,
+        "incoming_native_ray_hit": false,
+        "incoming_targetable": false,
+        "kills": 15,
+        "legacy": true,
+        "longest_no_target_ms": 4551,
+        "max_live": 5,
+        "seconds": 21.3166666666667,
+        "total_no_target_ms": 16866
+      },
+      {
+        "finished": true,
+        "incoming_native_ray_hit": true,
+        "incoming_targetable": true,
+        "kills": 15,
+        "legacy": false,
+        "longest_no_target_ms": 0,
+        "max_live": 5,
+        "seconds": 8.63583333333334,
+        "total_no_target_ms": 0
+      }
+    ]
+  },
+  "passed": true
+}

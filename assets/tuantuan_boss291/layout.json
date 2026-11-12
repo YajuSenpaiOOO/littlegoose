@@ -1,0 +1,158 @@
+{
+  "airborne": {
+    "texture": "res://assets/tuantuan_boss291/airborne.png",
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      341,
+      121,
+      1015,
+      1006
+    ],
+    "foot": [
+      678.0,
+      1006
+    ],
+    "span": [
+      674,
+      885
+    ],
+    "sha256": "4debe6f6277a38568de29ccd7ca0f3e4497d317070a4c815f135d618cc98a319",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "charge": {
+    "texture": "res://assets/tuantuan_boss291/charge.png",
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      189,
+      372,
+      1160,
+      951
+    ],
+    "foot": [
+      674.5,
+      951
+    ],
+    "span": [
+      971,
+      579
+    ],
+    "sha256": "f5d7d506027022c4469dc123e20a4ea4f127899e1bdaa8e0af2530e0c3c62532",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "dizzy": {
+    "texture": "res://assets/tuantuan_boss291/dizzy.png",
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      190,
+      317,
+      1169,
+      979
+    ],
+    "foot": [
+      679.5,
+      979
+    ],
+    "span": [
+      979,
+      662
+    ],
+    "sha256": "d99228931e515fc657795265f7775910faa7778cbd09db5c48b116435c47bd27",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "hit": {
+    "texture": "res://assets/tuantuan_boss291/hit.png",
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      223,
+      209,
+      1145,
+      985
+    ],
+    "foot": [
+      684.0,
+      985
+    ],
+    "span": [
+      922,
+      776
+    ],
+    "sha256": "e8e11d8a1b30b3abcb3011d263b43fc68f3efc7ca04e8219d6edbf6313bc17a3",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "landing": {
+    "texture": "res://assets/tuantuan_boss291/landing.png",
+    "size": [
+      1619,
+      972
+    ],
+    "alpha128_bounds": [
+      95,
+      163,
+      1523,
+      890
+    ],
+    "foot": [
+      809.0,
+      890
+    ],
+    "span": [
+      1428,
+      727
+    ],
+    "sha256": "2eefcee92af6d8d4fa9890226ee1b7e200f2ef341ff4fd686e0809a22ddbddfb",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "sleep": {
+    "texture": "res://assets/tuantuan_boss291/sleep.png",
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      231,
+      275,
+      1125,
+      988
+    ],
+    "foot": [
+      678.0,
+      988
+    ],
+    "span": [
+      894,
+      713
+    ],
+    "sha256": "17cdc301aca9b5c58a9cfb51b185b60e3bcbd5d60969c74f1271e8f970e9370b",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  }
+}

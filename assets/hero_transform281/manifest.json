@@ -1,0 +1,44 @@
+{
+  "A": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      176,
+      99,
+      998,
+      1230
+    ],
+    "sha256": "2c3004d9ee5624cea23e815cd86cb82b9b3097213a6cc46784cd267a14c4786c",
+    "approved": false
+  },
+  "B": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      176,
+      102,
+      975,
+      1229
+    ],
+    "sha256": "a9ee9d19b1739b3346016f22c9e8d1983cf13b675f93a30551120f047035d947",
+    "approved": false
+  },
+  "C": {
+    "size": [
+      1175,
+      1339
+    ],
+    "alpha128_bounds": [
+      180,
+      90,
+      978,
+      1226
+    ],
+    "sha256": "b4928dc41be06c8eba35516a69fdef834461a1aeeec65e6034d9e254b0ef6a5f",
+    "approved": false
+  }
+}

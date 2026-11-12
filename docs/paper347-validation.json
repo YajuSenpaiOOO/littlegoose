@@ -1,0 +1,13 @@
+{
+	"complete": true,
+	"elite_entries": [
+		"dinosaur",
+		"knight",
+		"monster",
+		"dinosaur",
+		"knight"
+	],
+	"failures": [],
+	"max_elite": 2,
+	"max_normal": 3
+}

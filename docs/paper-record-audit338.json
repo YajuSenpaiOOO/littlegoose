@@ -1,0 +1,148 @@
+[
+  {
+    "file": "2026-11-11_17-30-18_71939888.json",
+    "sha256": "482972fb0fe0e7a04d3248d4c10291ad5cdd4ce095d1e48f97169484094ebac6",
+    "id": "2026-11-11_17-30-18_71939888",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "forest_fireboy": 1
+    },
+    "slots": 5,
+    "seconds": 25.2623094920876,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-30-58_111920396.json",
+    "sha256": "da2203e6a59b07df4fa0050bdc1446373129700ffc746448a92da85889c7032b",
+    "id": "2026-11-11_17-30-58_111920396",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "forest_fireboy": 1,
+      "slingshot": 1
+    },
+    "slots": 5,
+    "seconds": 30.0398278491582,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-31-46_159706701.json",
+    "sha256": "d905bd3e3085d44e8ecb773b6acc492e97205612f8ad9f22fa0291ed77ce71a8",
+    "id": "2026-11-11_17-31-46_159706701",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "forest_fireboy": 1,
+      "pillow_hut": 1
+    },
+    "slots": 5,
+    "seconds": 47.4356111112796,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-32-49_222584308.json",
+    "sha256": "c95d7678d6c153c91ba701885e3ef73b8db9a0431a3eed0e0513c0db780abe8c",
+    "id": "2026-11-11_17-32-49_222584308",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "paper_plane": 1,
+      "slingshot": 1
+    },
+    "slots": 5,
+    "seconds": 11.8109026149832,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-33-24_258194732.json",
+    "sha256": "fb92b05954a035190c264d870ced358c8c5210b1df30849dcef98b5e955545c4",
+    "id": "2026-11-11_17-33-24_258194732",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "balloon_sword": 1,
+      "eye_exercise": 1,
+      "snack": 1
+    },
+    "slots": 5,
+    "seconds": 17.0388293742425,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-34-00_294071361.json",
+    "sha256": "61818621980ad817e4280fbc25b8ceca6180d5faac049415d22ccea08d318a1a",
+    "id": "2026-11-11_17-34-00_294071361",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "homework": 1,
+      "snack": 1
+    },
+    "slots": 5,
+    "seconds": 26.7382297439635,
+    "result": "更换装配中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  },
+  {
+    "file": "2026-11-11_17-34-59_353301576.json",
+    "sha256": "b3499b334aeaecc57bb3beb250ded53ea8ed4d2d71bf9591d6a6082bdebd2e0c",
+    "id": "2026-11-11_17-34-59_353301576",
+    "loadout": {
+      "eye_exercise": 1,
+      "flashlight": 1,
+      "forest_fireboy": 1
+    },
+    "effective_levels": {
+      "eye_exercise": 1,
+      "homework": 1,
+      "slingshot": 1
+    },
+    "slots": 5,
+    "seconds": 36.9772509113756,
+    "result": "关闭窗口中止",
+    "has_paper_stats": false,
+    "scene": "res://scenes/world/world314.tscn",
+    "runtime_world_script": null
+  }
+]

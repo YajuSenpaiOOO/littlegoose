@@ -1,0 +1,28 @@
+{
+  "texture": "res://assets/paper_stage299/operator_dinosaur_v2.png",
+  "size": [
+    1160,
+    1355
+  ],
+  "bounds": [
+    50,
+    11,
+    968,
+    1310
+  ],
+  "foot": [
+    740,
+    1310
+  ],
+  "span": [
+    918,
+    1299
+  ],
+  "operator_body_y_estimate": [
+    658,
+    1310
+  ],
+  "operator_body_pixels_estimate": 652,
+  "sha256": "d95e579224ff0afecb2b04a2032217bc7c7507c6253f7840fc0d7ab8aab1d5fc",
+  "source": "exec-5b7d44b0-2851-4e2e-b2bc-6f966d641d66.png"
+}

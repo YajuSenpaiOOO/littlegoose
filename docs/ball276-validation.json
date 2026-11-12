@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "name": "generated ball texture loaded with explicit visible bounds",
+      "pass": true
+    },
+    {
+      "name": "original and reflected states use the same unmodified texture colors",
+      "pass": true
+    },
+    {
+      "name": "old candy sprites remain suppressed in both states",
+      "pass": true
+    },
+    {
+      "name": "visual replacement leaves original projectile identity and speed intact",
+      "pass": true
+    },
+    {
+      "name": "sword incompatibility remains intact",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

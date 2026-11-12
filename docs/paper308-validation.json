@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "name": "airborne operator tracks past a low wall",
+      "pass": true
+    },
+    {
+      "name": "early charge keeps neutral face and does not release",
+      "pass": true
+    },
+    {
+      "name": "final charge shows tense face",
+      "pass": true
+    },
+    {
+      "name": "low wall blocks knight along locked line",
+      "pass": true
+    },
+    {
+      "name": "launch does not move the operator",
+      "pass": true
+    },
+    {
+      "name": "knight moves directly toward fixed support",
+      "pass": true
+    },
+    {
+      "name": "fast outgoing sweep remains dangerous",
+      "pass": true
+    },
+    {
+      "name": "walking into a stopped knight during attack timer does not damage or launch",
+      "pass": true
+    }
+  ]
+}

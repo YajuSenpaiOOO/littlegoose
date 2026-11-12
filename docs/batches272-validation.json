@@ -1,0 +1,76 @@
+{
+  "batches": [
+    [
+      "normal",
+      "normal",
+      "normal"
+    ],
+    [
+      "normal",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    [
+      "predict",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    [
+      "roller",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    [
+      "predict",
+      "roller",
+      "normal",
+      "normal",
+      "normal"
+    ],
+    [
+      "roller",
+      "roller",
+      "roller",
+      "normal"
+    ]
+  ],
+  "checks": [
+    {
+      "name": "three ordinary opening actors and twenty-four total",
+      "pass": true
+    },
+    {
+      "name": "all six batches finish after twenty-four real defeats",
+      "pass": true
+    },
+    {
+      "name": "population stays bounded while finale admits three rollers",
+      "pass": true
+    },
+    {
+      "name": "predictor uses real prediction and collision stun; first roller is not mixed with old predictor",
+      "pass": true
+    },
+    {
+      "name": "every batch admits its exact authored enemy composition",
+      "pass": true
+    },
+    {
+      "name": "capture records six-batch roster and all twenty-one reinforcements",
+      "pass": true
+    },
+    {
+      "name": "Boss challenge remains separate with original ordinary companions",
+      "pass": true
+    },
+    {
+      "name": "return restores original playground and clears collision pairs",
+      "pass": true
+    }
+  ],
+  "max_live": 5,
+  "passed": true
+}

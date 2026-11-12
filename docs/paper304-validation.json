@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "name": "fire uses horizontal locked direction",
+      "pass": true
+    },
+    {
+      "name": "fire plane width is world vertical",
+      "pass": true
+    },
+    {
+      "name": "upper paper flies up and down rapidly",
+      "pass": true
+    },
+    {
+      "name": "driven weight responds through spring and inertia",
+      "pass": true
+    },
+    {
+      "name": "fast low downswing deals actual monster damage",
+      "pass": true
+    },
+    {
+      "name": "pause freezes driven monster",
+      "pass": true
+    },
+    {
+      "name": "knight stays planted while operator stretches line",
+      "pass": true
+    },
+    {
+      "name": "stored spring energy releases fast lunge",
+      "pass": true
+    },
+    {
+      "name": "uncontrolled return swing remains dangerous",
+      "pass": true
+    },
+    {
+      "name": "actual hit applies long knockback and lift",
+      "pass": true
+    },
+    {
+      "name": "launch really leaves native ground contact",
+      "pass": true
+    },
+    {
+      "name": "ringing knight does not retarget player",
+      "pass": true
+    },
+    {
+      "name": "dangerous swing can be parried",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits dinosaur",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits monster",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits knight",
+      "pass": true
+    }
+  ]
+}

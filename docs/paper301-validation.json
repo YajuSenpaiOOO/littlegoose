@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "name": "isolated reward-free paper combat",
+      "pass": true
+    },
+    {
+      "name": "hero192 geometry retained",
+      "pass": true
+    },
+    {
+      "name": "native weapon target registered",
+      "pass": true
+    },
+    {
+      "name": "ordinary flying paper operator with attached thread",
+      "pass": true
+    },
+    {
+      "name": "card and operator material states independent",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: knight",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: knight",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: knight",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: knight",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: knight",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: knight",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: knight",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: monster",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: monster",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: monster",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: monster",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: monster",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: monster",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: monster",
+      "pass": true
+    },
+    {
+      "name": "native fire emits projectile",
+      "pass": true
+    },
+    {
+      "name": "native fired projectile hits hanging card",
+      "pass": true
+    },
+    {
+      "name": "shooting destroys card and cancels target",
+      "pass": true
+    },
+    {
+      "name": "restart resets six-card test",
+      "pass": true
+    },
+    {
+      "name": "scheduler brings a second card",
+      "pass": true
+    },
+    {
+      "name": "scheduler caps simultaneous cards at two",
+      "pass": true
+    },
+    {
+      "name": "mixed cards retain separate footprints",
+      "pass": true
+    },
+    {
+      "name": "native scenery blocks card attack damage",
+      "pass": true
+    },
+    {
+      "name": "six defeated cards finish without reward or extra wave",
+      "pass": true
+    },
+    {
+      "name": "finish restores controls",
+      "pass": true
+    }
+  ],
+  "scope": "three hanging card attacks, actual projectiles, damage, parry, pause, reset; no full boss"
+}

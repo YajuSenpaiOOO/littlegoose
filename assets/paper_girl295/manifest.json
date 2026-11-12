@@ -1,0 +1,30 @@
+{
+  "texture": "res://assets/paper_girl295/idle_front.png",
+  "size": [
+    1086,
+    1448
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha128_bounds": [
+    111,
+    119,
+    974,
+    1387
+  ],
+  "candidate_foot": [
+    542.5,
+    1387
+  ],
+  "sha256": "4a0a8bef3d4060dee426caa0bb7bb3244ca794df43c9f37be4788e189649d912",
+  "source": "exec-2bc197e0-f594-4891-8ccd-9deacef24d2f.png",
+  "references_order": [
+    "res://assets/hero_pixel/walk_source.png: center FRONT IDLE, primary proportion/style master",
+    "res://assets/paper_girl294/idle_front.png: edit target, preserve identity"
+  ],
+  "approved": false,
+  "runtime_integrated": false,
+  "world_scale_calibrated": false
+}

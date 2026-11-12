@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "name": "operator approaches gradually over original charge",
+      "pass": true
+    },
+    {
+      "name": "long charge line does not teleport knight at release",
+      "pass": true
+    },
+    {
+      "name": "first strike goes straight toward locked support",
+      "pass": true
+    },
+    {
+      "name": "operator stays at the locked location",
+      "pass": true
+    },
+    {
+      "name": "actual parry reverses swing and prevents player damage",
+      "pass": true
+    },
+    {
+      "name": "strong stop zoom and slow-motion are scheduled",
+      "pass": true
+    },
+    {
+      "name": "parried knight actually moves backwards with support fixed",
+      "pass": true
+    },
+    {
+      "name": "stunned reverse swing does not hit the player",
+      "pass": true
+    },
+    {
+      "name": "restart clears heavy feedback",
+      "pass": true
+    },
+    {
+      "name": "early parry reverses even on a long line without snapping toward support",
+      "pass": true
+    }
+  ]
+}

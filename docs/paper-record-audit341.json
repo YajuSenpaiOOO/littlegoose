@@ -1,0 +1,315 @@
+[
+  {
+    "file": "2026-11-11_18-55-36_373356663.json",
+    "sha256": "489272766f06abef6003a07dd0415af32ce411c8e48c4a83daffb2ab51ebcf84",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {
+        "snack_split": 0.367647058823529,
+        "weapon": 1.02941176470588
+      },
+      "cannon_damage": [
+        1.10294117647059,
+        0.294117647058824
+      ],
+      "cannon_hp_current": [
+        14.8970588235294,
+        15.7058823529412
+      ],
+      "cannon_hp_end": [
+        14.8970588235294,
+        15.7058823529412
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "snack_split": 1.54411764705883,
+        "weapon": 38.3823529411765
+      },
+      "castle_damage": 39.9264705882353,
+      "castle_dps": 1.05772489802599,
+      "castle_hp_current": 104.073529411765,
+      "castle_hp_end": 104.073529411765,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 37.7474999999991,
+      "disables": [
+        0,
+        0
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-55-36_373356663",
+      "loadout_start": {
+        "forest_fireboy": 1,
+        "paper_plane": 1,
+        "snack": 1
+      },
+      "preview": 340,
+      "result": "defeat",
+      "schema": 1,
+      "slots": 4
+    },
+    "injury_count": 11,
+    "injury_loss": 13.0
+  },
+  {
+    "file": "2026-11-11_18-54-37_315099293.json",
+    "sha256": "acb646d04d0a31b0e73bdc1b4163a0cfbc0c2cd627186747a0f84832453a27e0",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {
+        "beam": 4.50635294117646,
+        "snack_split": 11.0797647058824,
+        "weapon": 4.6
+      },
+      "cannon_damage": [
+        5.796,
+        14.3901176470588
+      ],
+      "cannon_hp_current": [
+        10.204,
+        1.60988235294117
+      ],
+      "cannon_hp_end": [
+        10.204,
+        1.60988235294117
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "beam": 57.1035294117638,
+        "puppet_reward": 2.0,
+        "weapon": 84.8964705882363
+      },
+      "castle_damage": 144.0,
+      "castle_dps": 3.74447430007811,
+      "castle_hp_current": 0.0,
+      "castle_hp_end": 0.0,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 38.4566666666657,
+      "disables": [
+        0,
+        0
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-54-37_315099293",
+      "loadout_start": {
+        "flashlight": 1,
+        "forest_fireboy": 1,
+        "snack": 1
+      },
+      "preview": 340,
+      "result": "victory",
+      "schema": 1,
+      "slots": 5
+    },
+    "injury_count": 9,
+    "injury_loss": 10.5
+  },
+  {
+    "file": "2026-11-11_18-53-52_269563946.json",
+    "sha256": "1311c83751cc3b38fbd6e22152343039e26751f2ba6c40ca3e56f6927c3d28b6",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {
+        "snack_split": 3.8,
+        "weapon": 2.8
+      },
+      "cannon_damage": [
+        4.5,
+        2.1
+      ],
+      "cannon_hp_current": [
+        11.5,
+        13.9
+      ],
+      "cannon_hp_end": [
+        11.5,
+        13.9
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "puppet_reward": 2.0,
+        "snack_split": 0.700000000000003,
+        "weapon": 120.4
+      },
+      "castle_damage": 123.1,
+      "castle_dps": 3.63073293024636,
+      "castle_hp_current": 20.8999999999997,
+      "castle_hp_end": 20.8999999999997,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 33.9049999999993,
+      "disables": [
+        0,
+        0
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-53-52_269563946",
+      "loadout_start": {
+        "eye_exercise": 1,
+        "forest_fireboy": 1,
+        "snack": 1
+      },
+      "preview": 340,
+      "result": "defeat",
+      "schema": 1,
+      "slots": 5
+    },
+    "injury_count": 10,
+    "injury_loss": 13.0
+  },
+  {
+    "file": "2026-11-11_18-53-02_219526461.json",
+    "sha256": "5e07cda69ab52ec848cb05ee7d8c0dbc24dd85298d3a24eae437054701579fae",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {},
+      "cannon_damage": [
+        0.0,
+        0.0
+      ],
+      "cannon_hp_current": [
+        16.0,
+        16.0
+      ],
+      "cannon_hp_end": [
+        16.0,
+        16.0
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "puppet_reward": 2.0,
+        "weapon": 142.0
+      },
+      "castle_damage": 144.0,
+      "castle_dps": 4.81176208509698,
+      "castle_hp_current": 0.0,
+      "castle_hp_end": 0.0,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 29.9266666666662,
+      "disables": [
+        0,
+        0
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-53-02_219526461",
+      "loadout_start": {
+        "eye_exercise": 1,
+        "forest_fireboy": 1,
+        "slingshot": 1
+      },
+      "preview": 340,
+      "result": "victory",
+      "schema": 1,
+      "slots": 5
+    },
+    "injury_count": 2,
+    "injury_loss": 3.0
+  },
+  {
+    "file": "2026-11-11_18-52-07_164445337.json",
+    "sha256": "39c372fa1c6192cd2a6bd894f61227e38162a90ddf0b9e574b07cd69fd4b9e47",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {
+        "weapon": 6.6
+      },
+      "cannon_damage": [
+        3.8,
+        2.8
+      ],
+      "cannon_hp_current": [
+        12.2,
+        13.2
+      ],
+      "cannon_hp_end": [
+        12.2,
+        13.2
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "beam": 70.2964705882345,
+        "puppet_reward": 2.0,
+        "reflected_heavy": 8.0,
+        "weapon": 63.7035294117655
+      },
+      "castle_damage": 144.0,
+      "castle_dps": 5.11030933932698,
+      "castle_hp_current": 0.0,
+      "castle_hp_end": 0.0,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 28.178333333333,
+      "disables": [
+        0,
+        0
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-52-07_164445337",
+      "loadout_start": {
+        "eye_exercise": 1,
+        "flashlight": 1,
+        "forest_fireboy": 1
+      },
+      "preview": 340,
+      "result": "victory",
+      "schema": 1,
+      "slots": 5
+    },
+    "injury_count": 4,
+    "injury_loss": 4.0
+  },
+  {
+    "file": "2026-11-11_18-51-15_112484465.json",
+    "sha256": "27365df9825aa9469577398b836de03c86d336fc67a70e51392d89536744d56c",
+    "runtime_preview": 340,
+    "paper": {
+      "active": false,
+      "cannon_by_source": {
+        "bouncy_rebound": 64.5800000000001,
+        "weapon": 10.2
+      },
+      "cannon_damage": [
+        32.0,
+        42.78
+      ],
+      "cannon_hp_current": [
+        0.0,
+        5.22000000000001
+      ],
+      "cannon_hp_end": [
+        0.0,
+        5.22000000000001
+      ],
+      "cannon_hp_start": 16.0,
+      "castle_by_source": {
+        "bouncy_rebound": 25.1999999999999,
+        "cannon_disable_reward": 6.0,
+        "weapon": 112.8
+      },
+      "castle_damage": 144.0,
+      "castle_dps": 3.64757039726442,
+      "castle_hp_current": 0.0,
+      "castle_hp_end": 0.0,
+      "castle_hp_start": 144.0,
+      "combat_seconds": 39.4783333333324,
+      "disables": [
+        2,
+        2
+      ],
+      "excluded_hero_moment": false,
+      "id": "2026-11-11_18-51-15_112484465",
+      "loadout_start": {
+        "bouncy_ball": 1,
+        "forest_fireboy": 1
+      },
+      "preview": 340,
+      "result": "victory",
+      "schema": 1,
+      "slots": 2
+    },
+    "injury_count": 10,
+    "injury_loss": 12.0
+  }
+]

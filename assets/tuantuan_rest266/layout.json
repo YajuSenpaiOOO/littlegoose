@@ -1,0 +1,32 @@
+{
+  "sleep.png": {
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha_bbox": [
+      241,
+      233,
+      1122,
+      1004
+    ],
+    "foot": [
+      681.5,
+      978
+    ],
+    "sha256": "bcff2b023c131be4ab6907d9d993ba7ee5b4e4918673681effbab0dda2048be8"
+  },
+  "cushion": {
+    "surface_anchor": [
+      1028.5,
+      325.0
+    ],
+    "surface_height": 0.22,
+    "physical_size": [
+      4.0,
+      0.22,
+      2.6
+    ],
+    "visible_width": 4.2
+  }
+}

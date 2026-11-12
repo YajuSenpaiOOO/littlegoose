@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "name": "F7 or console restart after first clear cannot skip first boss dialogue",
+      "pass": true
+    },
+    {
+      "name": "earned boss retry bypasses ordinary replay",
+      "pass": true
+    },
+    {
+      "name": "ordinary retry resets yard then starts ordinary encounter",
+      "pass": true
+    },
+    {
+      "name": "console record starts ordinary encounter before arming its recorder",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

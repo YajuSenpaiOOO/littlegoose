@@ -1,0 +1,588 @@
+{
+  "cases": [
+    {
+      "direction": "up",
+      "frame": 0,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "up",
+      "frame": 1,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "up",
+      "frame": 2,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "up",
+      "frame": 3,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "left",
+      "frame": 0,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "left",
+      "frame": 1,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "left",
+      "frame": 2,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "left",
+      "frame": 3,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 0,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 1,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 2,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 3,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "right",
+      "frame": 0,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "right",
+      "frame": 1,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "right",
+      "frame": 2,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    },
+    {
+      "direction": "right",
+      "frame": 3,
+      "pixel": 0.00237388724035608,
+      "ratio": 1.0,
+      "render_facing": "down"
+    }
+  ],
+  "checks": [
+    {
+      "name": "preview accepted: up frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held up frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from up frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from up frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from up frame 0",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held up frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from up frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from up frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from up frame 1",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held up frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from up frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from up frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from up frame 2",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held up frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from up frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from up frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from up frame 3",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held left frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from left frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from left frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from left frame 0",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held left frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from left frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from left frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from left frame 1",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held left frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from left frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from left frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from left frame 2",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held left frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from left frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from left frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from left frame 3",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held down frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from down frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from down frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from down frame 0",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held down frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from down frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from down frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from down frame 1",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held down frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from down frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from down frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from down frame 2",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held down frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from down frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from down frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from down frame 3",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held right frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from right frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from right frame 0",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from right frame 0",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held right frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from right frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from right frame 1",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from right frame 1",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held right frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from right frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from right frame 2",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from right frame 2",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed front scale from held right frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.2 from right frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 0.7 from right frame 3",
+      "pass": true
+    },
+    {
+      "name": "fixed pose pixel at 2.2 from right frame 3",
+      "pass": true
+    },
+    {
+      "name": "neutral native front is frozen during intro",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "real Q starts while walking",
+      "pass": true
+    },
+    {
+      "name": "real Q uses same fixed front calibration",
+      "pass": true
+    },
+    {
+      "name": "reveal restores native hero and activates beam",
+      "pass": true
+    },
+    {
+      "name": "post intro native front matches preview scale",
+      "pass": true
+    },
+    {
+      "name": "cancel still consumes active cooldown",
+      "pass": true
+    }
+  ],
+  "expected_pixel": 0.00237388724035608,
+  "shrunken_cases": 0
+}

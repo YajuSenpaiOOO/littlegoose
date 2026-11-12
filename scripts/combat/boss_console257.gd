@@ -33,6 +33,10 @@ func commit226(restart: bool) -> void:
  var error=world.commit_progress257(draft,cat_hp.value,bat_hp.value,restart,draft_level257())
  if error!="":feedback.text=error
 func record226() -> void:
+ if world.has_method("start_progress_record338"):
+  var sample_error: String=world.start_progress_record338(draft,cat_hp.value,bat_hp.value,record_mode.get_item_text(record_mode.selected),draft_level257())
+  if sample_error!="": feedback.text=sample_error
+  return
  var error=world.commit_progress257(draft,cat_hp.value,bat_hp.value,true,draft_level257())
  if error!="":feedback.text=error;return
  world.recording226.begin(world,record_mode.get_item_text(record_mode.selected))

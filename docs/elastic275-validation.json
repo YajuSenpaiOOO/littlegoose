@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "name": "sticky sword and elastic projectile are mutually exclusive",
+      "pass": true
+    },
+    {
+      "name": "split and elastic fragments remain compatible",
+      "pass": true
+    },
+    {
+      "name": "collision redirects the original record node and art without emitting a new projectile",
+      "pass": true
+    },
+    {
+      "name": "heavy projectile retains full speed and stops piercing after rebound",
+      "pass": true
+    },
+    {
+      "name": "original target takes its normal hit before one redirect",
+      "pass": true
+    },
+    {
+      "name": "redirected projectile deals seventy percent and stops at the next target",
+      "pass": true
+    },
+    {
+      "name": "plane-style falling payload bounces from actual terrain using its original projectile",
+      "pass": true
+    },
+    {
+      "name": "floor bounce preserves speed and redirects out of the floor",
+      "pass": true
+    },
+    {
+      "name": "first contact can split while the original projectile redirects",
+      "pass": true
+    },
+    {
+      "name": "each split descendant starts with its own single bounce budget",
+      "pass": true
+    },
+    {
+      "name": "post-bounce contact cannot start a new split generation",
+      "pass": true
+    },
+    {
+      "name": "light stream sample reflects without replacement and retains a beam joint",
+      "pass": true
+    },
+    {
+      "name": "reflected light remains rendered as a continuous beam segment",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

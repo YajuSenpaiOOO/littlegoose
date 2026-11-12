@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "fragment immediately available without any Boss victory",
+      "pass": true
+    },
+    {
+      "name": "console validity no longer depends on acquisition state",
+      "pass": true
+    },
+    {
+      "name": "native console offers fragment row",
+      "pass": true
+    },
+    {
+      "name": "actual projectile update hits lone enemy and schedules return without another nearby target",
+      "pass": true
+    },
+    {
+      "name": "lone enemy reflects projectile away from contact",
+      "pass": true
+    },
+    {
+      "name": "actual native update creates a moving return segment",
+      "pass": true
+    },
+    {
+      "name": "return segment has visible gold tint and enlarged art",
+      "pass": true
+    },
+    {
+      "name": "return visibly travels while excluding original victim and further recursion",
+      "pass": true
+    },
+    {
+      "name": "testing build has no acquisition popup blocking repeat testing",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

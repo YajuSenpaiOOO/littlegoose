@@ -1,0 +1,59 @@
+{
+  "synthesis": "original deterministic additive/chirp/noise; seed287031",
+  "files": {
+    "switch": {
+      "seconds": 0.1,
+      "rate": 44100,
+      "peak": 0.2894583042286107,
+      "rms": 0.04966310659501584,
+      "first": 0.0,
+      "last": 6.38919009182434e-08,
+      "clipped": false
+    },
+    "burst": {
+      "seconds": 0.55,
+      "rate": 44100,
+      "peak": 0.4217738272451455,
+      "rms": 0.07774447067374309,
+      "first": 0.0,
+      "last": -9.554700732274582e-07,
+      "clipped": false
+    },
+    "bloom": {
+      "seconds": 1.85,
+      "rate": 44100,
+      "peak": 0.22876211086221332,
+      "rms": 0.03940738796986333,
+      "first": 0.0,
+      "last": 4.1253088435340664e-08,
+      "clipped": false
+    },
+    "hum": {
+      "seconds": 1.5,
+      "rate": 44100,
+      "peak": 0.03935624870196407,
+      "rms": 0.02440107616656597,
+      "first": 0.0,
+      "last": -1.4068918817488198e-06,
+      "clipped": false
+    },
+    "pulse": {
+      "seconds": 0.18,
+      "rate": 44100,
+      "peak": 0.19045519153253515,
+      "rms": 0.055781732472774175,
+      "first": 0.0,
+      "last": 6.3621719781364626e-06,
+      "clipped": false
+    },
+    "outro": {
+      "seconds": 0.65,
+      "rate": 44100,
+      "peak": 0.1914108617023359,
+      "rms": 0.04187934015094025,
+      "first": -0.0,
+      "last": -1.128276745319003e-07,
+      "clipped": false
+    }
+  }
+}

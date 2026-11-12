@@ -1,0 +1,216 @@
+{
+	"complete": true,
+	"conditions": {
+		"cannon_fixture": "castle only for visual comparison, cannons enabled for angular steering assertions",
+		"castle_hp": 1000000.0,
+		"clock": "unpaused scaled physics; Q transformation intro excluded",
+		"duration_seconds": 10.0,
+		"enemy_attacks": false,
+		"engine_scale": 2.0,
+		"hero_moment": false,
+		"hero_stationary": true,
+		"hitstop_and_paper_hit_art": false,
+		"not_survival_or_clear_time_test": true,
+		"physics_step": 0.0166666666666667,
+		"physics_ticks_per_second": 120,
+		"q_counts_per_sample": true,
+		"runtime": "woodland_world341.gd",
+		"seeds": [
+			34101
+		],
+		"static_real_castle": true,
+		"target": "central wall bay"
+	},
+	"failures": [],
+	"samples": [
+		{
+			"attack_cooldown": 0.34,
+			"beam_mean_ribbons": 193.584551148225,
+			"beam_peak_ribbons": 233,
+			"build": "light_snack_clone",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 1.1,
+			"charged_releases": 0,
+			"combined_dps": 7.13802353008645,
+			"damage": 71.380235300865,
+			"distance": 6.0,
+			"dps": 7.13802353008645,
+			"effective_levels_end": {
+				"forest_fireboy": 1,
+				"snack": 1
+			},
+			"five_second_damage": {
+				"0": 32.8489411815535,
+				"1": 38.5312941193115
+			},
+			"hits": 396,
+			"legacy_split_visual": true,
+			"levels": {
+				"flashlight": 1,
+				"forest_fireboy": 1,
+				"snack": 1
+			},
+			"mean_beam_build_us": 1958.23382045929,
+			"mean_shot_step_us": 3210.99001663894,
+			"planes_launched": 0,
+			"post4_dps": 7.57482352986689,
+			"q_activations": 1,
+			"q_enabled": true,
+			"release_ratios": [],
+			"secondary_cannons": false,
+			"seconds": 10.0000000000001,
+			"seed": 34101,
+			"slots": 5,
+			"sources": {
+				"beam": 64.3802353007486,
+				"weapon": 7.00000000011642
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 7.309
+		},
+		{
+			"attack_cooldown": 0.34,
+			"beam_mean_ribbons": 97.2045929018789,
+			"beam_peak_ribbons": 108,
+			"build": "light_snack",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 1.1,
+			"charged_releases": 0,
+			"combined_dps": 5.09858823586251,
+			"damage": 50.9858823586255,
+			"distance": 6.0,
+			"dps": 5.09858823586251,
+			"effective_levels_end": {
+				"snack": 1
+			},
+			"five_second_damage": {
+				"0": 23.5200000056066,
+				"1": 27.465882353019
+			},
+			"hits": 198,
+			"legacy_split_visual": true,
+			"levels": {
+				"flashlight": 1,
+				"snack": 1
+			},
+			"mean_beam_build_us": 1048.24008350731,
+			"mean_shot_step_us": 1784.8302828619,
+			"planes_launched": 0,
+			"post4_dps": 5.40117647079744,
+			"q_activations": 1,
+			"q_enabled": true,
+			"release_ratios": [],
+			"secondary_cannons": false,
+			"seconds": 10.0000000000001,
+			"seed": 34101,
+			"slots": 4,
+			"sources": {
+				"beam": 45.9858823586255,
+				"weapon": 5.0
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 6.593
+		},
+		{
+			"attack_cooldown": 0.34,
+			"beam_mean_ribbons": 43.231732776618,
+			"beam_peak_ribbons": 50,
+			"build": "light_snack_clone",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 1.1,
+			"charged_releases": 0,
+			"combined_dps": 7.12550588302542,
+			"damage": 71.2550588302547,
+			"distance": 6.0,
+			"dps": 7.12550588302542,
+			"effective_levels_end": {
+				"forest_fireboy": 1,
+				"snack": 1
+			},
+			"five_second_damage": {
+				"0": 32.8489411815535,
+				"1": 38.4061176487012
+			},
+			"hits": 395,
+			"legacy_split_visual": false,
+			"levels": {
+				"flashlight": 1,
+				"forest_fireboy": 1,
+				"snack": 1
+			},
+			"mean_beam_build_us": 887.812108559499,
+			"mean_shot_step_us": 3475.51247920133,
+			"planes_launched": 0,
+			"post4_dps": 7.55396078476517,
+			"q_activations": 1,
+			"q_enabled": true,
+			"release_ratios": [],
+			"secondary_cannons": false,
+			"seconds": 10.0000000000001,
+			"seed": 34101,
+			"slots": 5,
+			"sources": {
+				"beam": 64.2550588301383,
+				"weapon": 7.00000000011642
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 7.149
+		},
+		{
+			"attack_cooldown": 0.34,
+			"beam_mean_ribbons": 21.9561586638831,
+			"beam_peak_ribbons": 25,
+			"build": "light_snack",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 1.1,
+			"charged_releases": 0,
+			"combined_dps": 5.09858823586251,
+			"damage": 50.9858823586255,
+			"distance": 6.0,
+			"dps": 5.09858823586251,
+			"effective_levels_end": {
+				"snack": 1
+			},
+			"five_second_damage": {
+				"0": 23.5200000056066,
+				"1": 27.465882353019
+			},
+			"hits": 198,
+			"legacy_split_visual": false,
+			"levels": {
+				"flashlight": 1,
+				"snack": 1
+			},
+			"mean_beam_build_us": 462.045929018789,
+			"mean_shot_step_us": 1875.99001663894,
+			"planes_launched": 0,
+			"post4_dps": 5.40117647079744,
+			"q_activations": 1,
+			"q_enabled": true,
+			"release_ratios": [],
+			"secondary_cannons": false,
+			"seconds": 10.0000000000001,
+			"seed": 34101,
+			"slots": 4,
+			"sources": {
+				"beam": 45.9858823586255,
+				"weapon": 5.0
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 6.579
+		}
+	],
+	"schema": 1
+}

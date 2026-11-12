@@ -1,0 +1,117 @@
+{
+  "checks": [
+    {
+      "name": "hero and rest collision remain the tested 266 setup",
+      "pass": true
+    },
+    {
+      "name": "both fixed-circle fixtures complete all fifteen members",
+      "pass": true
+    },
+    {
+      "name": "first two batches and disabled baseline have no flank assignments",
+      "pass": true
+    },
+    {
+      "name": "six health, one damage, original hop speed and population caps retained",
+      "pass": true
+    },
+    {
+      "name": "real moving encounter performs flanks and forward entries",
+      "pass": true
+    },
+    {
+      "name": "at most two flankers and one attacking actor",
+      "pass": true
+    },
+    {
+      "name": "front-side approach converts into interception rather than only travelling to a waypoint",
+      "pass": true
+    },
+    {
+      "name": "flanking resolves rather than trapping actors in permanent detours",
+      "pass": true
+    },
+    {
+      "name": "committed flank target does not swivel when player reverses",
+      "pass": true
+    },
+    {
+      "name": "pause freezes tactical commitments",
+      "pass": true
+    },
+    {
+      "name": "actual hit cancels a flank and grants a reroute cooldown",
+      "pass": true
+    },
+    {
+      "name": "flanker cannot start an attack before leaving repositioning",
+      "pass": true
+    },
+    {
+      "name": "third batch uses a bounded stagger rather than simultaneous attacks",
+      "pass": true
+    },
+    {
+      "name": "player captures include tactical counters",
+      "pass": true
+    },
+    {
+      "name": "Boss companions retain original behaviour and cap",
+      "pass": true
+    },
+    {
+      "name": "replay restores three harmless playground actors",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "trials": [
+      {
+        "contact_checks": 1,
+        "early_unchanged": true,
+        "enabled": false,
+        "finished": true,
+        "kills": 15,
+        "max_attacks": 1,
+        "max_flankers": 0,
+        "max_live": 5,
+        "seconds": 32.9833333333327,
+        "stats_unchanged": true,
+        "tactics": {
+          "arrived": 0,
+          "assignments": 0,
+          "front_entries": 0,
+          "hit_breaks": 0,
+          "intercepts": 0,
+          "max_flankers": 0,
+          "staggered_attacks": 0,
+          "timeouts": 0
+        }
+      },
+      {
+        "contact_checks": 2,
+        "early_unchanged": true,
+        "enabled": true,
+        "finished": true,
+        "kills": 15,
+        "max_attacks": 1,
+        "max_flankers": 2,
+        "max_live": 5,
+        "seconds": 34.716666666666,
+        "stats_unchanged": true,
+        "tactics": {
+          "arrived": 7,
+          "assignments": 10,
+          "front_entries": 4,
+          "hit_breaks": 0,
+          "intercepts": 3,
+          "max_flankers": 2,
+          "staggered_attacks": 18,
+          "timeouts": 0
+        }
+      }
+    ]
+  },
+  "passed": true
+}

@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "name": "hero starts on native summit grass",
+      "pass": true
+    },
+    {
+      "name": "castle uses upper summit shelf",
+      "pass": true
+    },
+    {
+      "name": "no 3D floor, flying book or translating plinth",
+      "pass": true
+    },
+    {
+      "name": "castle enlarged to9.8m",
+      "pass": true
+    },
+    {
+      "name": "girl never slides: before",
+      "pass": true
+    },
+    {
+      "name": "finite poses: before",
+      "pass": true
+    },
+    {
+      "name": "girl never slides: scenery",
+      "pass": true
+    },
+    {
+      "name": "finite poses: scenery",
+      "pass": true
+    },
+    {
+      "name": "girl never slides: gate",
+      "pass": true
+    },
+    {
+      "name": "finite poses: gate",
+      "pass": true
+    },
+    {
+      "name": "open gate releases doorway collision",
+      "pass": true
+    },
+    {
+      "name": "girl never slides: emerging",
+      "pass": true
+    },
+    {
+      "name": "finite poses: emerging",
+      "pass": true
+    },
+    {
+      "name": "puppet travels out from behind castle",
+      "pass": true
+    },
+    {
+      "name": "entry follows summit ground, not underground emergence",
+      "pass": true
+    },
+    {
+      "name": "girl never slides: settled",
+      "pass": true
+    },
+    {
+      "name": "finite poses: settled",
+      "pass": true
+    },
+    {
+      "name": "settled door and wall footprints are solid",
+      "pass": true
+    },
+    {
+      "name": "native ray hits closed door",
+      "pass": true
+    },
+    {
+      "name": "native ray passes open doorway",
+      "pass": true
+    },
+    {
+      "name": "presentation returns controls",
+      "pass": true
+    },
+    {
+      "name": "replay hides puppet behind scene",
+      "pass": true
+    },
+    {
+      "name": "cancel restores input",
+      "pass": true
+    }
+  ],
+  "scope": "opening and gate entry only; no enemy AI/damage",
+  "summit": [
+    -73.9916687011719,
+    11.6723022460938,
+    -71.658332824707
+  ]
+}

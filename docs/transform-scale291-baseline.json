@@ -1,0 +1,252 @@
+{
+  "cases": [
+    {
+      "direction": "up",
+      "frame": 0,
+      "pixel": 0.00202020211145282,
+      "ratio": 0.851010139449499,
+      "render_facing": "up"
+    },
+    {
+      "direction": "up",
+      "frame": 1,
+      "pixel": 0.00144665455445647,
+      "ratio": 0.609403231064789,
+      "render_facing": "up"
+    },
+    {
+      "direction": "up",
+      "frame": 2,
+      "pixel": 0.00201257853768766,
+      "ratio": 0.847798709000926,
+      "render_facing": "up"
+    },
+    {
+      "direction": "up",
+      "frame": 3,
+      "pixel": 0.00144665455445647,
+      "ratio": 0.609403231064789,
+      "render_facing": "up"
+    },
+    {
+      "direction": "left",
+      "frame": 0,
+      "pixel": 0.00194410688709468,
+      "ratio": 0.818955026188632,
+      "render_facing": "left"
+    },
+    {
+      "direction": "left",
+      "frame": 1,
+      "pixel": 0.00145985395647585,
+      "ratio": 0.614963479165453,
+      "render_facing": "left"
+    },
+    {
+      "direction": "left",
+      "frame": 2,
+      "pixel": 0.00193704594857991,
+      "ratio": 0.815980605839286,
+      "render_facing": "left"
+    },
+    {
+      "direction": "left",
+      "frame": 3,
+      "pixel": 0.00145985395647585,
+      "ratio": 0.614963479165453,
+      "render_facing": "left"
+    },
+    {
+      "direction": "down",
+      "frame": 0,
+      "pixel": 0.00237388722598553,
+      "ratio": 0.999999993946403,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 1,
+      "pixel": 0.00237388722598553,
+      "ratio": 0.999999993946403,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 2,
+      "pixel": 0.00237388722598553,
+      "ratio": 0.999999993946403,
+      "render_facing": "down"
+    },
+    {
+      "direction": "down",
+      "frame": 3,
+      "pixel": 0.00237388722598553,
+      "ratio": 0.999999993946403,
+      "render_facing": "down"
+    },
+    {
+      "direction": "right",
+      "frame": 0,
+      "pixel": 0.00202275603078306,
+      "ratio": 0.852085977967363,
+      "render_facing": "right"
+    },
+    {
+      "direction": "right",
+      "frame": 1,
+      "pixel": 0.00146788987331092,
+      "ratio": 0.618348609132226,
+      "render_facing": "right"
+    },
+    {
+      "direction": "right",
+      "frame": 2,
+      "pixel": 0.00203045690432191,
+      "ratio": 0.855329970945604,
+      "render_facing": "right"
+    },
+    {
+      "direction": "right",
+      "frame": 3,
+      "pixel": 0.00146788987331092,
+      "ratio": 0.618348609132226,
+      "render_facing": "right"
+    }
+  ],
+  "checks": [
+    {
+      "name": "preview accepted: up frame 0",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 1",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 2",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: up frame 3",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 0",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 1",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 2",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: left frame 3",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 0",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 1",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 2",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: down frame 3",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 0",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 1",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 2",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "preview accepted: right frame 3",
+      "pass": true
+    },
+    {
+      "name": "cancel restores player control",
+      "pass": true
+    },
+    {
+      "name": "original intermittent shrink reproduced with held movement",
+      "pass": true
+    }
+  ],
+  "expected_pixel": 0.00237388724035608,
+  "shrunken_cases": 12
+}

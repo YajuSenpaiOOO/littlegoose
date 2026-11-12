@@ -1,0 +1,35 @@
+{
+  "source": "imagegen original exec-40a66852-b793-486f-9e57-28f554e9cded.png",
+  "reference": "paper_girl315/idle_pixel_v3.png",
+  "sha256": "f84293f3c58016f1db48988f85be6c31c5db65b7eae1e9d930ea1fc869edbcf8",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "alpha_threshold": 0.5,
+  "idle_visible_height": 288,
+  "height_relative_to_hero": 0.9,
+  "poses": [
+    "idle",
+    "cast",
+    "lean",
+    "extract",
+    "crease",
+    "press",
+    "raise_fold",
+    "point",
+    "happy",
+    "angry",
+    "sad",
+    "cry",
+    "panic",
+    "hang",
+    "hang_swing",
+    "blink"
+  ],
+  "notes": "Original transparent PNG preserved. Godot AtlasTexture only; shared scale, per-pose boot-center anchors. Frame 14 reserved swing variant, frame 15 reserved blink."
+}

@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "name": "fixed six-member roster begins with only two field actors",
+      "pass": true
+    },
+    {
+      "name": "first defeat enables entries without exceeding live cap",
+      "pass": true
+    },
+    {
+      "name": "cancelled arrival remains queued rather than counting as a defeat",
+      "pass": true
+    },
+    {
+      "name": "preview opens with two playing tuantuans and a locked passive boss",
+      "pass": true
+    },
+    {
+      "name": "passive boss cannot be attacked or attack during ordinary encounter",
+      "pass": true
+    },
+    {
+      "name": "ambient actors actually hop and play before combat",
+      "pass": true
+    },
+    {
+      "name": "playing actors remain harmless and untargetable",
+      "pass": true
+    },
+    {
+      "name": "locked boss interaction cannot bypass qualification",
+      "pass": true
+    },
+    {
+      "name": "E starts ordinary fight with the existing two actors",
+      "pass": true
+    },
+    {
+      "name": "starting combat does not replace or teleport ambient tuantuans",
+      "pass": true
+    },
+    {
+      "name": "incomplete roster cannot falsely clear or unlock boss",
+      "pass": true
+    },
+    {
+      "name": "pause freezes ordinary pacing and the goose speech bubble",
+      "pass": true
+    },
+    {
+      "name": "one real defeat advances roster but does not clear encounter",
+      "pass": true
+    },
+    {
+      "name": "first reinforcements use the real perimeter arrival states",
+      "pass": true
+    },
+    {
+      "name": "blocked entrance is replaced without granting free progression",
+      "pass": true
+    },
+    {
+      "name": "all six native defeats finish ordinary encounter and unlock boss",
+      "pass": true
+    },
+    {
+      "name": "live cap holds while all four reinforcements traverse actual routes",
+      "pass": true
+    },
+    {
+      "name": "last reinforcement announcement is spoken by the main black goose",
+      "pass": true
+    },
+    {
+      "name": "clear leaves breathing room, restores determination and does not auto-start boss",
+      "pass": true
+    },
+    {
+      "name": "preview clear does not accidentally issue old formal material rewards",
+      "pass": true
+    },
+    {
+      "name": "nearby E opens boss challenge dialogue without immediately fighting",
+      "pass": true
+    },
+    {
+      "name": "declining preserves qualification and free movement",
+      "pass": true
+    },
+    {
+      "name": "confirm starts unchanged boss fight with full determination",
+      "pass": true
+    },
+    {
+      "name": "boss failure retains qualification and offers direct retry",
+      "pass": true
+    },
+    {
+      "name": "boss retry skips ordinary encounter and preserves solo boss opening",
+      "pass": true
+    },
+    {
+      "name": "passive NPC is reclaimed before each boss retry",
+      "pass": true
+    },
+    {
+      "name": "boss victory leaves independent replay interaction",
+      "pass": true
+    },
+    {
+      "name": "F8 returns to playing opening while keeping earned qualification",
+      "pass": true
+    },
+    {
+      "name": "returning to ambient opening leaves exactly one boss actor",
+      "pass": true
+    },
+    {
+      "name": "ordinary failure offers its own retry",
+      "pass": true
+    },
+    {
+      "name": "ordinary retry resets six-member roster cleanly",
+      "pass": true
+    },
+    {
+      "name": "actual player defeat cannot unlock boss",
+      "pass": true
+    },
+    {
+      "name": "rest after failed ordinary fight restores the safe opening",
+      "pass": true
+    },
+    {
+      "name": "record distinguishes ordinary progression from formal save progress",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "entry_completions": 4,
+    "max_alive": 3,
+    "ordinary": {
+      "damage": 36.0,
+      "defeated": 6,
+      "final_called": true,
+      "replacement_entries": 1,
+      "reward": "boss_challenge",
+      "seconds": 11.2000000000001,
+      "spawned": 6,
+      "total": 6,
+      "victory": true
+    }
+  },
+  "passed": true
+}

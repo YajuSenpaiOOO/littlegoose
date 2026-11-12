@@ -1,0 +1,29 @@
+{
+  "file": "idle_front.png",
+  "source": "exec-5cc06c35-14a7-4ddc-a9b8-2b8c233bce55.png",
+  "size": [
+    1199,
+    1312
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha128_bounds": [
+    273,
+    60,
+    903,
+    1264
+  ],
+  "candidate_foot": [
+    588.0,
+    1264
+  ],
+  "sha256": "b70c53f7f5dd822ad1f9a8b7ea43ad90a2a6487c88dd97997a341ee31f7e4f8c",
+  "identity_reference": "res://assets/paper_portraits293/A_director.png",
+  "style_reference": "res://assets/hero_pixel/walk_source.png (center front idle)",
+  "approved": false,
+  "runtime_integrated": false,
+  "world_foot_calibrated": false
+}

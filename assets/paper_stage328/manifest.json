@@ -1,0 +1,17 @@
+{
+  "source": "original deterministic synthesis; no samples or speech",
+  "files": {
+    "mortar": {
+      "seconds": 0.4,
+      "rate": 44100,
+      "peak": 0.7279382210553998,
+      "rms": 0.16100407122237442
+    },
+    "meteor": {
+      "seconds": 0.62,
+      "rate": 44100,
+      "peak": 0.7096430773269184,
+      "rms": 0.13083548133324377
+    }
+  }
+}

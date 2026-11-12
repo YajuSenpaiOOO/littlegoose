@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "name": "no old 3D book/floor or sliding plinth",
+      "pass": true
+    },
+    {
+      "name": "coherent paper grip composition replaces separate operator",
+      "pass": true
+    },
+    {
+      "name": "operator paper body calibrated to ordinary paper height",
+      "pass": true
+    },
+    {
+      "name": "castle never flips from ground: falling",
+      "pass": true
+    },
+    {
+      "name": "girl remains fixed: falling",
+      "pass": true
+    },
+    {
+      "name": "castle never flips from ground: castle-drop",
+      "pass": true
+    },
+    {
+      "name": "girl remains fixed: castle-drop",
+      "pass": true
+    },
+    {
+      "name": "castle drops vertically toward fixed slot",
+      "pass": true
+    },
+    {
+      "name": "castle never flips from ground: wing-drop",
+      "pass": true
+    },
+    {
+      "name": "girl remains fixed: wing-drop",
+      "pass": true
+    },
+    {
+      "name": "castle never flips from ground: landed",
+      "pass": true
+    },
+    {
+      "name": "girl remains fixed: landed",
+      "pass": true
+    },
+    {
+      "name": "castle never flips from ground: operator",
+      "pass": true
+    },
+    {
+      "name": "girl remains fixed: operator",
+      "pass": true
+    },
+    {
+      "name": "castle settles at native summit floor",
+      "pass": true
+    },
+    {
+      "name": "both scenery flats settle at local ground",
+      "pass": true
+    },
+    {
+      "name": "tall unified puppet comes around castle without passing low arch",
+      "pass": true
+    },
+    {
+      "name": "opening restores controls",
+      "pass": true
+    },
+    {
+      "name": "replay clears previous display",
+      "pass": true
+    },
+    {
+      "name": "cancel restores controls",
+      "pass": true
+    }
+  ],
+  "scope": "presentation only, no new boss AI"
+}

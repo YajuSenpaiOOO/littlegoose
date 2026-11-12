@@ -1,0 +1,90 @@
+{
+  "castle": {
+    "texture": "res://assets/paper_stage300/castle.png",
+    "size": [
+      1900,
+      828
+    ],
+    "bounds": [
+      34,
+      9,
+      1858,
+      822
+    ],
+    "foot": [
+      946.0,
+      822
+    ],
+    "span": [
+      1824,
+      813
+    ],
+    "sha256": "e327112d11b799f863c5c54795df80776ffd71c3411436f13b652eabba437654"
+  },
+  "command": {
+    "texture": "res://assets/paper_stage300/command.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      113,
+      117,
+      973,
+      1388
+    ],
+    "foot": [
+      543.0,
+      1388
+    ],
+    "span": [
+      860,
+      1271
+    ],
+    "sha256": "3736101aa8d67073c3cb62f169b0968fbf6420305b66a855b1950102bd73a71d"
+  },
+  "fold": {
+    "texture": "res://assets/paper_stage300/fold.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      114,
+      120,
+      972,
+      1389
+    ],
+    "foot": [
+      543.0,
+      1389
+    ],
+    "span": [
+      858,
+      1269
+    ],
+    "sha256": "6c364caa0da7ca03cbc2afbb95a3538a8fe382fa6b7f67353539dcea84b37d19"
+  },
+  "lean": {
+    "texture": "res://assets/paper_stage300/lean.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      112,
+      107,
+      971,
+      1391
+    ],
+    "foot": [
+      541.5,
+      1391
+    ],
+    "span": [
+      859,
+      1284
+    ],
+    "sha256": "0c15908acba77f95336fa6eb9a9e51f76bdbd5bcce5c56c74b5df9e0a7427f0b"
+  }
+}

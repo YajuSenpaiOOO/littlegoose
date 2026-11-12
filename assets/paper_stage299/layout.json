@@ -1,0 +1,22 @@
+{
+  "texture": "res://assets/paper_stage299/operator_dinosaur.png",
+  "size": [
+    1160,
+    1355
+  ],
+  "bounds": [
+    97,
+    41,
+    1012,
+    1297
+  ],
+  "foot": [
+    554.5,
+    1297
+  ],
+  "span": [
+    915,
+    1256
+  ],
+  "sha256": "4be05c605d91231c55cd84908a72c5f12afcd26cd808caf8abc2b2308dfaaa2f"
+}

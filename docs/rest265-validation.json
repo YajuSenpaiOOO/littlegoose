@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "three actors open without timed reinforcements",
+      "pass": true
+    },
+    {
+      "name": "first low-count gate queues three rather than one replacement",
+      "pass": true
+    },
+    {
+      "name": "early wave stops admitting at four live actors",
+      "pass": true
+    },
+    {
+      "name": "next batch waits for all prior arrivals to land",
+      "pass": true
+    },
+    {
+      "name": "second batch grows to four",
+      "pass": true
+    },
+    {
+      "name": "final batch grows to five with bounded climax cap",
+      "pass": true
+    },
+    {
+      "name": "replacement never repeats final announcement or counts as a defeat",
+      "pass": true
+    },
+    {
+      "name": "scene opens with three harmless playing actors",
+      "pass": true
+    },
+    {
+      "name": "sleeping boss waits outside ordinary combat field",
+      "pass": true
+    },
+    {
+      "name": "new sleep artwork is displayed and cannot be damaged",
+      "pass": true
+    },
+    {
+      "name": "cushion receives light and boss keeps only shared silhouette shadow",
+      "pass": true
+    },
+    {
+      "name": "rest spot is reachable from the field",
+      "pass": true
+    },
+    {
+      "name": "resting boss physical footprint blocks real bodies from two sides",
+      "pass": true
+    },
+    {
+      "name": "sleeping boss cannot be challenged early",
+      "pass": true
+    },
+    {
+      "name": "speech contains no speaker-name prefix",
+      "pass": true
+    },
+    {
+      "name": "bubble tail tip lands on the interpolated goose head",
+      "pass": true
+    },
+    {
+      "name": "tail follows speaker motion without fixed-corner lag",
+      "pass": true
+    },
+    {
+      "name": "ordinary encounter starts with all three original actors",
+      "pass": true
+    },
+    {
+      "name": "first batch can hold four live actors without dumping entire queue",
+      "pass": true
+    },
+    {
+      "name": "all fifteen finish across four batches with maximum five live",
+      "pass": true
+    },
+    {
+      "name": "clear wakes boss at its cushion rather than moving it into the field",
+      "pass": true
+    },
+    {
+      "name": "waking animation finishes before challenge dialogue is available",
+      "pass": true
+    },
+    {
+      "name": "awake boss offers independent dialogue with normal species appearance",
+      "pass": true
+    },
+    {
+      "name": "challenge reconstructs unchanged combat boss in its arena",
+      "pass": true
+    },
+    {
+      "name": "boss failure returns NPC to cushion and preserves retry qualification",
+      "pass": true
+    },
+    {
+      "name": "ordinary replay keeps boss away from the combat field",
+      "pass": true
+    },
+    {
+      "name": "replays retain exactly one boss and one cushion",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "max_alive": 5,
+    "ordinary": {
+      "cap": 5,
+      "damage": 90.0,
+      "defeated": 15,
+      "final_called": true,
+      "pending": 0,
+      "reinforcement_batches": [
+        3,
+        4,
+        5
+      ],
+      "replacement_entries": 0,
+      "reward": "boss_challenge",
+      "seconds": 20.9166666666668,
+      "spawned": 15,
+      "total": 15,
+      "victory": true,
+      "wave": 3
+    },
+    "rest_at": [
+      -52.2416687011719,
+      -52.408332824707
+    ]
+  },
+  "passed": true
+}

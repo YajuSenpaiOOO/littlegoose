@@ -1,0 +1,73 @@
+{
+  "A_director": {
+    "size": [
+      1024,
+      1536
+    ],
+    "original_mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha128_bounds": [
+      226,
+      5,
+      788,
+      1528
+    ],
+    "alpha_zero_pixels": 1069390,
+    "alpha_partial_pixels": 503474,
+    "sha256": "fa029ea074e3fc2a4dab3ee6d9b383d5fffc8a7458f87712169c98fb0ab00c7a",
+    "selected": true,
+    "runtime_integrated": false,
+    "visual_note": "Full illustrated portrait; broad surrounding colored vignette remains visible. Not yet a clean character-only cutout.",
+    "approval_scope": "User selected character direction for paper boss; gameplay sprite derived separately."
+  },
+  "B_shy": {
+    "size": [
+      1024,
+      1536
+    ],
+    "original_mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha128_bounds": [
+      226,
+      6,
+      759,
+      1530
+    ],
+    "alpha_zero_pixels": 1081789,
+    "alpha_partial_pixels": 491075,
+    "sha256": "8d3b0df850b17ce1bb5c45bd90bb8d4651663b6b435f07f99eb6336adf0d1ad4",
+    "selected": false,
+    "runtime_integrated": false,
+    "visual_note": "Full illustrated portrait; broad surrounding colored vignette remains visible. Not yet a clean character-only cutout.",
+    "reserved_for_future_character": true
+  },
+  "C_inventor": {
+    "size": [
+      1024,
+      1536
+    ],
+    "original_mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha128_bounds": [
+      171,
+      5,
+      880,
+      1533
+    ],
+    "alpha_zero_pixels": 946998,
+    "alpha_partial_pixels": 625866,
+    "sha256": "4505890bd2996b4ddba7dc6d2861f2fea4d7d4437f68583efb66445f336a69ec",
+    "selected": false,
+    "runtime_integrated": false,
+    "visual_note": "Full illustrated portrait; broad surrounding colored vignette remains visible. Not yet a clean character-only cutout."
+  }
+}

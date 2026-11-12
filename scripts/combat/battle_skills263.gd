@@ -39,6 +39,7 @@ func build_chains110() -> void:
     points=PackedVector2Array()
    if points.is_empty() or points[-1].distance_squared_to(point)>.01:points.append(point)
    previous=shot
+  if front.has("stream_joint275") and not points.is_empty():points.insert(0,screen110(front.stream_joint275))
   if points.size()==1:points.insert(0,points[0]-battle.screen_direction(front.node.position,front.velocity.normalized())*10.*pixel)
   if points.size()>1:chains110.append({"points":points,"heavy":front.stream_heavy110,"pixel":pixel})
  build_us263=Time.get_ticks_usec()-started

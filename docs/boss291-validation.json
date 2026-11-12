@@ -1,0 +1,200 @@
+{
+  "checks": [
+    {
+      "name": "sleep uses new closed eyelids and glass body",
+      "pass": true
+    },
+    {
+      "name": "sleep keeps existing three meter footprint",
+      "pass": true
+    },
+    {
+      "name": "sleep retains cushion and solid footprint",
+      "pass": true
+    },
+    {
+      "name": "phase rest 0.20 selects idle",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: idle",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: idle",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: idle",
+      "pass": true
+    },
+    {
+      "name": "phase angry 0.20 selects charge",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: charge",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: charge",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: charge",
+      "pass": true
+    },
+    {
+      "name": "phase squat 0.30 selects charge",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: charge",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: charge",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: charge",
+      "pass": true
+    },
+    {
+      "name": "phase flight 0.20 selects airborne",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: airborne",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: airborne",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: airborne",
+      "pass": true
+    },
+    {
+      "name": "phase rebound 0.02 selects landing",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: landing",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: landing",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: landing",
+      "pass": true
+    },
+    {
+      "name": "phase flat 0.04 selects landing",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: landing",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: landing",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: landing",
+      "pass": true
+    },
+    {
+      "name": "phase flat 0.40 selects dizzy",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: dizzy",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: dizzy",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: dizzy",
+      "pass": true
+    },
+    {
+      "name": "phase flat 2.30 selects idle",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: idle",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: idle",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: idle",
+      "pass": true
+    },
+    {
+      "name": "phase bumper 0.10 selects dizzy",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: dizzy",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: dizzy",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: dizzy",
+      "pass": true
+    },
+    {
+      "name": "phase deflected 0.05 selects hit",
+      "pass": true
+    },
+    {
+      "name": "sprite and shader agree: hit",
+      "pass": true
+    },
+    {
+      "name": "sprite/shader foot pivot agrees: hit",
+      "pass": true
+    },
+    {
+      "name": "native visual/collider/HP preserved: hit",
+      "pass": true
+    },
+    {
+      "name": "F11 comparison restores 290 single skin",
+      "pass": true
+    },
+    {
+      "name": "F10 comparison restores old species art",
+      "pass": true
+    },
+    {
+      "name": "native damage chooses authored recoil",
+      "pass": true
+    },
+    {
+      "name": "defeat uses exhausted body without reverting to old art",
+      "pass": true
+    },
+    {
+      "name": "native ten second bounce cycle remains live",
+      "pass": true
+    },
+    {
+      "name": "shared native ground shadow retained",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "name": "two rollers and two ordinary actors",
+      "pass": true
+    },
+    {
+      "name": "real actor contact bumps ordinary and reflects roller",
+      "pass": true
+    },
+    {
+      "name": "peer collision does not deal enemy health damage",
+      "pass": true
+    },
+    {
+      "name": "same pair contact is debounced",
+      "pass": true
+    },
+    {
+      "name": "ordinary knockback actually moves through native physics",
+      "pass": true
+    },
+    {
+      "name": "pause freezes collision stun",
+      "pass": true
+    },
+    {
+      "name": "native opposing rollers stop and both become dizzy",
+      "pass": true
+    },
+    {
+      "name": "head-on rollers physically separate",
+      "pass": true
+    },
+    {
+      "name": "perpendicular rolling contact redirects both without head-on stun",
+      "pass": true
+    },
+    {
+      "name": "both rolling directions change on glancing impact",
+      "pass": true
+    },
+    {
+      "name": "peer bounces are recorded separately from scenery",
+      "pass": true
+    },
+    {
+      "name": "capture distinguishes mixed trial and collision types",
+      "pass": true
+    },
+    {
+      "name": "four real defeats finish the mixed trial",
+      "pass": true
+    },
+    {
+      "name": "retry restores exactly four actors and clears pair state",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

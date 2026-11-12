@@ -1,0 +1,30 @@
+{
+  "stand_closed": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      177,
+      97,
+      997,
+      1230
+    ],
+    "sha256": "16524c599b99cda0c6b79b83e4ad7ac38b5a1fb4d8234681284d8363a03a48c0",
+    "approved": false
+  },
+  "raise_open": {
+    "size": [
+      1173,
+      1341
+    ],
+    "alpha128_bounds": [
+      177,
+      99,
+      990,
+      1230
+    ],
+    "sha256": "8cd51b4ef8cedf955a56c8230c1c7d5de9557a3484b6349fbff4ee7007dd1e88",
+    "approved": false
+  }
+}

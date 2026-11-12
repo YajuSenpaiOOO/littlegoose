@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "name": "fire uses horizontal locked direction",
+      "pass": true
+    },
+    {
+      "name": "fire plane width is world vertical",
+      "pass": true
+    },
+    {
+      "name": "upper paper flies up and down rapidly",
+      "pass": true
+    },
+    {
+      "name": "driven weight responds through spring and inertia",
+      "pass": true
+    },
+    {
+      "name": "fast low downswing deals actual monster damage",
+      "pass": true
+    },
+    {
+      "name": "pause freezes driven monster",
+      "pass": true
+    },
+    {
+      "name": "knight stays planted while operator stretches line",
+      "pass": true
+    },
+    {
+      "name": "stored spring energy releases fast lunge",
+      "pass": true
+    },
+    {
+      "name": "uncontrolled return swing remains dangerous",
+      "pass": true
+    },
+    {
+      "name": "actual hit applies long knockback and lift",
+      "pass": true
+    },
+    {
+      "name": "launch really leaves native ground contact",
+      "pass": true
+    },
+    {
+      "name": "ringing knight does not retarget player",
+      "pass": true
+    },
+    {
+      "name": "dangerous swing can be parried",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits dinosaur",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits monster",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits knight",
+      "pass": true
+    },
+    {
+      "name": "knight follows player during charge",
+      "pass": true
+    },
+    {
+      "name": "last charge beat gives fixed dodge direction",
+      "pass": true
+    },
+    {
+      "name": "release reach adapts to moving target distance",
+      "pass": true
+    },
+    {
+      "name": "monster pursues player while suspended",
+      "pass": true
+    },
+    {
+      "name": "fast downswing commits instead of homing",
+      "pass": true
+    },
+    {
+      "name": "spraying dinosaur chases lateral alignment",
+      "pass": true
+    },
+    {
+      "name": "tracking retains upright actor and fire planes",
+      "pass": true
+    },
+    {
+      "name": "upper paper cycles authored drift frames",
+      "pass": true
+    },
+    {
+      "name": "final brace and operator pose read without ground cue",
+      "pass": true
+    },
+    {
+      "name": "line endpoint follows the posed paper anchor",
+      "pass": true
+    },
+    {
+      "name": "ground cue remains available for comparison",
+      "pass": true
+    },
+    {
+      "name": "real heavy parry blocks damage and clears per-hit context",
+      "pass": true
+    },
+    {
+      "name": "heavy parry schedules stronger stop, zoom and slow motion",
+      "pass": true
+    },
+    {
+      "name": "restarting clears heavy feedback",
+      "pass": true
+    }
+  ]
+}

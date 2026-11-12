@@ -1,0 +1,230 @@
+[
+  {
+    "colliders": [],
+    "delta": -0.00471440363617148,
+    "height": 2.10179034323664,
+    "nearest_offset": [
+      -3.0,
+      -9.0
+    ],
+    "offset": [
+      -3.0,
+      -9.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.001833629590692,
+    "height": 2.10833837646351,
+    "nearest_offset": [
+      0.0,
+      -9.0
+    ],
+    "offset": [
+      0.0,
+      -9.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [
+      "@StaticBody3D@4515"
+    ],
+    "delta": 0.0337949040549574,
+    "height": 2.14029965092777,
+    "nearest_offset": [
+      3.0,
+      -9.0
+    ],
+    "offset": [
+      3.0,
+      -9.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [
+      "@StaticBody3D@4515"
+    ],
+    "delta": 0.107696338134701,
+    "height": 2.21420108500752,
+    "nearest_offset": [
+      5.25,
+      -9.75
+    ],
+    "offset": [
+      5.0,
+      -9.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": -0.00522481788357254,
+    "height": 2.10127992898924,
+    "nearest_offset": [
+      -3.0,
+      -10.5
+    ],
+    "offset": [
+      -3.0,
+      -10.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.00303806984447874,
+    "height": 2.10954281671729,
+    "nearest_offset": [
+      0.0,
+      -10.5
+    ],
+    "offset": [
+      0.0,
+      -10.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.035616992841824,
+    "height": 2.14212173971464,
+    "nearest_offset": [
+      3.0,
+      -10.5
+    ],
+    "offset": [
+      3.0,
+      -10.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.0844273139518918,
+    "height": 2.19093206082471,
+    "nearest_offset": [
+      5.25,
+      -10.5
+    ],
+    "offset": [
+      5.0,
+      -10.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": -0.00578776160546113,
+    "height": 2.10071698526735,
+    "nearest_offset": [
+      -3.0,
+      -12.0
+    ],
+    "offset": [
+      -3.0,
+      -12.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": -0.00116019020788372,
+    "height": 2.10534455666493,
+    "nearest_offset": [
+      0.0,
+      -12.0
+    ],
+    "offset": [
+      0.0,
+      -12.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.0170812993892469,
+    "height": 2.12358604626206,
+    "nearest_offset": [
+      3.0,
+      -12.0
+    ],
+    "offset": [
+      3.0,
+      -12.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.0444045614713104,
+    "height": 2.15090930834413,
+    "nearest_offset": [
+      5.25,
+      -12.0
+    ],
+    "offset": [
+      5.0,
+      -12.0
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": -0.00619950887630694,
+    "height": 2.10030523799651,
+    "nearest_offset": [
+      -3.0,
+      -13.5
+    ],
+    "offset": [
+      -3.0,
+      -13.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": -0.00414283713325858,
+    "height": 2.10236190973956,
+    "nearest_offset": [
+      0.0,
+      -13.5
+    ],
+    "offset": [
+      0.0,
+      -13.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.00351940566906706,
+    "height": 2.11002415254188,
+    "nearest_offset": [
+      3.0,
+      -13.5
+    ],
+    "offset": [
+      3.0,
+      -13.5
+    ],
+    "path_end_distance": 0.0
+  },
+  {
+    "colliders": [],
+    "delta": 0.0129949131514877,
+    "height": 2.1194996600243,
+    "nearest_offset": [
+      5.25,
+      -13.5
+    ],
+    "offset": [
+      5.0,
+      -13.5
+    ],
+    "path_end_distance": 0.0
+  }
+]

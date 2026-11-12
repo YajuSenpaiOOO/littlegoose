@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "name": "old book, floor and moving plinth remain absent",
+      "pass": true
+    },
+    {
+      "name": "castle has enlarged real entry artwork",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: lean",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: lean",
+      "pass": true
+    },
+    {
+      "name": "authored frame selected: lean",
+      "pass": true
+    },
+    {
+      "name": "constant actor height: lean",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: fold",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: fold",
+      "pass": true
+    },
+    {
+      "name": "authored frame selected: fold",
+      "pass": true
+    },
+    {
+      "name": "constant actor height: fold",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: command",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: command",
+      "pass": true
+    },
+    {
+      "name": "authored frame selected: command",
+      "pass": true
+    },
+    {
+      "name": "constant actor height: command",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: entry",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: entry",
+      "pass": true
+    },
+    {
+      "name": "gate opens before entry",
+      "pass": true
+    },
+    {
+      "name": "puppet starts behind centre gate, not on flank",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: outside",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: outside",
+      "pass": true
+    },
+    {
+      "name": "puppet travels into front through centre",
+      "pass": true
+    },
+    {
+      "name": "fixed balcony position: settled",
+      "pass": true
+    },
+    {
+      "name": "actor supported and visible: settled",
+      "pass": true
+    },
+    {
+      "name": "gate closes after operator clears entry",
+      "pass": true
+    },
+    {
+      "name": "closed gate has real blocker",
+      "pass": true
+    },
+    {
+      "name": "open gate clears real blocker",
+      "pass": true
+    },
+    {
+      "name": "entry completes and restores control",
+      "pass": true
+    },
+    {
+      "name": "post-intro idle loop keeps folding",
+      "pass": true
+    },
+    {
+      "name": "post-intro idle loop signals troops",
+      "pass": true
+    },
+    {
+      "name": "replay resets actor/stage",
+      "pass": true
+    },
+    {
+      "name": "cancel restores controls",
+      "pass": true
+    }
+  ],
+  "scope": "balcony keyframes and synchronized gate entry; not full boss AI"
+}

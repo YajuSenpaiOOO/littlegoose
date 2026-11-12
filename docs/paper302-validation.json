@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "name": "isolated reward-free paper combat",
+      "pass": true
+    },
+    {
+      "name": "hero192 geometry retained",
+      "pass": true
+    },
+    {
+      "name": "native weapon target registered",
+      "pass": true
+    },
+    {
+      "name": "ordinary flying paper operator with attached thread",
+      "pass": true
+    },
+    {
+      "name": "card and operator material states independent",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: knight",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: knight",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: knight",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: knight",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: knight",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: knight",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: knight",
+      "pass": true
+    },
+    {
+      "name": "telegraph locks rather than tracks: monster",
+      "pass": true
+    },
+    {
+      "name": "readable ground cue: monster",
+      "pass": true
+    },
+    {
+      "name": "pause freezes: monster",
+      "pass": true
+    },
+    {
+      "name": "attack damages player: monster",
+      "pass": true
+    },
+    {
+      "name": "single contact cannot hit twice: monster",
+      "pass": true
+    },
+    {
+      "name": "perfect parry cancels attack: monster",
+      "pass": true
+    },
+    {
+      "name": "native dodge invulnerability protects: monster",
+      "pass": true
+    },
+    {
+      "name": "native fire emits projectile",
+      "pass": true
+    },
+    {
+      "name": "native fired projectile hits hanging card",
+      "pass": true
+    },
+    {
+      "name": "shooting destroys card and cancels target",
+      "pass": true
+    },
+    {
+      "name": "restart resets six-card test",
+      "pass": true
+    },
+    {
+      "name": "scheduler brings a second card",
+      "pass": true
+    },
+    {
+      "name": "scheduler caps simultaneous cards at two",
+      "pass": true
+    },
+    {
+      "name": "mixed cards retain separate footprints",
+      "pass": true
+    },
+    {
+      "name": "native scenery blocks card attack damage",
+      "pass": true
+    },
+    {
+      "name": "six defeated cards finish without reward or extra wave",
+      "pass": true
+    },
+    {
+      "name": "finish restores controls",
+      "pass": true
+    },
+    {
+      "name": "card and operator stay upright",
+      "pass": true
+    },
+    {
+      "name": "resting card visibly clears ground",
+      "pass": true
+    },
+    {
+      "name": "source aspect and authored size retained",
+      "pass": true
+    },
+    {
+      "name": "accelerating support makes card lag behind",
+      "pass": true
+    },
+    {
+      "name": "shot impulse causes directional pendulum swing",
+      "pass": true
+    },
+    {
+      "name": "rope stays taut at actual card tab",
+      "pass": true
+    },
+    {
+      "name": "hit capsule follows actual swing and lean",
+      "pass": true
+    },
+    {
+      "name": "attack footprint follows swinging card",
+      "pass": true
+    },
+    {
+      "name": "damping settles accumulated swing",
+      "pass": true
+    },
+    {
+      "name": "strong impulses and long frames remain bounded",
+      "pass": true
+    },
+    {
+      "name": "parry gives a larger swing and cancels attack",
+      "pass": true
+    },
+    {
+      "name": "pause freezes pendulum state",
+      "pass": true
+    },
+    {
+      "name": "time-of-day lighting does not tilt actors",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "comparison": "front/behind/swing snapshots require visual review; no global prop migration",
+    "pendulum_12000_steps_usec": 10768,
+    "pendulum_substeps_per_second_per_actor": 120
+  },
+  "scope": "hanging card attacks, actual projectiles, damage, parry, pause, reset; no full boss"
+}

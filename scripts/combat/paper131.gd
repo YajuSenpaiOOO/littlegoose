@@ -101,7 +101,7 @@ func _physics_process(delta: float) -> void:
   if _try_parry_attack(before): _render_legacy(paper_lift129);return
   var crossed: float=battle.aim_model.sweep_circle(Vector2(before.x,before.z),Vector2(position.x,position.z),player,.75)
   if crossed<INF and paper_lift129<.7 and absf(position.y-battle.hero.position.y)<.65:
-   attack_connected=true;battle.hurt_player(10.,at)
+   attack_connected=true;paper_contact131(at)
  _render_legacy(paper_lift129)
 
 
@@ -128,3 +128,6 @@ func scan_air131() -> void:
  for i in range(battle.shots.size()-1,begin-1,-1):
   var shot: Dictionary=battle.shots[i]
   if air_threat131(shot.node.position,shot.velocity): return
+
+func paper_contact131(at: Vector2) -> void:
+ battle.hurt_player(10.,at)

@@ -1,0 +1,15 @@
+{
+	"complete": true,
+	"elite_entries": [
+		"dinosaur",
+		"knight",
+		"monster",
+		"dinosaur",
+		"knight"
+	],
+	"elite_total": 5,
+	"failures": [],
+	"normal_total": 45,
+	"peak_real_dives": 3,
+	"peak_real_population": 10
+}

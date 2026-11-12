@@ -1,0 +1,73 @@
+{
+  "checks": [
+    {
+      "name": "fragment locked before first boss victory",
+      "pass": true
+    },
+    {
+      "name": "fragment costs one slot and fits an initial four-slot build",
+      "pass": true
+    },
+    {
+      "name": "fragment has only one valid level",
+      "pass": true
+    },
+    {
+      "name": "native console contains actual fragment row",
+      "pass": true
+    },
+    {
+      "name": "native ray finds first enemy",
+      "pass": true
+    },
+    {
+      "name": "original damage remains one and schedules exactly one rebound",
+      "pass": true
+    },
+    {
+      "name": "original piercing shot spends its rebound allowance once",
+      "pass": true
+    },
+    {
+      "name": "rebound physically excludes original target",
+      "pass": true
+    },
+    {
+      "name": "native rebound hits another enemy at seventy percent damage",
+      "pass": true
+    },
+    {
+      "name": "rebound stops after one hop without recursively hitting a third enemy",
+      "pass": true
+    },
+    {
+      "name": "native ray finds a real static obstacle",
+      "pass": true
+    },
+    {
+      "name": "wall contact creates a reflected trajectory",
+      "pass": true
+    },
+    {
+      "name": "flashlight stream does not branch into bounce shots",
+      "pass": true
+    },
+    {
+      "name": "split descendants cannot start rebound chains",
+      "pass": true
+    },
+    {
+      "name": "real boss victory grants reward and shows acquisition dialog",
+      "pass": true
+    },
+    {
+      "name": "reward is persisted in isolated preview reward storage",
+      "pass": true
+    },
+    {
+      "name": "repeat victory does not grant another copy or popup",
+      "pass": true
+    }
+  ],
+  "passed": true
+}

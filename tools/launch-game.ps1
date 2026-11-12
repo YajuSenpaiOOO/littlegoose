@@ -1,5 +1,5 @@
 ﻿param(
-    [ValidateSet('menu','latest','main','spider','forest204','transport205','transport206','transport207','boss212','cat216','pig219','boss220','boss221','boss222','boss223','boss224','boss225','boss226','boss227','boss228','boss229','boss230','boss231','boss232','boss233','boss234','music235','music236','music237','music238','music239','music240','music241','music242','music243','music244','relay245','relay246','boss247','boss248','boss249','boss250','boss251','lighting252','lighting253','lighting254','lighting255','boss256','boss257','boss258','boss259','boss260','boss261','boss262','history','list')]
+    [ValidateSet('menu','latest','main','spider','forest204','transport205','transport206','transport207','boss212','cat216','pig219','boss220','boss221','boss222','boss223','boss224','boss225','boss226','boss227','boss228','boss229','boss230','boss231','boss232','boss233','boss234','music235','music236','music237','music238','music239','music240','music241','music242','music243','music244','relay245','relay246','boss247','boss248','boss249','boss250','boss251','lighting252','lighting253','lighting254','lighting255','boss256','boss257','boss258','boss259','boss260','boss261','boss262','boss263','encounter264','rest265','rest266','flank267','flower268','roller269','composite270','mixed271','batches272','ball273','ball274','elastic275','ball276','skill288','skin290','combat291','stage297','stage298','stage299','stage300','cards301','cards302','cards303','cards304','cards305','cards306','cards307','cards308','cards309','cards310','cards311','cards312','stage313','boss314','paper347','paper348','paper349','history','list')]
     [string]$Mode = 'menu'
 )
 # Keep UTF-8 BOM: this file is loaded by Windows PowerShell 5.1 via the CMD launcher.
@@ -8,9 +8,49 @@ $workspace = Split-Path -Parent $PSScriptRoot
 $project = $workspace
 $engine = if ($env:GODOT_EXE) { $env:GODOT_EXE } else { 'D:\work\Agent\Godot_v4.7.2-stable_win64\Godot_v4.7.2-stable_win64.exe' }
 $history = Join-Path $PSScriptRoot 'preview_history'
+$legacyHistory = Join-Path (Split-Path -Parent $project) 'tools\preview_history'
+if (-not (Test-Path -LiteralPath $history) -and (Test-Path -LiteralPath $legacyHistory)) { $history = $legacyHistory }
 # Update this single table when a new working preview replaces the current one.
 $entries = @(
-    @{Key='1'; Mode='latest'; Label='最新开发预览：263（连续光线 / 红灯预警）'; Scene='res://scenes/world/world263.tscn'; Extra=@()},
+    @{Key='1'; Mode='latest'; Label='最新开发预览：349（纸群飞入 / 主动俯冲）'; Scene='res://scenes/world/world349.tscn'; Extra=@()},
+    @{Key='92'; Mode='paper349'; Label='纸群飞入 / 主动俯冲：349'; Scene='res://scenes/world/world349.tscn'; Extra=@()},
+    @{Key='91'; Mode='paper348'; Label='纸群割草试演：348'; Scene='res://scenes/world/world348.tscn'; Extra=@()},
+    @{Key='90'; Mode='paper347'; Label='纸怪连续遭遇：347'; Scene='res://scenes/world/world347.tscn'; Extra=@()},
+    @{Key='89'; Mode='boss314'; Label='城防弹幕纸剧场：346'; Scene='res://scenes/world/world314.tscn'; Extra=@()},
+    @{Key='88'; Mode='stage313'; Label='城堡 C / 妹妹露台试摆：313'; Scene='res://scenes/world/world313.tscn'; Extra=@()},
+    @{Key='87'; Mode='cards312'; Label='骑士牵引 / 冲击反馈：312'; Scene='res://scenes/world/world312.tscn'; Extra=@()},
+    @{Key='86'; Mode='cards311'; Label='骑士斜向校准对照：311'; Scene='res://scenes/world/world311.tscn'; Extra=@()},
+    @{Key='85'; Mode='cards310'; Label='拉线直冲对照：310'; Scene='res://scenes/world/world310.tscn'; Extra=@()},
+    @{Key='84'; Mode='cards309'; Label='恢复305骑士对照：309'; Scene='res://scenes/world/world309.tscn'; Extra=@()},
+    @{Key='83'; Mode='cards308'; Label='骑士拉线冲刺对照：308'; Scene='res://scenes/world/world308.tscn'; Extra=@()},
+    @{Key='82'; Mode='cards307'; Label='骑士定点回荡对照：307'; Scene='res://scenes/world/world307.tscn'; Extra=@()},
+    @{Key='81'; Mode='cards306'; Label='纸偶读招对照：306'; Scene='res://scenes/world/world306.tscn'; Extra=@()},
+    @{Key='80'; Mode='cards305'; Label='纸偶追赶定位对照：305'; Scene='res://scenes/world/world305.tscn'; Extra=@()},
+    @{Key='79'; Mode='cards304'; Label='旧固定定位攻击对照：304'; Scene='res://scenes/world/world304.tscn'; Extra=@()},
+    @{Key='78'; Mode='cards303'; Label='三次提落与无伤回程对照：303'; Scene='res://scenes/world/world303.tscn'; Extra=@()},
+    @{Key='77'; Mode='cards302'; Label='竖直纸偶与受击钟摆对照：302'; Scene='res://scenes/world/world302.tscn'; Extra=@()},
+    @{Key='76'; Mode='cards301'; Label='旧倾斜纸偶与固定晃动对照：301'; Scene='res://scenes/world/world301.tscn'; Extra=@()},
+    @{Key='75'; Mode='stage300'; Label='城楼动作与正门演出对照：300'; Scene='res://scenes/world/world300.tscn'; Extra=@()},
+    @{Key='74'; Mode='stage299'; Label='旧落景与侧边出场对照：299'; Scene='res://scenes/world/world299.tscn'; Extra=@()},
+    @{Key='73'; Mode='stage298'; Label='旧山顶翻景与出门对照：298'; Scene='res://scenes/world/world298.tscn'; Extra=@()},
+    @{Key='72'; Mode='stage297'; Label='旧林地开场对照：297'; Scene='res://scenes/world/world297.tscn'; Extra=@()},
+    @{Key='71'; Mode='combat291'; Label='当前完整战斗：291（团团 / 手电）'; Scene='res://scenes/world/world291.tscn'; Extra=@()},
+    @{Key='70'; Mode='skin290'; Label='玻璃团团单图变形对照：290'; Scene='res://scenes/world/world290.tscn'; Extra=@()},
+    @{Key='69'; Mode='skill288'; Label='手电主动与旧Boss对照：288'; Scene='res://scenes/world/world288.tscn'; Extra=@()},
+    @{Key='68'; Mode='ball276'; Label='返回当前战斗预览：276'; Scene='res://scenes/world/world276.tscn'; Extra=@()},
+    @{Key='67'; Mode='elastic275'; Label='程序球联动对照：275'; Scene='res://scenes/world/world275.tscn'; Extra=@()},
+    @{Key='66'; Mode='ball274'; Label='上一续弹段对照：274'; Scene='res://scenes/world/world274.tscn'; Extra=@()},
+    @{Key='65'; Mode='ball273'; Label='首次奖励流程对照：273'; Scene='res://scenes/world/world273.tscn'; Extra=@()},
+    @{Key='64'; Mode='batches272'; Label='无奖励六批普通战：272'; Scene='res://scenes/world/world272.tscn'; Extra=@()},
+    @{Key='63'; Mode='mixed271'; Label='两滚滚两普通独立试演：271'; Scene='res://scenes/world/world271.tscn'; Extra=@()},
+    @{Key='62'; Mode='composite270'; Label='整体滚动单只试演：270'; Scene='res://scenes/world/world270.tscn'; Extra=@()},
+    @{Key='61'; Mode='roller269'; Label='滚滚花团团原流程：269（共用花合成修复）'; Scene='res://scenes/world/world269.tscn'; Extra=@()},
+    @{Key='60'; Mode='flower268'; Label='抢前路花团团普通战：268'; Scene='res://scenes/world/world268.tscn'; Extra=@()},
+    @{Key='59'; Mode='flank267'; Label='上一全员包抄实验：267'; Scene='res://scenes/world/world267.tscn'; Extra=@()},
+    @{Key='58'; Mode='rest266'; Label='上一连续增援对照：266'; Scene='res://scenes/world/world266.tscn'; Extra=@()},
+    @{Key='57'; Mode='rest265'; Label='上一山脚小憩对照：265'; Scene='res://scenes/world/world265.tscn'; Extra=@()},
+    @{Key='56'; Mode='encounter264'; Label='上一普通战短流程：264'; Scene='res://scenes/world/world264.tscn'; Extra=@()},
+    @{Key='55'; Mode='boss263'; Label='已认可团团Boss / 武器对照：263'; Scene='res://scenes/world/world263.tscn'; Extra=@()},
     @{Key='54'; Mode='boss262'; Label='上一光线表现对照：262'; Scene='res://scenes/world/world262.tscn'; Extra=@()},
     @{Key='53'; Mode='boss261'; Label='上一武器强度对照：261'; Scene='res://scenes/world/world261.tscn'; Extra=@()},
     @{Key='52'; Mode='boss260'; Label='上一原地入场对照：260'; Scene='res://scenes/world/world260.tscn'; Extra=@()},

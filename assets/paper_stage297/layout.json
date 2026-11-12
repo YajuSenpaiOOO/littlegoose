@@ -1,0 +1,46 @@
+{
+  "castle": {
+    "texture": "res://assets/paper_stage297/castle.png",
+    "size": [
+      1903,
+      826
+    ],
+    "bounds": [
+      45,
+      11,
+      1852,
+      818
+    ],
+    "foot": [
+      948.5,
+      818
+    ],
+    "span": [
+      1807,
+      807
+    ],
+    "sha256": "d437de844c222c2ae00ad40b7621199eabe80aa9f55bce3c2c96a4362ddb6d0b"
+  },
+  "throw": {
+    "texture": "res://assets/paper_stage297/throw.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "bounds": [
+      112,
+      119,
+      971,
+      1389
+    ],
+    "foot": [
+      541.5,
+      1389
+    ],
+    "span": [
+      859,
+      1270
+    ],
+    "sha256": "ed2b2ee3b658b0fb93747d95a1d19868a69264efc08c03851cd09e744bf7a7f3"
+  }
+}

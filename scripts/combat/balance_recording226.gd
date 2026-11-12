@@ -25,6 +25,7 @@ var dash_start := 0
 var dashes := 0
 var guard_seconds := 0.
 func begin(w: Node,kind: String) -> void:
+ final_report.clear()
  id="%s_%d"%[Time.get_datetime_string_from_system().replace(":","-").replace("T","_"),Time.get_ticks_usec()]
  mode=kind;active=true;result="进行中";started=Time.get_datetime_string_from_system()
  elapsed=0.;cat_seconds=0.;bat_seconds=0.;input_seconds=0.;distance=0.;hits=[0,0];checkpoint=0.;frames=0;slow_frames=0;auto_seconds=0.

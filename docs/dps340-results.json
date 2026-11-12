@@ -1,0 +1,470 @@
+{
+	"complete": true,
+	"conditions": {
+		"cannon_fixture": "alone and two indestructible secondary cannons; attacks disabled",
+		"castle_hp": 1000000.0,
+		"clock": "unpaused scaled physics; Q transformation intro excluded",
+		"duration_seconds": 20.0,
+		"enemy_attacks": false,
+		"engine_scale": 2.0,
+		"hero_moment": false,
+		"hero_stationary": true,
+		"hitstop_and_paper_hit_art": false,
+		"not_survival_or_clear_time_test": true,
+		"physics_step": 0.0166666666666667,
+		"physics_ticks_per_second": 120,
+		"q_counts_per_sample": true,
+		"runtime": "woodland_world340.gd",
+		"seeds": [
+			33901,
+			33902
+		],
+		"static_real_castle": true,
+		"target": "central wall bay"
+	},
+	"failures": [],
+	"samples": [
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_eye",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 4.20000000001161,
+			"damage": 84.0000000002328,
+			"distance": 6.0,
+			"dps": 4.20000000001161,
+			"effective_levels_end": {
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 19.7647058824077,
+				"1": 19.7647058824077,
+				"2": 24.7058823530097,
+				"3": 19.7647058824077
+			},
+			"hits": 17,
+			"levels": {
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 4.32352941177665,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": false,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 4,
+			"sources": {
+				"weapon": 84.0000000002328
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 9.998
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_clone_eye",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 5.88000000001626,
+			"damage": 117.600000000326,
+			"distance": 6.0,
+			"dps": 5.88000000001626,
+			"effective_levels_end": {
+				"eye_exercise": 1,
+				"forest_fireboy": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 27.6705882353708,
+				"1": 27.6705882353708,
+				"2": 34.5882352942135,
+				"3": 27.6705882353708
+			},
+			"hits": 34,
+			"levels": {
+				"eye_exercise": 1,
+				"forest_fireboy": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 6.05294117648731,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": false,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 5,
+			"sources": {
+				"weapon": 117.600000000326
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 9.991
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_ball_eye",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 4.20000000001161,
+			"damage": 84.0000000002328,
+			"distance": 6.0,
+			"dps": 4.20000000001161,
+			"effective_levels_end": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 19.7647058824077,
+				"1": 19.7647058824077,
+				"2": 24.7058823530097,
+				"3": 19.7647058824077
+			},
+			"hits": 17,
+			"levels": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 4.32352941177665,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": false,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 5,
+			"sources": {
+				"weapon": 84.0000000002328
+			},
+			"structure_bounces": 17,
+			"time_to_144": null,
+			"wall_seconds": 9.986
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_eye",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 4.20000000001161,
+			"damage": 84.0000000002328,
+			"distance": 6.0,
+			"dps": 4.20000000001161,
+			"effective_levels_end": {
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 19.7647058824077,
+				"1": 19.7647058824077,
+				"2": 24.7058823530097,
+				"3": 19.7647058824077
+			},
+			"hits": 17,
+			"levels": {
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 4.32352941177665,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": true,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 4,
+			"sources": {
+				"weapon": 84.0000000002328
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 10.004
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_clone_eye",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 5.88000000001626,
+			"damage": 117.600000000326,
+			"distance": 6.0,
+			"dps": 5.88000000001626,
+			"effective_levels_end": {
+				"eye_exercise": 1,
+				"forest_fireboy": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 27.6705882353708,
+				"1": 27.6705882353708,
+				"2": 34.5882352942135,
+				"3": 27.6705882353708
+			},
+			"hits": 34,
+			"levels": {
+				"eye_exercise": 1,
+				"forest_fireboy": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 6.05294117648731,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": true,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 5,
+			"sources": {
+				"weapon": 117.600000000326
+			},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 10.003
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_ball_eye",
+			"cannon_damage": 58.800000000163,
+			"cannon_sources": {
+				"bouncy_rebound": 58.800000000163
+			},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 7.14000000001974,
+			"damage": 84.0000000002328,
+			"distance": 6.0,
+			"dps": 4.20000000001161,
+			"effective_levels_end": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 19.7647058824077,
+				"1": 19.7647058824077,
+				"2": 24.7058823530097,
+				"3": 19.7647058824077
+			},
+			"hits": 17,
+			"levels": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 4.32352941177665,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": true,
+			"seconds": 20.0000000000001,
+			"seed": 33901,
+			"slots": 5,
+			"sources": {
+				"weapon": 84.0000000002328
+			},
+			"structure_bounces": 17,
+			"time_to_144": null,
+			"wall_seconds": 9.984
+		},
+		{
+			"attack_cooldown": 0.272,
+			"build": "sling_ball_eye",
+			"cannon_damage": 58.800000000163,
+			"cannon_sources": {
+				"bouncy_rebound": 58.800000000163
+			},
+			"charge_policy": 1.0,
+			"charge_time": 0.88,
+			"charged_releases": 17,
+			"combined_dps": 7.14000000001974,
+			"damage": 84.0000000002328,
+			"distance": 6.0,
+			"dps": 4.20000000001161,
+			"effective_levels_end": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"five_second_damage": {
+				"0": 19.7647058824077,
+				"1": 19.7647058824077,
+				"2": 24.7058823530097,
+				"3": 19.7647058824077
+			},
+			"hits": 17,
+			"levels": {
+				"bouncy_ball": 1,
+				"eye_exercise": 1,
+				"slingshot": 1
+			},
+			"planes_launched": 0,
+			"post4_dps": 4.32352941177665,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"secondary_cannons": true,
+			"seconds": 20.0000000000001,
+			"seed": 33902,
+			"slots": 5,
+			"sources": {
+				"weapon": 84.0000000002328
+			},
+			"structure_bounces": 17,
+			"time_to_144": null,
+			"wall_seconds": 10.01
+		}
+	],
+	"schema": 1
+}

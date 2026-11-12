@@ -1,0 +1,62 @@
+{
+  "A_director": {
+    "size": [
+      1267,
+      1241
+    ],
+    "alpha128_bounds": [
+      263,
+      15,
+      974,
+      1226
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "ee4ef4be0ff12189a3e305d81067249fe2a99e3f3af03c1ae67b479eb2eec3b4",
+    "selected": false,
+    "runtime_integrated": false,
+    "foot_calibrated": false
+  },
+  "B_shy": {
+    "size": [
+      1123,
+      1401
+    ],
+    "alpha128_bounds": [
+      157,
+      92,
+      967,
+      1342
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "e3ed7c7150f918e21c014b00eec0aca2c230b2e8a327f49311b19b305767ce4f",
+    "selected": false,
+    "runtime_integrated": false,
+    "foot_calibrated": false
+  },
+  "C_inventor": {
+    "size": [
+      1108,
+      1420
+    ],
+    "alpha128_bounds": [
+      107,
+      12,
+      1060,
+      1399
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "adf077533d2961136b7644688e848a883be20a957be6688fefb73c440037a23c",
+    "selected": false,
+    "runtime_integrated": false,
+    "foot_calibrated": false
+  }
+}

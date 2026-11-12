@@ -1,0 +1,139 @@
+[
+  {
+    "file": "2026-11-11_17-03-01_147086656.json",
+    "sha256": "3ad5ec61e52e145b295a0a5e9708c6a827ea3ba22b95aab00c7901413210c2cc",
+    "record_id": "2026-11-11_17-03-01_147086656",
+    "loadout": {
+      "bouncy_ball": 1,
+      "flashlight": 1
+    },
+    "excluded_hero_moment": false,
+    "slots": 3,
+    "result": "更换装配中止",
+    "recorded_seconds": 51.031321075421,
+    "legacy_seconds": 66.3417748410775,
+    "injuries": 13,
+    "hp_end": 5.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-04-22_228373707.json",
+    "sha256": "ed6bccfe13c58b9943a4cc418f4330b1afd939b5056faa88b9b1646064cf0a76",
+    "record_id": "2026-11-11_17-03-01_147086656",
+    "loadout": {
+      "bouncy_ball": 1,
+      "flashlight": 1
+    },
+    "excluded_hero_moment": false,
+    "slots": 3,
+    "result": "更换装配中止",
+    "recorded_seconds": 51.031321075421,
+    "legacy_seconds": 66.3417748410775,
+    "injuries": 13,
+    "hp_end": 5.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-05-46_312038465.json",
+    "sha256": "ed6bccfe13c58b9943a4cc418f4330b1afd939b5056faa88b9b1646064cf0a76",
+    "record_id": "2026-11-11_17-03-01_147086656",
+    "loadout": {
+      "bouncy_ball": 1,
+      "flashlight": 1
+    },
+    "excluded_hero_moment": false,
+    "slots": 3,
+    "result": "更换装配中止",
+    "recorded_seconds": 51.031321075421,
+    "legacy_seconds": 66.3417748410775,
+    "injuries": 13,
+    "hp_end": 5.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-09-25_123801957.json",
+    "sha256": "825010cf1639c30d2159c0d335da8d56b35978e0d88347acf7d365fc9dc5690f",
+    "record_id": "2026-11-11_17-09-25_123801957",
+    "loadout": {
+      "eye_exercise": 1,
+      "hero_moment": 1,
+      "paper_plane": 1
+    },
+    "excluded_hero_moment": true,
+    "slots": 5,
+    "result": "更换装配中止",
+    "recorded_seconds": 35.6290036254208,
+    "legacy_seconds": 37.3018789587541,
+    "injuries": 8,
+    "hp_end": 3.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-10-15_173423544.json",
+    "sha256": "825010cf1639c30d2159c0d335da8d56b35978e0d88347acf7d365fc9dc5690f",
+    "record_id": "2026-11-11_17-09-25_123801957",
+    "loadout": {
+      "eye_exercise": 1,
+      "hero_moment": 1,
+      "paper_plane": 1
+    },
+    "excluded_hero_moment": true,
+    "slots": 5,
+    "result": "更换装配中止",
+    "recorded_seconds": 35.6290036254208,
+    "legacy_seconds": 37.3018789587541,
+    "injuries": 8,
+    "hp_end": 3.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-11-20_238956993.json",
+    "sha256": "825010cf1639c30d2159c0d335da8d56b35978e0d88347acf7d365fc9dc5690f",
+    "record_id": "2026-11-11_17-09-25_123801957",
+    "loadout": {
+      "eye_exercise": 1,
+      "hero_moment": 1,
+      "paper_plane": 1
+    },
+    "excluded_hero_moment": true,
+    "slots": 5,
+    "result": "更换装配中止",
+    "recorded_seconds": 35.6290036254208,
+    "legacy_seconds": 37.3018789587541,
+    "injuries": 8,
+    "hp_end": 3.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  },
+  {
+    "file": "2026-11-11_17-12-03_281082522.json",
+    "sha256": "17e1aa72f0c1280bf952ca432064a266b27e6205fadb7f79f6a916e7b2e05cbe",
+    "record_id": "2026-11-11_17-09-25_123801957",
+    "loadout": {
+      "eye_exercise": 1,
+      "hero_moment": 1,
+      "paper_plane": 1
+    },
+    "excluded_hero_moment": true,
+    "slots": 5,
+    "result": "更换装配中止",
+    "recorded_seconds": 35.6290036254208,
+    "legacy_seconds": 37.3018789587541,
+    "injuries": 8,
+    "hp_end": 3.5,
+    "castle_damage_recorded": false,
+    "debug": false,
+    "partial": false
+  }
+]

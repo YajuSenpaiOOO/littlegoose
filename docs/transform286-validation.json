@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "name": "intro pauses combat/controls and hides only native visual",
+      "pass": true
+    },
+    {
+      "name": "foot remains fixed at timeline 0.28",
+      "pass": true
+    },
+    {
+      "name": "foot remains fixed at timeline 0.80",
+      "pass": true
+    },
+    {
+      "name": "foot remains fixed at timeline 1.18",
+      "pass": true
+    },
+    {
+      "name": "foot remains fixed at timeline 1.86",
+      "pass": true
+    },
+    {
+      "name": "foot remains fixed at timeline 2.55",
+      "pass": true
+    },
+    {
+      "name": "real front panel occludes transform portrait and light geometry",
+      "pass": true
+    },
+    {
+      "name": "transform portrait renders before a rear panel",
+      "pass": true
+    },
+    {
+      "name": "motion raises and trails the hanging ribbon ends",
+      "pass": true
+    },
+    {
+      "name": "stationary cape naturally hangs below its shoulders",
+      "pass": true
+    },
+    {
+      "name": "upward flash beam extends far beyond the character/viewport",
+      "pass": true
+    },
+    {
+      "name": "reveal restores native hero/control/pause state",
+      "pass": true
+    },
+    {
+      "name": "gold ribbons persist after hero reveal without a portrait duplicate",
+      "pass": true
+    },
+    {
+      "name": "native hero material and collision preserved",
+      "pass": true
+    },
+    {
+      "name": "reveal restores original camera FOV",
+      "pass": true
+    },
+    {
+      "name": "end releases all effect state",
+      "pass": true
+    },
+    {
+      "name": "cancel restores hero visibility and controls",
+      "pass": true
+    },
+    {
+      "name": "reentry cannot overwrite saved restore state",
+      "pass": true
+    },
+    {
+      "name": "no activation through paused/dialog state",
+      "pass": true
+    }
+  ],
+  "limitations": "native world geometry with depth; forest occlusion still inherits old scene issues; no active skill conversion",
+  "passed": true,
+  "visual_acceptance": "pending user"
+}

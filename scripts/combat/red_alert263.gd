@@ -9,6 +9,7 @@ func _process(_delta: float) -> void:
  visible=battle.active114 and battle.flashlight_red229()
  if not visible:return
  pulse263=battle.red_pulse263();size=get_viewport_rect().size;queue_redraw()
+func warning_text263() -> String:return "红灯 · 光线×2"
 func _draw() -> void:
  var centre=Vector2(size.x*.5,56.)
  # Compact warning around health, never a whole-screen white/red flash.
@@ -21,4 +22,4 @@ func _draw() -> void:
   draw_circle(Vector2(x,56.),10.,Color(.35,.05,.10,.95));draw_circle(Vector2(x,56.),6.+pulse263,color)
   draw_circle(Vector2(x-1.5,54.5),1.5,Color(1.,.86,.80,.8))
  var font=ThemeDB.fallback_font
- draw_string(font,centre+Vector2(-56,102),"红灯 · 光线×2",HORIZONTAL_ALIGNMENT_LEFT,-1,16,Color(1.,.6,.6,.65+.3*pulse263))
+ draw_string(font,centre+Vector2(-56,102),warning_text263(),HORIZONTAL_ALIGNMENT_LEFT,-1,16,Color(1.,.6,.6,.65+.3*pulse263))

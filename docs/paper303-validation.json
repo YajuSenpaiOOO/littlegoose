@@ -1,0 +1,194 @@
+{
+  "checks": [
+    {
+      "name": "mixed reward-free combat keeps two-card cap",
+      "pass": true
+    },
+    {
+      "name": "mixed scheduler preserves simultaneous card cap",
+      "pass": true
+    },
+    {
+      "name": "dinosaur previews before paper fire",
+      "pass": true
+    },
+    {
+      "name": "spray locks direction instead of homing",
+      "pass": true
+    },
+    {
+      "name": "three paper sections unfold into actual fire mesh",
+      "pass": true
+    },
+    {
+      "name": "unfolded paper fire has actual damage",
+      "pass": true
+    },
+    {
+      "name": "sustained fire cannot hit twice in one breath",
+      "pass": true
+    },
+    {
+      "name": "parrying fire interrupts entire breath",
+      "pass": true
+    },
+    {
+      "name": "native dodge protects against paper fire",
+      "pass": true
+    },
+    {
+      "name": "scenery truncates paper fire and blocks damage",
+      "pass": true
+    },
+    {
+      "name": "paper fire retracts and ends",
+      "pass": true
+    },
+    {
+      "name": "operator reels monster upward with inertia",
+      "pass": true
+    },
+    {
+      "name": "heavy drop reaches first rope catch",
+      "pass": true
+    },
+    {
+      "name": "taut rope reverses downward momentum",
+      "pass": true
+    },
+    {
+      "name": "catch tremors deal no repeated chip damage",
+      "pass": true
+    },
+    {
+      "name": "third drop includes a longer suspended beat",
+      "pass": true
+    },
+    {
+      "name": "monster completes exactly three heavy drops",
+      "pass": true
+    },
+    {
+      "name": "landing can be perfectly parried",
+      "pass": true
+    },
+    {
+      "name": "parry cancels remaining yo-yo drops",
+      "pass": true
+    },
+    {
+      "name": "knight is pulled backward before release",
+      "pass": true
+    },
+    {
+      "name": "released swing thrust hits along actual swept path",
+      "pass": true
+    },
+    {
+      "name": "knight swings backward after overshoot",
+      "pass": true
+    },
+    {
+      "name": "return swing is harmless",
+      "pass": true
+    },
+    {
+      "name": "swing thrust can be perfectly parried",
+      "pass": true
+    },
+    {
+      "name": "right-facing dinosaur keeps mouth fire connected",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits new attack actor: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "pause freezes attack and rope: dinosaur",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits new attack actor: monster",
+      "pass": true
+    },
+    {
+      "name": "pause freezes attack and rope: monster",
+      "pass": true
+    },
+    {
+      "name": "native weapon hits new attack actor: knight",
+      "pass": true
+    },
+    {
+      "name": "pause freezes attack and rope: knight",
+      "pass": true
+    },
+    {
+      "name": "focused attack test uses one card at a time",
+      "pass": true
+    },
+    {
+      "name": "six defeated cards still end without formal reward",
+      "pass": true
+    },
+    {
+      "name": "card and operator stay upright",
+      "pass": true
+    },
+    {
+      "name": "resting card visibly clears ground",
+      "pass": true
+    },
+    {
+      "name": "source aspect and authored size retained",
+      "pass": true
+    },
+    {
+      "name": "accelerating support makes card lag behind",
+      "pass": true
+    },
+    {
+      "name": "shot impulse causes directional pendulum swing",
+      "pass": true
+    },
+    {
+      "name": "rope stays taut at actual card tab",
+      "pass": true
+    },
+    {
+      "name": "hit capsule follows actual swing and lean",
+      "pass": true
+    },
+    {
+      "name": "attack footprint follows swinging card",
+      "pass": true
+    },
+    {
+      "name": "damping settles accumulated swing",
+      "pass": true
+    },
+    {
+      "name": "strong impulses and long frames remain bounded",
+      "pass": true
+    },
+    {
+      "name": "parry gives a larger swing and cancels attack",
+      "pass": true
+    },
+    {
+      "name": "pause freezes pendulum state",
+      "pass": true
+    },
+    {
+      "name": "time-of-day lighting does not tilt actors",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "comparison": "front/behind/swing snapshots require visual review; no global prop migration",
+    "pendulum_12000_steps_usec": 8754,
+    "pendulum_substeps_per_second_per_actor": 120
+  },
+  "scope": "paper flame, three yo-yo drops and swing thrust; not full boss"
+}

@@ -1,0 +1,65 @@
+{
+  "A_glass": {
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      265,
+      204,
+      1090,
+      983
+    ],
+    "sha256": "dce98c1bd3c392cdc07d0417d7e78a320f4361c85968a1574236e75bfe5138f3",
+    "approved": false,
+    "runtime_integrated": true,
+    "selected_direction": true,
+    "approval_scope": "static appearance direction only; animation/runtime not reviewed",
+    "runtime": {
+      "version": 290,
+      "scope": "battle and awake NPC; sleep remains 266",
+      "foot": [
+        677.5,
+        983
+      ],
+      "visible_span": [
+        825,
+        779
+      ],
+      "script": "res://scripts/combat/tuantuan_boss290.gd",
+      "glass": "painted highlights and inclusions, no runtime refraction",
+      "animation": "legacy silhouette dimensions plus procedural squash; one face; no independent core layer",
+      "review": "runtime visual acceptance pending"
+    }
+  },
+  "B_patches": {
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      274,
+      202,
+      1093,
+      983
+    ],
+    "sha256": "d2c9c8fb4c719ee886cfafe482a8b587e20dd6b6b39c9a4865e253f6197c1645",
+    "approved": false,
+    "runtime_integrated": false
+  },
+  "C_swirl": {
+    "size": [
+      1355,
+      1160
+    ],
+    "alpha128_bounds": [
+      275,
+      197,
+      1092,
+      986
+    ],
+    "sha256": "9863570b1a54f3f030cda58eb057d7aa5cc1f5c93b743360101b8a7dfe8143c9",
+    "approved": false,
+    "runtime_integrated": false
+  }
+}

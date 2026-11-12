@@ -1,0 +1,58 @@
+{
+	"complete": true,
+	"conditions": {
+		"cannon_fixture": "castle only for visual comparison, cannons enabled for angular steering assertions",
+		"castle_hp": 1000000.0,
+		"clock": "unpaused scaled physics; Q transformation intro excluded",
+		"duration_seconds": 10.0,
+		"enemy_attacks": false,
+		"engine_scale": 2.0,
+		"hero_moment": false,
+		"hero_stationary": true,
+		"hitstop_and_paper_hit_art": false,
+		"not_survival_or_clear_time_test": true,
+		"physics_step": 0.0166666666666667,
+		"physics_ticks_per_second": 120,
+		"q_counts_per_sample": true,
+		"runtime": "woodland_world341.gd",
+		"seeds": [
+			34101
+		],
+		"static_real_castle": true,
+		"target": "central wall bay"
+	},
+	"failures": [],
+	"samples": [
+		{
+			"attack_cooldown": 0.34,
+			"build": "base",
+			"cannon_damage": 0.0,
+			"cannon_sources": {},
+			"charge_policy": 1.0,
+			"charge_time": 1.1,
+			"charged_releases": 0,
+			"combined_dps": 0.0,
+			"damage": 0.0,
+			"distance": 6.0,
+			"dps": 0.0,
+			"effective_levels_end": {},
+			"five_second_damage": {},
+			"hits": 0,
+			"levels": {},
+			"planes_launched": 0,
+			"post4_dps": 0.0,
+			"q_activations": 0,
+			"q_enabled": false,
+			"release_ratios": [],
+			"secondary_cannons": false,
+			"seconds": 0.116666666666667,
+			"seed": 34101,
+			"slots": 0,
+			"sources": {},
+			"structure_bounces": 0,
+			"time_to_144": null,
+			"wall_seconds": 0.06
+		}
+	],
+	"schema": 1
+}

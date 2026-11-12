@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "opening actors are ordinary",
+      "pass": true
+    },
+    {
+      "name": "flower predicts a bounded point ahead of real movement",
+      "pass": true
+    },
+    {
+      "name": "prediction locks before takeoff and ignores a reversal",
+      "pass": true
+    },
+    {
+      "name": "flower component renders without promoting actor to old elite AI",
+      "pass": true
+    },
+    {
+      "name": "airborne lunge stays straight after player moves",
+      "pass": true
+    },
+    {
+      "name": "special keeps ordinary health damage and collision",
+      "pass": true
+    },
+    {
+      "name": "third and fourth batches each introduce one flower with at most one alive",
+      "pass": true
+    },
+    {
+      "name": "all fifteen still clear and unlock the resting boss",
+      "pass": true
+    },
+    {
+      "name": "capture includes special attack counters",
+      "pass": true
+    },
+    {
+      "name": "Boss companions remain ordinary",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "counts": {
+      "predictions": 1,
+      "spawned": 2
+    },
+    "flowers": [
+      206,
+      212
+    ]
+  },
+  "passed": true
+}

@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "name": "intro preserves pause/portrait handover",
+      "pass": true
+    },
+    {
+      "name": "old HP red beacon suspended during timed visual preview",
+      "pass": true
+    },
+    {
+      "name": "fixed foot at 0.28",
+      "pass": true
+    },
+    {
+      "name": "fixed foot at 0.80",
+      "pass": true
+    },
+    {
+      "name": "fixed foot at 1.18",
+      "pass": true
+    },
+    {
+      "name": "fixed foot at 2.55",
+      "pass": true
+    },
+    {
+      "name": "reveal returns movement/native actor",
+      "pass": true
+    },
+    {
+      "name": "eight second duration starts after reveal",
+      "pass": true
+    },
+    {
+      "name": "gold contour and bow marker use native animated sprite",
+      "pass": true
+    },
+    {
+      "name": "no wing/ribbon meshes remain at rest",
+      "pass": true
+    },
+    {
+      "name": "last two seconds turn red at full HP",
+      "pass": true
+    },
+    {
+      "name": "first red pulse scheduled once",
+      "pass": true
+    },
+    {
+      "name": "red pulse clock progresses without rapid event flooding",
+      "pass": true
+    },
+    {
+      "name": "outro fades while movement stays enabled",
+      "pass": true
+    },
+    {
+      "name": "outro sound emitted exactly once",
+      "pass": true
+    },
+    {
+      "name": "expiration removes state markers",
+      "pass": true
+    },
+    {
+      "name": "old beacon restored and hum stopped",
+      "pass": true
+    },
+    {
+      "name": "native material/collision/camera retained",
+      "pass": true
+    },
+    {
+      "name": "six cached original WAV resources loaded",
+      "pass": true
+    },
+    {
+      "name": "opaque world geometry occludes new status presentation",
+      "pass": true
+    },
+    {
+      "name": "cancel restores controls and clears visuals",
+      "pass": true
+    },
+    {
+      "name": "cancel stops all preview audio",
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "scope": "8 second visual/audio state preview; timed active damage not implemented",
+  "sound_acceptance": "waveform integrity checked; timbre awaits listening",
+  "visual_acceptance": "pending user"
+}

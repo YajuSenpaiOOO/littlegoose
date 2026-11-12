@@ -33,7 +33,7 @@ func _ready() -> void:
  var middle=HBoxContainer.new();middle.size_flags_vertical=Control.SIZE_EXPAND_FILL;middle.add_theme_constant_override("separation",20);column.add_child(middle)
  var scroll=ScrollContainer.new();scroll.custom_minimum_size.x=450;scroll.size_flags_vertical=Control.SIZE_EXPAND_FILL;middle.add_child(scroll)
  var list=VBoxContainer.new();list.size_flags_horizontal=Control.SIZE_EXPAND_FILL;scroll.add_child(list)
- for card in preload("res://scripts/combat/cards168.gd").POOL:
+ for card in catalog273():
   var id: String=card.id
   if id in world.hidden_cards226():continue
   var row=HBoxContainer.new();list.add_child(row)
@@ -110,3 +110,6 @@ func folder226() -> void:
  OS.shell_open(ProjectSettings.globalize_path(world.recording226.folder))
 
 func profile226() -> Script:return world.balance_profile226()
+
+func catalog273() -> Array:
+ return world.card_catalog273() if world.has_method("card_catalog273") else preload("res://scripts/combat/cards168.gd").POOL

@@ -1,0 +1,73 @@
+{
+  "texture": "res://assets/paper_girl315/idle_front.png",
+  "size": [
+    1086,
+    1448
+  ],
+  "alpha128_bounds": [
+    112,
+    105,
+    972,
+    1374
+  ],
+  "foot": [
+    542,
+    1374
+  ],
+  "span": [
+    860,
+    1269
+  ],
+  "sha256": "5bb8847f53633fb1f95da62d17e615568e6263392f26725bb07d911c585b08d9",
+  "approved": false,
+  "runtime_integrated": false,
+  "proportion_approved": true,
+  "pixel_style_approved": false,
+  "pixel_candidate": {
+    "texture": "res://assets/paper_girl315/idle_pixel_v2.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "alpha128_bounds": [
+      118,
+      97,
+      967,
+      1392
+    ],
+    "foot": [
+      542.5,
+      1392
+    ],
+    "span": [
+      849,
+      1295
+    ],
+    "sha256": "8a948b7d9dc7729d765f1bb968a3113cc99887ab731bf28c553b036f41e34da0"
+  },
+  "pixel_candidate_v3": {
+    "texture": "res://assets/paper_girl315/idle_pixel_v3.png",
+    "size": [
+      1086,
+      1448
+    ],
+    "alpha128_bounds": [
+      132,
+      102,
+      950,
+      1375
+    ],
+    "foot": [
+      541,
+      1375
+    ],
+    "span": [
+      818,
+      1273
+    ],
+    "sha256": "414fa85e8b58b208337148663c7b7ff7a9dfb44e61d8c48f3588175b7f18a510",
+    "runtime_integrated": true,
+    "scope": "314 idle / landed static comparison; F11 toggles old frame",
+    "runtime_scale_relative_to_hero_height": 0.9
+  }
+}

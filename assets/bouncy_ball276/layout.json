@@ -1,0 +1,23 @@
+{
+  "size": [
+    1254,
+    1254
+  ],
+  "alpha_bbox": [
+    0,
+    52,
+    1186,
+    1194
+  ],
+  "sha256": "27d49d07cf9ec4d45baf3120c598e569b0f1842625199958439454e19a312ab0",
+  "visible_diameter_world": 0.42,
+  "display": "camera projected 2D projectile; identical texture and modulation before and after ricochet",
+  "collision": "existing swept projectile ray, no added sphere body",
+  "shadow": "transient projectile, no separate painted or physical shadow",
+  "visible_bbox": [
+    156,
+    161,
+    1098,
+    1097
+  ]
+}

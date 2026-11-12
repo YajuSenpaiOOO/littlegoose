@@ -1,0 +1,94 @@
+{
+  "original_front": {
+    "size": [
+      600,
+      800
+    ],
+    "iris_centres_estimated": [
+      [
+        240.08342245989306,
+        393.02994652406414
+      ],
+      [
+        354.462441314554,
+        392.6866197183099
+      ]
+    ],
+    "eye_span": 114.37901885466093,
+    "foot_estimated": [
+      300,
+      749
+    ],
+    "measurement": "automatic pink iris centroid; foot bottom central band; manual verification required",
+    "scale_to_front_by_eye_span": 1.0
+  },
+  "stand_A": {
+    "size": [
+      1147,
+      1371
+    ],
+    "iris_centres_estimated": [
+      [
+        485.6107619795758,
+        667.1492537313433
+      ],
+      [
+        687.140631406314,
+        666.070110701107
+      ]
+    ],
+    "eye_span": 201.52986942673823,
+    "foot_estimated": [
+      575.5,
+      1302
+    ],
+    "measurement": "automatic pink iris centroid; foot bottom central band; manual verification required",
+    "scale_to_front_by_eye_span": 0.5675536791643728
+  },
+  "raise_C": {
+    "size": [
+      1148,
+      1371
+    ],
+    "iris_centres_estimated": [
+      [
+        469.30415667466025,
+        666.7494004796163
+      ],
+      [
+        678.7654909437559,
+        648.3150619637751
+      ]
+    ],
+    "eye_span": 209.4613342690957,
+    "foot_estimated": [
+      588.5,
+      1299
+    ],
+    "measurement": "automatic pink iris centroid; foot bottom central band; manual verification required",
+    "scale_to_front_by_eye_span": 0.5460626862412602
+  },
+  "raise_short": {
+    "size": [
+      1148,
+      1371
+    ],
+    "iris_centres_estimated": [
+      [
+        480.32007854688266,
+        675.752086401571
+      ],
+      [
+        686.5680726107848,
+        672.6209289909236
+      ]
+    ],
+    "eye_span": 206.24799406390218,
+    "foot_estimated": [
+      576.0,
+      1303
+    ],
+    "measurement": "automatic pink iris centroid; foot bottom central band; manual verification required",
+    "scale_to_front_by_eye_span": 0.5545703335142386
+  }
+}

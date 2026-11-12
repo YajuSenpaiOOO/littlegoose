@@ -1,0 +1,38 @@
+PASS all 16 atlas cells ready
+PASS fixed scale and atlas material pose 0
+PASS fixed scale and atlas material pose 1
+PASS fixed scale and atlas material pose 2
+PASS fixed scale and atlas material pose 3
+PASS fixed scale and atlas material pose 4
+PASS fixed scale and atlas material pose 5
+PASS fixed scale and atlas material pose 6
+PASS fixed scale and atlas material pose 7
+PASS fixed scale and atlas material pose 8
+PASS fixed scale and atlas material pose 9
+PASS fixed scale and atlas material pose 10
+PASS fixed scale and atlas material pose 11
+PASS fixed scale and atlas material pose 12
+PASS fixed scale and atlas material pose 13
+PASS fixed scale and atlas material pose 14
+PASS fixed scale and atlas material pose 15
+PASS intro uses new group at 0.1
+PASS intro uses new group at 0.7
+PASS intro uses new group at 2.5
+PASS intro uses new group at 4.1
+PASS intro uses new group at 4.6
+PASS intro uses new group at 5.0
+PASS intro uses new group at 5.3
+PASS paper packet starts at new raised-paper hand
+PASS angry reaction takes priority over happy
+PASS later summons keep same group and scale
+PASS later summons keep same group and scale
+PASS later summons keep same group and scale
+PASS later summons keep same group and scale
+PASS later summons keep same group and scale
+PASS rescue/cry pose 0.4
+PASS rescue/cry pose 1.1
+PASS rescue/cry pose 2.4
+PASS rescue/cry pose 4.6
+PASS F11 old group retained
+PASS restart retains new upright actor
+RESULT316 failures=0

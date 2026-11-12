@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "name": "flower and body share a single composed texture without a separate flower sprite",
+      "pass": true
+    },
+    {
+      "name": "elite all pose scales silhouettes and body foot pixels remain anchored",
+      "pass": true
+    },
+    {
+      "name": "elite runtime composition is cached",
+      "pass": true
+    },
+    {
+      "name": "boss all pose scales silhouettes and body foot pixels remain anchored",
+      "pass": true
+    },
+    {
+      "name": "boss runtime composition is cached",
+      "pass": true
+    },
+    {
+      "name": "shared source metadata is not modified",
+      "pass": true
+    },
+    {
+      "name": "single actor standalone trial",
+      "pass": true
+    },
+    {
+      "name": "charge locks direction and gives readable anticipation",
+      "pass": true
+    },
+    {
+      "name": "pause freezes roller state",
+      "pass": true
+    },
+    {
+      "name": "real static wall collision reflects horizontal motion",
+      "pass": true
+    },
+    {
+      "name": "bounded roll naturally ends in dizziness",
+      "pass": true
+    },
+    {
+      "name": "dizzy actor remains damageable without cancelling punish window",
+      "pass": true
+    },
+    {
+      "name": "parry reverses roll and shortens remaining travel",
+      "pass": true
+    },
+    {
+      "name": "reflected return cannot immediately injure player",
+      "pass": true
+    },
+    {
+      "name": "blocked roller has a bounded wall-corner escape",
+      "pass": true
+    },
+    {
+      "name": "capture includes roller counters",
+      "pass": true
+    },
+    {
+      "name": "single real defeat finishes trial",
+      "pass": true
+    },
+    {
+      "name": "retry restores one actor",
+      "pass": true
+    }
+  ],
+  "passed": true
+}
