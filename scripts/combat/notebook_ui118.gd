@@ -126,7 +126,7 @@ func refresh116() -> void:
   var id: String=ids118[index];var is_open: bool=kit.unlocked[id]
   row.text=str(kit.card(id).name)+("  · 试制" if is_open else "  · 未解锁") if recipe else str(kit.card(id).name)+"  ×%d / %d"%[working.count(id),working_owned[id]]
   row.add_theme_stylebox_override("normal",paper_style118(Color("ead1a9") if id==focused_id else Color("eee3c5")))
- detail_name.text=str(kit.card(focused_id).name)+"\n每份占 %d 格"%kit.COSTS[focused_id]
+ detail_name.text=str(kit.card(focused_id).name)+"\n每份占 %d 格"%kit.COSTS.get(focused_id,kit.used([focused_id]))
  detail_effect.text=kit.effect118(focused_id,maxi(1,working.count(focused_id)))
  detail_line.text="小黑鹅：\n“"+str(kit.card(focused_id).line)+"”"
  if not recipe and int(kit.card(focused_id).max)>1 and working.count(focused_id)>int(kit.card(focused_id).max): detail_effect.text+="\n超出旧效果等级的份数暂不增加收益。"
@@ -144,7 +144,7 @@ func refresh116() -> void:
   slots118[i].visible=not recipe and i<=working.size()
   if not recipe:
    slots118[i].disabled=i>=working.size()
-   slots118[i].text=(str(kit.card(working[i]).name)+"  · %d格  × 收回"%kit.COSTS[working[i]]) if i<working.size() else ("口袋已经装满了" if kit.used(working)>=kit.CAPACITY else "还空着 %d 格"%(kit.CAPACITY-kit.used(working)))
+   slots118[i].text=(str(kit.card(working[i]).name)+"  · %d格  × 收回"%kit.COSTS.get(working[i],kit.used([working[i]]))) if i<working.size() else ("口袋已经装满了" if kit.used(working)>=kit.CAPACITY else "还空着 %d 格"%(kit.CAPACITY-kit.used(working)))
  capacity.text="记忆口袋    %d / %d 格"%[kit.used(working),kit.CAPACITY]
  packed.text="每份分别占格。盒中数量包含已装配的份数。\n制作和装配都在“收好”时保存。"
  for tab in [recipe_tab118,equip_tab118]:

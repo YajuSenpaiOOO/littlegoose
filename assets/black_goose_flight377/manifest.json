@@ -1,0 +1,26 @@
+{
+  "source": "art/concepts/black_goose_flight_front_v2/A-forward.png",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "alpha128_bounds": [
+    33,
+    98,
+    1052,
+    1375
+  ],
+  "sha256": "0a1e3ce5d0774c84a6a1a78b125255b4a93f39f48fa4a9ebea4871a38be717ea",
+  "anchor": [
+    550,
+    1378
+  ],
+  "pixel_size": 0.0011241217798594848,
+  "scale_basis": "same source canvas and head/body pixel scale as idle v2, not flight total silhouette height",
+  "display": "upright X=Y=0, normal depth",
+  "material": "hero192 receiver, layer20 fill",
+  "hover_height": 0.4,
+  "collision": "static visual reference only; no physics or gameplay flight",
+  "shadow": "actor_shadow105 from actual elevated visual; no native shadow",
+  "emission": false
+}

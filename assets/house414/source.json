@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "asset": "assets/house414/material-atlas.png",
+  "purpose": "Lower saturation woodland materials for true layered geometry; native layers supply shadow, thickness and relief.",
+  "reference": [
+    "docs/home413-return.png",
+    "docs/home411-inside.png"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: ONE square 2x2 equal-quadrant flat material swatch atlas, for the native 3D cottage seen in reference 1. Reference 1 is an unsuccessful bright clean boxy prototype; do not copy its yellow/orange color. Reference 2 is the richer cozy hand-painted interior: match its subdued old brown wood. We need integration with the shaded illustrated green forest, quiet non-photoreal materials. Exactly four equal square quadrants, no padding, no labels, no borders, no objects, no perspective, no drawn facade, no brick/tile/plank seams (meshes make the seams). Top-left: aged cool walnut and muted umber timber, low saturation, medium value, broad quiet painterly strokes along vertical grain, much LESS orange, no glossy varnish, no dense realistic woodgrain. Top-right: old smoky blue-grey slate with gentle blue green undertone, medium-dark value, large soft pigment patches and tiny restrained dull moss variation, NOT bright purple or metallic blue, no drawn shingles. Bottom-left: weathered warm ivory limewash plaster with a hint of soft sage-grey in shaded patches, not bright yellow, subtle broad hand-painted cloudy color, no fine noise. Bottom-right: grey-beige limestone with gentle warm-grey and cool-grey variation, mid-light value, matte broad soft color patches, no drawn blocks or cracks. Even diffuse lighting, no baked directional highlight or dark edge borders. Storybook game painterly shapes rather than photoreal texture or slick PBR. Readable chunky color at small game scale, low contrast within each swatch, opaque image."
+}

@@ -1,0 +1,50 @@
+{
+	"failures": [],
+	"views": [
+		{
+			"actor_depth_limit": 7.1785705947876,
+			"new_actor_pixels": 9561,
+			"new_pillow_occluded": 0,
+			"old_actor_pixels": 9562,
+			"old_pillow_occluded": 0,
+			"pillow_depth": 7.2135705947876,
+			"view": "detail"
+		},
+		{
+			"actor_depth_limit": 20.4117010498047,
+			"new_actor_pixels": 1212,
+			"new_pillow_occluded": 0,
+			"old_actor_pixels": 1212,
+			"old_pillow_occluded": 0,
+			"pillow_depth": 20.4467010498047,
+			"view": "fixed"
+		},
+		{
+			"actor_depth_limit": 19.1898954772949,
+			"new_actor_pixels": 1391,
+			"new_pillow_occluded": 0,
+			"old_actor_pixels": 1391,
+			"old_pillow_occluded": 0,
+			"pillow_depth": 19.2248954772949,
+			"view": "follow"
+		},
+		{
+			"actor_depth_limit": 20.4117010498047,
+			"new_actor_pixels": 1351,
+			"new_pillow_occluded": 0,
+			"old_actor_pixels": 1352,
+			"old_pillow_occluded": 0,
+			"pillow_depth": 20.4467010498047,
+			"view": "wide"
+		},
+		{
+			"actor_depth_limit": 7.09404691696167,
+			"new_actor_pixels": 9692,
+			"new_pillow_occluded": 0,
+			"old_actor_pixels": 9693,
+			"old_pillow_occluded": 0,
+			"pillow_depth": 7.12904691696167,
+			"view": "pillow-stress"
+		}
+	]
+}

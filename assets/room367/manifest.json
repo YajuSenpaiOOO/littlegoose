@@ -1,0 +1,34 @@
+{
+  "generator": "builtin image_gen; purpose-drawn pixel-cluster material atlas, not a downsample of366 textures",
+  "source": "exec-32fb993b-3bc5-40d4-9884-631a80d31668.png",
+  "sha256": "6419d5eccfca880e1e659629a11e2cc79e118fc693fe48bdad0cb094ce8698da",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "raw_bytes_unchanged": true,
+  "prompt": "prompt.txt",
+  "references": [
+    "assets/room364/headboard_uv_guide.png: head UV shape",
+    "docs/room366-detail-painted.png: motifs and bed palette",
+    "assets/hero_pixel/walk_source.png: pixel-cluster style only, actor not edited"
+  ],
+  "tiles": {
+    "0,0": "headboard front; also original wood subregion for posts and feet",
+    "1,0": "pillow fabric",
+    "0,1": "cream duvet",
+    "1,1": "sage throw",
+    "0,2": "fitted cream sheet",
+    "1,2": "skirt hem material, u repeat6 from original mesh"
+  },
+  "render": "all six regions sampled from dedicated new atlas with nearest192x128 logical texture grid, .8percent UV inset excludes generated dividers, restrained3-step normal/gather value bands, original regional day/night and lamp tint",
+  "comparison": "P switches original hand-painted and pixel materials on the same meshes. Default restored to original hand-painted per user decision.",
+  "preserved": "all geometry, nodes, cloth thickness/contact gaps, collision, actor192, room projection, camera follow and non-bed objects",
+  "limits": [
+    "material-style comparison, real3D silhouettes remain smooth",
+    "generated atlas aims for limited shared palette but is not asserted exactly16 colors",
+    "no global low-resolution postfilter",
+    "existing2D sleep preview remains original artwork; no new3D sleep motion"
+  ]
+}

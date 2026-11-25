@@ -1,0 +1,33 @@
+{
+  "generator": "built-in image_gen",
+  "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-b3ba0757-5372-4384-ad52-b44bc84421c8.png",
+  "sha256": "c32102fc3dfde6698722e0c9a141ffbec91d855e0bb73a2e14d1edc3299adc45",
+  "size": [
+    1254,
+    1254
+  ],
+  "bytes_unchanged": true,
+  "reference": "C:/Users/ASUS/Desktop/图图/ChatGPT 图像 2026年11月13日 11_36_23.png",
+  "atlas": [
+    "ivory round embroidered cloth",
+    "ivory goose ceramic band",
+    "plum goose cushion",
+    "wooden feather backboard"
+  ],
+  "reused": [
+    "assets/room395/wood-atlas.png",
+    "assets/room395/details-atlas.png",
+    "scripts/room/wood395.gdshader"
+  ],
+  "display": "Actual geometry aligned to room, no billboarding or pseudo depth; desk unchanged 395; desk chair faces north, tea chair faces east. All model roots remain at previous furniture footprint anchors.",
+  "uv": "Explicit per-face/lathe and polar UVs with .004 inset/.492 tile extent; actual domed seats and backboards, no complete perspective image projected on model.",
+  "dimensions": {
+    "tea": "radius .79m, top1.0m; four legs at X+/-.48/Z+/-.40; cloth radius .70m Y1.009",
+    "chairs": "seat .65m, back top1.34m, four legs .57m high, footY.008; desk chair rotationY180, tea chair Y90",
+    "stool": "radius .25m, top.45m, 3 legs .32m high, footY.008"
+  },
+  "collision": "Original occupied furniture boxes and footprint dimensions retained, no per-leg traversal or new furniture step; tabletop width remains larger than conservative collision footprint as in355/394.",
+  "shadows": "Same visible solid meshes cast native shadows; no old cards/old shadow proxies in solid mode. Thin cloth, ribbon loops/tails and daisy petals plus transparent vase receive but deliberately do not cast extra shadows; visible petals are small fixed geometry not billboards. No duplicate contact shadow.",
+  "lights": "No new lights/emission; existing395 desk light hook preserved.",
+  "scope": "T toggles all five desk/table/seat models vs394 cards, G desk view/Y tea view/F12 existing follow/F2 day-night. R original sleep compare kept. No new sit/drink/drawer interaction."
+}

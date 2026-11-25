@@ -1,0 +1,44 @@
+{
+  "source": "poses.png",
+  "generation_tool": "built-in image_gen",
+  "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-42f7da67-f9cc-461b-a642-279df36a2dcf.png",
+  "prompt": "bodies-edit-prompt.txt",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "eb007fbe26ee85dca5638cd8d3334e6bd41d184950815e021d20e79c50ea039f",
+  "alpha128_bounds": [
+    [
+      39,
+      120,
+      488,
+      888
+    ],
+    [
+      27,
+      121,
+      476,
+      888
+    ],
+    [
+      18,
+      120,
+      468,
+      888
+    ]
+  ],
+  "runtime_cells": [
+    0,
+    1
+  ],
+  "anchor": [
+    256,
+    887
+  ],
+  "density": 0.001877444589308996,
+  "display": "upright; connected body and arms; reused independent flight383 wings behind body",
+  "shadow": "flight383 single max union; actual transforms; no native shadow",
+  "collision": "preview only; none",
+  "light": "existing hero192 receiver; no new actor light"
+}

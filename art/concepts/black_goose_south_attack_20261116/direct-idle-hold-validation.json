@@ -1,0 +1,24 @@
+{
+	"failures": [],
+	"immediate_shot_pose": "release",
+	"sequences": [
+		[
+			"idle",
+			"ready",
+			"release",
+			"idle"
+		],
+		[
+			"idle",
+			"ready",
+			"release",
+			"idle"
+		],
+		[
+			"idle",
+			"ready",
+			"release",
+			"idle"
+		]
+	]
+}

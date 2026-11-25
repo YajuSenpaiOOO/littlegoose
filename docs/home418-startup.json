@@ -1,0 +1,11 @@
+{
+	"first_overlay_ms": 26,
+	"initial_add_child_ms": 4077,
+	"instantiate_ms": 1,
+	"resource_ready_ms": 1392,
+	"room_ms": 4819,
+	"static_MB": 553.225088119507,
+	"total_ready_ms": 57445,
+	"video_MB": 1700.6020116806,
+	"yard_ms": 535
+}

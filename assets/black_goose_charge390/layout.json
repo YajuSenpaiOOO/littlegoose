@@ -1,0 +1,130 @@
+{
+  "size": [
+    887,
+    1774
+  ],
+  "poses_by_direction": [
+    [
+      {
+        "region": [
+          0,
+          0,
+          296,
+          887
+        ],
+        "anchor": [
+          151.5,
+          754.2
+        ],
+        "density": 0.002694,
+        "hair_height": 555
+      },
+      {
+        "region": [
+          0,
+          887,
+          296,
+          887
+        ],
+        "anchor": [
+          151.5,
+          717.2
+        ],
+        "density": 0.002694,
+        "hair_height": 518
+      }
+    ],
+    [
+      {
+        "region": [
+          591,
+          0,
+          296,
+          887
+        ],
+        "anchor": [
+          152.9,
+          720.1
+        ],
+        "density": 0.0028814,
+        "hair_height": 555
+      },
+      {
+        "region": [
+          591,
+          887,
+          296,
+          887
+        ],
+        "anchor": [
+          152.9,
+          684.1
+        ],
+        "density": 0.0028814,
+        "hair_height": 519
+      }
+    ],
+    [
+      {
+        "region": [
+          296,
+          0,
+          295,
+          887
+        ],
+        "anchor": [
+          148.8,
+          745.8
+        ],
+        "density": 0.0027458,
+        "hair_height": 555
+      },
+      {
+        "region": [
+          296,
+          887,
+          295,
+          887
+        ],
+        "anchor": [
+          148.8,
+          708.8
+        ],
+        "density": 0.0027458,
+        "hair_height": 518
+      }
+    ]
+  ],
+  "back_release_sleeves": [
+    [
+      0,
+      505,
+      112,
+      115
+    ],
+    [
+      185,
+      505,
+      111,
+      115
+    ]
+  ],
+  "mouths": [
+    [
+      -0.22,
+      0.74,
+      0.025
+    ],
+    [
+      0,
+      0.77,
+      -0.1
+    ],
+    [
+      0.2,
+      0.74,
+      0.025
+    ]
+  ],
+  "note": "Head-registered per direction, same density across charge/release. Generated large transparent row padding kept; no image resampling or fitting by feet."
+}

@@ -1,0 +1,28 @@
+{
+  "regions": [
+    [
+      0,
+      0,
+      627,
+      1254
+    ],
+    [
+      627,
+      0,
+      627,
+      1254
+    ]
+  ],
+  "anchors": [
+    [
+      320,
+      1146
+    ],
+    [
+      320,
+      1146
+    ]
+  ],
+  "density": 0.0014215202369200395,
+  "registration": "same head/torso coordinate system as V1; feet deliberately not re-fitted"
+}

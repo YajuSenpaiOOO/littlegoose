@@ -1,0 +1,43 @@
+{
+	"failures": [],
+	"routes": [
+		{
+			"distance": 1.0867760181427,
+			"target": "(-3.0, 0.05, 2.0)"
+		},
+		{
+			"distance": 1.06772649288177,
+			"target": "(-1.7, 0.05, -2.6)"
+		},
+		{
+			"distance": 1.08463275432587,
+			"target": "(2.7, 0.05, -2.8)"
+		},
+		{
+			"distance": 1.08066236972809,
+			"target": "(3.0, 0.05, 1.8)"
+		},
+		{
+			"distance": 1.08732104301453,
+			"target": "(-3.8, 0.05, 0.4)"
+		}
+	],
+	"seen_frames": [
+		"down0",
+		"left2",
+		"left3",
+		"left1",
+		"left0",
+		"up3",
+		"up1",
+		"up2",
+		"up0",
+		"right2",
+		"right3",
+		"right1",
+		"right0",
+		"down2",
+		"down3",
+		"down1"
+	]
+}

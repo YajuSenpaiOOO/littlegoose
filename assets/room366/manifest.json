@@ -1,0 +1,81 @@
+{
+  "generator": "builtin image_gen",
+  "prompts": "prompts.json",
+  "reference": "user bed design image3: ChatGPT 图像 2026年11月13日 11_36_36.png; design and color reference only",
+  "files": [
+    {
+      "file": "cream_duvet.png",
+      "source": "exec-6862266f-ebae-4b32-9c29-42426be821a5.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "ef72443cd7fc9d7af0274921554dc930004a5c616194f71f63c86333113ad8a0",
+      "raw_bytes_unchanged": true
+    },
+    {
+      "file": "sage_throw.png",
+      "source": "exec-7f69bd72-0ea5-4785-801a-9b4bf4d33562.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "1947fae0ad6d1175a93cc512dbca5fa96f2415220de452a3dbc7dc8e55601720",
+      "raw_bytes_unchanged": true
+    }
+  ],
+  "geometry": "independent closed thick cream duvet and thin sage throw; top/bottom with semicircular hem bridges; true fixed room geometry, no billboard or depth rewriting",
+  "duvet_mapping": {
+    "u_range": [
+      -1.25,
+      1.25
+    ],
+    "v_range": [
+      0,
+      1.25
+    ],
+    "central_top_x": [
+      -1.08,
+      1.08
+    ],
+    "central_top_z": [
+      -0.65,
+      1.15
+    ],
+    "outer_drape_x_max": 1.318,
+    "outer_drape_z_max": 1.518,
+    "minimum_upper_thickness": 0.075,
+    "corner_drop": "fourth-power smooth combination, no doubled edge-drop pocket",
+    "sheet_clearance": "fitted sheet envelope with smoothly fading edge correction; actual triangle samples verified"
+  },
+  "throw_mapping": {
+    "underlying_duvet_u_range": [
+      -1.22,
+      1.22
+    ],
+    "underlying_duvet_v_range": [
+      0.43,
+      1.12
+    ],
+    "lower_normal_offset": 0.005,
+    "upper_normal_offset_base": 0.032,
+    "quilt_loft_max": 0.007,
+    "quilt_cells": [
+      5,
+      3
+    ],
+    "hem_outward_bulge": 0.008
+  },
+  "display": "same bounded hand-painted regional tint and mild world-normal shading as365; no native PBR highlights, no emission/outward light; full-surface dedicated UVs",
+  "collision": "unchanged body2.78x.8x3.14 and headboard2.66x1.5x.25, covers never alter physics",
+  "shadows": "inherited bed/feet/pillow contacts; rounded hem and darker underside provide local layer separation; no long cloth shadow caster",
+  "controls": "Q toggles duvet plus dependent throw; G toggles only sage throw; V existing fitted sheet/skirt comparison; C detail; F11 3D/2D; F12 follow",
+  "limits": [
+    "empty-bed shape only; no cloth simulation or new3D sleep animation",
+    "E/F10 still explicitly switch to existing2D sleeping preview",
+    "one completed left pillow retained from364; no new character or second sleeper",
+    "samples verify selected mesh contacts, not every future pose or standing-actor intersection"
+  ]
+}

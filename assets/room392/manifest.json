@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "prompts": [
+    "prompt-A.txt",
+    "prompt-B.txt",
+    "prompt-C.txt"
+  ],
+  "styles": [
+    "cream floral cute",
+    "woodland botanicals",
+    "vintage storybook trellis"
+  ],
+  "world_mapping": "real vertical walls, world-space tile2.2m, matte receiver; no baked light",
+  "side_geometry": "two3.6m high x9m long walls, original full-side colliders unchanged, front wall stays cutaway",
+  "decorations": "awards/photos/hooks are separate future mountable props, not in wallpaper",
+  "files": {
+    "wall-A.png": "9edc7ab5908833cf38c55d963e028e91fff8812d96d2bc0dc25a6e76ed407b88",
+    "wall-B.png": "6c6819b8f9f4697b77b4eb0e818be85cbf6c6d85d657311ccc9a739b330d6a95",
+    "wall-C.png": "c83c7eac931a1cefb68b1851eac72753df26a5d804a8d36cbb5f36017c9e58ea"
+  }
+}

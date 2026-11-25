@@ -1,0 +1,146 @@
+{
+  "generator": "built-in image_gen",
+  "references": [
+    "C:/Users/ASUS/Desktop/图图/ChatGPT 图像 2026年11月13日 11_36_23.png",
+    "docs/room393-window-new-day.png"
+  ],
+  "assets": [
+    {
+      "file": "desk.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-9e2796f3-f144-440e-9035-848ec17d21d5.png",
+      "sha256": "f21acd571df355bc8f79e934b7b84ef00db504c1e6d8c80741c028894bc69aec",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha128_bbox": [
+        157,
+        5,
+        1377,
+        1013
+      ],
+      "bytes_unchanged": true
+    },
+    {
+      "file": "tea.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-01d67bae-25bb-4b8d-a088-d45521527741.png",
+      "sha256": "bda0ce6e8da83b4d7e4698382939cd243c33ac0227899e993cb2035a56d9b1a1",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha128_bbox": [
+        335,
+        9,
+        1186,
+        975
+      ],
+      "bytes_unchanged": true
+    },
+    {
+      "file": "chairs.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-b96fa064-1356-4b9d-8fa3-c24ca6a723b5.png",
+      "sha256": "af26d4de2c9d0b72b535be2f7127352f35936c9e282ebbc5daf5850331c10493",
+      "size": [
+        2172,
+        724
+      ],
+      "alpha128_bbox": [
+        257,
+        53,
+        1878,
+        673
+      ],
+      "bytes_unchanged": true
+    }
+  ],
+  "display": "Fixed camera plane from initial camera basis, source aspect unchanged; not upright character migration",
+  "collision": "Original 5 furniture colliders, footprints and positions preserved; transparent sprite rectangles never used as colliders",
+  "occlusion": "furniture394.gdshader reuses room356 ray-depth approach, current view camera, per-asset tabletop ramp and rear-leg depth regions; approximate volume not full mesh reconstruction",
+  "shadow": "Painted cards cast OFF; original table surfaces and desk/chair legs plus new tea four legs, seat/back volumes, stool three legs, lamp shade/stem cast SHADOWS_ONLY; no second contact shadow. Small book/cup/flower highlights painted; no independent shadow volume per tiny tabletop accessory",
+  "light": "Existing desk OmniLight kept with same energy/range and world light lifecycle, aligned to desk source pixel (1124,155) via source anchor and fixed display basis. No new light or emission",
+  "tables": "Each tabletop and its small objects are one raster assembly, seats separate. No drawer opening or tea interaction added",
+  "toggle": "T new/old tables and seats; V remains independent new/old window with correct lamp positions",
+  "pieces": [
+    {
+      "id": "desk",
+      "file": "desk.png",
+      "region": [
+        157,
+        5,
+        1220,
+        1008
+      ],
+      "source_foot": [
+        767,
+        1012
+      ],
+      "width_m": 2.6,
+      "front_offset_m": 0.6
+    },
+    {
+      "id": "tea",
+      "file": "tea.png",
+      "region": [
+        335,
+        9,
+        851,
+        966
+      ],
+      "source_foot": [
+        760,
+        974
+      ],
+      "width_m": 1.62,
+      "front_offset_m": 0.55
+    },
+    {
+      "id": "desk_chair",
+      "file": "chairs.png",
+      "region": [
+        257,
+        88,
+        306,
+        569
+      ],
+      "source_foot": [
+        410,
+        656
+      ],
+      "width_m": 0.67,
+      "front_offset_m": 0.26
+    },
+    {
+      "id": "tea_chair",
+      "file": "chairs.png",
+      "region": [
+        887,
+        53,
+        395,
+        620
+      ],
+      "source_foot": [
+        1084,
+        672
+      ],
+      "width_m": 0.78,
+      "front_offset_m": 0.26
+    },
+    {
+      "id": "goose_stool",
+      "file": "chairs.png",
+      "region": [
+        1614,
+        365,
+        264,
+        300
+      ],
+      "source_foot": [
+        1746,
+        664
+      ],
+      "width_m": 0.48,
+      "front_offset_m": 0.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "art/concepts/black_goose_attack_two_frames_20261116/ready.png",
+  "source_output": "exec-6c084ebd-c6fb-4ed7-a29d-72962c79fe4e.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha128_bbox": [
+    77,
+    33,
+    1259,
+    975
+  ],
+  "sha256": "e7939dab3172b60b5b87c2852c716d84c0fe116fec7c8c57551f091e26c9c162",
+  "body_region": [
+    0,
+    0,
+    768,
+    1024
+  ],
+  "body_pivot": [
+    427,
+    650
+  ],
+  "shoulder_socket": [
+    375,
+    550
+  ],
+  "arm_region": [
+    1000,
+    400,
+    300,
+    240
+  ],
+  "arm_root": [
+    228,
+    85
+  ],
+  "elbow": [
+    145,
+    155
+  ],
+  "head_scale_constant": true,
+  "preview_scale": 0.42,
+  "animation": "native Godot two-dimensional continuous textured mesh deformation, shoulder rotation and weighted elbow/extension; body independent delayed translation/lean; no expression or projectile",
+  "timing": {
+    "anticipation_s": 0.1,
+    "hand_peak_s": 0.18,
+    "body_recoil_peak_s": 0.28,
+    "settled_s": 0.66
+  },
+  "scope": "single-action force prototype only, new temporary cutouts are not approved replacement character art; static baked wings. Gameplay remains385."
+}

@@ -1,0 +1,30 @@
+{
+  "source": "builtin imagegen exec-d4559be9-40da-4f3c-be4b-f8ae8d72dc6a.png",
+  "sha256": "23a161bcdfb87e9a5dbed9f634a358ffe493bff26493edadc96d14ad352e9d0e",
+  "prompt": "Square equal 2x2 atlas: top left sage quilt with sparse cream stars and chunky grid; top right cream pillow panel; bottom left muted caramel wood with three broad pixel grain strokes; bottom right ivory bedsheet with broad pale peach folds. Cute chunky pixel art, limited palette, no fine noise, flat orthographic surface artwork, no furniture silhouette, no perspective or baked shadows.",
+  "display": "real room-aligned meshes; independently removable blanket; two pillow surface layers; per-face UVs; nearest texture sampling; native light and shadows",
+  "dimensions_m": {
+    "footprint": [
+      2.55,
+      3.0
+    ],
+    "mattress_top": 0.76,
+    "blanket_top": 0.97,
+    "headboard_top": 1.49
+  },
+  "sleep_anchors_local": [
+    [
+      -0.59,
+      0.78,
+      -0.6
+    ],
+    [
+      0.59,
+      0.78,
+      -0.6
+    ]
+  ],
+  "collision": "independent 2.55 x .76 x 3 box + 2.5 x .94 x .13 headboard; never changes when display toggles",
+  "emission": false,
+  "limits": "no human sleep sprites or animation; no actual sleeping/progress saves; floor and wardrobe unchanged"
+}

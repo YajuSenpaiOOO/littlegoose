@@ -1,0 +1,36 @@
+{
+  "generator": "builtin image_gen",
+  "source": "exec-a400a9a4-a843-4bfe-8d03-99e9c79e40db.png",
+  "sha256": "546e7b6ce9f6596de9e71d531259847cb4ed15681ce183ca2f0231d6ed4c1662",
+  "reference": "User image 3: ChatGPT 图像 2026年11月13日 11_36_36.png; shape, motifs and palette reference, not a texture crop",
+  "prompt_file": "prompt.txt",
+  "atlas_layout": {
+    "0,0": "honey wood and feather motif",
+    "1,0": "cream pillow and seam",
+    "0,1": "cream botanical quilt",
+    "1,1": "sage quilt throw"
+  },
+  "display": "room-aligned solid mesh; no sprite silhouette; source image unmodified; per-part UV quadrants; linear mipmap filtering; native lighting and shadows; roughness 1 specular 0 emission false",
+  "dimensions_m": {
+    "visual_width_max": 2.62,
+    "visual_depth_max": 3.05,
+    "headboard_top": 2.0,
+    "collision_body": [
+      2.78,
+      0.8,
+      3.14
+    ],
+    "collision_headboard": [
+      2.55,
+      1.35,
+      0.24
+    ]
+  },
+  "collision": "stable box footprint with small side-clearance margin; same collision in comparison modes; soft folds do not create individual collision bodies",
+  "sleep": "two inherited anchors; debug only, no actors or sleep gameplay",
+  "limits": [
+    "illustration density remains simplified for game view",
+    "not a universal sprite occlusion fix",
+    "existing room floor cabinet lighting unchanged"
+  ]
+}

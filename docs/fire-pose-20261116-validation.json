@@ -1,0 +1,15 @@
+{
+	"0": {
+		"pose_transitions": 8,
+		"shots": 4
+	},
+	"1": {
+		"pose_transitions": 2,
+		"shots": 22
+	},
+	"2": {
+		"pose_transitions": 2,
+		"shots": 0
+	},
+	"failures": []
+}

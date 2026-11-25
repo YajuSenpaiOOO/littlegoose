@@ -179,14 +179,14 @@ func tick_flights327(delta: float) -> void:
   var flight := flights327[i]
   flight.age += delta
   if flight.age<0.:
-   if cannon_hp326[flight.source]<=0.: remove_flight327(i)
+   if not flight.meteor and cannon_hp326[flight.source]<=0.: remove_flight327(i)
    continue
   if not flight.sprite.visible:
-   if cannon_hp326[flight.source]<=0.:
+   if not flight.meteor and cannon_hp326[flight.source]<=0.:
     remove_flight327(i)
     continue
    flight.sprite.show()
-   theatre314.recoil_cannon326(flight.source)
+   if not flight.meteor:theatre314.recoil_cannon326(flight.source)
    if not flight.meteor: Audio.play("crack",.6)
   var t := clampf(float(flight.age)/float(flight.duration),0.,1.)
   flight.sprite.global_position = theatre314.flight_position330(flight,t)

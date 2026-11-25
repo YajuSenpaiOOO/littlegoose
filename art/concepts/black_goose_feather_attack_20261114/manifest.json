@@ -1,0 +1,203 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "assets/black_goose_flight378/selected-C.png",
+  "scope": "Three front attack concept sheets, four key poses per sheet; three independent projectile concepts. Unselected, no game/launcher changes. Native preview loops are concept timing, not final authored animation or separated arm rig.",
+  "files": {
+    "action-A": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-727f53b9-fe84-45dc-ba10-6a39d656442d.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha128_bbox": [
+        214,
+        10,
+        1308,
+        985
+      ],
+      "sha256": "907b6820502a4864f2539fafd7a189b5f70b7977a1addda551f778f11352b26f",
+      "prompt": "prompt-action-A.txt",
+      "cells": [
+        [
+          0,
+          0,
+          768,
+          512
+        ],
+        [
+          768,
+          0,
+          768,
+          512
+        ],
+        [
+          0,
+          512,
+          768,
+          512
+        ],
+        [
+          768,
+          512,
+          768,
+          512
+        ]
+      ]
+    },
+    "action-B": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-9cf2c8c7-1719-4af5-98d3-f1c5452d4d4a.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha128_bbox": [
+        197,
+        7,
+        1339,
+        986
+      ],
+      "sha256": "48fa036be1d30948afbc9d23df7c65de09faa937029403db12929e8a736c2f5f",
+      "prompt": "prompt-action-B.txt",
+      "cells": [
+        [
+          0,
+          0,
+          768,
+          512
+        ],
+        [
+          768,
+          0,
+          768,
+          512
+        ],
+        [
+          0,
+          512,
+          768,
+          512
+        ],
+        [
+          768,
+          512,
+          768,
+          512
+        ]
+      ]
+    },
+    "action-C": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-c2e936b9-eb7d-4f38-97c6-a4f3cff998f5.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha128_bbox": [
+        173,
+        10,
+        1345,
+        989
+      ],
+      "sha256": "8613545c7bfd71e47bd025bb5a139d298acf0377dc66321adf600ae99e7026c0",
+      "prompt": "prompt-action-C.txt",
+      "cells": [
+        [
+          0,
+          0,
+          768,
+          512
+        ],
+        [
+          768,
+          0,
+          768,
+          512
+        ],
+        [
+          0,
+          512,
+          768,
+          512
+        ],
+        [
+          768,
+          512,
+          768,
+          512
+        ]
+      ]
+    },
+    "projectile-A": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-34e7d1a3-2b98-4483-9a50-4bd5648bcf0d.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha128_bbox": [
+        114,
+        449,
+        1149,
+        951
+      ],
+      "sha256": "489bf06c5859a7a84d0dad6ef553b905a4c95e55d76ba9b439166a3208d4139f",
+      "prompt": "prompt-projectile-A.txt"
+    },
+    "projectile-B": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-1c91f2ad-a2f6-4331-8ae8-bc94a0dd9ac3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha128_bbox": [
+        60,
+        466,
+        1222,
+        877
+      ],
+      "sha256": "3aa424dc3926de085d7043865c2a7b99a602fabf13ad55049c48dc17f98d94e8",
+      "prompt": "prompt-projectile-B.txt"
+    },
+    "projectile-C": {
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-7b6cefa3-1ea6-434b-ba9a-e223e2a78fd4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha128_bbox": [
+        177,
+        429,
+        1078,
+        966
+      ],
+      "sha256": "0473c38437da4febb10f24610337e23bb50b5d35732c4ba09963f4918a802d89",
+      "prompt": "prompt-projectile-C.txt"
+    }
+  },
+  "previews": {
+    "action-preview.gif": {
+      "renderer": "Godot native 2D frames, GIF container encoding via Pillow",
+      "frames": 4,
+      "duration_ms": [
+        260,
+        220,
+        140,
+        300
+      ],
+      "size": [
+        1200,
+        600
+      ]
+    },
+    "projectile-comparison.png": {
+      "renderer": "Godot native 2D",
+      "sample_width_px": [
+        24,
+        36,
+        48
+      ],
+      "backgrounds": [
+        "light",
+        "dark"
+      ]
+    }
+  }
+}

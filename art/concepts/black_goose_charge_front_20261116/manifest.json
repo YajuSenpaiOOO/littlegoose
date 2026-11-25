@@ -1,0 +1,65 @@
+{
+  "generator": "built-in image_gen precise-object-edit",
+  "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-be45a216-bcdc-41a7-9b3d-e9905640315a.png",
+  "reference": "assets/black_goose_attack386/bodies.png",
+  "prompt": "prompt.txt",
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "requested_size": [
+    1024,
+    1024
+  ],
+  "sha256": "96222442b96cf3c00fc2449948585759398d9ebdf576b7f6329e72dc1495a98e",
+  "poses": [
+    "squint/puffed cheeks/hand drawn in",
+    "open mouth/hand spring back"
+  ],
+  "regions": [
+    [
+      0,
+      0,
+      610,
+      1254
+    ],
+    [
+      610,
+      0,
+      644,
+      1254
+    ]
+  ],
+  "alpha128_bounds": [
+    [
+      30,
+      133,
+      601,
+      1144
+    ],
+    [
+      11,
+      134,
+      602,
+      1145
+    ]
+  ],
+  "anchors": [
+    [
+      320,
+      1146
+    ],
+    [
+      337,
+      1146
+    ]
+  ],
+  "pixel_size": 0.0014215202369200395,
+  "display": "upright full connected body; existing four-frame independent wings; no separate arm mesh",
+  "light": "hero192 receiver; preview fixture lighting; no production light change",
+  "collision": "visual preview only; no collider",
+  "shadow": "native flight383 actual-transform single max body/wings; no duplicate opacity",
+  "preview": "0.72s base charge versus 1.72s held charge, 0.42s release expression, 5.2s cycle",
+  "emission": "one southbound candy at held hand position per release; illustrative, not gameplay weapon change",
+  "scope": "front preview only, latest gameplay388 unchanged"
+}

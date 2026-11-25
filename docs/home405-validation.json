@@ -1,0 +1,77 @@
+{
+	"approach_route_points": 15,
+	"failures": [],
+	"sites": {
+		"1": {
+			"door": "(-4.7, -4.8)",
+			"floor_y": 0.235000002980232,
+			"footprint": "[P: (-7.4625, -9.210001), S: (5.525, 4.29)]",
+			"mode": 1,
+			"overlapping_bodies": [],
+			"ramp_drop": 0.115000005662441,
+			"tree_roots": []
+		},
+		"2": {
+			"door": "(-4.7, -4.8)",
+			"floor_y": 0.235000002980232,
+			"footprint": "[P: (-11.4, -12.63), S: (13.4, 8.0)]",
+			"mode": 2,
+			"overlapping_bodies": [
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5195",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5176",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5191",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5126",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5152",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5173",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5139",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5170",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5187",
+				"/root/MapFit405/@Node3D@5/@Node3D@4596/@StaticBody3D@4599",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5219",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5204",
+				"/root/MapFit405/@Node3D@5/WorldTree457/@StaticBody3D@1866",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5215",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5201",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5167",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5211",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5198",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5183",
+				"/root/MapFit405/@Node3D@5/WorldTree456/@StaticBody3D@1862"
+			],
+			"ramp_drop": 0.115000005662441,
+			"tree_roots": [
+				"(-5.379627, 0.188237, -12.84618)",
+				"(-0.331176, 0.196285, -11.98552)"
+			]
+		},
+		"3": {
+			"door": "(-4.7, -7.8)",
+			"floor_y": 0.235000002980232,
+			"footprint": "[P: (-11.4, -15.63), S: (13.4, 8.0)]",
+			"mode": 3,
+			"overlapping_bodies": [
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5204",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5219",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5215",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5201",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5167",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5211",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5198",
+				"/root/MapFit405/@Node3D@5/WorldTree457/@StaticBody3D@1866",
+				"/root/MapFit405/@Node3D@5/WorldTree428/@StaticBody3D@1750",
+				"/root/MapFit405/@Node3D@5/PaintedGarden45/@Node3D@5123/@StaticBody3D@5183",
+				"/root/MapFit405/@Node3D@5/WorldTree456/@StaticBody3D@1862",
+				"/root/MapFit405/@Node3D@5/WorldTree427/@StaticBody3D@1746",
+				"/root/MapFit405/@Node3D@5/WorldTree455/@StaticBody3D@1858"
+			],
+			"ramp_drop": 0.115000005662441,
+			"tree_roots": [
+				"(-8.675018, 0.2, -15.81008)",
+				"(-4.026543, 0.2, -15.85311)",
+				"(-8.275326, 0.2, -13.05828)",
+				"(-5.379627, 0.188237, -12.84618)",
+				"(-0.331176, 0.196285, -11.98552)"
+			]
+		}
+	}
+}

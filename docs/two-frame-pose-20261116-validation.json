@@ -1,0 +1,26 @@
+{
+	"errors": [],
+	"results": [
+		{
+			"arm_raises": 4,
+			"mode": 0,
+			"ready_samples": 115,
+			"release_samples": 44,
+			"shots": 4
+		},
+		{
+			"arm_raises": 1,
+			"mode": 1,
+			"ready_samples": 196,
+			"release_samples": 44,
+			"shots": 21
+		},
+		{
+			"arm_raises": 1,
+			"mode": 2,
+			"ready_samples": 220,
+			"release_samples": 0,
+			"shots": 0
+		}
+	]
+}

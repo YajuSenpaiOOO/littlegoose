@@ -66,6 +66,9 @@ var applied_hour55 := -1.
 var applied_state55 := -1
 var guide_key55 := ""
 
+func _look_interval55() -> float:
+	return .08
+
 func _process(delta: float) -> void:
 	clock55.advance(delta,blocked() or preview)
 	# Visual sampling follows simulation time. Debug jumps also ease through the
@@ -73,7 +76,7 @@ func _process(delta: float) -> void:
 	visual_hour=move_toward(visual_hour,clock55.hour,delta*9.)
 	apply_left-=delta
 	if apply_left<=0.:
-		apply_left=.08
+		apply_left=_look_interval55()
 		# At steady state (visual hour caught up, same pause state) the look and
 		# the guide label are already correct; re-pushing them 12.5x per second
 		# only re-rendered the canvas. Subclass toggles call update_guide()

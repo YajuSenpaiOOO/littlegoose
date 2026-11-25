@@ -1,0 +1,46 @@
+{
+  "version": 369,
+  "generator": "built-in image_gen",
+  "status": "visual trial, not approved final actor",
+  "runtime_asset": "sleep_full_pixel.png",
+  "source_file": "exec-7b320488-2b0b-4890-a776-7810986876f3.png",
+  "sha256": "227560abb118aa7aa73a6426e321d2b1f43e46f4e55627b4c2998c6ffc313069",
+  "image_size": [
+    1199,
+    1312
+  ],
+  "alpha128_bounds": [
+    90,
+    120,
+    1103,
+    1171
+  ],
+  "references": {
+    "identity_and_style": "assets/hero_pixel/walk_source.png",
+    "pose_context_only": "art/concepts/sleep369/sleep-composition-v1.png"
+  },
+  "prompt": "full_pose_prompt.txt",
+  "drawing": "new full anatomical reclining pose in original sprite costume; no shoes; not HD head/nightdress assets. Authored pixel clusters requested, not exact96x112 grid guaranteed. No image resampling or edits.",
+  "geometry": {
+    "canvas_width": 1.48,
+    "canvas_height": 1.6194829024186823,
+    "reference_camera": "local eye=(0,1.02,-.2)+camera_back*6.8, pitch25,FOV42",
+    "strategy": "fixed world mesh, projected along reference close camera rays; mild face crown and head-to-foot depth; no billboarding and no DEPTH writes",
+    "anchor": "left bed local center(-.56,1,-.55); original head/pillow support anchor retained",
+    "sections": "head/hair UV0-.52 and full lower section .52-1, same texture. Not independent limb rig or individually cut hair layers.",
+    "collision": "none added; original furniture footprint stable",
+    "contact": "reuse pressed pillow and existing head/pillow contact patch, local cover hugs torso",
+    "shadow": "no additional long character shadow",
+    "material": "sleep_pose369 nearest mipmap, alpha.5, room phase plus nearby bedside lamp tint; no emission"
+  },
+  "cover": "both occupied duvet and throw use same extra smooth upper-left displacement, max40mm lift/100mm back-draw; empty mesh unchanged",
+  "unused_hd_assets": "art/concepts/sleep369/rejected-hd-*.png, rejected per user style feedback; not loaded",
+  "limits": [
+    "new art matches reference design but frame-perfect identity not guaranteed; user visual acceptance pending",
+    "fullbody on shallow mesh, not complete3D human volume",
+    "same costume for continuity; no approved nightdress",
+    "instant sleep/wake, no climb-in or rollover animation",
+    "right slot reserved; no black goose actor",
+    "general standing hair/bed collision not resolved"
+  ]
+}

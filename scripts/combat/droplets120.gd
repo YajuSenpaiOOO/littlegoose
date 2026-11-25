@@ -9,8 +9,9 @@ func _ready() -> void:
  ink120=ShaderMaterial.new();ink120.shader=preload("res://scripts/art/forest_cutout13.gdshader")
  ink120.set_shader_parameter("paint",preload("res://assets/collectibles119/blue_elastic_drop.png"));ink120.set_shader_parameter("alpha_threshold",.15)
  world.porch49.shade_material(ink120)
+func drop_limit120() -> int:return 15
 func spawn120(at: Vector3,velocity: Vector3) -> void:
- if items120.size()>=15: return
+ if items120.size()>=drop_limit120(): return
  var root := Node3D.new();root.position=at;add_child(root)
  var sprite := Sprite3D.new();sprite.texture=preload("res://scripts/combat/elastic_drop119.gd").texture119();sprite.pixel_size=.24/750.;sprite.billboard=BaseMaterial3D.BILLBOARD_FIXED_Y;sprite.texture_filter=BaseMaterial3D.TEXTURE_FILTER_NEAREST;sprite.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF;root.add_child(sprite)
  sprite.shaded=true;sprite.material_override=ink120

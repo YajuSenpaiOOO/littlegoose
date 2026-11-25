@@ -34,7 +34,8 @@ func _ready() -> void:
 func finish251(victory: bool) -> void:
  var grant=mode264=="boss" and victory and not ball_owned273
  super.finish251(victory)
- if not grant:return
+ if grant:grant_ball273()
+func grant_ball273() -> void:
  ball_owned273=true
  var cfg=ConfigFile.new();cfg.set_value("reward","bouncy_ball",true)
  if cfg.save(reward_path273())!=OK:notice219("弹力球本次已获得，但奖励记录保存失败。")

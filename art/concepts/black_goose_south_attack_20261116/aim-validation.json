@@ -1,0 +1,40 @@
+{
+  "south_sector_deg": 90,
+  "one_projectile_per_attack": true,
+  "aim": [
+    {
+      "world_angle": -45,
+      "world_xz": [
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      "screen_direction": [
+        -0.7071067811865476,
+        0.29883623873011983
+      ]
+    },
+    {
+      "world_angle": 0,
+      "world_xz": [
+        0.0,
+        1.0
+      ],
+      "screen_direction": [
+        0.0,
+        0.42261826174069944
+      ]
+    },
+    {
+      "world_angle": 45,
+      "world_xz": [
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      "screen_direction": [
+        0.7071067811865476,
+        0.29883623873011983
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,61 @@
+{
+	"arm_pixels": [
+		{
+			"direction": 0,
+			"fixed_occluded": 0,
+			"frame": 0,
+			"old_occluded": 196,
+			"samples": 252
+		},
+		{
+			"direction": 0,
+			"fixed_occluded": 0,
+			"frame": 1,
+			"old_occluded": 225,
+			"samples": 252
+		},
+		{
+			"direction": 0,
+			"fixed_occluded": 0,
+			"frame": 2,
+			"old_occluded": 216,
+			"samples": 252
+		},
+		{
+			"direction": 0,
+			"fixed_occluded": 0,
+			"frame": 3,
+			"old_occluded": 160,
+			"samples": 252
+		},
+		{
+			"direction": 2,
+			"fixed_occluded": 0,
+			"frame": 0,
+			"old_occluded": 190,
+			"samples": 268
+		},
+		{
+			"direction": 2,
+			"fixed_occluded": 0,
+			"frame": 1,
+			"old_occluded": 228,
+			"samples": 268
+		},
+		{
+			"direction": 2,
+			"fixed_occluded": 0,
+			"frame": 2,
+			"old_occluded": 199,
+			"samples": 268
+		},
+		{
+			"direction": 2,
+			"fixed_occluded": 0,
+			"frame": 3,
+			"old_occluded": 199,
+			"samples": 268
+		}
+	],
+	"failures": []
+}

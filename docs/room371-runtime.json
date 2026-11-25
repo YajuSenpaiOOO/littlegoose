@@ -1,0 +1,20 @@
+[
+	{
+		"fps": 55.0,
+		"mask_updates": 0,
+		"peak_frame_ms": 137.252666666662,
+		"sleep": false,
+		"static_MB": 549.983884811401,
+		"time_ms": 73170,
+		"video_MB": 1815.27429485321
+	},
+	{
+		"fps": 58.0,
+		"mask_updates": 0,
+		"peak_frame_ms": 97.2222222222222,
+		"sleep": false,
+		"static_MB": 550.263483047485,
+		"time_ms": 83184,
+		"video_MB": 1815.27429485321
+	}
+]

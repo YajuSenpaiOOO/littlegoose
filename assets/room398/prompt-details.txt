@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: opaque square 2x2 UV material atlas for real 3D cottage washstand accessories.
+Match original reference's hand-painted storybook cream, dusty plum, olive leaf embroidery and warm quiet surfaces. Moderately detailed flowing shapes, NOT pixel art, NOT photographic texture. Deliberately fewer fine marks than original. No dense weave, pores, speckles, noise, shiny highlights or baked directional lighting.
+Four equal square tiles edge-to-edge, exact boundaries halfway across, no labels, gutters or border around whole canvas.
+TOP LEFT: ivory towel fabric flat, almost plain warm cream with only a few broad subtle brush strokes. A delicate olive leaf embroidery band runs across the bottom 20 percent with a small cream feather in center. No cloth folds or towel silhouette.
+TOP RIGHT: muted dusty plum towel flat fabric, a small cream goose silhouette with two short leaf sprigs near bottom quarter, mostly plain plum above. No weave noise or folds.
+BOTTOM LEFT: warm ivory ceramic flat material, small restrained olive leaf sprigs in a horizontal band across the middle; mostly cream. No jug or basin object, no shine, no text.
+BOTTOM RIGHT: matte warm cream countertop surface, a few very broad subtle warm beige brush variations, no marble veins, terrazzo spots, cracks or fine grain.
+Flat orthographic surfaces for UV mapping, no furniture/room/objects/characters. Entire canvas opaque. Keep gentle charm and readable ornament without stripping to crude symbols.

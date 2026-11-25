@@ -1,0 +1,12 @@
+{
+	"actual_phase": 0.806707006629284,
+	"expected_phase": 0.806707006629284,
+	"frames_per_meter": 1.02439024390244,
+	"hero_frames_per_meter": 1.02439024390244,
+	"meters": 3.14999878779054,
+	"new_frame_changes": 4,
+	"old_8hz_estimate": 9.06666666666667,
+	"pass": true,
+	"stopped_phase_stable": true,
+	"walk_physics_frames": 68
+}

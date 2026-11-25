@@ -1,0 +1,8 @@
+Use case: stylized-concept
+Asset type: opaque square 2x2 material texture atlas for real 3D cottage desk accessories, NOT an object illustration.
+Match reference original cozy hand-painted cottage, cream linen, warm sepia writing, muted plum book covers and sage green textiles. All surfaces flat orthographic with NO perspective, object silhouettes, cast shadows or baked directional light. Four exact equal square quadrants edge to edge, no gutters or labels.
+TOP LEFT: warm ivory lampshade fabric weave, very subtle broad hand-painted texture; along the bottom 20 percent a small repeated olive leaf vine horizontal border. No fringe or lampshade object, this is a flat fabric material.
+TOP RIGHT: one ivory parchment book PAGE, a modest thin olive leaf border inside the edges and faint brown abstract short handwriting strokes arranged in horizontal lines. Do not write legible words or letters. A flat page texture, no book shape or shading, no folded corner.
+BOTTOM LEFT: flat dusty plum cloth book cover texture with a small restrained cream feather and leafy sprigs centered, very subtle weave; no book thickness or perspective, no title.
+BOTTOM RIGHT: small scale muted sage green and ivory gingham woven fabric, regular gentle checks, no cloth folds, no object, no perspective.
+Soft storybook painted materials readable at small game size, not photorealistic. Opaque canvas. No room, desk, chair, lamp or complete book. Tile base colors calm and not orange.

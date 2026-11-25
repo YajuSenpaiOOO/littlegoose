@@ -1,0 +1,51 @@
+{
+  "status": "first front idle sprite, pending visual approval, not runtime-integrated",
+  "generator": "built-in image_gen",
+  "file": "idle_front.png",
+  "source": "exec-12e8c2a2-3172-4828-becf-8f0d5fdda07a.png",
+  "sha256": "fd98efd96629dc8a611aa91488c68ed4a7972be2627b952c123d7c3b418aa553",
+  "size": [
+    1086,
+    1448
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha128_bounds": [
+    188,
+    98,
+    939,
+    1366
+  ],
+  "proposed_foot_anchor_pixels": [
+    563,
+    1365
+  ],
+  "visible_height_pixels": 1268,
+  "style_reference": "assets/hero_pixel/walk_source.png",
+  "identity_reference": "art/concepts/black_goose_portraits_20261113/round3/base.png",
+  "approved_portrait_roles": {
+    "default": "art/concepts/black_goose_portraits_20261113/round3/base.png",
+    "smile_expression": "art/concepts/black_goose_portraits_20261113/round3/buddy.png"
+  },
+  "pose": "front upright, hands down, both sandals on same baseline",
+  "frames": 1,
+  "animation": false,
+  "drawing": "newly authored pixel-art interpretation, original output bytes; no downsampling or post-edit. Prompt logical90x120 target not exact integer grid guarantee",
+  "integration_contract": {
+    "presentation": "future default upright actor, do not tilt approved hero192",
+    "world_size": "not finalized; calibrate alongside hero192 in same camera before integration",
+    "pixel_size_formula": "chosen_world_body_height / visible_height_pixels",
+    "collision": "not created; do not use alpha rectangle as collider",
+    "shadow": "not created; future separate foot contact shadow",
+    "lighting": "not connected; future same scene character lighting convention, no emission",
+    "occlusion": "not connected; no depth-writing shader added"
+  },
+  "limits": [
+    "no side/back/walk/blink/breath frames yet",
+    "not connected to sleep or second bed slot",
+    "no game scene changed; original goose actor preserved"
+  ]
+}

@@ -94,9 +94,12 @@ func award119(event: int) -> bool:
  gel119+=BALANCE119.GEL_REWARD;last_reward119=event;return true
 
 func save_to(path: String) -> Error:
+ return memory_config168().save(path)
+
+func memory_config168() -> ConfigFile:
  var config := ConfigFile.new();config.set_value("memories","version",3)
  for field in ["equipped","owned","crafted","unlocked","gel119","next_event119","last_reward119"]: config.set_value("memories",field,get(field))
- return config.save(path)
+ return config
 
 
 

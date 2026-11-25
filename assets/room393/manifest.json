@@ -1,0 +1,47 @@
+{
+  "generator": "built-in image_gen",
+  "reference": "C:/Users/ASUS/Desktop/图图/ChatGPT 图像 2026年11月13日 11_36_23.png",
+  "assets": [
+    {
+      "file": "window.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-e62d1545-1d5b-4a33-8374-b66ad1b044d6.png",
+      "sha256": "82e66a15caa5a61f7e396c4b740dd68b5b89998d3e91c92ea0999648cc43e275",
+      "size": [
+        1560,
+        1008
+      ],
+      "alpha_bbox": [
+        29,
+        7,
+        1528,
+        995
+      ],
+      "bytes_unchanged": true
+    },
+    {
+      "file": "garden.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-a30e00f7-ff5a-4d36-86ba-a50f6d255513.png",
+      "sha256": "8820d068c05d1636e46ca0d1bf3d6a642bf42c6cd3e20445b4b1d730216b78cc",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "bytes_unchanged": true
+    }
+  ],
+  "display": {
+    "dressing": "wall-mounted vertical XY elevation at (-0.5,2.35,-4.10); fixed parallel to rear wall; no billboard; size 4 x (4*1008/1560) m",
+    "garden": "separate unshaded distant outdoor XY quad 3.15 x 2.1 m at (-0.5,2.25,-4.58); own night tint",
+    "shadow": "dressing alpha-scissor .5, one real silhouette shadow; garden no shadow; no extra contact shadow for wall-mounted dressing",
+    "collision": "original room and desk colliders retained; no new collider on transparent rectangle; high visual arch does not migrate the original wall collision",
+    "anchors": "assembly has common center anchor; vase/curtains are painted within assembly, not separately interactive; desk lamp meshes AND OmniLight shifted +1.82 local X together",
+    "comparison": "V restores old window, upper wall mesh, overhead window shelf and lamp/light positions",
+    "emission": "dressing none; garden unshaded view does not cast indoor illumination; indoor lighting unchanged"
+  }
+}

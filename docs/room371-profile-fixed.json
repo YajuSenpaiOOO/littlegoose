@@ -1,0 +1,29 @@
+[
+	{
+		"draw_calls": 460.0,
+		"max_ms": 17.075,
+		"median_ms": 16.665,
+		"p95_ms": 16.877,
+		"static_MB": 95.1901206970215,
+		"tag": "371-idle",
+		"video_MB": 347.167817115784
+	},
+	{
+		"draw_calls": 477.0,
+		"max_ms": 19.81,
+		"median_ms": 16.666,
+		"p95_ms": 16.855,
+		"static_MB": 96.482666015625,
+		"tag": "371-sleep",
+		"video_MB": 347.667817115784
+	},
+	{
+		"draw_calls": 748.0,
+		"max_ms": 558.075,
+		"median_ms": 16.658,
+		"p95_ms": 17.2,
+		"static_MB": 338.277141571045,
+		"tag": "169-after-exit",
+		"video_MB": 1154.38575553894
+	}
+]

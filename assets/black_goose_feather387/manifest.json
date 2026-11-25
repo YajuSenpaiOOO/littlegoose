@@ -1,0 +1,17 @@
+{
+  "source": "art/concepts/black_goose_feather_B_simple_20261114/feather-pixel.png",
+  "generator": "existing built-in image_gen asset; no regeneration/edit this turn",
+  "sha256": "fc5871639241d3d91b79ff467426c960d35d1ad283d95e8abd0a10fcce0504b3",
+  "region": [
+    134,
+    415,
+    1044,
+    518
+  ],
+  "anchor": "region center",
+  "world_width": 0.4,
+  "display": "native batched CanvasItem, screen-projected position and direction of actual projectile",
+  "priority": "note / sword / beam / charged candy retain native specialized rendering; ordinary uses feather",
+  "collision": "unchanged native projectile trace, no image silhouette collider",
+  "shadow": "unchanged existing projectile shadow policy; no new shadow/light"
+}

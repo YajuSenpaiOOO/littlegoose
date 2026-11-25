@@ -1,0 +1,35 @@
+{
+	"duration": 5.2,
+	"failures": [],
+	"release_hold": 0.42,
+	"release_samples": [
+		10,
+		10,
+		10
+	],
+	"source_columns_in_preview_order": [
+		0,
+		2,
+		1
+	],
+	"wing_frames": [
+		[
+			0,
+			1,
+			2,
+			3
+		],
+		[
+			0,
+			1,
+			2,
+			3
+		],
+		[
+			0,
+			1,
+			2,
+			3
+		]
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Four quiet hand-painted swatches applied to native cottage geometry, not a facade illustration.",
+  "reference": "assets/house412/concepts/C-attic-gable.png",
+  "asset": "assets/house413/material-atlas.png",
+  "quadrants": [
+    "wood",
+    "slate",
+    "plaster",
+    "sandstone"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: one square 2x2 material texture atlas for the REAL 3D cottage corresponding to reference C. This is flat reusable material swatches, NOT a house illustration. Exactly four equal square quadrants, no gutters, no labels, no borders, no letters. Top-left: warm honey brown hand-painted wooden timber surface with long restrained broad vertical grain strokes, no plank seams, no nails, no knots dominating. Top-right: muted bluegray painted slate stone surface, broad soft pigment variation only, NO drawn tiles or tile seams because the mesh has individual chunky roof tiles. Bottom-left: warm creamy pale plaster, subtle irregular broad brush patches, no bricks, no cracks. Bottom-right: pale creamy sandstone surface with quiet brush patches and mild darker warm edges, NO drawn masonry seams because the geometry has separate blocks. Style: same friendly hand-painted storybook videogame as reference, quiet chunky color masses readable at game scale, avoid photoreal textures, avoid dense noise, avoid strong lighting baked into swatches, no perspective, no occlusion shadows. Each quadrant fills to its boundaries; all four quadrants align exactly at center of square. Opaque background. Match warm cream/brown and dusky bluegray palette of reference."
+}

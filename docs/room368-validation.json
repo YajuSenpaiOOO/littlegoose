@@ -1,0 +1,15 @@
+{
+	"cloth_contact": {
+		"sheet_crossings": 0,
+		"sheet_min_gap": 0.0120270252227783,
+		"sheet_samples": 315,
+		"throw_crossings": 0,
+		"throw_max_gap": 0.0123527199029922,
+		"throw_min_gap": 0.00305314548313618,
+		"throw_samples": 425
+	},
+	"complete": true,
+	"failures": [],
+	"furniture": 10,
+	"reachable_cells": 1134
+}

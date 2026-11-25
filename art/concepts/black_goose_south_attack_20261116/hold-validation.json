@@ -1,0 +1,13 @@
+{
+	"failures": [],
+	"release_windows": [
+		0.32,
+		3.52,
+		0.0
+	],
+	"transition_counts": [
+		4,
+		4,
+		2
+	]
+}

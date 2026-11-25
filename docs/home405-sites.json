@@ -1,0 +1,19 @@
+{
+	"2": {
+		"door": "(-5.3, -6.3)",
+		"floor_y": 0.235000002980232,
+		"footprint": "[P: (-9.856, -11.6244), S: (9.112, 5.44)]",
+		"mode": 2,
+		"overlapping_bodies": [
+			"/root/Cottage431/@Node3D@5/WorldTree427/@StaticBody3D@1746",
+			"/root/Cottage431/@Node3D@5/WorldTree426/@StaticBody3D@1742",
+			"/root/Cottage431/@Node3D@5/WorldTree397/@StaticBody3D@1626"
+		],
+		"ramp_drop": 0.115000005662441,
+		"tree_roots": [
+			"(-7.013654, -0.14, -11.88148)",
+			"(-7.247312, -0.14, -7.137847)",
+			"(-3.375018, -0.14, -7.080077)"
+		]
+	}
+}

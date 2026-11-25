@@ -1,0 +1,72 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "assets/black_goose_flight378/selected-C.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "e2ed072381fdf37daec164c1271dd7c89a140ff4412a8628fd39248ecf5bedda",
+  "cells": [
+    [
+      0,
+      0,
+      512,
+      1024
+    ],
+    [
+      512,
+      0,
+      512,
+      1024
+    ],
+    [
+      1024,
+      0,
+      512,
+      1024
+    ]
+  ],
+  "poses": [
+    "anticipation/open eyes",
+    "south-forward release/happy exertion",
+    "follow-through/relaxed expression"
+  ],
+  "alpha128_cell_bounds": [
+    [
+      13,
+      120,
+      503,
+      887
+    ],
+    [
+      1,
+      120,
+      512,
+      887
+    ],
+    [
+      0,
+      120,
+      494,
+      887
+    ]
+  ],
+  "scope": "full-body/arm frames drawn together, no arm mesh. Concept only; static drawn wings. Does not replace385.",
+  "direction": {
+    "world_south": [
+      0,
+      0,
+      1
+    ],
+    "aim_half_angle_deg": 45,
+    "one_projectile_per_attack": true,
+    "preview_angles_deg": [
+      -45,
+      0,
+      45
+    ],
+    "camera_down_angle_deg": 25,
+    "projection": "(sin(theta), cos(theta)*sin(25deg)); visual recoil is screen-up"
+  },
+  "display": "common scale360/767 and foot887 across all cells; no per-cell fit or head squash"
+}

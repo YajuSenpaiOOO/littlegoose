@@ -10,6 +10,7 @@ class Bubble:
  extends Node2D
  var anchor: WeakRef
  var camera: Camera3D
+ var screen_anchor := Vector2.INF
  var words := ""
  var duration := 3.
  var age := 0.
@@ -38,15 +39,17 @@ class Bubble:
   if not is_instance_valid(goose) or not goose.is_inside_tree() or not is_instance_valid(camera): queue_free();return
   if age>=duration: queue_free();return
   var at := goose.global_position+Vector3.UP*.45
-  visible=not camera.is_position_behind(at)
-  if not visible: return
-  var screen := camera.unproject_position(at)
+  var extent := get_viewport().get_visible_rect().size
+  var screen := extent*screen_anchor
+  if not screen_anchor.is_finite():
+   visible=not camera.is_position_behind(at)
+   if not visible:return
+   screen=camera.unproject_position(at)
   visible=get_viewport().get_visible_rect().grow(60.).has_point(screen)
   if not visible: return
   var wanted := screen+Vector2(76,-44)
   position=wanted if not snapped else position.lerp(wanted,minf(1.,delta*9.));snapped=true
   box.y=maxf(44.,body.get_minimum_size().y+24.)
-  var extent := get_viewport().get_visible_rect().size
   position.x=clampf(position.x,box.x*.5+8.,maxf(box.x*.5+8.,extent.x-box.x*.5-8.))
   position.y=clampf(position.y,box.y+10.,extent.y-14.)
   var pop := clampf(age/.18,0.,1.);scale=Vector2.ONE*(.6+.4*sin(pop*PI*.5))

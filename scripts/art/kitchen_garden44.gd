@@ -228,6 +228,13 @@ func _stone(at: Vector2,size: Vector2,seed_value: float) -> void:
 	paving.append(at)
 
 func _build_paving() -> void:
+	_build_door_paving()
+	for i in 8:
+		var at := Vector2(.9+sin(i*.65)*.08,-2.65-i*.62)
+		_stone(at,Vector2(.45,.43),float(i+30))
+	for at in [Vector2(.26,-5.55),Vector2(1.44,-5.0),Vector2(2.3,-4.65)]: _stone(at,Vector2(.41,.43),50.+at.x)
+
+func _build_door_paving() -> void:
 	var rng := RandomNumberGenerator.new()
 	rng.seed=440047
 	for row in 8:
@@ -235,10 +242,6 @@ func _build_paving() -> void:
 			if row>4 and col==0: continue
 			var at := Vector2(-4.70+(col-1)*.44+rng.randf_range(-.06,.06),-4.15+row*.57)
 			_stone(at,Vector2(rng.randf_range(.37,.46),rng.randf_range(.47,.58)),float(row*3+col))
-	for i in 8:
-		var at := Vector2(.9+sin(i*.65)*.08,-2.65-i*.62)
-		_stone(at,Vector2(.45,.43),float(i+30))
-	for at in [Vector2(.26,-5.55),Vector2(1.44,-5.0),Vector2(2.3,-4.65)]: _stone(at,Vector2(.41,.43),50.+at.x)
 
 func _occupied(at: Vector2) -> bool:
 	for bed in beds:

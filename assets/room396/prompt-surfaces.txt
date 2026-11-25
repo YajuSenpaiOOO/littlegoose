@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: opaque square 2x2 UV material texture atlas for REAL 3D cottage chairs and tea table. Only FLAT SURFACE ART, no perspective or object illustration.
+Style reference: supplied original cozy cottage interior. Match calm hand-painted cream, sage green, muted dusty plum, medium walnut wood, soft warm brown outlines. Neutral diffuse color. No directional illumination, cast shadows or baked volume.
+Four exact equal square tiles, boundaries at 50%, edge-to-edge, no gutters, labels, text or borders around the atlas.
+TOP LEFT: top-down round ivory linen doily design filling almost the whole quadrant, subtle woven texture, sage leaf wreath and a few small cream feathers around the perimeter, delicate scalloped embroidered border near the circle edge. Center mostly plain cream fabric. Outside the circular design is the SAME ivory fabric, NOT transparency. This flat surface will be mapped onto a round cloth mesh.
+TOP RIGHT: flat ivory glazed ceramic base color, a single small horizontal repeating band of olive leaf sprigs and tiny warm brown goose silhouettes across the middle third. Rest mostly plain warm ivory. No cups, handles, teapot shapes or highlights. This is an unwrapped ceramic surface pattern.
+BOTTOM LEFT: flat muted dusty plum woven upholstery, centered small cream goose silhouette within a delicate wreath of leaves and feathers. Centered ornament occupies half the tile; margins plain plum. No cushion object or perspective.
+BOTTOM RIGHT: flat medium walnut wood matching original cottage furnishings, centered small ivory feather and two leafy sprigs, no drawer framing, no chair shape. Ornament occupies middle half of square, rest subtle low contrast vertical wood grain.
+Painterly game materials, readable motifs, restrained grain. No full table, chair, furniture, flowers, vase, floor or room. Opaque all pixels.

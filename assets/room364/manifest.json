@@ -1,0 +1,91 @@
+{
+  "generator": "builtin image_gen for two textures; native Godot SubViewport for UV guide",
+  "prompts": "prompts.json",
+  "reference": "assets/room362/bed_base.png; model UV guide exported before painting",
+  "files": [
+    {
+      "file": "headboard_front.png",
+      "source": "exec-0318db10-7b56-4aa9-98e1-3ccdfd931495.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "36e5b8ae2a0a23b4f5b3d0667772bbcabcef0a73c4576aa81fac309270cf4ef4",
+      "raw_bytes_preserved": true
+    },
+    {
+      "file": "pillow_front.png",
+      "source": "exec-bb5deaac-f78c-4d1e-89c6-5f9af7c48990.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "f8c5ae4b1ed2e87e1979d1bd25fdcfab42624c5525c3c849179571099e322731",
+      "raw_bytes_preserved": true
+    },
+    {
+      "file": "headboard_uv_guide.png",
+      "source": "capture_bed364_guide.gd native mesh render",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "44ee26d975ac30bad292709fbe20eac46cfffcff334c791febb462af9140b5ec",
+      "raw_bytes_preserved": true
+    }
+  ],
+  "prototype_scope": "headboard/frame/post volumes and one left pillow; neutral support mattress/frame only, not a finished complete bed",
+  "geometry": "real room-aligned meshes; extruded panel, continuous swept trim, turned posts, closed bulged pillow front/back/edge and separate scalloped flange; no Sprite3D inside prototype",
+  "uv": {
+    "headboard_front": "u=(x+1.3)/2.6, v=(2.2116667-y)/1.7333333, matching1536x1024 orthographic guide",
+    "headboard_back_posts": "plain wood subregion u .20-.32, v .65-.89; feather not repeated on posts/back",
+    "pillow_front": "whole dedicated1536x1024 fabric UV; rounded corners and padding; flange uses plain cream corner"
+  },
+  "dimensions_m": {
+    "headboard_center_z": -1.37,
+    "headboard_top": 2.08,
+    "posts_center_x": [
+      -1.19,
+      1.19
+    ],
+    "pillow_center": [
+      -0.56,
+      1.05,
+      -0.91
+    ],
+    "pillow_core": [
+      0.96,
+      0.65,
+      0.315
+    ],
+    "body_collision": [
+      2.78,
+      0.8,
+      3.14
+    ],
+    "head_collision": [
+      2.66,
+      1.5,
+      0.25
+    ],
+    "head_collision_center": [
+      0,
+      1.35,
+      -1.37
+    ]
+  },
+  "display": "no billboard, no fragment depth rewriting; camera-follow observes actual mesh perspective; main actor192 and default room camera preserved",
+  "lighting": "painted texture values, bounded world-normal hemisphere and regional tint from existing ambient energy / bedside lamp distance and visibility; unshaded shader deliberately replaces native PBR; no emission field and no outward emitted light",
+  "shadows": "no long mesh shadows on painted samples; existing broad bed foot contact plus pillow contact patch on mattress, native support frame may cast ordinary shadows",
+  "comparison": "F11 real3D sample/2D artwork, C detail/full room, F9 dedicated paint/plain material, F12 fixed/follow",
+  "limits": [
+    "not complete bed cloth/animation system",
+    "3D sample has no sleeping actor; E and F10 switch to existing2D sleep preview",
+    "source illustration target not yet visually approved",
+    "not native per-pixel shadow receiver; local daylight and night palette approximations explicit",
+    "old standing hero/bed intersections not fixed or claimed solved"
+  ]
+}

@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: opaque 2x2 UV material atlas for REAL 3D cozy cottage wardrobe and washstand. Flat surfaces only, no furniture illustration or perspective.
+Reference 1 original cottage: visual language/cream feather ornaments and warm wood. Reference 2 accepted writing desk wood material: palette and painterly style, but REDUCE realistic fine grain/noise to broad intentional brush marks. Do NOT use pixel art or blocky stepped edges; keep lovely hand-painted shapes.
+Four equal square quadrants, exactly 50% boundaries, edge to edge, no gutters, labels, margins, handles or hardware painted on texture.
+TOP LEFT: calm medium walnut wood base with a SMALL NUMBER of subtle broad vertical warm brown brush grain marks. Most area quiet. No knots, fine wood fibers, scratches, photographic grain or directional shading. For cabinet body and legs.
+TOP RIGHT: one single wardrobe door flat front, medium walnut matching top-left, softly rounded ARCH inset molding painted a short way inside the edges; one small ivory feather and two leaf sprigs near upper third, otherwise quiet wood. No knobs, hinges or locks. The tile will be mapped to a tall narrow real 3D door, so ornament must be compact and readable. No visible thickness or perspective.
+BOTTOM LEFT: one sage green painted wood washstand cabinet door flat front, simple inset rectangular cream-sage trim, a tiny ivory leaf sprig near lower center; muted warm sage, broad smooth color with only a few gentle brush streaks, no dense grain. No handles or hardware.
+BOTTOM RIGHT: plain warm ivory ceramic glaze surface with a very restrained small olive leaf band across the middle third. No bowl or pitcher shapes, reflections or shine.
+Soft storybook game materials, controlled medium detail, warm brown contours and cream details. No photographic texture, micro speckles, weave noise, smooth plastic gloss, cast shadows, lighting gradients, whole cabinets, room or text. Fully opaque.

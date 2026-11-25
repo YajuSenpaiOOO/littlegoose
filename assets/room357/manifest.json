@@ -1,0 +1,9 @@
+{
+  "source": "builtin imagegen exec-e87ea01d (generated_images/01a1a4a6-79a7-7b90-a7a6-e1b09d2bad52)",
+  "sha256": "fc75aa046b1936fa5aa9495cd13233a1e79a7316ac42eed5411291883d1cc42e",
+  "purpose": "orthographic four-quadrant painted surface atlas, not furniture sprite",
+  "display": "room-axis real mesh with full per-face UV and native lighting/shadow",
+  "collision": "existing independent 1.5x1.22x2.55 box",
+  "emission": false,
+  "prompt_summary": "cozy handpainted honey oak four equal quadrants: paired door front with feather motifs/ring handles, drawer fronts, vertical side wood grain, horizontal top grain; flat orthographic no perspective no text no cast shadow"
+}

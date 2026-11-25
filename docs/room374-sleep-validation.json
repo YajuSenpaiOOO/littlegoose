@@ -1,0 +1,30 @@
+{
+	"failures": [],
+	"old_reproduced": true,
+	"samples": [
+		{
+			"fixed_leaks": 0,
+			"lower_actor_samples": 940,
+			"old_leaks": 31,
+			"scenario": "fixed"
+		},
+		{
+			"fixed_leaks": 0,
+			"lower_actor_samples": 940,
+			"old_leaks": 1,
+			"scenario": "detail"
+		},
+		{
+			"fixed_leaks": 0,
+			"lower_actor_samples": 940,
+			"old_leaks": 4,
+			"scenario": "follow"
+		},
+		{
+			"fixed_leaks": 0,
+			"lower_actor_samples": 940,
+			"old_leaks": 240,
+			"scenario": "wide"
+		}
+	]
+}

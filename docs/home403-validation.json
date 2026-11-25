@@ -1,0 +1,121 @@
+{
+	"crossing_frame_max_ms": 22.276,
+	"crossing_frame_median_ms": 16.656,
+	"crossing_frame_p95_ms": 16.951,
+	"crossings": [
+		{
+			"inside": true,
+			"ms": 6860,
+			"node_count": 838,
+			"static_MB": 102.610371589661
+		},
+		{
+			"inside": false,
+			"ms": 8932,
+			"node_count": 838,
+			"static_MB": 102.611775398254
+		},
+		{
+			"inside": true,
+			"ms": 9965,
+			"node_count": 838,
+			"static_MB": 102.616051673889
+		},
+		{
+			"inside": false,
+			"ms": 10998,
+			"node_count": 838,
+			"static_MB": 102.614861488342
+		},
+		{
+			"inside": true,
+			"ms": 12032,
+			"node_count": 838,
+			"static_MB": 102.62019443512
+		},
+		{
+			"inside": false,
+			"ms": 13065,
+			"node_count": 838,
+			"static_MB": 102.620247840881
+		},
+		{
+			"inside": true,
+			"ms": 14099,
+			"node_count": 838,
+			"static_MB": 102.623925209045
+		},
+		{
+			"inside": false,
+			"ms": 15132,
+			"node_count": 838,
+			"static_MB": 102.625191688538
+		},
+		{
+			"inside": true,
+			"ms": 16165,
+			"node_count": 838,
+			"static_MB": 102.629712104797
+		},
+		{
+			"inside": false,
+			"ms": 17198,
+			"node_count": 838,
+			"static_MB": 102.627453804016
+		},
+		{
+			"inside": true,
+			"ms": 18232,
+			"node_count": 838,
+			"static_MB": 102.636532783508
+		},
+		{
+			"inside": false,
+			"ms": 19266,
+			"node_count": 838,
+			"static_MB": 102.632176399231
+		},
+		{
+			"inside": true,
+			"ms": 20511,
+			"node_count": 838,
+			"static_MB": 102.644825935364
+		},
+		{
+			"inside": false,
+			"ms": 22227,
+			"node_count": 838,
+			"static_MB": 102.643998146057
+		},
+		{
+			"inside": true,
+			"ms": 23144,
+			"node_count": 838,
+			"static_MB": 102.645802497864
+		},
+		{
+			"inside": false,
+			"ms": 24178,
+			"node_count": 838,
+			"static_MB": 102.650650978088
+		}
+	],
+	"failures": [],
+	"startup": {
+		"first_overlay_ms": 25,
+		"initial_add_child_ms": 3312,
+		"instantiate_ms": 0,
+		"resource_ready_ms": 741,
+		"room_ms": 3949,
+		"static_MB": 102.63170337677,
+		"total_ready_ms": 4901,
+		"video_MB": 469.784127235413,
+		"yard_ms": 7
+	},
+	"transition_with_settle_ms": [
+		1034,
+		1033,
+		1033,
+		1033
+	]
+}

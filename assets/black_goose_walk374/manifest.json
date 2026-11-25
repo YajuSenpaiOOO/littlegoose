@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-14",
+  "generator": "built-in image_gen",
+  "reference": "373 side strips as edit targets, v2 idle as identity",
+  "scope": "replace only left/right; down/up retain original373 image bytes and playback",
+  "directions": {
+    "left": {
+      "file": "left.png",
+      "cell": [
+        543,
+        724
+      ],
+      "foot": [
+        262.4880534273845,
+        678.0
+      ],
+      "height": 646.0,
+      "bounds": [
+        [
+          109,
+          33,
+          480,
+          679
+        ],
+        [
+          108,
+          33,
+          479,
+          679
+        ],
+        [
+          108,
+          33,
+          480,
+          679
+        ],
+        [
+          108,
+          33,
+          479,
+          679
+        ]
+      ],
+      "source": "exec-6101995f-8dee-4dc9-b233-b1f951b98fe0.png",
+      "sha256": "5944df3f3e5249006762cfc1d37cda161725a37f1246cd554047a8714a53d0b8"
+    },
+    "right": {
+      "file": "right.png",
+      "cell": [
+        543,
+        724
+      ],
+      "foot": [
+        285.80148603424107,
+        684.0
+      ],
+      "height": 669.0,
+      "bounds": [
+        [
+          85,
+          16,
+          461,
+          685
+        ],
+        [
+          85,
+          16,
+          461,
+          681
+        ],
+        [
+          86,
+          16,
+          460,
+          685
+        ],
+        [
+          86,
+          16,
+          461,
+          685
+        ]
+      ],
+      "source": "exec-8a0ed73b-a916-402e-b857-ecba1f95d7a1.png",
+      "sha256": "082db6d84f6124a24943a97fad9ad32c1c700c40a8361ff9b8e0a565afb98a6d"
+    }
+  },
+  "layout": "4x1, each cell543x724; idle/contactA/passing/contactB",
+  "playback": "side walk sequence1,2,3,2 at8Hz, U preview4Hz; front/back retain373 sequence",
+  "art_change": "brighter camera-near sleeve/hand swings from forward of torso in phase1 to behind hip in phase3; far arm reverses. No anatomical limb swapping in depth, no whole-sheet mirroring.",
+  "render": "upright AtlasTexture, same receiver192/height1.44/collider and shadow; PNG original bytes, no raster editing",
+  "provenance": "prompts.json full prompts, frames.json measured alpha128 anchors and common heights",
+  "limitations": [
+    "feet/cloth phase polish still pending visual acceptance",
+    "front/back and original373 remain available",
+    "U is in-place slow-motion inspection, not locomotion or story animation"
+  ]
+}

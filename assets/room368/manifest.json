@@ -1,0 +1,47 @@
+{
+  "version": 368,
+  "new_raster_assets": false,
+  "source_assets": [
+    {
+      "path": "assets/room362/hero_sleep.png",
+      "sha256": "ec0ee41de5165cb8de85daa494ab8e61054566d77d46abc54ea2fd19ed860f1c"
+    },
+    {
+      "path": "assets/room364/pillow_front.png",
+      "sha256": "f8c5ae4b1ed2e87e1979d1bd25fdcfab42624c5525c3c849179571099e322731"
+    }
+  ],
+  "sleep_image": {
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha128_bounds": [
+      116,
+      57,
+      905,
+      1322
+    ],
+    "world_width": 1.1,
+    "pixels_per_world_unit": 930.9090909090909,
+    "plane": "segmented real mesh, head inclined, neck contacts pillow, lower body mattress; no billboard",
+    "anchors": "room_shell368 head_anchor368 and shoulder_anchor368",
+    "material": "sleep_pose368.gdshader, alpha .5, controlled day/night tint, no DEPTH/emission",
+    "collision": "no separate sleep sprite collider; existing furniture footprint remains stable",
+    "shadow": "pillow contact patch only; no duplicate long character shadow"
+  },
+  "pillows": {
+    "source": "bed_mesh364 pillow364/flange364, shared paint only",
+    "instance": "independent left/right transforms; only left compressed",
+    "empty": "leaning back",
+    "occupied": "left -78 degrees,32% central thickness reduction",
+    "shadow": "individual pillow contact patches"
+  },
+  "lighting": "reuse room daylight and night tint; no new lamps",
+  "limitations": [
+    "instant pose changes, no complete animation",
+    "right slot reserved without actor",
+    "3D furniture with 2D sleep art, no full 3D character",
+    "standing hair-bed intersections not a general fix"
+  ]
+}

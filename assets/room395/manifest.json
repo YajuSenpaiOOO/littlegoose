@@ -1,0 +1,51 @@
+{
+  "generator": "built-in image_gen",
+  "references": [
+    "C:/Users/ASUS/Desktop/图图/ChatGPT 图像 2026年11月13日 11_36_23.png",
+    "assets/room394/desk.png"
+  ],
+  "assets": [
+    {
+      "file": "wood-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-e7b960ac-d249-43b1-a30b-ad052a9240de.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "0778f1036b004aaff3abc64354cf5b8080537390c07118ae4ad638ca6d80fbc0",
+      "bytes_unchanged": true
+    },
+    {
+      "file": "details-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-14064f37-0477-4e65-9937-2215640075c0.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "eff00d8341846bc65f5828f15e28baf48e9e3ed7331902257654cc39c07dad03",
+      "bytes_unchanged": true
+    }
+  ],
+  "atlas_layout": {
+    "wood": [
+      "plain horizontal wood",
+      "drawer panel with leaf corners",
+      "vertical leg grain",
+      "apron feather engraving"
+    ],
+    "details": [
+      "lampshade linen and vine hem",
+      "page with abstract handwriting",
+      "plum book cover",
+      "sage gingham reserved"
+    ]
+  },
+  "geometry": "Real rounded cuboid tabletop 2.60x0.15x1.20m centered Y1.115, four turned legs at X+/-1.11 Z+/-0.42, feet at Y0.008; drawers and apron real extruded volumes; book/lamp/ink/quill independent geometry. Actual top Y1.190m. Furniture root remains (-0.5,0,-3.55).",
+  "uv": "Explicit per-face/lathe/page UVs, 2x2 tile atlas with .004 inset and .492 extent. Wood shader desaturates .65 with local tint, normal lighting; no projected whole desk art. Paper material darker to retain detail under lamp.",
+  "display": "Room-aligned true geometry, no billboard or camera-dependent depth/light proxy",
+  "shadow": "Same visible solid meshes cast and receive native shadows. Old card and all old desk shadow proxies disabled together. Thin open page and cover deliberately receive only, no separate false volume/contact shadow. Other books and desk/lamp cast from real mesh.",
+  "collision": "Existing desk occupied box 2.5x1.18x1.15 and placement retained; conceptual furniture footprint, not per-leg traversal. No new obstacle or larger footprint.",
+  "light": "Reuse existing OmniLight, same energy/range; model anchor local (0.88,1.60,-0.20), comparison restores card source anchor.",
+  "comparison": "T swaps only desk 3D/card, G desk close view, F12 original smooth translation follow, F2 day/night, V window. Tea table/chairs remain 394.",
+  "scope": "Prototype sample for camera/perspective/shadow choice, no bed migration, drawer interaction, chair/tea migration or room lighting redesign."
+}

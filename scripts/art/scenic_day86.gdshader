@@ -4,6 +4,17 @@ uniform sampler2D screen_image : hint_screen_texture, filter_linear;
 uniform sampler2D depth_image : hint_depth_texture, filter_nearest;
 uniform float focus_distance=15.;
 uniform float radius_pixels=6.2;
+uniform float bath_focus_blend=0.;
+uniform float bath_focus_far=6.7;
+uniform float workshop_focus_blend=0.;
+uniform float workshop_focus_far=6.;
+uniform vec3 yard_lamp_center=vec3(0.);
+uniform float yard_lamp_warmth=0.;
+uniform float bath_portrait_protection=0.;
+uniform float cottage_blend=0.;
+uniform vec3 cottage_origin=vec3(0.);
+uniform vec4 cottage_lamps[4];
+uniform float cottage_lamp_warmth=0.;
 uniform float clear_span=2.8;
 uniform float tone_strength=0.;
 uniform float noon_strength85=0.;
@@ -113,6 +124,18 @@ void fragment(){
  near_focus*=near_blur58;
  float amount=max(far_focus,near_focus);
  if(radius_pixels<=0.) amount=0.;
+ float blur_radius=radius_pixels;
+ int samples=focus_samples86;
+ if(bath_focus_blend>.001){
+  float bath_far=smoothstep(bath_focus_far,bath_focus_far+2.7,distance);
+  amount=mix(amount,bath_far,bath_focus_blend);
+  blur_radius=mix(radius_pixels,22.,bath_focus_blend);
+  samples=max(samples,20);
+ }
+ if(workshop_focus_blend>.001){
+  amount=mix(amount,smoothstep(workshop_focus_far,workshop_focus_far+4.,distance),workshop_focus_blend);
+  blur_radius=mix(radius_pixels,12.,workshop_focus_blend);
+ }
  vec2 scene_uv86=SCREEN_UV;
  if(heat_strength86>0.){
   vec3 hit86=(INV_VIEW_MATRIX*vec4(point.xyz/point.w,1.)).xyz;
@@ -133,10 +156,10 @@ void fragment(){
   vec3 blurred=sharp;
   float total=1.;
   for(int i=1;i<=24;i++){
-   if(i>focus_samples86) break;
-   float t=float(i)/float(focus_samples86);
+   if(i>samples) break;
+   float t=float(i)/float(samples);
    float angle=float(i)*2.39996323;
-   vec2 offset=vec2(cos(angle),sin(angle))*sqrt(t)*radius_pixels*amount*pixel;
+   vec2 offset=vec2(cos(angle),sin(angle))*sqrt(t)*blur_radius*amount*pixel;
    float weight=exp(-t*2.4);
    blurred+=texture(screen_image,scene_uv86+offset).rgb*weight;
    total+=weight;
@@ -149,6 +172,16 @@ void fragment(){
  grade56+=vec3(.012,.025,.055)*darkness56*night_mix56;
  float warm56=smoothstep(.07,.25,source56.r-source56.b)*smoothstep(.12,.50,source56.r);
  float protection56=max(glass_mask(SCREEN_UV)*.92,warm56*.88*night_mix56);
+ protection56=max(protection56,cottage_blend*.66);
+ float yard_pool=0.;
+ if(yard_lamp_warmth>.001 || bath_portrait_protection>.001){
+  vec3 world_point=(INV_VIEW_MATRIX*vec4(point.xyz/point.w,1.)).xyz;
+  vec3 from_lamp=world_point-yard_lamp_center;
+  float pool=1.-smoothstep(.40,2.15,length(from_lamp*vec3(.83,.92,1.)));
+  yard_pool=pool*yard_lamp_warmth;
+  protection56=max(protection56,yard_pool*.67);
+  protection56=max(protection56,pool*bath_portrait_protection);
+ }
  ALBEDO=mix(grade56,source56,protection56);
  if(noon_strength85>0.){
   vec3 c85=ALBEDO;
@@ -189,5 +222,22 @@ void fragment(){
   vec3 hit58=(INV_VIEW_MATRIX*vec4(point.xyz/point.w,1.)).xyz;
   float air58=cone_air58(INV_VIEW_MATRIX[3].xyz,hit58);
   ALBEDO=mix(ALBEDO,cone_tint58,air58);
+ }
+ if(cottage_blend>.001 && cottage_lamp_warmth>.001){
+  vec3 pos=(INV_VIEW_MATRIX*vec4(point.xyz/point.w,1.)).xyz;
+  vec3 room_pos=pos-cottage_origin;
+  if(abs(room_pos.x)<6.2 && room_pos.z> -3.75 && room_pos.z<3.20 && room_pos.y>-.03 && room_pos.y<4.6){
+   float lamp_pool=0.;
+   for(int i=0;i<4;i++){
+    float proximity=1.-smoothstep(.45,cottage_lamps[i].w,length(pos-cottage_lamps[i].xyz));
+    lamp_pool=max(lamp_pool,proximity);
+   }
+   vec3 warm=ALBEDO*vec3(1.28,1.05,.62)+vec3(.19,.083,.015);
+   ALBEDO=mix(ALBEDO,warm,lamp_pool*cottage_blend*cottage_lamp_warmth);
+  }
+ }
+ if(yard_pool>.001){
+  vec3 warm=ALBEDO*vec3(1.13,1.01,.82) + vec3(.10,.044,.012);
+  ALBEDO=mix(ALBEDO,warm,yard_pool*.78);
  }
 }

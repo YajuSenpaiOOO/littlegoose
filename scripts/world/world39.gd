@@ -127,7 +127,10 @@ func _step_fire_input(delta: float) -> void:
 func _physics_process(delta: float) -> void:
 	super._physics_process(delta)
 	if is_instance_valid(goose) and charge_active:
-		goose.visual.modulate=Color.WHITE.lerp(Color(1.,.25,.25),charge_ratio())
+		goose.visual.modulate=charge_tint39()
+
+func charge_tint39() -> Color:
+	return Color.WHITE.lerp(Color(1.,.25,.25),charge_ratio())
 
 func _release_charged(target: Vector3,ratio: float) -> void:
 	var before := shots.size()
@@ -138,13 +141,16 @@ func _release_charged(target: Vector3,ratio: float) -> void:
 	var shot: Dictionary=shots[-1]
 	shot.charged=true; shot.hit_rids=[]
 	shot.damage_multiplier=1.+(11.+2.*float(buffs.level("slingshot")-1))*ratio
-	shot.velocity=shot.velocity.normalized()*((320.+430.*ratio)/Profile.PPM)
+	shot.velocity=shot.velocity.normalized()*charged_launch_speed39(ratio)
 	shot.life=1.2
 	shot.shadow.mesh.size=Vector2(.28,.18)*lerpf(1.2,2.2,ratio)
 	if shot.has("art") and is_instance_valid(shot.art): shot.art.scale_gain=lerpf(1.2,2.2,ratio)
 	Audio.play("slingshot"); hitstop(.06,true)
 	trauma=minf(1.,trauma+.18); punch=maxf(punch,.22)
 	goose.spring_velocity-=Vector2(shot.velocity.x,shot.velocity.z).normalized()*Profile.RECOIL*1.2
+
+func charged_launch_speed39(ratio: float) -> float:
+	return (320.+430.*ratio)/Profile.PPM
 
 func weapon_spread_radians() -> float:
 	return 0. if releasing_charge else super.weapon_spread_radians()

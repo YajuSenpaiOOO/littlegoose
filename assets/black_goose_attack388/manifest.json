@@ -1,0 +1,71 @@
+{
+  "generator": "built-in image_gen, precise-object-edit",
+  "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-098d03cc-e261-4c76-a4ab-95bc5d7c56f0.png",
+  "edit_target": "assets/black_goose_flight381/bodies.png",
+  "acting_reference": "assets/black_goose_attack386/bodies.png, middle release",
+  "prompt": "prompt.txt",
+  "sha256": "d013db58f18206e0eaa2e4f6c1a2e884ed9ccee14a8cb28ab90fb0af5e22a32f",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha128_bounds": [
+    [
+      36,
+      102,
+      468,
+      928
+    ],
+    [
+      1,
+      100,
+      442,
+      932
+    ],
+    [
+      10,
+      100,
+      483,
+      931
+    ]
+  ],
+  "columns": [
+    "left",
+    "right",
+    "back"
+  ],
+  "anchor": [
+    256,
+    930
+  ],
+  "density": 0.0017349397590361445,
+  "palm_anchors": {
+    "left": [
+      78,
+      557
+    ],
+    "back": [
+      425,
+      546
+    ],
+    "right": [
+      421,
+      551
+    ]
+  },
+  "display": "upright; connected body+arm+face; wings independent four frames; 387 pose hold",
+  "occlusion": "sides body ahead of near/far wings; back wings ahead of body, source-matched upper hair and registered source sleeve crop ahead of wings",
+  "back_sleeve_region": [
+    1359,
+    500,
+    177,
+    140
+  ],
+  "back_sleeve_anchor": [
+    -79,
+    430
+  ],
+  "material": "hero192 receiver layers1 and20; existing lights; no new light",
+  "collision": "unchanged385 free capped follow, no new collider",
+  "shadow": "single actual-transform max union body/wings; duplicated foreground source adds no extra shadow"
+}

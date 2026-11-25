@@ -1,0 +1,152 @@
+{
+  "generator": "builtin image_gen",
+  "prompts": "prompts.json",
+  "references": [
+    "User bed design image 3 (ChatGPT 图像 2026年11月13日 11_36_36.png): style and bed design",
+    "docs/room361-layout.png: room camera reference only",
+    "assets/hero_pixel/walk_source.png: main character identity; not used as a rotated sleep sprite"
+  ],
+  "files": [
+    {
+      "file": "bed_base.png",
+      "source": "exec-0b2a0b97-31fa-437c-9e9c-9a0796e0ac3b.png",
+      "sha256": "46a3f23f988c4bb432d5297223fef16ce6afc02564082f727808203fe31f186f",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        163,
+        67,
+        1148,
+        1127
+      ],
+      "source_bytes_unmodified": true
+    },
+    {
+      "file": "cover_empty.png",
+      "source": "exec-746b8a79-d7b8-4349-a563-ac878fd5811e.png",
+      "sha256": "2fb5ba0058fb3514a7e22ac8835d1d9cb05642a3a3a1ec5eb26a7baaecce73b6",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        142,
+        515,
+        1169,
+        1126
+      ],
+      "source_bytes_unmodified": true
+    },
+    {
+      "file": "cover_single.png",
+      "source": "exec-5cd14b79-afb1-46f3-a100-a9944b9627c2.png",
+      "sha256": "1d62778aa2c5f7733ce40b37006a4528a8c144fde4e9829c498824e2670026c9",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        142,
+        513,
+        1167,
+        1124
+      ],
+      "source_bytes_unmodified": true
+    },
+    {
+      "file": "cover_double.png",
+      "source": "exec-c9a21096-d257-4b8c-baee-50dd6678ab2f.png",
+      "sha256": "0958dccf4d246d1c07d1c2d2175d1c2120f09adc73f4374a3363d80480dd1832",
+      "dimensions": [
+        1312,
+        1199
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "alpha128_bounds": [
+        142,
+        515,
+        1168,
+        1127
+      ],
+      "source_bytes_unmodified": true
+    },
+    {
+      "file": "hero_sleep.png",
+      "source": "exec-7e9893f3-6ba4-404d-9f38-a2e4740b752a.png",
+      "sha256": "ec0ee41de5165cb8de85daa494ab8e61054566d77d46abc54ea2fd19ed860f1c",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "alpha128_bounds": [
+        116,
+        57,
+        905,
+        1322
+      ],
+      "source_bytes_unmodified": true
+    }
+  ],
+  "mapping": {
+    "bed_canvas": [
+      1312,
+      1199
+    ],
+    "anchor_pixel": [
+      656,
+      1127
+    ],
+    "pixel_size_m": 0.0026903553299492387,
+    "visible_width_max_m": 2.762994923857868,
+    "display_plane": "fixed camera-facing basis; no fragment depth rewriting; alpha discard; base/sleep actor/cover local normal offsets 0/.012/.024 metres",
+    "hero_display_height_canvas_pixels": 650,
+    "hero_canvas_center": [
+      480,
+      565
+    ],
+    "world_sleep_anchors": [
+      [
+        -0.56,
+        0.81,
+        -1.0
+      ],
+      [
+        0.56,
+        0.81,
+        -1.0
+      ]
+    ],
+    "sleep_anchors_note": "world interaction anchors; painted pose uses separate authored canvas alignment at left pillow"
+  },
+  "collision": "2.78 x .80 x 3.14 metres plus inherited independent headboard; unchanged across three cover states and 3D comparison",
+  "lighting": "painted source with regional tint from existing ambient energy and bedside lamp on/off; not native per-pixel PBR receiver; no emitted light",
+  "shadows": "separate foot_contact16 plane 2.85 x 3.25; no long sprite shadows, old mesh and card shadow proxies hidden with old assemblies",
+  "second_character": "user explicitly deferred human black goose appearance; right slot and double duvet only; one visible hero sleep actor",
+  "limits": [
+    "static cutout lying pose plus subtle vertical breathing, no climb-in or roll-over animation",
+    "no second person, no story or progress saves",
+    "card world depth is ordinary native rasterization, not a universal walking occlusion fix",
+    "soft paired cover rises are painted state changes, not cloth simulation"
+  ]
+}

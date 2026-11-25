@@ -1,0 +1,53 @@
+{
+  "generator": "built-in image_gen",
+  "references": [
+    "C:/Users/ASUS/Desktop/图图/ChatGPT 图像 2026年11月13日 11_36_23.png",
+    "assets/room395/wood-atlas.png"
+  ],
+  "assets": [
+    {
+      "file": "cabinet-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-5f111ca5-f042-41b5-9576-dd1150d162cd.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "1305a18d880545e21991f5d0002e7c4cc30eb13f4ef724dda7152673a908f4f4",
+      "bytes_unchanged": true
+    },
+    {
+      "file": "details-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-1db86275-b4fa-443a-aeb5-0283e3420202.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "8f9e8eeac8813cdab842cdc0754d43387debd82ceee9b26f0ebb38978ce61f13",
+      "bytes_unchanged": true
+    }
+  ],
+  "style": "Accepted original A painterly desk baseline. Hand-painted flowing shapes with fewer fine wood/cloth/stone marks, not397 pixel clusters.",
+  "atlas_layout": {
+    "cabinet": [
+      "quiet walnut grain",
+      "arched feather door",
+      "sage inset leaf panel",
+      "ivory leaf band"
+    ],
+    "details": [
+      "ivory feather towel",
+      "plum goose towel",
+      "ivory leaf ceramic",
+      "quiet cream countertop"
+    ]
+  },
+  "display": "True room-aligned 3D geometry, no billboards or pseudo depth. Wardrobe front+Z, washstand model rotated Y-90 toward room center. All existing root anchors/occupied collision boxes retained.",
+  "dimensions": {
+    "wardrobe": "1.58m max width x1.24m depth, highestY2.6275, four feet Y.008; existing root (2.15,0,-3.65)",
+    "wash": "local counter1.60x.98m rotated toward -X, counterY1.10, hollow elliptical basin rimY1.12/bottom.925; four feet Y.008; original root (5.65,0,-.05). Towels/rail maxY1.84 wall side."
+  },
+  "shadow": "Same visible solid cabinet, basin, tap and hardware meshes cast actual shadows; all prior357/356 wardrobe and355 wash visual/shadow sources disabled. Thin towels receive light but do not add remote paper shadows; no added contact shadow or lights.",
+  "collision": "Original furniture footprints/colliders and interaction points stay unchanged, no new basin/toiletry blockers; not per-leg walk-through.",
+  "camera": "Normal room camera unchanged. Key1 wardrobe inspector preserves normal yaw; Key2 uses dedicated yaw-35/pitch-25 wash inspection then restores full previous camera transform.",
+  "scope": "No opening-door or washing animation added. Old E feedback preserved. M new/old cabinets; T existing table comparison unchanged. 397 retained historical, 398 inherits396 so original A desk resources are exact."
+}

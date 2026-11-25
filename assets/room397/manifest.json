@@ -1,0 +1,35 @@
+{
+  "generator": "built-in image_gen",
+  "mode": "pixel-cluster redraw of existing material atlases, not old-image downsample",
+  "assets": [
+    {
+      "file": "wood-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-723cb0b5-62b5-4a7b-a801-32b716fa8b2e.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "39a9ee8bfdd1fc42a10e5a1e9427f511b73b931e630de371be15af70149cec9c",
+      "bytes_unchanged": true
+    },
+    {
+      "file": "details-atlas.png",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-07f89c38-0a43-4fab-aeb5-07c7e146731f.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "8291dbf03005613ea95eaaa508968ae370b9aff245e93d39363a4ccced42b7d4",
+      "bytes_unchanged": true
+    }
+  ],
+  "references": [
+    "assets/room395/wood-atlas.png",
+    "assets/room395/details-atlas.png"
+  ],
+  "layout": "Same 2x2 layouts and UV inset as395: wood/table/drawer/leg/apron and accessory linen/page/book/gingham. All opaque material surfaces.",
+  "display": "Only material overrides of existing desk_model395 pieces change. Same geometry, transforms, normals, world dimensions, shadow-caster flags, original collision instances and lamp. Shape silhouette remains smooth 3D, not full pixelated framebuffer or character remaster.",
+  "sampling": "B wood shader same color formula and lighting as A but nearest_mipmap; duplicated standard detail materials preserve tint/roughness/cull and swap redrawn atlas plus nearest_mipmap. Generated output remains1254square, no claim of exact64px grid or strict limited palette.",
+  "scope": "Only desk wood and textured accessories. Other chairs/table/bed/characters/world lighting keep existing material resources. Plain brass/ink/paper surfaces unchanged. Not a finalized global style decision.",
+  "control": "M A/B, G desk closeup, T historical card comparison, F12 follow; M in card mode restores real model for material comparison."
+}

@@ -1,0 +1,77 @@
+{
+  "generator": "builtin image_gen; no postprocessing of generated PNGs",
+  "prompts": "prompts.json",
+  "reference": "assets/room362/bed_base.png style and cream color; 364 head/pillow preserved",
+  "files": [
+    {
+      "file": "sheet_fabric.png",
+      "source": "exec-888b2595-1d9a-4952-8390-9e56b3e4e370.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "d501d71fc66eedd7df5ee4037ec95e9be0b0225430f3b42810c8330b14108721",
+      "original_bytes_preserved": true
+    },
+    {
+      "file": "skirt_hem.png",
+      "source": "exec-0a96d490-f9c2-4049-9b26-1ec87738fddd.png",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "sha256": "80a0c2715b39437e572333165f37e7bfad9e11f5adde22a50bad284f2b1d7d55",
+      "original_bytes_preserved": true
+    }
+  ],
+  "geometry": "closed fitted sheet mesh surrounding the mattress, continuous rounded-perimeter skirt with32 gathered folds,12mm cloth thickness and closed hem ribbons; inset supporting rails and turned feet",
+  "dimensions_m": {
+    "fitted_sheet_scale_basis": [
+      2.39,
+      0.316,
+      2.81
+    ],
+    "skirt_top": 0.65,
+    "skirt_hem_base": 0.12,
+    "skirt_hem_variation_max": 0.019,
+    "cloth_thickness": 0.012,
+    "foot_height": 0.34,
+    "foot_centers": [
+      [
+        -1.06,
+        0,
+        -1.2
+      ],
+      [
+        1.06,
+        0,
+        -1.2
+      ],
+      [
+        -0.93,
+        0,
+        1.34
+      ],
+      [
+        0.93,
+        0,
+        1.34
+      ]
+    ],
+    "foot_visible_part": "roughly lower0.1m below skirt; upper stem connects to inset runners"
+  },
+  "uv": "sheet uses full dedicated quiet fabric texture; skirt u wraps six texture repeats around whole perimeter, v runs from gathering seam to lower stitched hem; actual pleats belong to mesh not painted stripe shadows",
+  "render": "same bounded regional-tint hand-painted approach as364; mild vertex value gathering accent and world-normal shading; no PBR specular, no emission or outward light; no fragment DEPTH rewriting",
+  "collision": "same stable bed body2.78x.8x3.14 and headboard2.66x1.5x.25; linen visibility and camera switches never alter physics",
+  "shadows": "existing bed broad foot contact, pillow contact adjusted to fitted sheet height .804, small front foot contacts aligned to inset feet; no long cloth shadow",
+  "controls": "V new linen/inset support vs364 old support; C detail/full room; F11 mesh/2D; F9 paint/plain; F12 follow; existing E/F10 switch to2D sleep preview",
+  "limits": [
+    "no thick duvet or sage throw",
+    "one completed pillow only, same as364",
+    "no cloth simulation or newly animated3D sleepers",
+    "old walking sprite intersection issue remains outside scope",
+    "visual softness and color await user feedback"
+  ]
+}

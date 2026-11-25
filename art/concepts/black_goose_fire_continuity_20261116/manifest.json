@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "source": "art/concepts/black_goose_feather_B_simple_20261114/release-smile.png",
+  "edit": "raised hand/wrist five digits; preserve remaining character requested, generative differences still possible",
+  "size": [
+    1086,
+    1448
+  ],
+  "alpha128_bbox": [
+    61,
+    25,
+    1025,
+    1354
+  ],
+  "sha256": "b01b7ac958a656c972f9d036e84b00ff6257e55450a92e748019aba77476efa2",
+  "pose_controller": "scripts/art/fire_pose_20261116.gd",
+  "hold_enter_hz": 4,
+  "hold_exit_hz": 3,
+  "release_seconds": 0.22,
+  "preview": {
+    "file": "continuity-preview.gif",
+    "seconds": 5,
+    "frames": 50,
+    "frame_ms": 100,
+    "normal_hz": 1.54,
+    "rapid_hz": 10,
+    "beam": "held from1.0s to3.2s",
+    "feather_width_px": 52,
+    "body_visible_height_px": 318,
+    "notes": "native Godot2D render; full sprites switch, not final split-arm rig. Wings held in concept images; actual gameplay wing animation not changed."
+  }
+}

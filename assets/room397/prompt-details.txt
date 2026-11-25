@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: OPAQUE 2x2 UV atlas, clean simplified PIXEL ART REDRAW of the supplied desk accessories material atlas.
+Input image is edit target and layout/content guide. Preserve its 4 quadrant positions and cream/sage/plum palette. Redesign material marks to harmonize with a cute detailed pixel character, approximately 64x64 logical pixels per quadrant.
+Use deliberate square pixel clusters, stepped silhouettes, restrained 3-5 colors per material, broad quiet regions. NO woven microtexture, tiny speckles, dithering, gradients or painterly noise. No filter applied to existing art; redraw shapes.
+TOP LEFT: mostly flat ivory fabric with only 3 simple sparse cloth marks; along the bottom 20% a clear small olive leaf vine band, simplified stepped leaves. No fabric weave noise.
+TOP RIGHT: one flat ivory book PAGE, simplified olive corner-leaf border and only 6 or 7 short chunky sepia handwriting-like strokes or dashes, NOT legible text, no fine script. No book shape, fold or shadows.
+BOTTOM LEFT: flat dusty plum book cover field, a simple cream feather with two short leafy sprigs centered in middle half. Clean silhouette, no fine veins, no cloth weave.
+BOTTOM RIGHT: simple muted sage and ivory gingham checks, about 8 checks across tile, only flat two or three colors, no weave or folds.
+Keep exact equal square quadrant arrangement edge to edge, no gutter, no labels, no perspective, no objects, no room. Flat material color only, NO baked directional lighting or cast shadow. Polished charming pixel clusters, not crude thick black outlines.

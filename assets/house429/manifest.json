@@ -1,0 +1,106 @@
+{
+  "ivy.png": {
+    "size": [
+      763,
+      2060
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      741,
+      2037
+    ],
+    "sha256": "c71e79c9669e3af85e1aa8f271dd812110a7ac789c7881aff00e050c05386aa6",
+    "alpha_scissor_bbox": [
+      91,
+      10,
+      693,
+      2031
+    ]
+  },
+  "planters.png": {
+    "size": [
+      2172,
+      724
+    ],
+    "alpha_bbox": [
+      49,
+      15,
+      2088,
+      708
+    ],
+    "sha256": "a79d0d18a622244ca0efd90cd842a01d50e6d8136788cae04ba9e90cf2baf841",
+    "half_alpha_bounds": [
+      [
+        49,
+        15,
+        1082,
+        708
+      ],
+      [
+        1,
+        16,
+        1002,
+        708
+      ]
+    ],
+    "alpha_scissor_bbox": [
+      234,
+      20,
+      1951,
+      703
+    ],
+    "half_alpha_scissor_bounds": [
+      [
+        234,
+        20,
+        750,
+        702
+      ],
+      [
+        279,
+        20,
+        865,
+        703
+      ]
+    ]
+  },
+  "plaster.png": {
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "sha256": "422c04a970b501e1a8f177923701eeb0032fe6239d8b67f58d297c62965dd38a",
+    "alpha_scissor_bbox": [
+      0,
+      0,
+      1254,
+      1254
+    ]
+  },
+  "window-box.png": {
+    "size": [
+      2172,
+      724
+    ],
+    "alpha_bbox": [
+      0,
+      5,
+      2158,
+      724
+    ],
+    "sha256": "dc296904238dc34029d83679fe08ce3066f94200fcb09ed70e29eff5bbf3c51b",
+    "alpha_scissor_bbox": [
+      102,
+      43,
+      2036,
+      689
+    ]
+  }
+}

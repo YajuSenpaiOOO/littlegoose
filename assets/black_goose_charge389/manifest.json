@@ -1,0 +1,78 @@
+{
+  "tool": "built-in image_gen precise-object-edit",
+  "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-3d967b58-7217-4187-8bbc-6082bcecd974.png",
+  "edit_target": "art/concepts/black_goose_charge_front_20261116/charge-release.png",
+  "prompt": "prompt.txt",
+  "sha256": "f4afc523bf6931459fe881044e4b0d6a06e32db797f29655f191bb9ee725a3bd",
+  "size": [
+    1254,
+    1254
+  ],
+  "regions": [
+    [
+      0,
+      0,
+      627,
+      1254
+    ],
+    [
+      627,
+      0,
+      627,
+      1254
+    ]
+  ],
+  "anchors": [
+    [
+      320,
+      1146
+    ],
+    [
+      320,
+      1146
+    ]
+  ],
+  "pixel_size": 0.0014215202369200395,
+  "head_roi_alpha128": [
+    [
+      29,
+      132,
+      602,
+      650
+    ],
+    [
+      12,
+      132,
+      585,
+      650
+    ]
+  ],
+  "alpha128": [
+    [
+      29,
+      132,
+      602,
+      1105
+    ],
+    [
+      12,
+      132,
+      585,
+      1157
+    ]
+  ],
+  "registration": "shared head/torso coordinates; leg motion preserved, never fit by foot bbox",
+  "poses": [
+    "both hands gathered at chest, puffed cheeks, tucked knees",
+    "both hands down/out/back beside hips, open mouth, legs kick slightly apart"
+  ],
+  "display": "upright connected body+arms+legs; independent real four-frame wing rig",
+  "collision": "preview only, none",
+  "shadow": "flight383 single max union of actual body and wings; no duplicate shadows",
+  "lighting": "existing receiver192 shader, preview fixture lighting, no gameplay changes",
+  "emission": "front charged candy at local(0,.77,.025) mouth; other directions retain their existing palm until charge art exists",
+  "preview": "0.72s charge versus 1.72s held charge; release .42s; 5.2sec cycle",
+  "runtime_source": "assets/black_goose_charge389/charge-release.png",
+  "scope": "389 front slingshot charge/release using actual charge_active/charge_ratio; 388 base attacks otherwise",
+  "speed": "1.20 times old charged launch speed, at original world39 generation; inherited packet/clone speeds captured once"
+}

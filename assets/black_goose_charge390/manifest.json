@@ -1,0 +1,142 @@
+{
+  "tool": "built-in image_gen precise-object-edit",
+  "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-a1a5c219-1439-4294-aa89-0d9549abf565.png",
+  "references": [
+    "assets/black_goose_flight381/bodies.png",
+    "assets/black_goose_charge389/charge-release.png"
+  ],
+  "prompt": "prompt.txt",
+  "actual_size": [
+    887,
+    1774
+  ],
+  "requested_size": [
+    1536,
+    2048
+  ],
+  "sha256": "e3eb12a9df93bb3704f7b6b1d92208a87322d4754c18b6cc768ee2dd6d66fd8e",
+  "layout": "layout.json",
+  "rows": [
+    "charge",
+    "release"
+  ],
+  "columns": [
+    "left",
+    "right",
+    "back"
+  ],
+  "alpha128_bounds": [
+    [
+      [
+        17,
+        222,
+        288,
+        775
+      ],
+      [
+        16,
+        185,
+        288,
+        755
+      ]
+    ],
+    [
+      [
+        6,
+        221,
+        289,
+        773
+      ],
+      [
+        6,
+        185,
+        289,
+        755
+      ]
+    ],
+    [
+      [
+        6,
+        222,
+        279,
+        780
+      ],
+      [
+        6,
+        185,
+        278,
+        756
+      ]
+    ]
+  ],
+  "registration": "manual head registration to 381; same per-direction density across two frames; source padding kept; feet not fitted",
+  "display": "upright connected body arms legs, separate four-frame wings; no head-only scaling",
+  "foreground": "back hair/collar and source-registered two release sleeve crops, no independent limb motion",
+  "shadow": "single actual-transform body/wings max union, foreground source duplicates add no shadows",
+  "collision": "no collider; capped actual root recoil under4.6m/s; original free flight",
+  "light": "existing receiver192, no new actor light",
+  "color": "charge tint is WHITE, actual asset colors retained",
+  "timing": "native charge_ratio and release event; hold.42s; original charge time and slingshot speed1.20 retained",
+  "runtime_source": "poses-five-fingers.png",
+  "hand_fix": {
+    "tool": "built-in image_gen precise-object-edit",
+    "original": "C:/Users/ASUS/.codex/generated_images/01a1d998-cee5-72d3-bb95-40a6beefce22/exec-6a2fcf32-08fa-4d24-8d7b-8261117a7d10.png",
+    "prompt": "prompt-five-fingers.txt",
+    "source_kept": "poses.png",
+    "sha256": "ec5c318dd58f527cb016b805058088a7a100cabcf63c72fa28c5e975b391bf38",
+    "size": [
+      887,
+      1774
+    ],
+    "manual_six_open_hand_counts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "native_qa": "docs/finger390-five-qa.png",
+    "head_alpha128_before": [
+      [
+        17,
+        37,
+        288,
+        335
+      ],
+      [
+        6,
+        37,
+        279,
+        335
+      ],
+      [
+        6,
+        36,
+        289,
+        335
+      ]
+    ],
+    "head_alpha128_after": [
+      [
+        16,
+        37,
+        288,
+        335
+      ],
+      [
+        7,
+        37,
+        279,
+        335
+      ],
+      [
+        7,
+        36,
+        290,
+        335
+      ]
+    ],
+    "scope": "surgical hand correction; same atlas/anchors/density and gameplay values"
+  }
+}

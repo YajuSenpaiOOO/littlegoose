@@ -40,7 +40,7 @@ func _screen_rect(sprite: Sprite3D,pixels: Rect2) -> Vector4:
 func _update_glow_rects() -> void:
 	glow_rects.clear()
 	# Authored glass locations, not every bright yellow/white pixel in the scene.
-	if world.house_variant==0:
+	if world.house_variant==0 and world.house_art.is_visible_in_tree():
 		for rect in [Rect2(623,420,82,84),Rect2(366,822,95,80),Rect2(855,822,95,80)]:
 			glow_rects.append(_screen_rect(world.house_art,rect))
 	else:

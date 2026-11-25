@@ -1,0 +1,35 @@
+{
+  "source": "art/concepts/black_goose_south_attack_20261116/bodies-no-wings.png",
+  "original_generator": "built-in image_gen; original prompt/manifest remain in concept directory",
+  "sha256": "eb007fbe26ee85dca5638cd8d3334e6bd41d184950815e021d20e79c50ea039f",
+  "size": [
+    1536,
+    1024
+  ],
+  "used_regions": [
+    [
+      0,
+      0,
+      512,
+      1024
+    ],
+    [
+      512,
+      0,
+      512,
+      1024
+    ]
+  ],
+  "unused_third_cell": true,
+  "anchor": [
+    256,
+    887
+  ],
+  "pixel_size": 0.001877444589308996,
+  "display": "upright front only; connected body, arms, face; no head scaling on release",
+  "material": "hero192 receiver, layer1 and20; existing lights",
+  "occlusion": "existing flight383 wings behind body; side/back retain382 order",
+  "collision": "no scene collider; free capped goose385 follow inherited",
+  "shadow": "single max union body/near/far on terrain, actual transforms; no extra native shadow",
+  "emission": "synchronous original weapon events, release palm; .32s visual hold; beam release held; no added windup"
+}

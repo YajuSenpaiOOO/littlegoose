@@ -1,0 +1,82 @@
+{
+  "source": "Built-in image_gen with assets/black_goose_flight378/parts.png reference; prompt.txt verbatim",
+  "sha256": "da2578a33f629dc4fe208b89180f14458dff0b2d69920a4d078a7aa4e6b1ca0f",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha_bbox": [
+    0,
+    9,
+    1524,
+    1024
+  ],
+  "frames": [
+    {
+      "pose": "up",
+      "region": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "root": [
+        384,
+        304
+      ]
+    },
+    {
+      "pose": "spread",
+      "region": [
+        768,
+        0,
+        768,
+        512
+      ],
+      "root": [
+        384,
+        304
+      ]
+    },
+    {
+      "pose": "down",
+      "region": [
+        0,
+        512,
+        768,
+        512
+      ],
+      "root": [
+        384,
+        272
+      ]
+    },
+    {
+      "pose": "recovery",
+      "region": [
+        768,
+        512,
+        768,
+        512
+      ],
+      "root": [
+        384,
+        272
+      ]
+    }
+  ],
+  "body": "Unchanged 378 static body AtlasTexture region (0,0,550,1024), anchor (300,935), pixel_size=1.44/860",
+  "wing_pixel_size": 0.0019,
+  "back_attachment": [
+    -0.04186046511627907,
+    0.7,
+    -0.025
+  ],
+  "alignment": "Center-column alpha>128 bridge edges: rows273..334 upper row,241..302 lower row. Anchors304/272 map bridge to same sprite-local origin; no per-frame scale/rotation or auto-tight cropping.",
+  "display": "Upright static body and wing pair parallel planes, shared rig. Central bridge occluded by body via ordinary depth test; no depth disabled / no global render priority override.",
+  "lighting": "hero192 receiver192; layer1|layer20; existing room fill, no new light; albedo binds raw atlas sheet with Sprite3D region UVs",
+  "collision": "No new collision: display-only flight reference; grounded companion and hero unchanged",
+  "shadow": "actor_shadow105 per body/wing sprite, actual transforms and frame atlas; native sprite casting disabled",
+  "animation": "0-1-2-3 at .14 seconds/cell; slow x.25; pause holds; V advances manually. Body does not animate.",
+  "scope": "Front idle wing animation only; no flight locomotion, sideways/back views or combat"
+}

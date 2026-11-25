@@ -1,0 +1,85 @@
+{
+  "tool": "built-in image_gen",
+  "ready_reference": "assets/black_goose_flight378/selected-C.png",
+  "release_reference": "ready.png",
+  "files": {
+    "ready.png": {
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha128_bbox": [
+        34,
+        96,
+        1052,
+        1376
+      ],
+      "sha256": "779fa65183f0c8000f0a3fc58dff34b1b2fee7601eb47eb4a8cc87941223ed06"
+    },
+    "release.png": {
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha128_bbox": [
+        36,
+        95,
+        1051,
+        1379
+      ],
+      "sha256": "944af93a5da561991c67a78be71e03ba6cb6c4422eeb2180c43b5faa99885167"
+    }
+  },
+  "display": {
+    "canvas": [
+      1086,
+      1448
+    ],
+    "shared_foot_anchor": [
+      550,
+      1378
+    ],
+    "preview_scale": 0.24824355971896955,
+    "per_image_alpha_fit": false,
+    "whole_body_squash": false
+  },
+  "state": {
+    "prepare_seconds": 0.12,
+    "release_face_seconds": 0.1,
+    "recover_hold_seconds": 0.28,
+    "hold_enter_hz": 4,
+    "hold_exit_hz": 3,
+    "rapid_expression_min_interval": 0.6,
+    "beam": "ready/open-eye pose held"
+  },
+  "scope": "Front concept preview only, no385gameplay changes. Full source poses use static drawn wings; not final separated arm/face implementation.",
+  "head_roi_check": {
+    "roi": [
+      120,
+      80,
+      980,
+      640
+    ],
+    "alpha128_bounds_relative": {
+      "idle": [
+        13,
+        17,
+        850,
+        560
+      ],
+      "ready": [
+        12,
+        16,
+        849,
+        560
+      ],
+      "release": [
+        12,
+        15,
+        850,
+        560
+      ]
+    },
+    "note": "ROI cuts lower hair; this checks crown/width alignment, not identical facial pixels or entire head height."
+  }
+}

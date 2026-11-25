@@ -26,5 +26,19 @@
     "sha256": "e1d47ddaa896e430fadf89c8f47e6de21827795762be1784a412001024d73a9a",
     "role": "User-specified full character portrait reference; not chibi gameplay sprite",
     "copy_verified": true
+  },
+  {
+    "file": "assets/portrait_references/black_goose/base.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\art\\concepts\\black_goose_portraits_20261113\\round3\\base.png",
+    "sha256": "f701ee9cb1a9ec44ded4a1d2c43e6d673f8ff9fa7bfc9c8444585a8161cb9ce9",
+    "role": "User-specified primary full character portrait for Black Goose",
+    "copy_verified": true
+  },
+  {
+    "file": "assets/portrait_references/paper_sister/A_director.png",
+    "source": "D:\\work\\Agent\\workplace\\小白鹅大冒险\\godot_world\\assets\\paper_portraits293\\A_director.png",
+    "sha256": "fa029ea074e3fc2a4dab3ee6d9b383d5fffc8a7458f87712169c98fb0ab00c7a",
+    "role": "User-specified full character portrait for Paper Sister",
+    "copy_verified": true
   }
 ]

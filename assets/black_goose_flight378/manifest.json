@@ -1,0 +1,87 @@
+{
+  "selected_source": "art/concepts/black_goose_flight_legs_v3/C-alternate.png",
+  "generation": "Built-in image_gen: referenced selected C, three isolated parts; second edit requests removal of surrounding haze. Generated reconstruction, not lossless extraction.",
+  "body": {
+    "region": [
+      0,
+      0,
+      550,
+      1024
+    ],
+    "anchor": [
+      300,
+      935
+    ],
+    "pixel_size": 0.0016744186046511627
+  },
+  "wings": [
+    {
+      "region": [
+        560,
+        320,
+        464,
+        380
+      ],
+      "pivot": [
+        410,
+        205
+      ],
+      "attachment": [
+        -0.25,
+        0.68,
+        -0.025
+      ]
+    },
+    {
+      "region": [
+        1040,
+        320,
+        464,
+        380
+      ],
+      "pivot": [
+        65,
+        205
+      ],
+      "attachment": [
+        0.25,
+        0.68,
+        -0.025
+      ]
+    }
+  ],
+  "wing_pixel_size": 0.0017,
+  "display": "upright body; wings rotate locally around shoulder roots; body remains static; rig actual lift .4",
+  "material": "hero192 receiver, layer 1 and 20, existing room lighting; no new lights",
+  "collision": "display comparison only, no new collider; existing grounded companion unchanged",
+  "shadow": "actor_shadow105 per component, actual displayed transforms, native shadow casting off",
+  "animation": "1.8Hz sine shoulder rotation Y/Z; slow .45Hz; pause holds phase",
+  "files": {
+    "parts.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_bbox": [
+        26,
+        78,
+        1508,
+        1008
+      ],
+      "sha256": "55ba7a72ab5ca32b9f5b35ede7282acf2daf19b46c2151b875ead4fadd696daa"
+    },
+    "selected-C.png": {
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha_bbox": [
+        30,
+        65,
+        1070,
+        1420
+      ],
+      "sha256": "7d960185c472ae29fc53054ccab05e483cd00967159c27109b5894f71d640915"
+    }
+  }
+}

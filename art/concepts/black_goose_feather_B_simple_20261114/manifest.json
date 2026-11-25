@@ -1,0 +1,64 @@
+{
+  "tool": "built-in image_gen",
+  "files": {
+    "release-smile.png": {
+      "size": [
+        1086,
+        1448
+      ],
+      "bbox": [
+        60,
+        25,
+        1026,
+        1353
+      ],
+      "sha256": "b14574a7e4597f01f54e8cd12f1b9a8061c699b80edee7f1e7ad4484e4f2841d",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-aafedca5-06a8-49d5-8d4c-a2e14fc2d29d.png"
+    },
+    "feather-pixel.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "bbox": [
+        134,
+        415,
+        1178,
+        933
+      ],
+      "sha256": "fc5871639241d3d91b79ff467426c960d35d1ad283d95e8abd0a10fcce0504b3",
+      "source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a1d998-cee5-72d3-bb95-40a6beefce22\\exec-1273e317-99fa-433f-9278-ec90a2364bf8.png"
+    }
+  },
+  "old_release_region": [
+    197,
+    519,
+    374,
+    467
+  ],
+  "candy_region": [
+    692,
+    257,
+    390,
+    390
+  ],
+  "references": {
+    "release": "art/concepts/black_goose_feather_attack_20261114/action-B.png (release cell)",
+    "pixel_style": [
+      "assets/candy_bullets_v1/pearl_core_v2.png",
+      "assets/candy_bullets_v1/comet_v1.png"
+    ]
+  },
+  "preview": {
+    "file": "B-simple-preview.gif",
+    "frames": 12,
+    "frame_ms": 60,
+    "method": "Godot renders one firing pose with procedural recoil; Pillow encodes rendered PNGs only",
+    "expression": "held closed-eye smile in this concept preview",
+    "projectile_samples_px": [
+      24,
+      40
+    ]
+  },
+  "scope": "Concept only. No game/launcher/projectile replacement. New release is a generative full-body edit, not pixel-identical face patch."
+}

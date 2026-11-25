@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: OPAQUE square 2x2 UV texture atlas for a low-poly 3D hand-painted cottage writing desk. This is MATERIAL SURFACES, not a furniture illustration.
+Style references: original cottage illustration and finished writing desk sprite. Use their calm medium walnut brown, visible broad brush grain, dark warm brown contours and ivory feather engraving. Neutral diffuse color, NO directional lighting, baked cast shadows, objects, gloss or highlights.
+Four equally sized square tiles exactly occupy four quadrants, boundaries at 50% width and height. Each quadrant goes edge-to-edge; NO gap, gutters, white margins, labels, text or outside border.
+TOP LEFT: simple walnut wood surface, medium brown, subtle long horizontal hand-painted grain, broad readable wood fibers, no decorative border, no objects. For desk tabletop and wood edges.
+TOP RIGHT: front elevation of a flat square walnut drawer panel, subtle inset rectangular border a short distance inside all four edges, corners gently rounded, restrained tiny ivory leaf flourishes at lower left and lower right. Center blank wood for real 3D brass handle. NO painted handle, no holes. Straight-on orthographic, no perspective or visible thickness.
+BOTTOM LEFT: plain matching walnut wood with long VERTICAL hand-painted grain, medium broad low contrast streaks; for turned legs and posts. No objects, no borders.
+BOTTOM RIGHT: matching walnut wood with one small delicate horizontal ivory feather and two short leafy sprigs centered. Engraving design occupies middle 55 percent width and 30 percent height; rest calm wood. Straight flat material, no drawer frame.
+All tiles match same base wood value/color, hand-painted storybook game texture at readable moderate detail. Opaque entire canvas. No complete desk, lamp, books, chair, wall, room, characters, gradients at tile boundaries or transparency.

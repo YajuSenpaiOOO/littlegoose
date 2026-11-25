@@ -111,6 +111,7 @@ func _draw() -> void:
    var note: Dictionary=School.entries.notes;var index := int(shot.art.get_instance_id())%3;var tex: Texture2D=note.textures[index];var anchor: Array=note.anchors[index]
    var gain: float=6.4/float(note.core_pixels[index])*pixel*shot.art.scale_gain
    draw_set_transform(screen,.08*sin(shot.art.age*9.));draw_texture_rect(tex,Rect2(-Vector2(anchor[0],anchor[1])*gain,tex.get_size()*gain),false,shot.art.modulate)
+  elif draw_custom_projectile110(shot,at,screen,pixel):pass
   else:
    var gain: float=float(entry.core_world)/float(entry.core_pixels)*shot.art.scale_gain*(1.+.035*sin(shot.art.age*15.))
    var anchor: Array=entry.anchor;var tex: Texture2D=entry.textures[0]
@@ -131,6 +132,7 @@ func _draw() -> void:
   draw_texture_rect(tex,Rect2(screen110(drop.at)-Vector2(anchor[0],anchor[1])*gain,tex.get_size()*gain),false,Color(1,1,1,1.-drop.age/.8))
  for dust in dust110: draw_circle(screen110(dust.at),3.+dust.age*14.,Color(.72,.65,.43,(1.-dust.age/.35)*.3))
 
+func draw_custom_projectile110(_shot: Dictionary,_at: Vector3,_screen: Vector2,_pixel: float) -> bool:return false
 func build_chains110() -> void:
  chains110.clear();var groups := {}
  for shot in battle.shots:

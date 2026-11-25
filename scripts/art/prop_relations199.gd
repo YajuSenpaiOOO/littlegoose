@@ -65,7 +65,7 @@ func _ready() -> void:
    if shape_node.shape is CylinderShape3D and shape_node.shape.radius>.3: body.collision_layer=0
  _process(0.)
 var camera_at199 := Vector3.INF
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
  var camera_at: Vector3=world.camera.global_position
  var camera_moved: bool=camera_at.distance_squared_to(camera_at199)>.0001
  if camera_moved: camera_at199=camera_at
@@ -74,8 +74,13 @@ func _process(_delta: float) -> void:
   for card in cards:
    card.ink.set_shader_parameter("camera199",camera_at)
    card.ink.set_shader_parameter("plane_normal199",normal)
- for pair in shadow_pairs:
-  if not is_instance_valid(pair.visual) or not is_instance_valid(pair.shadow): continue
-  var ink: ShaderMaterial=pair.visual.material_override
-  var fade: Variant=ink.get_shader_parameter("fade")
-  if fade!=null: pair.shadow.material_override.set_shader_parameter("fade",float(fade)*float(fade))
+ sync_tree_shadows199(delta)
+
+func sync_tree_shadows199(_delta: float) -> void:
+ for pair in shadow_pairs:sync_tree_shadow199(pair)
+
+func sync_tree_shadow199(pair: Dictionary) -> void:
+ if not is_instance_valid(pair.visual) or not is_instance_valid(pair.shadow):return
+ var ink: ShaderMaterial=pair.visual.material_override
+ var fade: Variant=ink.get_shader_parameter("fade")
+ if fade!=null:pair.shadow.material_override.set_shader_parameter("fade",float(fade)*float(fade))

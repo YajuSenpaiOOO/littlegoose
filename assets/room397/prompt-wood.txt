@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: OPAQUE 2x2 UV atlas, PIXEL ART material redraw for the same real 3D cottage writing desk.
+Input image is EDIT TARGET and layout/content reference: preserve exact 2x2 tile arrangement and medium walnut/cream palette, but REDRAW all art as clean, restrained pixel-art clusters suited to a cute pixel character. This is NOT a blur, posterization or noisy low resolution filter. Design the shapes anew with few large intentional clusters.
+Target pixel vocabulary: approximately 64x64 logical pixels per quadrant, clean square stepped edges, about 5 walnut tones and 2 cream tones. No dithering, tiny speckles, painterly grain, gradients, antialias fringes or micro scratches. Calm, broad color areas; readable at small gameplay size.
+TOP LEFT: flat medium walnut field with just 5 or 6 short broad horizontal wood grain marks, a few stepped angular ends, mostly quiet wood. NO board edge or object.
+TOP RIGHT: flat drawer panel front, simple dark rectangular inset frame with consistent stepped corner pixels, medium walnut inside, tiny cream 3-leaf sprigs at the two LOWER corners. Center blank for actual 3D handle. No painted handle or cast shadow.
+BOTTOM LEFT: matching wood with only 4 or 5 simple vertical grain marks, broad clean strips, mostly quiet wood.
+BOTTOM RIGHT: one simplified cream feather and two short leafy sprigs centered on quiet walnut. Clear chunky silhouette, only one or two internal feather cuts, NO fine veins. Ornament in middle 55% width and 30% height as reference.
+Keep flat orthographic material surfaces, quadrant boundaries at exactly 50%, no gaps, no labels or outer margin. No complete desk or scene. No additional objects, directional illumination or baked cast shadows. Pixel design should be cute and polished, not crude 8-bit outlines or Minecraft blocks.
